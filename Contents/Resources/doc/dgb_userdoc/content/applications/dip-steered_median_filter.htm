@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-searchable="False" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Applications">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.2 Dip-Steered Median Filter</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#applications/dip-steered_median_filter.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>11.2 Dip-Steered Median Filter<a name="kanchor217"></a></h2>
+        <p>The dip-steered median filter is a data-driven tool that yields a cleaned-up seismic data volume in which coherent events are enhanced and randomly distributed noise is reduced. The filter increases the general interpretability of the seismic data and improves the performance of automatic horizon trackers. Basically the filter collects all amplitudes inside a disc with user-specified search radius and replaces the value at the center by the median value of the amplitudes. The search disk (see graphic below) follows the local dips from the <a href="../dip-steering/create_steering_data/create_steeringcube.htm" target="_self" style="font-weight: normal;">SteeringCube</a>.</p>
+        <p>The filter, in combination with the SteeringCube works as follows:</p>
+        <ol>
+            <li value="1">A search radius is defined.</li>
+            <li value="2">From a starting position (<span style="color: #ff0000;">red </span>dot) we extract the first amplitude.</li>
+            <li value="3">The local dip and azimuth is followed to the next trace.</li>
+            <li value="4">The interpolated amplitude at this point is extracted.</li>
+            <li value="5">Step 3 and 4 are repeated for all traces inside the search radius (see Figure).</li>
+            <li value="6">The amplitude at the starting position is replaced with the median value of all extracted amplitudes.</li>
+            <li value="7">Points 2 to 6 are repeated for all samples in the cube.</li>
+        </ol>
+        <img src="../resources/images/applications/dip-steered_median_filter.png" class="image" />
+        <p>Filter input for a 4-trace radius which corresponds to 57 points. Note that the disk is neither flat, nor horizontal but follows the seismic events from trace to trace.</p>
+        <p>A median value can be defined as the value associated with the central position of a ranked series. So, if we rank all N amplitudes from smallest to largest number than we find the median value by taking the value at position (N+1)/2, where N is an odd number. To understand the effect of a median filter, let us assume we are filtering a seismic event with a 3-points median filter. The event, e.g. the amplitudes along a horizon is given by the following series:</p>
+        <p>...0,0,1,0,0,1,1,3,1,0,1,1,1,.......</p>
+        <p>The 3-points median filtered response is given by:</p>
+        <p>....0,0,0,0,0,1,1,1,1,1,1,1,1,.......</p>
+        <p>To check this take 3 consecutive input numbers, rank them and output the value in the middle, then slide your input set one position and repeat the exercise.</p>
+        <p>Please observe that:</p>
+        <ol>
+            <li value="1">Events smaller than half the filter length are removed (e.g. the 1 on the left and 0 on the right)</li>
+            <li value="2">Noise bursts are also removed (the value 3)</li>
+            <li value="3">Edges are preserved (the break from mainly zeros to mainly ones stays exactly at the same position. In other words no filter tails are introduced).</li>
+        </ol>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

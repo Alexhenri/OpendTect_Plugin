@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.1 Select &amp; Setup Survey">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.1.1 Survey Selection Window</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#survey/select_setup_survey/survey_selection_window.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor883"></a>4.1.1 Survey Selection Window<a name="kanchor884"></a></h3>
+        <img src="../../resources/images/survey/survey_selection_window.png" class="General_Image" />
+        <p><i>Select</i> an existing survey from the list of surveys on the left or create a new one with <i>New</i> <img src="../../resources/images/icons/addnew.png" class="Icons" /> ... (see below). The boundaries of the survey are depicted in the field to the right and detailed in the information field <img src="../../resources/images/icons/info.png" class="Icons" /> . The <i>Notes</i><img src="../../resources/images/icons/notes.png" class="Icons" /> field is a free-format text field to store relevant survey notes.</p>
+        <p>
+            <img src="../../resources/images/survey/survey_data_root_.png" /> When you install OpendTect, selected an OpendTect data directory where all your surveys are stored:</p>
+        <img src="../../resources/images/survey/survey_set_data_root.png" class="General_Image" />
+        <p> Any folder can be turned into an OpendTect folder, the only change being the addition of a parameter file (.omf).</p>
+        <p>Only surveys stored in the selected OpendTect folder are displayed and can be accessed. Later you can open another OpendTect folder clicking on <i>Survey Data root</i>. The current data root is always displayed on the top of the window.</p>
+        <p>
+            <img src="../../resources/images/icons/addnew.png" class="Icons" /> Use for creating <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="new_survey_window.htm" target="_self">new surveys</a></MadCap:conditionalText></p>
+        <p>
+            <img src="../../resources/images/icons/edit.png" class="Icons" /> Use for editing survey box ranges or update coordinate information (see <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="edit_survey_window.htm" target="_self" name="kanchor885">Edit Survey Window</a></MadCap:conditionalText>)</p>
+        <p>
+            <img src="../../resources/images/icons/copyobj.png" class="Icons" /><a name="kanchor886"></a> Copy whole surveys from your data root to a designated location.</p>
+        <p>
+            <img src="../../resources/images/icons/import.png" class="Icons" /><a name="kanchor887"></a> Allows you to compress/pack your entire survey into a zip file. This is highly recommended when transferring your survey from a computer to another computer, especially if they do not use the same platform. All data from this survey will be contained in the zip file, with the exception of the SEG-Y and/or CBVS files that were used 'in-place' from another location (ie: those SEG-Y or CBVS files that were used but not actually put inside the survey folder)</p>
+        <img src="../../resources/images/survey/survey_pack_into_zip.png" class="General_Image" />
+        <p>
+            <img src="../../resources/images/icons/export.png" class="Icons" /> Unpacks a previously packed survey (see above) into your Data root folder. Most zip files could potentially be unpacked, but we support only the unpacking of survey packed using the OpendTect packing tool. If you wish to share your survey with the community, visit our <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="http://opendtect.org/index.php/share-seismic-data/osr.html" target="_blank">Open Seismic Repository</a></MadCap:conditionalText>.</p>
+        <p>
+            <img src="../../resources/images/icons/share.png" class="Icons" /> Takes the user to the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="https://opendtect.org/osr/" target="_blank">Open Seismic Repository</a></MadCap:conditionalText> (OSR) page on the OpendTect website. Here, one can find information on how to share surveys with the wider community.</p>
+        <p>
+            <img src="../../resources/images/icons/xy2ic.png" class="Icons" /> In the position conversion window there are two modes available for coordinate conversion: Manual / File. In <i>Manual mode</i>, specify a inline/crossline pair, or a X/Y pair, and press the corresponding arrow key to obtain the position in the other domain. In <i>File mode</i>, browse the input file and create a new output file. By specifying the corresponding type conversion (XY to IC or IC to XY) and pressing the GO button, the desired conversion is written to the output file. There is no specific file type necessary for this input - even files without extension may be used. Simply <i>Select</i> them and, if desired, <i>Examine</i>, too.</p>
+        <img src="../../resources/images/survey/survey_xy_to_ic_manual.png" class="General_Image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/survey/survey_xy_to_ic_file.png" class="General_Image" />
+        </div>
+        <p>
+            <img src="../../resources/images/icons/google.png" class="Icons" /> is used to export the selected survey boundary in a *.kml file, which is accessible via Google Earth. The dialog box contains the editable fields for the survey box. The area of the survey box is filled with the selected color. The width is the horizontal thickness of the survey outline. The border height is the altitude of the line with respect to the ground. The Output file field is an output location of the *.kml file. On 'Ok' the file (*.kml) is written at the specified path, which can be opened directly in Google Earth.</p>
+        <img src="../../resources/images/survey/survey_export_to_google_earth.png" class="General_Image" />
+        <p>Before exporting the *.kml file, specify the correspondence between X-Y coordinates and latitude/longitude at any location in the surveybox <img src="../../resources/images/icons/spherewire.png" class="Icons" /> :</p>
+        <img src="../../resources/images/survey/survey_lat_long_vs_coords_decimal.png" class="General_Image" /> <img src="../../resources/images/survey/survey_lat_long_vs_coords_dms.png" class="General_Image" /><p>After pressing <i>Ok</i> provide an output filename.</p><p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p><p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#survey/select_setup_survey/survey_selection_window.htm">Open topic with navigation</a></p></body>
+</html>

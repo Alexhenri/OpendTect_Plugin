@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks|8.5 Training and Application">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.5.4 Application</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#neural_networks/training_and_application/application.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>8.5.4 Application<a name="kanchor85"></a></h3>
+        <p>Neural networks should be applied like standard attributes:</p>
+        <p><b>On-the-fly application</b>
+        </p>
+        <p>Load a slice in the scene, use the option "Add --&gt; attribute". Select the "Neural Network" list of attributes. The type of output depends on the type of neural network:</p>
+        <ol>
+            <li value="1">Pattern recognition, unsupervised mode:</li>
+        </ol>
+        <img src="../../resources/images/neural_networks/select.png" class="image" />
+        <p><b>Segment:</b> Index of the most likely class center (as seen in the <a href="../manage_neural_networks/neural_network_information/supervised_neural_network_information.htm" target="_self" style="font-weight: normal;">Neural Network Information</a>)</p>
+        <p><b>Match:</b> Measure of similitude between the most likely class center and the actual attributes. Between 0 and 1 (identical).</p>
+        <ol style="page-break-before: always" data-mc-continue="true">
+            <li value="2">Pattern recognition, supervised mode:</li>
+        </ol>
+        <img src="../../resources/images/neural_networks/select2.png" class="image" />
+        <p><b>[Pattern 1]:</b> Neural network probability that a given sample matches the interpreted "Pattern 1": Returns amplitudes around 1 if the sample is similar to the picks of the corresponding first pickset. Returns values around 0 otherwise.</p>
+        <p><b>[Pattern 2]:</b> Neural network probability that a given sample matches the interpreted "Pattern 2": Returns amplitudes around 1 if the sample is similar to the picks of the corresponding second pickset. Returns values around 0 otherwise.</p>
+        <p><b>Classification:</b> Returns the index of the most likely pattern in the order seen above.</p>
+        <p><b>Confidence:</b> Returns the difference between the largest and second largest NN probabilities in the set (You can train with more than two picksets)</p>
+        <ol style="page-break-before: always" data-mc-continue="true">
+            <li value="3">Property prediction</li>
+        </ol>
+        <img src="../../resources/images/neural_networks/select3.png" class="image" />
+        <p><b>[Output log]:</b> Returns the predicted value for the target log. The uncertainty on the predicted value is given in the <a href="../manage_neural_networks/neural_network_information.htm" target="_self" style="font-weight: normal;">training report</a>.</p>
+        <p><b>Batch processing</b>
+        </p>
+        <p><a name="kanchor86"></a>The batch processing on the elements described above should be started from the menu Processing --&gt; Create Seismic Output --&gt; Attribute (2D/3D).</p>
+        <p class="note">You need to launch one batch process for each element under the list "Neural networks".</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

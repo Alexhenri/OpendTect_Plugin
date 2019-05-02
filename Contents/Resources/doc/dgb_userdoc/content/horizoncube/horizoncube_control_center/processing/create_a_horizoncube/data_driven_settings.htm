@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.1 Processing|4.2.1.3 Create A HorizonCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.1.3.2 Data Driven Settings</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#horizoncube/horizoncube_control_center/processing/create_a_horizoncube/data_driven_settings.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h5>4.2.1.3.2 Data Driven Settings<a name="kanchor303"></a></h5>
+        <p>In the Data Driven calculation mode the settings can be edited separately for every package.</p>
+        <p><b>Parameters</b>
+        </p>
+        <ul>
+            <li value="1"><i>Steering Data</i><a name="kanchor304"></a>, which is a necessary input HorizonCube creation. The quality of the HorizonCube depends on the quality of SteeringCube itself.</li>
+            <li value="2"> Start position, another key parameter to control the quality of HorizonCube, defined in the <i>Start at</i> option in the settings dialog. The start position also defines indirectly the number of events to be initiated in the first iteration / pass, since the package thickness varies laterally.  </li>
+        </ul>
+        <img src="../../../../resources/images/horizoncube/settings_data_driven.png" class="image" />
+        <ul>
+            <li value="1"><i>Max thickness</i>: Ideally the start position should be at a maximum thickness defined by the given framework horizons. Sometimes the trace defining the maximum thickness is either at the edge of a survey or in a poor seismic quality area. In such cases, the start position should not be set to maximum thickness. The best practice is to create isochron (or isopach) maps for the given horizons and find out the thicker areas with good quality of seismic data.</li>
+            <li value="2"><i>Center</i>: Center refers to a trace that lies in the middle of a survey.</li>
+            <li value="3"><i>Inline center / maximum thickness</i>: It defines a trace position that lies at a location of maximum thickness but it uses the central trace of that particular inline.</li>
+            <li value="4">Processing parameters for Continuous Events and Truncated Events are available and explained in the followings sub-sections.</li>
+        </ul>
+        <p style="font-weight: bold;">Parameters (Multi-horizon Inversion)</p>
+        <p>Multi-horizon inversion is a data-driven technique similar to the <a href="../../../../dip-steering/unconformity_tracker.htm">Unconformity Tracker</a>. The method first creates a set of model-driven horizons between the framework (input) horizons, which are provided by a user. A constrained position (seed) per model-driven horizon is defined by the event sampling method. These model-driven horizons are then iteratively updated through the unconformity tracker. Once all horizons are finished, the algorithm automatically checks for crossings between horizons and fixes them prior to storing the horizons as a HorizonCube.</p>
+        <p style="font-weight: bold;">Recommendations</p>
+        <p>Since this algorithm needs to invert lots of horizons at once, we recommend running a HorizonCube within a package. One may run a HorizonCube per package on different machines and do vertical merging later on (via Tools which are available in the HorizonCube Control Center).</p>
+        <img src="../../../../resources/images/horizoncube/calculation_mode_data_driven.png" class="image" />
+        <ul>
+            <li value="1">Input <i>Steering Data</i> is a requirement for data-driven HorizonCube.</li>
+            <li value="2"><i>Initial Model Type:</i> Choose a right model that best describes the interval between the framework horizons. For instance, if the zone contains an angular unconformity where intra-horizons are following the base, then the optimal model would be parallel to the lower else it could either be proportional or vice versa.</li>
+            <li value="3"><i>Spacing:</i> This controls the number of events to be created in a package. Finer the spacing the more horizons will be produced at a cost of processing speed.</li>
+            <li value="4"><i>Start at:</i> This parameter defines the location to initiate the model based horizons. Generally speaking, this could be a location defining the major thickness in a package resulting in more horizons.</li>
+            <li value="5"><i>Processing parameters</i> for the multi-horizon inversion are identical to the ones defined for <a href="../../../../dip-steering/unconformity_tracker.htm">Unconformity Tracker</a>.</li>
+        </ul>
+        <p>The option "Apply to all packages" takes effect only when pressing "OK" and cannot be undone.</p>
+        <img src="../../../../resources/images/horizoncube/processing_parameters.png" class="image" />
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

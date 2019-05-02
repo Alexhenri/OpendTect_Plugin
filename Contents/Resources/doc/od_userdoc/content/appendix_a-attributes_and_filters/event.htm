@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.5 Event</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/event.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.5 Event<a name="kanchor28"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p><a name="kanchor29"></a>Event -- Attribute that quantifies an events shape or distance relative to a next event</p>
+        <p><b>Description</b>
+        </p>
+        <p>The event attribute is a useful tool when determining the quality of horizons in seismic data that can also be applied to in-lines, cross-lines, or z-slice elements. A sketch of the several event attribute applications is shown below:</p>
+        <img src="../resources/images/appendix_a/event_description.png" class="General_Image" />
+        <p><b>Input Parameters</b>
+        </p>
+        <p>In the <i>single event mode</i>, the algorithm searches for the extremum and quantifies the shape around the event in terms of either <i>Peakedness, Steepness</i> or <i>Asymmetry</i>.</p>
+        <ul>
+            <li value="1"><b>Peakedness:</b> The ratio between the Extremum value and distance between next and previous zero crossings (ZC)</li>
+            <li value="2"><b>Steepness:</b> The slope of tangent to the seismic trace at a zero crossing</li>
+            <li value="3"><b>Asymmetry:</b> The asymmetry of event. Mathematically it can be presented as: (L-R)/(L+R) where L is the distance between previous ZC and extremum and R is distance between next ZC and extremum</li>
+        </ul>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_patterns_event.png" class="General_Image" />
+        <p>In the multiple event mode, the event type needs to be specified from the Event type drop-down list:</p>
+        <ul>
+            <li value="1"><i>Extremum</i>
+            </li>
+            <li value="2"><i>Maximum</i>
+            </li>
+            <li value="3"><i>Minimum</i>
+            </li>
+            <li value="4"><i>Zero Crossing</i>
+            </li>
+            <li value="5"><i>Negative to Positive Zero Crossing</i>
+            </li>
+            <li value="6"><i>Positive to Negative Zero Crossing</i>
+            </li>
+            <li value="7"><i>Maximum within the gate</i>
+            </li>
+            <li value="8"><i>Minimum within the gate</i>
+            </li>
+        </ul>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_patterns_multiple_events.png" class="General_Image" />
+        <p><b>Output</b>
+        </p>
+        <p>The output is either the <i>distance</i> between the chosen event and the next/previous similar event or the <i>amplitude</i> of the event. The output is determined by the checkbox below the event type drop-down list.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_patterns_multiple_events_extremum.png" class="General_Image" />
+        <p>For the event types <i>Maximum within the gate and Minimum within the gate</i>, a <i>time-gate</i> (in milliseconds) needs to be specified. The algorithm computes the distance, within the specified time-gate from the current point, e.g. on a horizon, to the nearest maximum or minimum.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_patterns_multiple_events_maximum_within_the_gate.png" class="General_Image" />
+        <p style="page-break-before: always">The Event attribute is for example useful while quality-checking horizon grids. The attribute can also aid in finding the distances between two events and using it as an estimate of relative thickness changes between them. The adaptive use of <a href="volume_statistics.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor30">Volume Statistics</a> along with the Event attribute can also bring relative changes to derive meaningful geological aspects.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/event.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

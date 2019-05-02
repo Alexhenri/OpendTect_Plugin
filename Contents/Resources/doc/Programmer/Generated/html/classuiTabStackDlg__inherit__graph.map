@@ -1,0 +1,9 @@
+<map id="uiTabStackDlg" name="uiTabStackDlg">
+<area shape="rect" id="node11" href="$classuiDataPointSetCrossPlotterPropDlg.html" title="Crossplot properties dialog box. " alt="" coords="5,393,187,439"/>
+<area shape="rect" id="node13" href="$classuiFlatViewPropDlg.html" title="FlatView properties dialog box. " alt="" coords="211,401,341,431"/>
+<area shape="rect" id="node15" href="$classuiPropertiesDlg.html" title="uiPropertiesDlg" alt="" coords="365,401,475,431"/>
+<area shape="rect" id="node17" href="$classuiSettingsDlg.html" title="uiSettingsDlg" alt="" coords="499,401,597,431"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="313,237,383,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="307,160,389,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="313,83,383,112"/>
+</map>

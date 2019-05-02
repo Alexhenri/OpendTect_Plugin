@@ -1,0 +1,4 @@
+<map id="ProgressMeter" name="ProgressMeter">
+<area shape="rect" id="node3" href="$classProgressRecorder.html" title="ProgressMeter that helps unifying different tasks. " alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node5" href="$classTextStreamProgressMeter.html" title="Textual progress indicator for batch programs. " alt="" coords="155,83,328,112"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="Attrib::Provider" name="Attrib::Provider">
+<area shape="rect" id="node3" href="$classAttrib_1_1Coherency.html" title="Calculates coherency. " alt="" coords="179,5,301,35"/>
+<area shape="rect" id="node5" href="$classAttrib_1_1Convolve.html" title="Convolution Attribute. " alt="" coords="183,59,297,88"/>
+<area shape="rect" id="node7" href="$classAttrib_1_1DeltaResample.html" title="Resamples the trace at shifted locations. " alt="" coords="165,112,315,141"/>
+<area shape="rect" id="node9" href="$classAttrib_1_1DipFilter.html" title="Dip filtering Attribute. " alt="" coords="185,165,295,195"/>
+<area shape="rect" id="node11" href="$classAttrib_1_1Energy.html" title="Energy Attribute " alt="" coords="189,219,291,248"/>
+<area shape="rect" id="node13" href="$classAttrib_1_1Evaluate.html" title="Evaluate Attribute " alt="" coords="184,272,296,301"/>
+<area shape="rect" id="node15" href="$classAttrib_1_1Event.html" title="Event attribute " alt="" coords="193,325,287,355"/>
+<area shape="rect" id="node17" href="$classAttrib_1_1FingerPrint.html" title="FingerPrint Attribute Calculates the match with a definite vector. " alt="" coords="179,379,301,408"/>
+<area shape="rect" id="node19" href="$classAttrib_1_1FreqFilter.html" title="Frequency filtering attribute. " alt="" coords="183,432,297,461"/>
+<area shape="rect" id="node21" href="$classAttrib_1_1Frequency.html" title="Frequency Attribute. " alt="" coords="179,485,301,515"/>
+<area shape="rect" id="node23" href="$classAttrib_1_1GapDecon.html" title="Gap deconvolution attribute. " alt="" coords="179,539,301,568"/>
+<area shape="rect" id="node25" href="$classAttrib_1_1Hilbert.html" title="Calculates Hilbert transform. " alt="" coords="191,592,289,621"/>
+<area shape="rect" id="node27" href="$classAttrib_1_1Instantaneous.html" title="Instantaneous Attribute " alt="" coords="169,645,311,675"/>
+<area shape="rect" id="node29" href="$classAttrib_1_1MatchDelta.html" title="Computes the match delta between two cubes. Ties Max events to each other. " alt="" coords="176,699,304,728"/>
+<area shape="rect" id="node31" href="$classAttrib_1_1Mathematics.html" title="Math Attribute " alt="" coords="172,752,308,781"/>
+<area shape="rect" id="node33" href="$classAttrib_1_1Position.html" title="Position Attribute. " alt="" coords="187,805,293,835"/>
+<area shape="rect" id="node35" href="$classAttrib_1_1PSAttrib.html" title="&quot;Prestack Attribute&quot; " alt="" coords="185,859,295,888"/>
+<area shape="rect" id="node37" href="$classAttrib_1_1Reference.html" title="Reference Attribute " alt="" coords="180,912,300,941"/>
+<area shape="rect" id="node39" href="$classAttrib_1_1Relief.html" title="Pseudo Relief Attribute. " alt="" coords="193,965,287,995"/>
+<area shape="rect" id="node41" href="$classAttrib_1_1SampleValue.html" title="Sample Value Attribute. " alt="" coords="171,1019,309,1048"/>
+<area shape="rect" id="node43" href="$classAttrib_1_1Scaling.html" title="Scaling Attribute Calculates the squared sum of the gate&#39;s samples divided by the number of samples i..." alt="" coords="188,1072,292,1101"/>
+<area shape="rect" id="node45" href="$classAttrib_1_1Semblance.html" title="Attrib::Semblance" alt="" coords="177,1125,303,1155"/>
+<area shape="rect" id="node47" href="$classAttrib_1_1Shift.html" title="Shift Attribute Shift takes the input at a specified position and outputs it at other relative positi..." alt="" coords="196,1179,284,1208"/>
+<area shape="rect" id="node49" href="$classAttrib_1_1Similarity.html" title="Similarity Attribute " alt="" coords="183,1232,297,1261"/>
+<area shape="rect" id="node51" href="$classAttrib_1_1SpecDecomp.html" title="Spectral Decomposition Attribute. " alt="" coords="171,1285,309,1315"/>
+<area shape="rect" id="node53" href="$classAttrib_1_1StorageProvider.html" title="Attribute storage provider. " alt="" coords="163,1339,317,1368"/>
+<area shape="rect" id="node55" href="$classAttrib_1_1Texture.html" title="Attrib::Texture" alt="" coords="188,1392,292,1421"/>
+<area shape="rect" id="node57" href="$classAttrib_1_1VolStatsBase.html" title="Use VolStats instead. " alt="" coords="169,1445,311,1475"/>
+<area shape="rect" id="node61" href="$classAttrib_1_1WellLog.html" title="WellLog Attribute " alt="" coords="187,1499,293,1528"/>
+<area shape="rect" id="node63" href="$classVolProcAttrib.html" title="VolProcAttrib" alt="" coords="191,1552,289,1581"/>
+<area shape="rect" id="node59" href="$classAttrib_1_1VolStats.html" title="Volume Statistics Attribute. " alt="" coords="367,1445,476,1475"/>
+</map>

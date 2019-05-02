@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3 HorizonCube Attributes</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#horizoncube/horizoncube_attributes.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2><a name="kanchor172"></a>4.3 HorizonCube Attributes<a name="kanchor173"></a></h2>
+        <p>HorizonCube attributes are new geometrical attributes introduced by dGB Earth Sciences. These are purely stratigraphic attribute that help in identification and characterization of stratigraphic traps. These attributes can be computed directly from HorizonCube and stored as volume (as the Attribute Set Window does) or stored as a separate element such as HorizonCube Data, which contains grid based attributes. The advantage of computing HorizonCube attributes as a volume is that one could easily render it in 3D as one cannot easily render 100s of grids in 3D scene. Further advantage of this approach is that one could also integrate the HorizonCube attributes with conventional seismic attributes by using logical expressions or neural networks to characterize seismic data, to predict hydrocarbon traps etc.</p>
+        <p><b>Attribute Set Window</b>
+        </p>
+        <p>These attributes can be found in general OpendTect Attribute Set window, which can be launched via Analysis &gt; Attributes &gt; 3D/2D.</p>
+        <p>Using Attribute set window, one can define the following HorizonCube attributes:</p>
+        <p><b>HorizonCube Data</b>
+        </p>
+        <p>This attribute is used to convert the attributes that are stored under HorizonCube data into a volume. The input HorizonCube should be a 3D HorizonCube for this case as it is not supported for a 2D HorizonCube. The output field is populated if the selected 3D HorizonCube contains pre-computed <a href="manage_horizoncube.htm" target="_self" style="font-weight: normal;">HorizonCube Data</a>. By default, the <i>Interpolate</i> option is set to yes as there could be gaps that you might want to fill. If you want to keep the gaps empty, set this option to No.</p>
+        <p>It is equivalent to OpendTect's basic attribute i.e. horizon. To read further, please follow the section below on <i>Calculate attributes along HorizonCube</i>.</p>
+        <img src="../resources/images/horizoncube/horizoncube_data.png" class="image" />
+        <p><b>HorizonCube Density</b>
+        </p>
+        <p>It is an 2D/3D attribute that defines the density of HorizonCube events within a defined time gate. It returns an <i>event count</i>, which defines total number of events within a time gate. The output values are number of events.</p>
+        <img src="../resources/images/horizoncube/horizoncube_density.png" class="image" />
+        <p>The attributes can be use to map or visualize pinchouts, unconformities, condensed intervals, etc. These objects will appear as high density values.</p>
+        <p style="page-break-before: always"><b>HorizonCube Dip</b>
+        </p>
+        <p>This attribute returns the dips of 2D/3D HorizonCube as a volume. The stepouts are the radii to compute the dips along each event. Larger stepouts define the regional dips along an event.</p>
+        <img src="../resources/images/horizoncube/horizoncube_dip.png" class="image" />
+        <p>In order to QC the dips of HorizonCube vs. input SteeringCube, one may set the <i>Calculate error</i> field to Yes. This would allow you to select the parent SteeringCube to further evaluate the HorizonCube results. The errors are computed for each seismic sample by subtracting the dips of HorizonCube from the selected SteeringCube. The result is a dip difference. Lower dip errors mean that HorizonCube events do not deviate much from the selected SteeringCube and vice versa.</p>
+        <img src="../resources/images/horizoncube/horizoncube_dip_calculate_error.png" class="image" />
+        <p><b>HorizonCube Layers</b>
+        </p>
+        <p>It is very convenient to visualize 100s of HorizonCube events in 3D scene. However, one could convert them into a volume and could easily render it in 3D. This attribute does such a job, which primarily governs to QC HorizonCube results.</p>
+        <p>The number of events per layer field allows to select how many events should be considered to defined a layer. The default value is set to 10, which means that each resultant layer contains at least 10 HorizonCube events. The output of this attribute is a range of values defining number of layers.</p>
+        <img src="../resources/images/horizoncube/horizoncube_layer.png" class="image" /><a name="hclayer"></a>
+        <p style="page-break-before: always"><b>HorizonCube Thickness</b>
+        </p>
+        <p>It is a vertical thickness (isochron) between two HorizonCube events. It is also a trace attribute along the HorizonCube events. Such an attribute can also be used to visualize pinchouts or unconformities (zones of near zero thickness).</p>
+        <img src="../resources/images/horizoncube/horizoncube_thickness.png" class="image" />
+        <img src="../resources/images/horizoncube/horizoncube_thickness__density.png" class="image" />
+        <p><i>Example of HorizonCube attributes overlain on seismic data.</i>
+        </p>
+        <p><b>Calculate Attributes along 3D HorizonCube</b>
+        </p>
+        <p>These attributes are computed from the <a href="horizoncube_control_center.htm" target="_self" style="font-weight: normal;">HorizonCube Control Center</a>. The output of all of these attributes is a set of grids, which are collectively saved as <a href="manage_horizoncube.htm" target="_self" style="font-weight: normal;">HorizonCube Data</a>. These attribute grids can be visualized using <a href="horizoncube_control_center/analysis/slider-horizoncube_visualization.htm" target="_self" style="font-weight: normal;">3D Slider</a>.</p>
+        <p>In the <i>Select HorizonCube</i> option, you can select the entire HorizonCube, or a package or an event.</p>
+        <img src="../resources/images/horizoncube/horizoncube_3d_attribute_calculation.png" class="image" />
+        <p><b>General:</b> This category is used to compute any existing attribute (stored or defined) along HorizonCube events. For instance, if you already have a stored AI or PHI volume and you would like to compute it along HorizonCube, you can use this option.</p>
+        <p><b>Centered Isopach:</b> This attribute calculates the vertical thickness (TWT/depth) between two events such that they are centered by an event. In this manner, the thickness is computed along the centered event. Number of layers above/below define the relative number of events to compute the thickness. For instance, if the value for layers above/below is set to 1, for each central event, the thickness is computed by subtracting the TWT/Depth of an underlying event from the overlying event and storing the result for the central one.</p>
+        <img src="../resources/images/horizoncube/centered_isopach.png" class="image" />
+        <p><b>Topographical Curvature:</b> This attribute defines geometrical curvature of an event, attribute or HorizonCube Data. The stepouts are number of inlines/crosslines to be used to compute the curvature. These attributes are mostly equivalent to the <a href="../dip-steering/attributes_with_steering/curvature_analysis/volumetric_curvature.htm" target="_self" style="font-weight: normal;">conventional curvature attributes</a> that are directly computed from the SteeringCube.</p>
+        <img src="../resources/images/horizoncube/topological_curvature.png" class="image" />
+        <p><b>References</b>
+        </p>
+        <p>de Groot, P., Qayyum, F., On the Horizon, Oilfield Technology, p. 24-28, January 2013.</p>
+        <p>de Groot, P., Qayyum, F., Attributes play important role in seismic interpretation, Hart's E&amp;P Magazine, p. 31-34, October 2012.</p>
+        <p>Weblink: <a href="https://opendtect.org/opendtect-attributes-matrix/" target="_blank" style="font-weight: normal;">OpendTect Attribute Matrix</a></p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

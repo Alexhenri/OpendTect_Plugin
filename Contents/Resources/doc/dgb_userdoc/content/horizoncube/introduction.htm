@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="topic" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.1 Introduction</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#horizoncube/introduction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>4.1 Introduction<a name="kanchor324"></a></h2>
+        <img src="../resources/images/horizoncube/horizoncube.png" class="image" />
+        <p><b><a name="kanchor325"></a>HorizonCube:</b><a name="kanchor326"></a> A plugin that auto-tracks a dense set of mapped 3D stratigraphic surfaces. The HorizonCube impacts all aspects of seismic interpretation work and allows the interpreter to extract more geology from the data. The HorizonCube is used for: detailed geologic model building, improving seismic inversion, sequence stratigraphic interpretation (SSIS) and correlating wells (Well Correlation Panel).</p>
+        <p><b>Purpose:</b> The HorizonCube will impact the entire seismic interpretation workflow, leading to significant improvements, including:</p>
+        <ul>
+            <li value="1">More accurate low frequency model building and robust geological models</li>
+            <li value="2">Superior quantitative rock property predictions</li>
+            <li value="3">Easy detection of stratigraphic traps (sequence stratigraphy)</li>
+        </ul>
+        <p><b>Background:</b> The HorizonCube plugin was first launched as the Chronostratigraphy that was part of the OpendTect SSIS (Sequence Stratigraphic Interpretation System) plugin. It consists of a dense set of correlated 3D stratigraphic surfaces that are assigned a relative geological age, with a corresponding colour. It was not long before we realized the potential of the HorizonCube and that the number of applications derived from HorizonCube exceeded just the sequence stratigraphy domain and had applications across the interpretation workflow. The stand-alone HorizonCube plugin was born with the 'HorizonCube' separated from SSIS.</p>
+        <p>Today, users can look forward to the following benefits:</p>
+        <p><b>Low Frequency Model Building and More Accurate, Robust Geological Models</b>
+        </p>
+        <p>In standard inversion workflows, the low-frequency model is considered the weakest link. Now, users can create highly accurate low frequency models by utilizing all the extracted seismic events from the HorizonCube, allowing a detailed initial model to be built.</p>
+        <p>In a similar fashion rock properties can be modeled. Instead of using only a few horizons, all horizons of the HorizonCube are used, resulting in greatly improved rock property models.</p>
+        <p>The HorizonCube and other Plugins .</p>
+        <p><b>Rock Property Predictions</b>
+        </p>
+        <p><a name="kanchor327"></a>The highly accurate low frequency models can be used to create geologically correct Acoustic Impedance (AI) and Elastic Impedance (EI) cubes using the Deterministic and Stochastic Inversion plugins. To complete the workflow, the Neural Networks plugin is used to predict rock properties from the Acoustic Impedance volume, avoiding the use of oversimplified linear models which can not accurately describe most rock property relations.</p>
+        <p>These advanced tools bring a high degree of precision to traditional seismic workflows, resulting in better seismic predictions and more accurate input into the reservoir management decision-making process.</p>
+        <p><b>Sequence Stratigraphy (SSIS plugin)</b>
+        </p>
+        <p>The SSIS plugin works on top of the HorizonCube plugin. Users can interactively reconstruct the depositional history in geological time using the HorizonCube slider, flatten seismic data in the Wheeler domain, and make full system tracts interpretations with automatic stratigraphic surfaces identification and base-level reconstruction.</p>
+        <p>In the near future the SSIS plugin will be integrated with the Well Correlation Panel, enabling the HorizonCube slider and systems tracts interpretation to be integrated with the well correlation display and its interactive functionalities.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,419 @@
+dTect V3.0
+SequenceModels
+Thu Oct 24 12:00:00 2007
+!
+
+Model.0.Name: Depositional Sequence II
+Model.0.Nr Systems Tracts: 5
+Model.0.Systems Tract.0.Name: HST
+Model.0.Systems Tract.0.Color: 255`165`0
+Model.0.Systems Tract.0.Phase: NormalRegressionHigh
+Model.0.Systems Tract.0.StratSurf: SB
+Model.0.Systems Tract.0.StratSurf.Color: 245`25`25
+Model.0.Systems Tract.1.Name: Early LST (fan)
+Model.0.Systems Tract.1.Color: 255`255`127
+Model.0.Systems Tract.1.Phase: ForcedRegression
+Model.0.Systems Tract.1.StratSurf: Top ELST
+Model.0.Systems Tract.1.StratSurf.Color:255`255`0
+Model.0.Systems Tract.2.Name: Late LST (wedge)
+Model.0.Systems Tract.2.Color: 255`255`0
+Model.0.Systems Tract.2.Phase: NormalRegressionLow
+Model.0.Systems Tract.2.StratSurf: TS
+Model.0.Systems Tract.2.StratSurf.Color: 25`25`245
+Model.0.Systems Tract.3.Name: TST
+Model.0.Systems Tract.3.Color: 128`255`128
+Model.0.Systems Tract.3.Phase: Transgression
+Model.0.Systems Tract.3.StratSurf: MFS
+Model.0.Systems Tract.3.StratSurf.Color: 10`150`10
+Model.0.Systems Tract.4.Name: Undefined
+Model.0.Systems Tract.4.Color: 190`190`190
+Model.0.Sequence Boundary: 0
+
+Model.1.Name: Depositional Sequence III
+Model.1.Nr Systems Tracts: 5
+Model.1.Systems Tract.0.Name: Early HST (wedge)
+Model.1.Systems Tract.0.Color: 255`165`0
+Model.1.Systems Tract.0.Phase: NormalRegressionHigh
+Model.1.Systems Tract.0.StratSurf: Top EHST
+Model.1.Systems Tract.0.StratSurf.Color: 150`100`0
+Model.1.Systems Tract.1.Name: Late HST (fan)
+Model.1.Systems Tract.1.Color: 255`190`0
+Model.1.Systems Tract.1.Phase: ForcedRegression
+Model.1.Systems Tract.1.StratSurf: SB
+Model.1.Systems Tract.1.StratSurf.Color: 245`25`25
+Model.1.Systems Tract.2.Name: SMST
+Model.1.Systems Tract.2.Color: 255`255`0
+Model.1.Systems Tract.2.Phase: NormalRegressionLow
+Model.1.Systems Tract.2.StratSurf: TS
+Model.1.Systems Tract.2.StratSurf.Color: 25`25`245
+Model.1.Systems Tract.3.Name: TST
+Model.1.Systems Tract.3.Color: 128`255`128
+Model.1.Systems Tract.3.Phase: Transgression
+Model.1.Systems Tract.3.StratSurf: MFS
+Model.1.Systems Tract.3.StratSurf.Color: 10`150`10
+Model.1.Systems Tract.4.Name: Undefined
+Model.1.Systems Tract.4.Color: 190`190`190
+Model.1.Sequence Boundary: 1
+
+Model.2.Name: Depositional Sequence IV
+Model.2.Nr Systems Tracts: 5
+Model.2.Systems Tract.0.Name: HST
+Model.2.Systems Tract.0.Color: 255`165`0
+Model.2.Systems Tract.0.Phase: NormalRegressionHigh
+Model.2.Systems Tract.0.StratSurf: Top HST
+Model.2.Systems Tract.0.StratSurf.Color:150`100`0
+Model.2.Systems Tract.1.Name: FSST
+Model.2.Systems Tract.1.Color: 135`206`235
+Model.2.Systems Tract.1.Phase: ForcedRegression
+Model.2.Systems Tract.1.StratSurf: SB
+Model.2.Systems Tract.1.StratSurf.Color: 245`25`25
+Model.2.Systems Tract.2.Name: LST
+Model.2.Systems Tract.2.Color: 255`255`0
+Model.2.Systems Tract.2.Phase: NormalRegressionLow
+Model.2.Systems Tract.2.StratSurf: MRS
+Model.2.Systems Tract.2.StratSurf.Color: 25`25`245
+Model.2.Systems Tract.3.Name: TST
+Model.2.Systems Tract.3.Color: 128`255`128
+Model.2.Systems Tract.3.Phase: Transgression
+Model.2.Systems Tract.3.StratSurf: MFS
+Model.2.Systems Tract.3.StratSurf.Color: 10`150`10
+Model.2.Systems Tract.4.Name: Undefined
+Model.2.Systems Tract.4.Color: 190`190`190
+Model.2.Sequence Boundary: 1
+
+Model.3.Name: Genetic Sequence
+Model.3.Nr Systems Tracts: 5
+Model.3.Systems Tract.0.Name: HST
+Model.3.Systems Tract.0.Color: 255`165`0
+Model.3.Systems Tract.0.Phase: NormalRegressionHigh
+Model.3.Systems Tract.0.StratSurf: Top HST
+Model.3.Systems Tract.0.StratSurf.Color:150`100`0
+Model.3.Systems Tract.1.Name: Early LST (fan)
+Model.3.Systems Tract.1.Color: 255`255`127
+Model.3.Systems Tract.1.Phase: ForcedRegression
+Model.3.Systems Tract.1.StratSurf: Top ELST
+Model.3.Systems Tract.1.StratSurf.Color: 255`255`0
+Model.3.Systems Tract.2.Name: Late LST (wedge)
+Model.3.Systems Tract.2.Color: 255`255`0
+Model.3.Systems Tract.2.Phase: NormalRegressionLow
+Model.3.Systems Tract.2.StratSurf: TS
+Model.3.Systems Tract.2.StratSurf.Color: 25`25`245
+Model.3.Systems Tract.3.Name: TST
+Model.3.Systems Tract.3.Color: 128`255`128
+Model.3.Systems Tract.3.Phase: Transgression
+Model.3.Systems Tract.3.StratSurf: SB
+Model.3.Systems Tract.3.StratSurf.Color: 245`25`25
+Model.3.Systems Tract.4.Name: Undefined
+Model.3.Systems Tract.4.Color: 190`190`190
+Model.3.Sequence Boundary: 3
+
+Model.4.Name: T-R Sequence
+Model.4.Nr Systems Tracts: 3
+Model.4.Systems Tract.0.Name: RST
+Model.4.Systems Tract.0.Color: 255`165`0
+Model.4.Systems Tract.0.StratSurf: SB
+Model.4.Systems Tract.0.StratSurf.Color: 245`25`25
+Model.4.Systems Tract.1.Name: TST
+Model.4.Systems Tract.1.Color: 128`255`128
+Model.4.Systems Tract.1.StratSurf: MFS
+Model.4.Systems Tract.1.StratSurf.Color: 10`150`10
+Model.4.Systems Tract.2.Name: Undefined
+Model.4.Systems Tract.2.Color: 190`190`190
+Model.4.Sequence Boundary: 0
+
+Model.5.Name: Channel Stages
+Model.5.Nr Systems Tracts: 11
+Model.5.Systems Tract.0.Name: Undefined
+Model.5.Systems Tract.0.Color: 190`190`190
+Model.5.Systems Tract.0.StratSurf.Color: 190`190`190
+Model.5.Systems Tract.0.Phase: None
+Model.5.Systems Tract.1.Name: Stage [1]
+Model.5.Systems Tract.1.Color: 0`0`255
+Model.5.Systems Tract.1.StratSurf.Color: 0`0`255
+Model.5.Systems Tract.1.Phase: None
+Model.5.Systems Tract.2.Name: Stage [2]
+Model.5.Systems Tract.2.Color: 0`255`255
+Model.5.Systems Tract.2.StratSurf.Color: 0`255`255
+Model.5.Systems Tract.2.Phase: None
+Model.5.Systems Tract.3.Name: Stage [3]
+Model.5.Systems Tract.3.Color: 170`170`0
+Model.5.Systems Tract.3.StratSurf.Color: 170`170`0
+Model.5.Systems Tract.3.Phase: None
+Model.5.Systems Tract.4.Name: Stage [4]
+Model.5.Systems Tract.4.Color: 170`255`127
+Model.5.Systems Tract.4.StratSurf.Color: 170`255`127
+Model.5.Systems Tract.4.Phase: None
+Model.5.Systems Tract.5.Name: Stage [5]
+Model.5.Systems Tract.5.Color: 142`0`213
+Model.5.Systems Tract.5.StratSurf.Color: 142`0`213
+Model.5.Systems Tract.5.Phase: None
+Model.5.Systems Tract.6.Name: Stage [6]
+Model.5.Systems Tract.6.Color: 255`85`0
+Model.5.Systems Tract.6.StratSurf.Color: 255`85`0
+Model.5.Systems Tract.6.Phase: None
+Model.5.Systems Tract.7.Name: Stage [7]
+Model.5.Systems Tract.7.Color: 255`255`0
+Model.5.Systems Tract.7.StratSurf.Color: 255`255`0
+Model.5.Systems Tract.7.Phase: None
+Model.5.Systems Tract.8.Name: Stage [8]
+Model.5.Systems Tract.8.Color: 0`170`127
+Model.5.Systems Tract.8.StratSurf.Color: 0`170`127
+Model.5.Systems Tract.8.Phase: None
+Model.5.Systems Tract.9.Name: Stage [9]
+Model.5.Systems Tract.9.Color: 255`85`255
+Model.5.Systems Tract.9.StratSurf.Color: 255`85`25
+Model.5.Systems Tract.9.Phase: None
+Model.5.Systems Tract.10.Name: Stage [10]
+Model.5.Systems Tract.10.Color: 255`0`0
+Model.5.Systems Tract.10.StratSurf.Color: 255`0`0
+Model.5.Systems Tract.10.Phase: None
+Model.5.Sequence Boundary: -1
+
+Model.6.Name: Stratal Packages
+Model.6.Nr Systems Tracts: 27
+Model.6.Systems Tract.0.Name: Undefined
+Model.6.Systems Tract.0.Color: 190`190`190
+Model.6.Systems Tract.0.StratSurf.Color: 190`190`190
+Model.6.Systems Tract.0.Phase: None
+Model.6.Systems Tract.1.Name: Package [1]
+Model.6.Systems Tract.1.Color: 0`0`127
+Model.6.Systems Tract.1.StratSurf.Color: 0`0`127
+Model.6.Systems Tract.1.Phase: None
+Model.6.Systems Tract.2.Name: Package [2]
+Model.6.Systems Tract.2.Color: 0`0`255
+Model.6.Systems Tract.2.StratSurf.Color: 0`0`255
+Model.6.Systems Tract.2.Phase: None
+Model.6.Systems Tract.3.Name: Package [3]
+Model.6.Systems Tract.3.Color: 0`85`255
+Model.6.Systems Tract.3.StratSurf.Color: 0`85`255
+Model.6.Systems Tract.3.Phase: None
+Model.6.Systems Tract.4.Name: Package [4]
+Model.6.Systems Tract.4.Color: 0`170`255
+Model.6.Systems Tract.4.StratSurf.Color: 0`170`255
+Model.6.Systems Tract.4.Phase: None
+Model.6.Systems Tract.5.Name: Package [5]
+Model.6.Systems Tract.5.Color: 170`170`255
+Model.6.Systems Tract.5.StratSurf.Color: 170`170`255
+Model.6.Systems Tract.5.Phase: None
+Model.6.Systems Tract.6.Name: Package [6]
+Model.6.Systems Tract.6.Color: 170`255`255
+Model.6.Systems Tract.6.StratSurf.Color: 170`255`255
+Model.6.Systems Tract.6.Phase: None
+Model.6.Systems Tract.7.Name: Package [7]
+Model.6.Systems Tract.7.Color: 255`255`0
+Model.6.Systems Tract.7.StratSurf.Color: 255`255`0
+Model.6.Systems Tract.7.Phase: None
+Model.6.Systems Tract.8.Name: Package [8]
+Model.6.Systems Tract.8.Color: 255`255`127
+Model.6.Systems Tract.8.StratSurf.Color: 255`255`127
+Model.6.Systems Tract.8.Phase: None
+Model.6.Systems Tract.9.Name: Package [9]
+Model.6.Systems Tract.9.Color: 85`170`127
+Model.6.Systems Tract.9.StratSurf.Color: 85`170`127
+Model.6.Systems Tract.9.Phase: None
+Model.6.Systems Tract.10.Name: Package [10]
+Model.6.Systems Tract.10.Color: 85`170`0
+Model.6.Systems Tract.10.StratSurf.Color: 85`170`0
+Model.6.Systems Tract.10.Phase: None
+Model.6.Systems Tract.11.Name: Package [11]
+Model.6.Systems Tract.11.Color: 0`170`0
+Model.6.Systems Tract.11.StratSurf.Color: 0`170`0
+Model.6.Systems Tract.11.Phase: None
+Model.6.Systems Tract.12.Name: Package [12]
+Model.6.Systems Tract.12.Color: 170`85`0
+Model.6.Systems Tract.12.StratSurf.Color: 170`85`0
+Model.6.Systems Tract.12.Phase: None
+Model.6.Systems Tract.13.Name: Package [13]
+Model.6.Systems Tract.13.Color: 255`85`0
+Model.6.Systems Tract.13.StratSurf.Color: 255`85`0
+Model.6.Systems Tract.13.Phase: None
+Model.6.Systems Tract.14.Name: Package [14]
+Model.6.Systems Tract.14.Color: 255`85`255
+Model.6.Systems Tract.14.StratSurf.Color: 255`85`255
+Model.6.Systems Tract.14.Phase: None
+Model.6.Systems Tract.15.Name: Package [15]
+Model.6.Systems Tract.15.Color: 85`85`0
+Model.6.Systems Tract.15.StratSurf.Color: 85`85`0
+Model.6.Systems Tract.15.Phase: None
+Model.6.Systems Tract.16.Name: Package [16]
+Model.6.Systems Tract.16.Color: 85`0`127
+Model.6.Systems Tract.16.StratSurf.Color: 85`0`127
+Model.6.Systems Tract.16.Phase: None
+Model.6.Systems Tract.17.Name: Package [17]
+Model.6.Systems Tract.17.Color: 170`255`255
+Model.6.Systems Tract.17.StratSurf.Color: 170`255`255
+Model.6.Systems Tract.17.Phase: None
+Model.6.Systems Tract.18.Name: Package [18]
+Model.6.Systems Tract.18.Color: 255`255`255
+Model.6.Systems Tract.18.StratSurf.Color: 255`255`255
+Model.6.Systems Tract.18.Phase: None
+Model.6.Systems Tract.19.Name: Package [19]
+Model.6.Systems Tract.19.Color: 255`255`127
+Model.6.Systems Tract.19.StratSurf.Color: 255`255`127
+Model.6.Systems Tract.19.Phase: None
+Model.6.Systems Tract.20.Name: Package [20]
+Model.6.Systems Tract.20.Color: 255`170`0
+Model.6.Systems Tract.20.StratSurf.Color: 255`170`0
+Model.6.Systems Tract.20.Phase: None
+Model.6.Systems Tract.21.Name: Package [21]
+Model.6.Systems Tract.21.Color: 47`31`0
+Model.6.Systems Tract.21.StratSurf.Color: 47`31`0
+Model.6.Systems Tract.21.Phase: None
+Model.6.Systems Tract.22.Name: Package [22]
+Model.6.Systems Tract.22.Color: 85`170`0
+Model.6.Systems Tract.22.StratSurf.Color: 85`170`0
+Model.6.Systems Tract.22.Phase: None
+Model.6.Systems Tract.23.Name: Package [23]
+Model.6.Systems Tract.23.Color: 170`255`0
+Model.6.Systems Tract.23.StratSurf.Color: 170`255`0
+Model.6.Systems Tract.23.Phase: None
+Model.6.Systems Tract.24.Name: Package [24]
+Model.6.Systems Tract.24.Color: 170`255`127
+Model.6.Systems Tract.24.StratSurf.Color: 170`255`127
+Model.6.Systems Tract.24.Phase: None
+Model.6.Systems Tract.25.Name: Package [25]
+Model.6.Systems Tract.25.Color: 170`0`127
+Model.6.Systems Tract.25.StratSurf.Color: 170`0`127
+Model.6.Systems Tract.25.Phase: None
+Model.6.Systems Tract.26.Name: Package [26]
+Model.6.Systems Tract.26.Color: 255`0`0
+Model.6.Systems Tract.26.StratSurf.Color: 255`0`0
+Model.6.Systems Tract.26.Phase: None
+Model.6.Sequence Boundary: -1
+
+Model.7.Name: Sequences
+Model.7.Nr Systems Tracts: 11
+Model.7.Systems Tract.0.Name: Undefined
+Model.7.Systems Tract.0.Color: 190`190`190
+Model.7.Systems Tract.0.StratSurf: 
+Model.7.Systems Tract.0.StratSurf.Color: 190`190`190
+Model.7.Systems Tract.0.Phase: None
+Model.7.Systems Tract.1.Name: Sequence-1
+Model.7.Systems Tract.1.Color: 255`255`0
+Model.7.Systems Tract.1.StratSurf: SB-1-
+Model.7.Systems Tract.1.StratSurf.Color: 255`255`0
+Model.7.Systems Tract.1.Phase: None
+Model.7.Systems Tract.2.Name: Sequence-2
+Model.7.Systems Tract.2.Color: 255`0`0
+Model.7.Systems Tract.2.StratSurf: SB-2-
+Model.7.Systems Tract.2.StratSurf.Color: 255`0`0
+Model.7.Systems Tract.2.Phase: None
+Model.7.Systems Tract.3.Name: Sequence-3
+Model.7.Systems Tract.3.Color: 170`255`127
+Model.7.Systems Tract.3.StratSurf: SB-3-
+Model.7.Systems Tract.3.StratSurf.Color: 170`255`127
+Model.7.Systems Tract.3.Phase: None
+Model.7.Systems Tract.4.Name: Sequence-4
+Model.7.Systems Tract.4.Color: 255`170`0
+Model.7.Systems Tract.4.StratSurf: SB-4-
+Model.7.Systems Tract.4.StratSurf.Color: 255`170`0
+Model.7.Systems Tract.4.Phase: None
+Model.7.Systems Tract.5.Name: Sequence-5
+Model.7.Systems Tract.5.Color: 85`170`0
+Model.7.Systems Tract.5.StratSurf: SB-5-
+Model.7.Systems Tract.5.StratSurf.Color: 85`170`0
+Model.7.Systems Tract.5.Phase: None
+Model.7.Systems Tract.6.Name: Sequence-6
+Model.7.Systems Tract.6.Color: 170`85`0
+Model.7.Systems Tract.6.StratSurf: SB-6-
+Model.7.Systems Tract.6.StratSurf.Color: 170`85`0
+Model.7.Systems Tract.6.Phase: None
+Model.7.Systems Tract.7.Name: Sequence-7
+Model.7.Systems Tract.7.Color: 0`85`255
+Model.7.Systems Tract.7.StratSurf: SB-7-
+Model.7.Systems Tract.7.StratSurf.Color: 0`85`255
+Model.7.Systems Tract.7.Phase: None
+Model.7.Systems Tract.8.Name: Sequence-8
+Model.7.Systems Tract.8.Color: 255`170`255
+Model.7.Systems Tract.8.StratSurf: SB-8-
+Model.7.Systems Tract.8.StratSurf.Color: 255`170`255
+Model.7.Systems Tract.8.Phase: None
+Model.7.Systems Tract.9.Name: Sequence-9
+Model.7.Systems Tract.9.Color: 255`0`255
+Model.7.Systems Tract.9.StratSurf: SB-9-
+Model.7.Systems Tract.9.StratSurf.Color: 255`0`255
+Model.7.Systems Tract.9.Phase: None
+Model.7.Systems Tract.10.Name: Sequence-10
+Model.7.Systems Tract.10.Color: 83`27`83
+Model.7.Systems Tract.10.StratSurf: SB-10-
+Model.7.Systems Tract.10.StratSurf.Color: 83`27`83
+Model.7.Systems Tract.10.Phase: None
+Model.7.Sequence Boundary: -1
+
+Model.8.Name: Fluvial Depositional Sequence
+Model.8.Nr Systems Tracts: 3
+Model.8.Systems Tract.0.Name: HAST
+Model.8.Systems Tract.0.Color: 129`184`255
+Model.8.Systems Tract.0.StratSurf: SB
+Model.8.Systems Tract.0.StratSurf.Color: 245`25`25
+Model.8.Systems Tract.0.Phase: None
+Model.8.Systems Tract.1.Name: LAST
+Model.8.Systems Tract.1.Color: 255`255`127
+Model.8.Systems Tract.1.StratSurf: Top LAST
+Model.8.Systems Tract.1.StratSurf.Color: 0`85`255
+Model.8.Systems Tract.1.Phase: None
+Model.8.Systems Tract.2.Name: Undefined
+Model.8.Systems Tract.2.Color: 190`190`190
+Model.8.Systems Tract.2.StratSurf: Top Undefined
+Model.8.Systems Tract.2.StratSurf.Color: 255`255`255
+Model.8.Systems Tract.2.Phase: None
+Model.8.Sequence Boundary: 0
+
+Model.9.Name: AIGR
+Model.9.Nr Systems Tracts: 5
+Model.9.Systems Tract.0.Name: Adjustment
+Model.9.Systems Tract.0.Color: 133`66`200
+Model.9.Systems Tract.0.StratSurf: Top Adjustment
+Model.9.Systems Tract.0.StratSurf.Color: 133`66`200
+Model.9.Systems Tract.0.Phase: None
+Model.9.Systems Tract.1.Name: Initiation
+Model.9.Systems Tract.1.Color: 255`0`0
+Model.9.Systems Tract.1.StratSurf: Top Initiation
+Model.9.Systems Tract.1.StratSurf.Color: 255`0`0
+Model.9.Systems Tract.1.Phase: None
+Model.9.Systems Tract.2.Name: Growth
+Model.9.Systems Tract.2.Color: 0`180`0
+Model.9.Systems Tract.2.StratSurf: Top Growth
+Model.9.Systems Tract.2.StratSurf.Color: 0`180`0
+Model.9.Systems Tract.2.Phase: None
+Model.9.Systems Tract.3.Name: Retreat
+Model.9.Systems Tract.3.Color: 0`170`255
+Model.9.Systems Tract.3.StratSurf: Top Retreat
+Model.9.Systems Tract.3.StratSurf.Color: 0`170`255
+Model.9.Systems Tract.3.Phase: None
+Model.9.Systems Tract.4.Name: Undefined
+Model.9.Systems Tract.4.Color: 190`190`190
+Model.9.Systems Tract.4.StratSurf: Top Undefined
+Model.9.Systems Tract.4.StratSurf.Color: 255`255`255
+Model.9.Systems Tract.4.Phase: None
+Model.9.Sequence Boundary: 0
+
+Model.10.Name: BCFS
+Model.10.Nr Systems Tracts: 5
+Model.10.Systems Tract.0.Name: Build
+Model.10.Systems Tract.0.Color: 133`66`200
+Model.10.Systems Tract.0.StratSurf: Top Build
+Model.10.Systems Tract.0.StratSurf.Color: 133`66`200
+Model.10.Systems Tract.0.Phase: None
+Model.10.Systems Tract.1.Name: Cut
+Model.10.Systems Tract.1.Color: 255`0`0
+Model.10.Systems Tract.1.StratSurf: Top Cut
+Model.10.Systems Tract.1.StratSurf.Color: 255`0`0
+Model.10.Systems Tract.1.Phase: None
+Model.10.Systems Tract.2.Name: Fill
+Model.10.Systems Tract.2.Color: 0`180`0
+Model.10.Systems Tract.2.StratSurf: Top Fill
+Model.10.Systems Tract.2.StratSurf.Color: 0`180`0
+Model.10.Systems Tract.2.Phase: None
+Model.10.Systems Tract.3.Name: Spill
+Model.10.Systems Tract.3.Color: 0`170`255
+Model.10.Systems Tract.3.StratSurf: Top Spill
+Model.10.Systems Tract.3.StratSurf.Color: 0`170`255
+Model.10.Systems Tract.3.Phase: None
+Model.10.Systems Tract.4.Name: Undefined
+Model.10.Systems Tract.4.Color: 190`190`190
+Model.10.Systems Tract.4.StratSurf: Top Undefined
+Model.10.Systems Tract.4.StratSurf.Color: 255`255`255
+Model.10.Systems Tract.4.Phase: None
+Model.10.Sequence Boundary: 0
+

@@ -1,0 +1,5 @@
+<map id="dgbMPESetupTranslator" name="dgbMPESetupTranslator">
+<area shape="rect" id="node2" href="$classMPESetupTranslator.html" title="Translator for MPE::Setup. " alt="" coords="16,160,157,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="47,83,127,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="44,5,129,35"/>
+</map>

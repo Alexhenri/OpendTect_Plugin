@@ -1,0 +1,8 @@
+<map id="Geom::Point2D&lt; T &gt;" name="Geom::Point2D&lt; T &gt;">
+<area shape="rect" id="node3" href="$classGeom_1_1Point2D.html" title="Geom::Point2D\&lt; double \&gt;" alt="" coords="345,5,519,35"/>
+<area shape="rect" id="node5" href="$classGeom_1_1Point2D.html" title="Geom::Point2D\&lt; float \&gt;" alt="" coords="352,59,512,88"/>
+<area shape="rect" id="node7" href="$classGeom_1_1Point2D.html" title="Geom::Point2D\&lt; int \&gt;" alt="" coords="357,112,507,141"/>
+<area shape="rect" id="node9" href="$classGeom_1_1Point2D.html" title="Geom::Point2D\&lt; Pos\l::Ordinate_Type \&gt;" alt="" coords="359,165,505,211"/>
+<area shape="rect" id="node11" href="$classCoord.html" title="A cartesian coordinate in 2D space. " alt="" coords="572,173,628,203"/>
+<area shape="rect" id="node13" href="$classCoord3.html" title="A cartesian coordinate in 3D space. " alt="" coords="680,173,744,203"/>
+</map>

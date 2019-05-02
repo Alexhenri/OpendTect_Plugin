@@ -1,0 +1,7 @@
+<map id="visBase::DataObjectGroup" name="visBase::DataObjectGroup">
+<area shape="rect" id="node7" href="$classvisBase_1_1Scene.html" title="Scene manages all DataObjects and has some managing functions such as the selection management and va..." alt="" coords="11,237,125,267"/>
+<area shape="rect" id="node11" href="$classvisBase_1_1Transformation.html" title="The Transformation is an object that transforms everything following the node. " alt="" coords="149,237,312,267"/>
+<area shape="rect" id="node2" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="79,83,220,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="107,5,192,35"/>
+<area shape="rect" id="node9" href="$classvisSurvey_1_1Scene.html" title="Database for 3D objects. " alt="" coords="5,315,131,344"/>
+</map>

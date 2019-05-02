@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.3 Stochastic Pseudowell Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.3.3 Analysis of the Existing Wells</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/stochastic_pseudowell_modeling/analysis_of_the_existing_wells.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.3.3 Analysis of the Existing Wells<a name="kanchor153"></a></h3>
+        <p>Well data analysis is a module that feeds the modeling description with stochastic parameters, either uniform/normal distributions or probability density functions, derived at existing wells. This module is accessed by clicking on the <img src="../../resources/images/icons/welldata2stoch.png" class="icon" /> icon when defining a <a href="model_definition/random_distribution.htm" target="_self" style="font-weight: normal;">Random property</a> or on the <img src="../../resources/images/icons/welldata2pdf.png" class="icon" /> icon when defining a <a href="model_definition/pdf_distribution.htm" target="_self" style="font-weight: normal;">PDF property</a>.</p>
+        <img src="../../resources/images/synthrock/random_property.png" class="image" />
+        <img src="../../resources/images/synthrock/pdf_property.png" class="image" />
+        <p>Well data analysis window looks very similar to <i>Cross-plot tool</i> in both cases and have many similar options and features.</p>
+        <p><b style="text-decoration: none;">Random property</b>
+        </p>
+        <p>For a <i>Random property</i>, a single log (Density in the example below) is selected and analysed in the specified interval.</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_wll_data_anal.png" class="image" />
+        <p>It is highly recommended, even though not required, to click on Show Cross-Plot button in order to extract a table, display and edit the data if necessary. For example, viewing a log histogram by clicking on the <img src="../../resources/images/icons/statsinfo.png" class="icon" /> icon in the cross-plot table window can help to determine if a given property follows Gaussian or Uniform distributions in a certain interval and refine the automatically derived parameters:</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_data_stats.png" class="image" />
+        <img src="../../resources/images/synthrock/histogram.png" class="image" />
+        <p>Upon OK click in the <i>Well data analysis</i> window, the derived distribution parameters are automatically fed to the<i>Random property</i> window:</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_rdm_auto_fill.png" class="image" />
+        <p><b style="text-decoration: none;">PDF property</b>
+        </p>
+        <p>For a PDF property, several logs can be selected and analysed in the specified interval.</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_1.png" class="image" />
+        <p>It is highly recommended, but not required, to click on Show Cross-Plot button in order to extract a table and graph properties of interest by clicking on the <img src="../../resources/images/icons/xplot.png" class="icon" /> icon which can help to modify automatically determined PDF parameters:</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_pdf_prop_2.png" class="image" />
+        <img src="../../resources/images/synthrock/pdf_histogram.png" class="image" />
+        <p>After clicking on the <i>Create PDF</i> button in <i>Well data analysis</i> window, the Create PDF window allows to define the number of dimensions, a property for each dimension, their ranges and number of bins. Remember that only up to three properties can be stored in a discrete PDF. Wells commonly contain a small number of data points, it is therefore recommended to check <i>View/Edit</i> after creation option.</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_3.png" class="image" />
+        <p>It allows to browse and edit a PDF in a table, as well as display it graphically by clicking on the <img src="../../resources/images/icons/viewprdf.png" class="icon" /> icon.</p>
+        <img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_4.png" class="image" />
+        <img src="../../resources/images/synthrock/pdf_view_function.png" class="image" />
+        <p>Editing of a PDF can be done manually in a table or smoothed by clicking on the <img src="../../resources/images/icons/smoothcurve.png" class="icon" /> icon. For other details check the Manage PDF section of the OpendTect User Documentation</p>.<img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_5.png" class="image" /><p>Upon clicking OK button in either the<i>Create PDF</i> or <i>Edit PDF</i> window, the derived PDF is automatically fed to the PDF property window. Stored PDF can have multiple dimensions, thus you will need to select what dimension to use. Consequently, a single PDF can be used to provide the input for multiple quantities. Also, a transformation can be applied on the values stored in the PDF: for example, to simulate sonic when the PDF contains P-wave, or to simulate log(K) when the distribution contains K (permeability).</p><img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_6.png" class="image" /><p>Finally, confirmation by clicking OK button in either the <i>Random property</i> or <i>PDF property</i> windows updates the corresponding fields in <i>Layer Generation window</i> as shown below for Density and Porosity.</p><img src="../../resources/images/synthrock/sr_anal_exst_wlls_pdf_prop_7.png" class="image" /><p class="copyright">© dGB Beheer B.V. 2002 - 2019</p></body>
+</html>

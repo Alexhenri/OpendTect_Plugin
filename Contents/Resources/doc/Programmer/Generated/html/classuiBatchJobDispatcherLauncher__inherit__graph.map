@@ -1,0 +1,4 @@
+<map id="uiBatchJobDispatcherLauncher" name="uiBatchJobDispatcherLauncher">
+<area shape="rect" id="node3" href="$classuiClusterJobDispatcherLauncher.html" title="uiClusterJobDispatcherLauncher" alt="" coords="5,92,216,121"/>
+<area shape="rect" id="node5" href="$classuiSingleBatchJobDispatcherLauncher.html" title="launcher for a single&#45;process job dispatcher " alt="" coords="240,83,427,130"/>
+</map>

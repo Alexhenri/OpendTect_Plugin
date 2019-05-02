@@ -1,0 +1,8 @@
+<map id="Stats::ParallelCalc&lt; T &gt;" name="Stats::ParallelCalc&lt; T &gt;">
+<area shape="rect" id="node13" href="$classStats_1_1ParallelCalc.html" title="Stats::ParallelCalc\l\&lt; float \&gt;" alt="" coords="99,422,229,469"/>
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="9,245,103,275"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="31,165,81,195"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="5,85,107,115"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="13,5,99,35"/>
+<area shape="rect" id="node10" href="$classStats_1_1BaseCalc.html" title="Base class to calculate mean, min, max, etc.. can be used either as running values (Stats::RunCalc) o..." alt="" coords="127,245,276,275"/>
+</map>

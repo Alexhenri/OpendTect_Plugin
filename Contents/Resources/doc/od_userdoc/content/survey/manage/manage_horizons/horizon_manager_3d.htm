@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.5 Manage|4.5.8 Manage Horizons">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.5.8.2 Horizon Manager 3D</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#survey/manage/manage_horizons/horizon_manager_3d.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor239"></a>4.5.8.2 Horizon Manager 3D<a name="kanchor240"></a></h4>
+        <p><a name="kanchor241"></a>The 3D Horizons manager can be accessed by the menu Survey &gt; Manage &gt; Horizons &gt; 3D or by the quick access icon <img src="../../../resources/images/icons/man2d.png" class="Icons" />  &gt; 3D Horizons.</p>
+        <p><a name="kanchor242"></a>This manager (see below) allows to have an overview of the interpreted/imported 3D horizons in the current OpendTect project (left panel), with their associated Horizon Data (right panel). In the bottom panel, information on the selected horizon are displayed (eg. location on disk, date last modified).</p>
+        <p>Additionally, the available disk space is indicated.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_main.png" class="General_Image" />
+        <p>Use the top filter to find the wanted element(s) by typing the name or a part of the name (complete the name with *): for example, to find ‘Demo 2 --&gt; FS6’, you can type *FS6*.</p>
+        <p>The basic icons similar to the one from the <a href="../../../getting_started/general_selection_window.htm" data-mc-conditions="Default.ScreenOnly">general selection window</a> are available for the horizons management with some additional actions (see below).</p>
+        <p style="font-weight: bold;"><a name="kanchor243"></a>Copy 3D Horizon</p>
+        <p>The copy window for 3D horizons differs slightly from the usual copy window. It is indeed used to copy surface data and grids.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_copy.png" class="General_Image" />
+        <p style="font-weight: bold;"><a name="kanchor244"></a>Merge 3D Horizons</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_merge.png" class="General_Image" />
+        <p>To merge horizons, select the horizons to be merged. In case of duplicate position, the action needs to be specified: take average, use top or use base. The duplicate positions will then be handled in the following manner (dashed line portion represents removed data after merge):</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_after_merge.png" class="General_Image" />
+        <p style="font-weight: bold;"><a name="kanchor245"></a>Stratigraphy</p>
+        <p>The horizons can optionally be tied to a level, i.e. a regional marker (see below) by clicking on the Stratigraphy button.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_stratigraphy.png" class="General_Image" />
+        <p>Stratigraphic marker can be assigned to one or more horizons. The horizons will get the marker color, this will facilitate for example the well to seismic tie.</p>
+        <p>For more details on how to define stratigraphic markers and the subsequent units go to <a href="../manage_stratigraphy.htm" data-mc-conditions="Default.ScreenOnly">Manage Stratigraphy</a>.</p>
+        <p style="font-weight: bold;">Relations</p>
+        <p>The Horizon relation window is used to resolve conflicts between horizons crossing each other. Read Horizons .... is used to select all horizons that need checking. The horizons are then sorted automatically from top to bottom. The Check crossings... button is used to automatically check the crossings between the listed horizons and resolve them.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_relations.png" class="General_Image" />
+        <p style="font-weight: bold;">Solving crossing conflicts</p>
+        <p>To solve crossing conflicts select the horizon that will be modified. The software will check the number of positions where a conflict exits and modify the horizon by removing the conflict points or by changing the values to be equal to the overlying/underlying horizon. In the example below, the checked horizons have been found to cross in 9 positions.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_solve_crossings.png" class="General_Image" />
+        <p>To honor the requirement that horizons cannot coincide, the horizons actual positions are not exactly equal, but they are within one sample position accuracy.</p>
+        <p>If the lower horizon (red) is selected to be modified, the figure below sketches what will happen to this horizon if you select shift or remove.</p>
+        <img src="../../../resources/images/survey/manage_horizons_3d_shift_remove.png" class="General_Image" />
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#survey/manage/manage_horizons/horizon_manager_3d.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

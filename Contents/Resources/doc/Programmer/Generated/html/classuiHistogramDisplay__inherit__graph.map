@@ -1,0 +1,6 @@
+<map id="uiHistogramDisplay" name="uiHistogramDisplay">
+<area shape="rect" id="node2" href="$classuiFunctionDisplay.html" title="displays a function of (X,Y) pairs on a canvas &#45; optionally a Y2. " alt="" coords="13,315,139,344"/>
+<area shape="rect" id="node4" href="$classuiGraphicsView.html" title="uiGraphicsView" alt="" coords="20,237,132,267"/>
+<area shape="rect" id="node6" href="$classuiGraphicsViewBase.html" title="uiGraphicsViewBase" alt="" coords="5,160,147,189"/>
+<area shape="rect" id="node8" href="$classuiObject.html" title="The base class for most UI elements. " alt="" coords="41,83,111,112"/>
+</map>

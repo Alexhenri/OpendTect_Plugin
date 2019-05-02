@@ -1,0 +1,12 @@
+<map id="uiPosProvGroup" name="uiPosProvGroup">
+<area shape="rect" id="node11" href="$classuiBodyPosProvGroup.html" title="UI for BodyPosProvider. " alt="" coords="720,5,867,35"/>
+<area shape="rect" id="node13" href="$classuiPolyPosProvGroup.html" title="UI for PolyPosProvider. " alt="" coords="723,59,864,88"/>
+<area shape="rect" id="node15" href="$classuiRangePosProvGroup.html" title="UI for RangePosProvider. " alt="" coords="716,112,871,141"/>
+<area shape="rect" id="node17" href="$classuiSeisPosProvGroup.html" title="UI for SeisPosProvider. " alt="" coords="723,165,864,195"/>
+<area shape="rect" id="node19" href="$classuiSurfacePosProvGroup.html" title="UI for SurfacePosProvider. " alt="" coords="712,219,875,248"/>
+<area shape="rect" id="node21" href="$classuiTablePosProvGroup.html" title="UI for TablePosProvider. " alt="" coords="719,272,868,301"/>
+<area shape="rect" id="node23" href="$classuiWellPosProvGroup.html" title="UI for WellPosProvider. " alt="" coords="723,325,864,355"/>
+<area shape="rect" id="node2" href="$classuiPosFiltGroup.html" title="group for providing positions, usually for 2D or 3D seismics " alt="" coords="391,165,497,195"/>
+<area shape="rect" id="node4" href="$classuiGroup.html" title="uiGroup" alt="" coords="275,165,341,195"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="156,165,225,195"/>
+</map>

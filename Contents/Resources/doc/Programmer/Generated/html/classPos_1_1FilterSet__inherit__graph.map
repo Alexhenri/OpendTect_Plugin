@@ -1,0 +1,5 @@
+<map id="Pos::FilterSet" name="Pos::FilterSet">
+<area shape="rect" id="node5" href="$classPos_1_1FilterSet2D.html" title="2D FilterSet " alt="" coords="5,160,123,189"/>
+<area shape="rect" id="node7" href="$classPos_1_1FilterSet3D.html" title="3D FilterSet " alt="" coords="147,160,264,189"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="93,5,176,35"/>
+</map>

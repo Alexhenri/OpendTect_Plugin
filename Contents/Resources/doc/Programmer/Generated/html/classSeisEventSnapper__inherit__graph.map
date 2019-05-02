@@ -1,0 +1,9 @@
+<map id="SeisEventSnapper" name="SeisEventSnapper">
+<area shape="rect" id="node13" href="$classSeis2DLineEventSnapper.html" title="SeisEventSnapper for 2D. " alt="" coords="5,469,176,499"/>
+<area shape="rect" id="node15" href="$classSeisEventSnapper3D.html" title="SeisEventSnapper3D" alt="" coords="200,469,347,499"/>
+<area shape="rect" id="node2" href="$classExecutor.html" title="Specification to enable chunkwise execution of a process. " alt="" coords="144,315,219,344"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="125,237,237,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="156,160,207,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="131,83,232,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="139,5,224,35"/>
+</map>

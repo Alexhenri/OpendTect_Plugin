@@ -1,0 +1,17 @@
+<map id="uiObjFileMan" name="uiObjFileMan">
+<area shape="rect" id="node11" href="$classui2DGeomManageDlg.html" title="General manage window for 2D Line geometries. " alt="" coords="671,5,820,35"/>
+<area shape="rect" id="node13" href="$classuiAttrSetMan.html" title="AttributeSet Manager. " alt="" coords="696,59,795,88"/>
+<area shape="rect" id="node15" href="$classuiDataPointSetMan.html" title="Cross&#45;plot manager. " alt="" coords="679,112,812,141"/>
+<area shape="rect" id="node17" href="$classuiPickSetMan.html" title="uiPickSetMan" alt="" coords="695,165,796,195"/>
+<area shape="rect" id="node19" href="$classuiProbDenFuncMan.html" title="Probability Density Function manager. " alt="" coords="677,219,813,248"/>
+<area shape="rect" id="node21" href="$classuiRandomLineMan.html" title="RandomLine manager. " alt="" coords="680,272,811,301"/>
+<area shape="rect" id="node23" href="$classuiSeisFileMan.html" title="uiSeisFileMan" alt="" coords="693,325,797,355"/>
+<area shape="rect" id="node25" href="$classuiSeisPreStackMan.html" title="uiSeisPreStackMan" alt="" coords="677,379,813,408"/>
+<area shape="rect" id="node27" href="$classuiSeisWvltMan.html" title="uiSeisWvltMan" alt="" coords="691,432,800,461"/>
+<area shape="rect" id="node29" href="$classuiSessionMan.html" title="Session manager. " alt="" coords="693,485,797,515"/>
+<area shape="rect" id="node31" href="$classuiSurfaceMan.html" title="uiSurfaceMan" alt="" coords="695,539,796,568"/>
+<area shape="rect" id="node33" href="$classuiWellMan.html" title="uiWellMan" alt="" coords="704,592,787,621"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="405,299,475,328"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="275,299,357,328"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="156,299,225,328"/>
+</map>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.1 Attributes">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.1.7 Calculate Attributes</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#analysis/attributes/calculate_attributes.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>5.1.7 Calculate Attributes<a name="kanchor1375"></a></h3>
+        <p>The attribute evaluation process has been considered critically and thus several key options are available for the user. For instance, <i>Evaluate Attribute</i> <img src="../../resources/images/icons/evalattr.png" class="Icons" /> is considered as intermediate (but not necessary) step to quickly analyze the different parameters of any attribute within the working environment (<a href="http://www.youtube.com/watch?v=STDUoDX8Cc0" target="_blank" data-mc-conditions="Default.ScreenOnly" name="kanchor1376">View tutorial-Evaluate attributes</a>). Similarly, the user can create a list of seismic attribute definitions as a working set that later on can be updated. The attribute set is then used to calculate the seismic attributes along lines/surfaces.</p>
+        <p>There are two possible ways of calculating seismic attributes in OpendTect: First, in order to calculate the results of any attribute in the foreground, user(s) can do it on-the-fly. Second possibility is to calculate attributes after evaluation by running a secondary process in the background. In OpendTect, seismic attributes are applied on several elements (inlines, crosslines, Z slices, random lines, 2D lines, volumes, horizons etc).</p>
+        <p>The workflow to calculate the selected attribute is quite simple:</p>
+        <ol>
+            <li value="1">Define (or use existing) attribute Set and save. For details see earlier sections of this chapter.</li>
+            <li value="2">Calculate on-the-fly or <a href="../../processing/create_seismic_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1377">Create Seismic Output</a> or <a href="../../processing/create_horizon_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Create horizon attribute</a> output.</li>
+            <li value="3">If attribute is not calculated on-the-fly, retrieve results by displaying attribute in tree.</li>
+        </ol>
+        <p>The example of first step is given in following figure. It highlights the sequential process (notice green arrows form left to right) of on-the-fly attribute calculation. Firstly, several attributes are defined. Secondly, by default, when a user presses <i>Ok</i> button in <i><a name="kanchor1378"></a>Attribute Set</i> window, the <i>Save Attribute definition</i> window will appear to save the attributes definition as an Attribute set. The attribute can then be applied on an inline (for instance) by adding a blank attribute (right-click on inline number). Right-click on the blank attribute and select the attribute (Select Attribute &gt; Attributes &gt; "<i>User Attribute</i>"). The listed attributes are those that are defined in the attributes set window. Selection of any one, would start a process of on-the-fly attribute calculation. By following same workflow (as elaborated in figure) the same attribute can be calculated along other elements (e.g. crosslines, Z-slices, volumes etc).</p>
+        <img src="../../resources/images/analysis/analysis_attribute_calculate_on_the_fly_workflow.png" class="General_Image" />
+        <p><i>Schematic flow of on-the-fly seismic attributes evaluation on an inline.</i>
+        </p>
+        <ol>
+            <li value="1">There are some attributes that can take too much time during the on-the-fly calculation process.</li>
+        </ol>
+        <p class="tip">This depends upon the type of attribute that how much calculation steps it considers e.g. multi-trace (e.g. Similarity) attributes normally take more calculation time than the single trace (instantaneous) attributes. Similarly, the attributes with steering normally takes more time in calculation. So, each time the attribute is displayed in the scene (as shown above), it is calculated in the fore-ground. If the user is committed with the attributes results, this can be resolved by creating seismic outputs (See <a href="../../processing/create_seismic_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Create Seismic Output</a> and <a href="../../processing/create_horizon_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1379">Create Horizon Output</a> sections) in the background. This will also help to restore the saved <a href="../../survey/session.htm" target="_self" data-mc-conditions="Default.ScreenOnly">sessions</a> quickly.</p>
+        <ol data-mc-continue="true">
+            <li value="2">Additionally, <b>multi-component</b> output seismics-2D/3D (like spectral decomposition) are created by using <a href="../../processing/create_seismic_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly">create seismic output</a>.</li>
+        </ol>
+        <p class="tip">Another example of second step, is shown in following figures. The attribute can be calculated <b>along the horizon</b> by following the same steps described above, for inserting and displaying the attribute (as shown below). In this example, <a href="../../appendix_a-attributes_and_filters/similarity.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Similarity</a> is calculated on-the-fly along a horizon. This attribute normally takes time (depending upon amount of traces involved). So, user can take benefit of saving the on-the-fly results that later on can be retrieved.</p>
+        <img src="../../resources/images/analysis/analysis_attribute_calculate_attributes_add_attribute_horizon2.png" class="General_Image" />
+        <p><i>Schematic flow of on-the-fly seismic attributes evaluation at a horizon.</i>
+        </p>
+        <p class="tip">In order to save the calculated attribute as horizon data, right-click on the attribute and select <i><a name="kanchor1381"></a>Save as Horizon Data...</i>. In pop-up window edit the name accordingly and press <i>Ok</i>. This will save the horizon attribute as its horizon data. That can be managed later on by using horizon management window. (see <a href="../../survey/manage/manage_horizons.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Management horizon</a>)</p>
+        <img src="../../resources/images/analysis/analysis_attribute_calculate_attributes_add_attribute_horizon_save_as_horizon_data.png" class="General_Image" />
+        <p><i>Result of calculated similarity attribute. Saving the horizon attribute as horizon data</i>
+        </p>
+        <p class="tip">The stored attributes along horizon can be retrieved as horizon data. Right-click on horizon and add blank attribute. Right-click on the newly inserted blank attribute and locate Horizon data item in the sub-list of attribute (as shown below). In the horizon data selection window, select the desired attribute. This will display the selected attribute in the scene.</p>
+        <img src="../../resources/images/analysis/analysis_attribute_select_horizon_data.png" class="General_Image" />
+        <p><i>Retrieving the stored horizon data (attribute) of a horizon.</i>
+        </p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#analysis/attributes/calculate_attributes.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

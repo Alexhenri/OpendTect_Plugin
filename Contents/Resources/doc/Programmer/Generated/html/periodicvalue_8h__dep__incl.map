@@ -1,0 +1,27 @@
+<map id="periodicvalue.h" name="periodicvalue.h">
+<area shape="rect" id="node3" href="$arrayndalgo_8h.html" title="arrayndalgo.h" alt="" coords="711,83,809,112"/>
+<area shape="rect" id="node34" href="$samplfunc_8h.html" title="samplfunc.h" alt="" coords="1140,83,1233,112"/>
+<area shape="rect" id="node36" href="$valseriesinterpol_8h.html" title="valseriesinterpol.h" alt="" coords="1551,83,1676,112"/>
+<area shape="rect" id="node5" href="$array2dinterpol_8h.html" title="array2dinterpol.h" alt="" coords="175,160,292,189"/>
+<area shape="rect" id="node14" href="$fftfilter_8h.html" title="fftfilter.h" alt="" coords="323,160,392,189"/>
+<area shape="rect" id="node18" href="$gridder2d_8h.html" title="gridder2d.h" alt="" coords="416,160,501,189"/>
+<area shape="rect" id="node20" href="$polynd_8h.html" title="polynd.h" alt="" coords="525,160,595,189"/>
+<area shape="rect" id="node22" href="$wellloginterpolator_8h.html" title="wellloginterpolator.h" alt="" coords="619,160,755,189"/>
+<area shape="rect" id="node26" href="$freqfilterattrib_8h.html" title="freqfilterattrib.h" alt="" coords="779,160,888,189"/>
+<area shape="rect" id="node28" href="$specdecompattrib_8h.html" title="specdecompattrib.h" alt="" coords="912,160,1048,189"/>
+<area shape="rect" id="node30" href="$uiwindowfuncseldlg_8h.html" title="uiwindowfuncseldlg.h" alt="" coords="1072,160,1219,189"/>
+<area shape="rect" id="node32" href="$uifreqtaper_8h.html" title="uifreqtaper.h" alt="" coords="1243,160,1336,189"/>
+<area shape="rect" id="node7" href="$array2dinterpolimpl_8h.html" title="array2dinterpolimpl.h" alt="" coords="5,237,147,267"/>
+<area shape="rect" id="node11" href="$contcurvinterpol_8h.html" title="contcurvinterpol.h" alt="" coords="171,237,296,267"/>
+<area shape="rect" id="node9" href="$horizongridder_8h.html" title="horizongridder.h" alt="" coords="97,315,212,344"/>
+<area shape="rect" id="node16" href="$uifreqfilter_8h.html" title="uifreqfilter.h" alt="" coords="320,237,411,267"/>
+<area shape="rect" id="node24" href="$uiwellloginterpolator_8h.html" title="uiwellloginterpolator.h" alt="" coords="613,237,760,267"/>
+<area shape="rect" id="node38" href="$seisparallelreader_8h.html" title="seisparallelreader.h" alt="" coords="1360,160,1493,189"/>
+<area shape="rect" id="node40" href="$seistrc_8h.html" title="seistrc.h" alt="" coords="1517,160,1589,189"/>
+<area shape="rect" id="node48" href="$coherencyattrib_8h.html" title="coherencyattrib.h" alt="" coords="1613,160,1736,189"/>
+<area shape="rect" id="node50" href="$frequencyattrib_8h.html" title="frequencyattrib.h" alt="" coords="1760,160,1877,189"/>
+<area shape="rect" id="node52" href="$similarityattrib_8h.html" title="similarityattrib.h" alt="" coords="1901,160,2016,189"/>
+<area shape="rect" id="node42" href="$seisrandomprovider_8h.html" title="seisrandomprovider.h" alt="" coords="1308,237,1455,267"/>
+<area shape="rect" id="node44" href="$seis2deventsnapper_8h.html" title="seis2deventsnapper.h" alt="" coords="1479,237,1628,267"/>
+<area shape="rect" id="node46" href="$createlogcube_8h.html" title="createlogcube.h" alt="" coords="1652,237,1767,267"/>
+</map>

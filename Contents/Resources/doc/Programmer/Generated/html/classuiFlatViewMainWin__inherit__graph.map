@@ -1,0 +1,8 @@
+<map id="uiFlatViewMainWin" name="uiFlatViewMainWin">
+<area shape="rect" id="node11" href="$classuiFKSpectrum.html" title="uiFKSpectrum" alt="" coords="5,315,109,344"/>
+<area shape="rect" id="node13" href="$classuiSeisTrcBufViewer.html" title="uiSeisTrcBufViewer" alt="" coords="133,315,269,344"/>
+<area shape="rect" id="node15" href="$classWellTie_1_1uiTieWin.html" title="WellTie::uiTieWin" alt="" coords="293,315,419,344"/>
+<area shape="rect" id="node2" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="101,160,184,189"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="108,83,177,112"/>
+<area shape="rect" id="node8" href="$classuiFlatViewWin.html" title="Base class for windows containing one or more uiFlatViewer(s). " alt="" coords="208,160,315,189"/>
+</map>

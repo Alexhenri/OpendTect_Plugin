@@ -1,0 +1,8 @@
+<map id="uiStringSet" name="uiStringSet">
+<area shape="rect" id="node2" href="$classTypeSet.html" title="TypeSet\&lt; uiString \&gt;" alt="" coords="99,376,237,405"/>
+<area shape="rect" id="node4" href="$classTypeSetBase.html" title="TypeSetBase\&lt; uiString,\l int \&gt;" alt="" coords="5,182,165,229"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="153,5,223,35"/>
+<area shape="rect" id="node8" href="$classTypeSetBase.html" title="Base class for TypeSet, usually not used as such. " alt="" coords="116,85,260,115"/>
+<area shape="rect" id="node13" href="$classTypeSetBase.html" title="TypeSetBase\&lt; T, int \&gt;" alt="" coords="189,191,344,220"/>
+<area shape="rect" id="node11" href="$classTypeSet.html" title="Set of (small) copyable elements. " alt="" coords="181,280,283,309"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="RegularSeisDataPack" name="RegularSeisDataPack">
+<area shape="rect" id="node2" href="$classSeisDataPack.html" title="DataPack for volume data. Should be renamed to VolumeDataPack later. " alt="" coords="27,237,133,267"/>
+<area shape="rect" id="node4" href="$classDataPack.html" title="A data packet: data+positioning and more that needs to be shared. " alt="" coords="40,160,120,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="29,83,131,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="37,5,123,35"/>
+</map>

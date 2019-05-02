@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.1 Processing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.1.3 Create HorizonCube</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/processing/create_a_horizoncube.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4 style="text-align: left;"><a name="kanchor251"></a>4.2.1.3 Create HorizonCube<a name="kanchor252"></a></h4>
+        <p style="text-align: left;">A new 2D/3D HorizonCube is created from the <a href="../../horizoncube_control_center.htm" target="_self" style="font-weight: normal;">Control Center</a>.</p>
+        <img src="../../../resources/images/horizoncube/horizoncube_3d_control_center.png" class="image" />
+        <p style="text-align: left;">The HorizonCube is created between the given horizons. These horizons are selected (minimum of 2, top and bottom) by clicking the <i>Read horizons</i> button for 3D and <i>Load Existing Horizons</i> icon for 2D. When the horizons are read, they are automatically placed in stratigraphic order and the corresponding packages are defined. Each package is defined by two horizons (a top and base of the package). In case of 2D HorizonCube, the input lineset/linename are selected to get the input geometrical information. This 2D lines selection is made by pressing the <i>Select</i> button next to the LineSet/LineName field in the HorizonCube Creator 2D window.</p>
+        <img src="../../../resources/images/horizoncube/horizoncube_creator_3d.png" class="image" style="width: 416px;height: 427px;" /> <img src="../../../resources/images/horizoncube/2d_horizoncube_creator.png" class="image" style="width: 417px;height: 372px;" /><p><i>HorizonCube Creator-3D</i> <i>HorizonCube Creator-2D</i></p><p style="text-align: left;"><b>HorizonCube Models</b></p><p style="text-align: left;">Three models are based on interpolation and one model uses a data driven approach:</p><img src="../../../resources/images/horizoncube/horizoncube_models.png" class="image" style="width: 598px;height: 211px;" /><ul><li style="text-align: left;" value="1"><a href="create_a_horizoncube/model_driven_settings.htm" target="_self" style="font-weight: normal;">Proportional</a>: The proportional model can also be used for 3D Stratal Slicing. In settings, the user can specify the spacing between two HorizonCube horizons.</li><li style="text-align: left;" value="2"><a href="create_a_horizoncube/model_driven_settings.htm" target="_self" style="font-weight: normal;">Parallel to upper</a>: This model best depicts the lapout patterns, such as onlaps. In settings, the user can specify vertical spacing between HorizonCube horizons.</li><li style="text-align: left;" value="3"><a href="create_a_horizoncube/model_driven_settings.htm" target="_self" style="font-weight: normal;">Parallel to lower</a>: This model relates to upward truncation patterns. In settings, the user can specify vertical spacing between HorizonCube horizons.</li><li style="text-align: left;" value="4"><a href="create_a_horizoncube/data_driven_settings.htm" target="_self" style="font-weight: normal;">Data driven</a>: This model is driven from data based upon steering information. The HorizonCube will follow the dip and azimuth information read from a <a href="../../../dip-steering.htm" target="_self" style="font-weight: normal;">SteeringCube</a>.<ul style="list-style-type: circle;"><li value="1">Tracking based algorithm – It tracks seismic horizons from a single start position by following a SteeringCube along a line or in 3D.</li><li value="2">A global inversion scheme to create a HorizonCube. This is quite similar to the concept of the <a href="../../../dip-steering/unconformity_tracker.htm">Unconformity Tracker</a>.</li></ul></li></ul><p><b>HorizonCube Creator 3D Options</b></p><p style="text-align: left;"><i>Fault:</i> 3D faults or 2D faultsticksets are selected from the main HorizonCube creator dialog. The user can select more than one fault / faultstickset.</p><p style="text-align: left;"><i>Area Subselection:</i> An area sub selection can be made to restrict the HorizonCube calculation. Please note that the HorizonCube can also be calculated within a polygonal area of interest. To know how to create a polygon in OpendTect, please refer to OpendTect Help documentation. However, this feature is not supported for a 2D HorizonCube.</p><p style="text-align: left;"><i>Output HorizonCube:</i> This field is used to give an output name for the HorizonCube.</p><p style="text-align: left;"><i>Analyze:</i> There are several checks being designed to quality control the failure of a batch program running to create a HorizonCube. The cause of failure could be a bad start position e.g. edge of survey, a trace defining a fault location, issues with the framework horizons etc. Therefore, it is always suggested to Analyze the HorizonCube processing before starting the actual processing (Go button).</p><p style="text-align: left;"><i>Go:</i> It starts the HorizonCube processing in a pop-up window. The batch processing window will provide you the instantaneous progress of HorizonCube calculation. Once the batch program prompts "Finished batch processing", the output is ready to be visualized. Press "Show options" to get the possibility for remote processing (after having pressed "Go").</p><p style="text-align: left;font-style: italic;">For more information about 2D HorizonCube Creator window refer to <a href="create_a_horizoncube-single_line.htm" target="_self">4.2.1.4 2D HorizonCube Processing</a>.</p><div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True"></div><p class="copyright">© dGB Beheer B.V. 2002 - 2019</p></body>
+</html>

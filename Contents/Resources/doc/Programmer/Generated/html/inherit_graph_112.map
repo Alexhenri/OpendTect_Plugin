@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classCoord2List.html" title="Interface for a list of Coords with automatically maintained IDs. " alt="" coords="5,5,91,35"/>
+<area shape="rect" id="node3" href="$classCoord2ListImpl.html" title="A list of Coord where each coord has a unique id. " alt="" coords="140,5,249,35"/>
+</map>

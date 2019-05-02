@@ -1,0 +1,52 @@
+#ifndef uivisslicepos3d_h
+#define uivisslicepos3d_h
+
+/*+
+________________________________________________________________________
+
+ (C) dGB Beheer B.V.; (LICENSE) http://opendtect.org/OpendTect_license.txt
+ Author:        Helene Huck
+ Date:          April 2009
+ RCS:           $Id$
+________________________________________________________________________
+
+-*/
+
+#include "uivismod.h"
+#include "uislicepos.h"
+
+namespace visSurvey
+{
+    class PlaneDataDisplay;
+    class VolumeDisplay;
+    class SurveyObject;
+}
+class uiVisPartServer;
+
+/*! \brief Toolbar for setting slice position _ 3D visualization display */
+
+mExpClass(uiVis) uiSlicePos3DDisp : public uiSlicePos
+{
+public:
+			uiSlicePos3DDisp(uiParent*,uiVisPartServer*);
+
+    void		setDisplay(int dispid);
+    int			getDisplayID() const;
+
+protected:
+
+    visSurvey::PlaneDataDisplay* curpdd_;
+    visSurvey::VolumeDisplay*	curvol_;
+    uiVisPartServer*		vispartserv_;
+
+    uiSlicePos::SliceDir	getOrientation() const;
+    TrcKeyZSampling		getSampling() const;
+
+    void			slicePosChg(CallBacker*);
+    void			sliceStepChg(CallBacker*);
+    void			setBoxRanges();
+    void			setPosBoxValue();
+    void			setStepBoxValue();
+};
+
+#endif

@@ -1,0 +1,5 @@
+<map id="lmkEMStickSetTranslator" name="lmkEMStickSetTranslator">
+<area shape="rect" id="node2" href="$classEMStickSetTranslator.html" title="EM::StickSet Translator. " alt="" coords="16,160,165,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="51,83,131,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="48,5,133,35"/>
+</map>

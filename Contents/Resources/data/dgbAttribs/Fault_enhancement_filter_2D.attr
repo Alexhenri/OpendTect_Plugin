@@ -1,0 +1,46 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 13:33:43 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x output=0
+0.UserRef: Seismic Data
+0.Hidden: No
+1.Definition: Storage id=100010.y|Steering output=0
+1.UserRef: Steering Data_inline_dip
+1.Hidden: Yes
+1.Datatype: Dip
+2.Definition: Storage id=100010.y|Steering output=1
+2.UserRef: Steering Data_crline_dip
+2.Hidden: Yes
+2.Datatype: Dip
+3.Definition: FullSteering phlock=no output=0
+3.UserRef: FullSteering 100010.y|Steering
+3.Hidden: Yes
+3.Input.0: 1
+3.Input.1: 2
+4.Definition: Similarity gate=[-28,28] pos0=0,-1 pos1=0,1 extension=None steering=yes normalize=yes output=0
+4.UserRef: Similarity
+4.Hidden: Yes
+4.Input.0: 0
+4.Input.1: 3
+5.Definition: DipSteeredMedianFilter stepout=0,2 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+5.UserRef: Dip-steered median filter
+5.Hidden: Yes
+5.Input.0: 0
+5.Input.1: 3
+6.Definition: Position stepout=0,2 gate=[0,0] oper=Max steering=yes output=0
+6.UserRef: Dip-steered diffusion filter
+6.Hidden: Yes
+6.Input.0: 4
+6.Input.1: 5
+6.Input.2: 3
+7.Definition: Math expression="x0 > c0 ? x1 : x2" constant0=0.7  output=0
+7.UserRef: Fault enhancement filter
+7.Hidden: No
+7.Input.0: 4
+7.Input.1: 5
+7.Input.2: 6
+MaxNrKeys: 7
+Type: 2D
+!

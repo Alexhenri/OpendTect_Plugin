@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering|3.2 Create Steering Data">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.2.2 Create SteeringCube</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#dip-steering/create_steering_data/create_steeringcube.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>3.2.2 Create SteeringCube<a name="kanchor314"></a></h3>
+        <img src="../../resources/images/dip-steering/create_steering_seismics.png" class="image" />
+        <p>Select the <i>Input Cube</i> (usually a seismic volume) and optionally specify the <i>Volume subselection</i> to process.</p>
+        <p>Give the SteeringCube to be computed a name under <i>Output Steering</i>.</p>
+        <p>Under <i>Batch execution</i> specify where the processing is to be done.  <i>Single Process</i> means the SteeringCube is processed on the machine you are currently working on. Under <i>Options</i> … you can set the job priority (Linux nice level) from -19 (low) to 19 (top).</p>
+        <p><i>Multiple machines</i> is the recommended mode as computing a SteeringCube is a relatively CPU intensive process. In this mode batch processing is distributed over all computers (workstations and clusters) that are available to the user. The batch processing window is launched after all parameters were set and OK is pressed.</p>
+        <p class="note"> Multi-machine batch processing is a unique selling point of OpendTect that is not automatically available after a default installation. This mode depends on the network environment and needs to be installed by the system administrator. For details, please see: Chapter 5.5 of the System Administrator’s manual.</p>
+        <p>OpendTect supports three types of <i>Steering algorithms</i>:</p>
+        <ul style="font-style: italic;">
+            <li value="1">PCA (new in 6.2)</li>
+            <li value="2">Phase-gradient (former BG)</li>
+            <li value="3">FFT</li>
+        </ul>
+        <p style="font-weight: bold;">PCA (new in 6.2)</p>
+        <p>Dip Estimation using Principal Component Analysis (PCA)</p>
+        <p>Reflection dips are estimated using Principal Component Analysis from the seismic amplitude field. This specific PCA uses an Eigen Value Decomposition (EVD) in order to extract the direction (as a 3 component vector) of maximum amplitude changes, as the largest eigen value of the decomposition.</p>
+        <p>This direction is the normal to the wavefront at any position of the seismic reflector, thus perpendicular to the dip. The second and third eigen values will be located within the plane tangent to the seismic reflection.</p>
+        <p>The EVD is applied on a sample by sample basis, using the following six amplitude gradient products, previously computed and smoothed volumetrically using recursive gaussian filters:</p>
+        <img src="../../resources/images/dip-steering/pca.png" class="image" />
+        <p>The smoothness of the output dip field is entirely determined by the strength of the filters applied to the gradient product attributes prior to the SVD decomposition. Eventually it is not one but three filters that are applied in the vertical, crossline and inline directions consecutively. It is thus possible to adjust each of the three filter strengths independently. Note however that applying a minimum smoothing of 1 in the three directions is essential for a stable estimation of the dip field. Post-processing filtering is usually not required.</p>
+        <p>Two filtering algorithms are available: the Deriche filter is applied for standard filter sizes (below 32), and the Van Vliet filter for bigger sizes (ϭ = 32 and higher). The runtime, for both filters, is independent of ϭ: Running it with ϭ = 1 takes as much time as with ϭ = 20. For example a processing done with filter size [2, 6, 40] will first apply a Van Vliet filter of ϭ = 40 in the vertical direction. Then a Deriche filter of ϭ = 6 is applied to the previous output in the crossline direction. Finally a Deriche filter of ϭ = 2 is applied in the inline direction to the output.</p>
+        <p>Because of filters being recursive filters, a larger number of samples in the direction where the filter is applied is required in order to get stable results. As a result the processing engine will automatically load up to 50 additional samples when available in order to stabilize the result. Running the PCA processing in chunks should thus deliver an almost identical result as running the entire dataset at once. However there will be a runtime penalty if the chunk size is set much smaller than 50 inlines per chunk, for instance using Multi-Machine distributed processing.</p>
+        <p>The EVD may optionally output the relative difference between the first two Eigen Values. When applied on seismic reflections, this attribute is proportional to the "planarity" of the reflection: It will reach a maximum of 1 if the reflection locally coincides with the plane tangent to it, have with be always remain larger or equal to zero.</p>
+        <p><a name="kanchor315"></a>This optional attribute is stored as a third component of the output SteeringCube. The planarity attribute, similar to a similarity attribute, can be used to weight the inversion-based horizon tracking such as Unconformity Tracker or Multi-horizon HorizonCube.</p>
+        <p style="font-weight: bold;">Phase-gradient (former BG)</p>
+        <p>Phase-gradient Steering is the recommended algorithm for applying dip-steered filters and to compute dip-steered attributes. Phase-gradient Steering is a quick algorithm developed by the BG-Group. It computes dip in a small sub-volume defined by the step-outs from the gradient of the instantaneous phase. The Phase-gradient algorithm is prone to noise, which can be overcome by adding a median or average filter. The default is to apply a mild <i>median filter</i> with step out 1,1,1.</p>
+        <p>Optionally, dip computation can be limited to a maximum dip (in us/m).</p>
+        <p style="font-weight: bold;">FFT</p>
+        <p><i>FFT Steering</i> computes dip in a small sub-volume defined by the step-outs by searching for the highest energy in the 3D Fourier transformed domain.</p>
+        <p>Also with <i>FFT Steering</i>, dip computation can optionally be limited to a <i>maximum dip</i> (in us/m) and the results can optionally be smoothed with a median or average <i>filter</i>. The default is not to smooth as smoothing filters can also be applied in a separate step afterwards (see <a href="../filter.htm" target="_self" style="font-weight: normal;">Filter SteeringCubes</a>).</p>
+        <p><i>Steering</i> calculates the dip in the inline direction and in the cross-line direction from extrema. All Maxima and Minima are determined on the central trace and two neighboring traces located at the <i>stepout</i> positions. Maxima and minima with the smallest Δt separation (see image) are considered to represent the same seismic event. This results in dip values at all extrema positions. Resampling these values to the seismic sampling rate yields the Steering data at the central trace position.</p>
+        <img src="../../resources/images/dip-steering/fltr_find_dip.png" class="image" />
+        <p>The <i>maximum dip (us/m)</i> parameter determines the search gate on the neighboring traces within which a maximum, or minimum must be found. The parameter ensures unrealistic dips are found, which may happen in noisy areas.</p>
+        <p>Also Steering supports optional application of smoothing <i>filters</i>. The default is not to smooth as smoothing filters can also be applied in a separate step afterwards (see <a href="../filter.htm" target="_self" style="font-weight: normal;">Filter SteeringCubes</a>).</p>
+        <p>The OK button starts the single machine, or multi-machine processing mode. For more information on single and multi-machine processing, open the help menu from the Batch Processing window.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

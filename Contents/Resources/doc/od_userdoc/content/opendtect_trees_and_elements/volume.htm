@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.3 Volume</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#opendtect_trees_and_elements/volume.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>3.3 Volume<a name="kanchor1244"></a></h2>
+        <p>A volume can be added by clicking on <i>Volume</i> element in the tree and selecting <i>Add</i> option. A small volume box with blank attribute is added to the scene. An attribute in the newly inserted volume can be displayed by right clicking on the volume and selecting the <i><a name="kanchor1245"></a>Select Attribute</i> option. This works similar to <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="inline_crossline_z-slice.htm" target="_self">inline/crossline/Zslice</a></MadCap:conditionalText>.</p>
+        <p class="tip"> You can display either the stored volumes or calculate the attribute within the sub-volume. For faster response times, <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="../survey/pre-load.htm" target="_self">pre-load</a></MadCap:conditionalText> the data you wish to visualize using this tree element.</p>
+        <p>The pop-up menu for the Volume element resembles that described in the previous section for <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="inline_crossline_z-slice.htm" target="_self" name="kanchor1246">inline/crossline/Z-slice</a></MadCap:conditionalText>:</p>
+        <img src="../resources/images/opendtect_trees_and_elements/volume_popout_menu.png" class="General_Image" />
+        <p><b>Select Attribute:</b> Select/change the data in a volume.</p>
+        <p><b><a name="kanchor1247"></a>Display</b>
+        </p>
+        <img src="../resources/images/opendtect_trees_and_elements/volume_display_popout.png" class="General_Image" />
+        <p><i>Properties:</i> Change display parameters such as transparency and ambiance reflectivity:</p>
+        <img src="../resources/images/opendtect_trees_and_elements/volume_display_properties_material.png" class="General_Image" /> <img src="../resources/images/opendtect_trees_and_elements/volume_display_properties_texture.png" class="General_Image" /><p><a name="add_isosurface"></a><i>Add isosurface:</i> Compute arbitrary iso value surfaces and convert them into bodies.</p><img src="../resources/images/opendtect_trees_and_elements/volume_add_isosurface.png" class="General_Image" /><p>If the option <i>Add &gt; Iso surface</i> is selected, the following window pops up with choice of modes:</p><img src="../resources/images/opendtect_trees_and_elements/volume_iso_full_volume.png" class="General_Image" /><div style="page-break-before: always"><img src="../resources/images/opendtect_trees_and_elements/volume_iso_seed_based.png" class="General_Image" /></div><p>The window displays the histogram of the data collected within the loaded volume (left), or from seeds only that are stored in a pointset (right). "Update" will update the display in the 3D scene (requires some computation time) while leaving the window open. OK will accept the currently selected (or updated) value and dismiss the selection window.</p><p>Right-click to display the iso surface menu and convert the iso surface into a stored body that in turn can be retrieved:</p><ul><li value="1"><i>Amplitude Spectrum:</i> Pop-up amplitude vs frequency plot.</li><li value="2"><i><a name="kanchor1248"></a>Histogram:</i> Display data statistics (selected attribute) of defined volume as histogram in pop up window.</li><li value="3"><i>Position:</i> Change the inl/xline/Z position within the survey boundaries.</li><li value="4"><b>Duplicate:</b> Create a duplicate/copy of the sub-volume.</li><li value="5"><b>Reset Manipulation:</b> Reset the changes made in the position of the sub-volume. This option is only available if the user has made any changes.</li><li value="6"><b>Save color settings:</b> Save the color settings.</li><li value="7"><b>Lock:</b> "Lock" option with lock the selected object, this will prevent accidental removing, moving or displaying of data on the object. After clicking "unlock" editing is enabled again.</li><li value="8"><b>Remove:</b> This will removes the element from the display.</li></ul><img src="../resources/images/opendtect_trees_and_elements/volume_iso_convert_to_body.png" class="General_Image" /><p class="tip">In Interact mode, (see <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="../getting_started/mouse_controls.htm" target="_self" name="kanchor1249">Mouse Controls</a></MadCap:conditionalText>) the cursor will return the position (inline, cross-line and X,Y,Z) and the data value at that position in the horizontal status bar of the OpendTect window.</p><p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p><p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#opendtect_trees_and_elements/volume.htm">Open topic with navigation</a></p></body>
+</html>

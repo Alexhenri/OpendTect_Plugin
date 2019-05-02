@@ -1,0 +1,6 @@
+<map id="dgbEMHorizon3DTranslator" name="dgbEMHorizon3DTranslator">
+<area shape="rect" id="node2" href="$classdgbEMSurfaceTranslator.html" title="dgb EMSurfaceTranslator " alt="" coords="13,237,179,267"/>
+<area shape="rect" id="node4" href="$classEMSurfaceTranslator.html" title="Translator for EM::Surface. " alt="" coords="24,160,168,189"/>
+<area shape="rect" id="node6" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="56,83,136,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="53,5,139,35"/>
+</map>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling|7.4.4 Add, Edit Existing Well">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.4.1 Define Property Changes</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#synthrock/profile_modeling/add_edit_existing_well/define_property_changes.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4>7.4.4.1 Define Property Changes<a name="kanchor160"></a></h4>
+        <p>Right clicking on an added well, in the lower part of <i>Profile</i> module window, can be used to <i>Edit Properties</i> of a part of that well. The image below shows a very simple model in the <i>Profile</i> module, having 25 identical pseudo-wells based on one real well. The lower window here displays a Density profile.</p>
+        <img src="../../../resources/images/synthrock/layer_modeling3.png" class="image" />
+        <p>The <i>Define property changes</i> dialogue shows thickness and average values of various layer properties (e.g. Density, Vp, AI etc.) in a given (vertical) interval, for a real well.</p>
+        <img src="../../../resources/images/synthrock/define_property_changes.png" class="image" />
+        <p><i>Original average property values in a particular interval</i>
+        </p>
+        <p>Here, the user can scale all the samples of one or more properties in that interval by specifying a different average value. This essentially means that the individual samples of a property will be scaled, so as to have the user-specified average in the given interval.</p>
+        <img src="../../../resources/images/synthrock/define_property_changes2.png" class="image" />
+        <p><i>Edited average property (Density) values in a particular interval</i>
+        </p>
+        <p>Pressing <i>Apply</i> or <i>Ok</i> will update the layer properties of the well, and consequently of the pseudo-wells and their corresponding synthetic seismic data.</p>
+        <img src="../../../resources/images/synthrock/layer_modeling4.png" class="image" />
+        <p>In real world scenarios, where multiple wells are used in modeling, the layer properties for the pseudo-wells between the edited wells and the unedited wells, are recomputed using horizontal interpolation.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

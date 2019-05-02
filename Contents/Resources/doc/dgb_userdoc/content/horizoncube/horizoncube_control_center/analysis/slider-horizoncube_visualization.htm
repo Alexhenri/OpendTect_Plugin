@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.2 Analysis">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.2.1 3D Slider - HorizonCube Visualization</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/analysis/slider-horizoncube_visualization.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor75"></a>4.2.2.1 3D Slider - HorizonCube Visualization<a name="kanchor76"></a></h4>
+        <p>A tool that is not only used to visualize the HorizonCube events in 3D but also to interpret depocenter, pinchouts, geologic bodies based on thickness /attribute map views along the events. The thicknesses are computed on the fly and are displayed as a grid on the horizons. From the isopach maps one may furthermore create <i>bodies</i>. Another benefit of the 3D slider is to save the key events as conventional OpendTect horizons.</p>
+        <img src="../../../resources/images/horizoncube/horizoncube_3d_slider.png" class="image" style="width: 500px;" />
+        <p><b>Preload HorizonCube</b>
+        </p>
+        <p>A user must preload a HorizonCube into the memory.</p>
+        <p class="note"> If the HorizonCube is big and there is insufficient RAM installed on the system, you may preload a package.</p>
+        <p><b>Top/Bottom Slider(s)</b>
+        </p>
+        <p>There are two sliders available to display the corresponding events in the scene and also to compute the isopach thicknesses between the events. The user has an option to hide either event.</p>
+        <p><b>Link to 2D displays</b>
+        </p>
+        <p>It links the (top/bottom) sliders movement to the sections (inlines/crosslines) on which the preloaded HorizonCube is displayed. So, if the slider is moved, the corresponding HorizonCube overlay on sections will also be moved.</p>
+        <p><b>Lock top-bottom distance</b>
+        </p>
+        <p>It is used to lock the number of events between the sliders positions. Once it the number of events are locked, one may use only one slider to compute the isopach between them.</p>
+        <p><b>Body</b>
+        </p>
+        <p>It is used to create a body object within OpendTect. The body can be created either within a polygon or by using mentioning the threshold value. The threshold value is the position of the red line in the histogram of the 3D Slider. The polygon is selected if a pre-defined polygon exists. If not, you will have to create a polygon first (for details please read the pickset/polygon section of the User Documentation). The second mode i.e. <i>Automatic filling</i> requires a threshold value. For instance, if one wants to create the bodies of all isopach values that have 0.25sec thickness, 0.25 should be given as a threshold. Optionally, one could move the red line in the slider to provide that value. The body is filled either with values that are below the threshold or with the values that are above the threshold. These are set in the <i>Body value</i> radio boxes.</p>
+        <p>The body is created within a selected polygon and between the two HorizonCube events positioned using the slider.</p>
+        <img src="../../../resources/images/horizoncube/create_body_from_sliders.png" class="image" />
+        <p><i>Create bodies from the 3D Slider</i>
+        </p>
+        <p><b>Surface data</b>
+        </p>
+        <p class="note"> Nothing will be computed on the displayed (Top/base) events in the scene.</p>
+        <p><b>Depth:</b> Will display the Z-values (TWT / Depth) along the events.</p>
+        <p><b>Top-Base Isopach:</b> It <i>computes</i> the isopach thickness between the two events selected by a user at particular sliders position. Once the user presses the <i>Calculate</i> button, the histogram of the thickness is displayed. The histogram display can be used to define the transparency on the thickness map. The green lines on the top of the histograms define the clipping of the histogram. The red line on the histogram is used to define the transparency.</p>
+        <p><b><a name="kanchor77"></a>New Attribute:</b> It is used to compute a stored seismic volume or a defined attribute along the horizons.</p>
+        <p><b>Transparency</b>
+        </p>
+        <p>This field defines the transparency range on a colour bar. The first two fields adjacent to the transparency are the colour ranges. The third field is the transparency cut-off value. Disable option in the list box defines no transparency, above defines transparency above a given cut-off value and below defines transparency below the cut-off value.</p>
+        <p><b>Colour bar</b>
+        </p>
+        <p>The colour ranges and the corresponding selected colour bars are available at the bottom. The active colour bar is used to display the thickness map on the displayed horizons. The colour bar can interactively be changed by scrolling the available list of pre-defined colour tables. Furthermore, one may right click on the colour bar and use the pop-up menu that work similar to the general OpendTect colour bar.</p>
+        <img src="../../../resources/images/horizoncube/horizoncube_example.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

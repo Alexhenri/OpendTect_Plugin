@@ -1,0 +1,6 @@
+<map id="SurvGeom2DTranslator" name="SurvGeom2DTranslator">
+<area shape="rect" id="node7" href="$classdgbSurvGeom2DTranslator.html" title="dgbSurvGeom2DTranslator" alt="" coords="5,237,184,267"/>
+<area shape="rect" id="node9" href="$classSEGYDirectSurvGeom2DTranslator.html" title="SEGYDirectSurvGeom2DTranslator" alt="" coords="208,237,437,267"/>
+<area shape="rect" id="node2" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="168,83,248,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="165,5,251,35"/>
+</map>

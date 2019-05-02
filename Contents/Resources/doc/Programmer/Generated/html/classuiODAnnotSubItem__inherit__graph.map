@@ -1,0 +1,9 @@
+<map id="uiODAnnotSubItem" name="uiODAnnotSubItem">
+<area shape="rect" id="node11" href="$classArrowSubItem.html" title="ArrowSubItem" alt="" coords="5,392,109,421"/>
+<area shape="rect" id="node13" href="$classImageSubItem.html" title="ImageSubItem" alt="" coords="133,392,240,421"/>
+<area shape="rect" id="node15" href="$classScaleBarSubItem.html" title="ScaleBarSubItem" alt="" coords="264,392,387,421"/>
+<area shape="rect" id="node2" href="$classuiODDisplayTreeItem.html" title="uiODDisplayTreeItem" alt="" coords="113,237,260,267"/>
+<area shape="rect" id="node4" href="$classuiODTreeItem.html" title="uiODTreeItem" alt="" coords="135,160,239,189"/>
+<area shape="rect" id="node6" href="$classuiTreeItem.html" title="uiTreeItem" alt="" coords="145,83,228,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="144,5,229,35"/>
+</map>

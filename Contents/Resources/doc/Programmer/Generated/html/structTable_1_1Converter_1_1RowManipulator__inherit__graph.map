@@ -1,0 +1,5 @@
+<map id="Table::Converter::RowManipulator" name="Table::Converter::RowManipulator">
+<area shape="rect" id="node3" href="$classTable_1_1DuplicateKeyRemover.html" title="Removes records with identical keys. " alt="" coords="5,83,197,112"/>
+<area shape="rect" id="node5" href="$classTable_1_1RecordMatcher.html" title="Only passes records where col(s) (don&#39;t) match expression(s) " alt="" coords="221,83,371,112"/>
+<area shape="rect" id="node7" href="$classTable_1_1StartStopManipulator.html" title="Removes lines at start or stop of input. " alt="" coords="395,83,579,112"/>
+</map>

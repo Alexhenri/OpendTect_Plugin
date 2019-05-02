@@ -1,0 +1,35 @@
+<map id="uidlggroup.h" name="uidlggroup.h">
+<area shape="rect" id="node3" href="$uiarray1dinterpol_8h.html" title="uiarray1dinterpol.h" alt="" coords="221,83,349,112"/>
+<area shape="rect" id="node5" href="$uiarray2dinterpol_8h.html" title="uiarray2dinterpol.h" alt="" coords="373,83,501,112"/>
+<area shape="rect" id="node7" href="$uicoordsystem_8h.html" title="uicoordsystem.h" alt="" coords="525,83,643,112"/>
+<area shape="rect" id="node21" href="$uisettings_8h.html" title="uisettings.h" alt="" coords="945,83,1033,112"/>
+<area shape="rect" id="node31" href="$uigridder2d_8h.html" title="uigridder2d.h" alt="" coords="1057,83,1153,112"/>
+<area shape="rect" id="node33" href="$uizaxistransform_8h.html" title="uizaxistransform.h" alt="" coords="1177,83,1305,112"/>
+<area shape="rect" id="node45" href="$uivalseriestracker_8h.html" title="uivalseriestracker.h" alt="" coords="1329,83,1463,112"/>
+<area shape="rect" id="node47" href="$uiflatviewpropdlg_8h.html" title="uiflatviewpropdlg.h" alt="" coords="1487,83,1617,112"/>
+<area shape="rect" id="node49" href="$uiflatviewproptabs_8h.html" title="uiflatviewproptabs.h" alt="" coords="1641,83,1780,112"/>
+<area shape="rect" id="node51" href="$uidpscrossplotpropdlg_8h.html" title="uidpscrossplotpropdlg.h" alt="" coords="1804,83,1961,112"/>
+<area shape="rect" id="node53" href="$uimanprops_8h.html" title="uimanprops.h" alt="" coords="1985,83,2084,112"/>
+<area shape="rect" id="node55" href="$uimpecorrelationgrp_8h.html" title="uimpecorrelationgrp.h" alt="" coords="2108,83,2255,112"/>
+<area shape="rect" id="node57" href="$uimpeeventgrp_8h.html" title="uimpeeventgrp.h" alt="" coords="2279,83,2396,112"/>
+<area shape="rect" id="node59" href="$uifltdispoptgrp_8h.html" title="uifltdispoptgrp.h" alt="" coords="2420,83,2535,112"/>
+<area shape="rect" id="node61" href="$uimaterialdlg_8h.html" title="uimaterialdlg.h" alt="" coords="2559,83,2665,112"/>
+<area shape="rect" id="node63" href="$uivisisosurface_8h.html" title="uivisisosurface.h" alt="" coords="2689,83,2809,112"/>
+<area shape="rect" id="node65" href="$uivisplanedatadisplaydragprop_8h.html" title="uivisplanedatadisplaydragprop.h" alt="" coords="2833,83,3039,112"/>
+<area shape="rect" id="node67" href="$uivispolygonsurfbezierdlg_8h.html" title="uivispolygonsurfbezierdlg.h" alt="" coords="3063,83,3241,112"/>
+<area shape="rect" id="node9" href="$uiimppickset_8h.html" title="uiimppickset.h" alt="" coords="5,160,112,189"/>
+<area shape="rect" id="node11" href="$uilatlong2coord_8h.html" title="uilatlong2coord.h" alt="" coords="136,160,256,189"/>
+<area shape="rect" id="node13" href="$uiseisiosimple_8h.html" title="uiseisiosimple.h" alt="" coords="280,160,395,189"/>
+<area shape="rect" id="node15" href="$uiexpfault_8h.html" title="uiexpfault.h" alt="" coords="419,160,507,189"/>
+<area shape="rect" id="node17" href="$uiexphorizon_8h.html" title="uiexphorizon.h" alt="" coords="531,160,637,189"/>
+<area shape="rect" id="node19" href="$uiprestackexpmute_8h.html" title="uiprestackexpmute.h" alt="" coords="661,160,803,189"/>
+<area shape="rect" id="node23" href="$uifontsel_8h.html" title="uifontsel.h" alt="" coords="827,160,909,189"/>
+<area shape="rect" id="node25" href="$uibatchlaunch_8h.html" title="uibatchlaunch.h" alt="" coords="933,160,1045,189"/>
+<area shape="rect" id="node27" href="$uivisemobj_8h.html" title="uivisemobj.h" alt="" coords="1069,160,1163,189"/>
+<area shape="rect" id="node29" href="$uiodscenemgr_8h.html" title="uiodscenemgr.h" alt="" coords="1187,160,1301,189"/>
+<area shape="rect" id="node35" href="$uitime2depthzaxistrans_8h.html" title="uitime2depthzaxistrans.h" alt="" coords="1325,160,1491,189"/>
+<area shape="rect" id="node43" href="$uit2dconvsel_8h.html" title="uit2dconvsel.h" alt="" coords="1515,160,1621,189"/>
+<area shape="rect" id="node37" href="$uiveldesc_8h.html" title="uiveldesc.h" alt="" coords="1240,237,1328,267"/>
+<area shape="rect" id="node39" href="$uiwellt2dconv_8h.html" title="uiwellt2dconv.h" alt="" coords="1352,237,1464,267"/>
+<area shape="rect" id="node41" href="$uilinearveltrans_8h.html" title="uilinearveltrans.h" alt="" coords="1488,237,1608,267"/>
+</map>

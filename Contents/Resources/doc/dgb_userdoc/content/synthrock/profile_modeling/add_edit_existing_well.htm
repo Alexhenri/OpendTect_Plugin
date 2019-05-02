@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.4 Add, Edit Existing Well</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/add_edit_existing_well.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.4 Add, Edit Existing Well<a name="kanchor234"></a></h3>
+        <p>Control points for the profile modeling are added with a right-click where it says "Click to add a well". Before the first control point is added you will need to <a href="../hitcube_stochastic_inversion/hitcube_analysis.htm" target="_blank" style="font-weight: normal;">specify the list of logs</a> that will be interpolated.</p>
+        <p>Add the first control point: Blocking a real well to generate the pseudo-well</p>
+        <ul>
+            <li value="1">Clicking in the bottom part of the main layer modeling window to add a well, will first pop-up the modeling <a href="set_process_parameters.htm" target="_self" style="font-weight: normal;">parameter selection</a> window. Once the process parameters are set, the program is ready to start loading the first real well for generating pseudo-well models. The following dialogue window is used for adding (and later editing) a well.</li>
+        </ul>
+        <img src="../../resources/images/synthrock/layer_generation4.png" class="image" style="width: 604px;height: 234px;" />
+        <p><i>Definition of the first control point from well F03-4</i>
+        </p>
+        <p>The <i>Relative Position</i><a name="kanchor235"></a> element specifies where the new well will be added in the profile. Here, 0% corresponds to the left-most end of the profile whereas 100% corresponds to the right-most end. For example, if N is the total number of pseudo-wells to be generated (displayed on the bottom left corner, left of the Go button), using '33%' as the relative position will add the new well at position number Nx33/100. Afterward, select an existing real well from the OpendTect database for the blocking, and a stored log corresponding to various properties, with the corresponding unit. The log units are read from the project database and should not be changed; SynthRock will not convert the units automatically. Here, there is also a functionality to create new input logs from the existing well logs (e.g. Density from Sonic), on the fly, by clicking on<img src="../../resources/images/icons/newlog.png" class="icon" />  . Additionally, a log can be viewed for QC purposes by pressing this<img src="../../resources/images/icons/view_log.png" class="icon" />  button. Pressing <i>Ok</i> or <i>Apply</i> will create a number of pseudo-wells by blocking the real well logs. An already added real well is displayed as a solid vertical line.</p>
+        <img src="../../resources/images/synthrock/pseudo-wells.png" class="image" style="width: 603px;height: 515px;" />
+        <p><i>25 pseudo-wells created from F03-4 well</i>
+        </p>
+        <p>Editing an existing well:</p>
+        <ul>
+            <li value="1">Using the above mentioned method more wells can be added. The edition of the added (real) well logs or of their relative position, can be done by right-clicking close to the solid vertical line (corresponding to the well) and then selecting <i>Edit</i>, to pop-up the dialogue window explained in the section above.</li>
+        </ul>
+        <img src="../../resources/images/synthrock/edit_well_parameters.png" class="image" />
+        <p><i>Editing the relative position of well F03-4</i>
+        </p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

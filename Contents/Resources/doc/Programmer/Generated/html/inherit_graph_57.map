@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classBasicInterval.html" title="Base class for Interval. Has no virtual functions and can hence be used in places where no virtual fu..." alt="" coords="5,5,136,35"/>
+<area shape="rect" id="node3" href="$classInterval.html" title="Interval of values. " alt="" coords="185,5,281,35"/>
+<area shape="rect" id="node5" href="$classStepInterval.html" title="Interval with step. " alt="" coords="332,5,455,35"/>
+</map>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.4 Property Prediction (using Well Logs)</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#neural_networks/property_prediction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>8.4 Property Prediction (using Well Logs)<a name="kanchor154"></a></h2>
+        <p>With this module, it is possible to relate any well log to seismic data. Select an input variable (from cubes and attributes) and, an output log variable (e.g. porosity or Vshale). The neural network will try to look for a relation between the two sets. Provided a working relationship is established, the user can then apply the trained neural network to a larger volume.</p>
+        <p class="note">Neural networks are good interpolators, but not good in extrapolating. If you train a neural network on a certain formation or interval, it is not recommended to apply it outside that formation or interval.</p>
+        <p>Since log data is being related directly to seismic data, it is essential that the well logs have a very good tie and are well aligned with the seismic data in the interval of interest. If this is not the case, results may easily become disappointing.</p>
+        <p><b>Input training data set:</b> The training data set is the collection of input and target values that the neural network is trained on. Usually, the user will leave this option at <i>Extract now</i>. In case you stored an input training data set before, tick then <i>Retrieve stored</i> and select the input training data set with a standard file browser.</p>
+        <p><b>Select input/target attributes:</b> The input attributes from the active attribute set or any of the stored cubes can be selected in the left screen. The stored cubes appear in square brackets [ ] at the bottom of the list. On the right, select the output log variable. All available logs from all wells are shown here. If the log of interest has different names for different wells, rename first these logs so that they all have exactly the same name. The log(s) can be renamed in <i>File - Manage - Wells</i>.</p>
+        <p><b>Target contains:</b> Specify if the target contains ordinary well logs value or if a lithology log is available and can be used.</p>
+        <p><b>Wells to use:</b> Select the wells on the right. From these wells, the <i>selected target</i> log is retrieved, if available.</p>
+        <p><b>Extract between:</b> Select the markers to specify the interval the neural network should be trained on. Just as with the target logs, all available markers from the available wells are displayed. You can use the same marker twice, in combination with non-zero distance above/below. It is up to the user to make sure a marker with exactly the same name actually exists in the selected wells. To edit the markers and their names, see <i>File - Manage - Wells</i>.</p>
+        <p><b>Distance above/below:</b> Indicate the extra distance above and below the start and stop marker respectively that should be taken into account in the training. Negative values are possible; negative above the top marker means start below the top marker. Negative below the bottom marker means stop before the bottom marker.</p>
+        <p><b>Radius around wells:</b> Indicates the radius around wells where the selected input attributes are calculated for each depth of extraction. All traces within the radius are selected. For example for nearest trace leave blank or put zero.</p>
+        <p><b>Vertical sampling method:</b> Well data have a much higher (vertical) resolution than seismic cubes. This means several log values correspond to a single seismic sample. Averaging can prevent aliasing problems, although this is not necessarily a problem. Therefore, one can use the median or average of the well log values corresponding to the seismic sample location. </p>
+        <p style="page-break-before: always">When predicting a binary variable (like sand/shale), or a lithology code, the most frequent filter will be necessary. <i>Nearest sample</i> selects only the nearest log value. This will be the best option in pre-filtered curves.</p>
+        <p>On pressing <i>OK</i>, the software starts collecting all necessary data. When all data is collected, the training starts and this can be monitored in the <a href="training_and_application.htm" target="_self" style="font-weight: normal;">NN training window</a>.</p>
+        <img src="../resources/images/neural_networks/nn_design2.png" class="image" />
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

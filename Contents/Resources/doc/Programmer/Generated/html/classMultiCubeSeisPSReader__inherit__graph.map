@@ -1,0 +1,4 @@
+<map id="MultiCubeSeisPSReader" name="MultiCubeSeisPSReader">
+<area shape="rect" id="node2" href="$classSeisPS3DReader.html" title="reads from a 3D prestack seismic data store. " alt="" coords="25,83,151,112"/>
+<area shape="rect" id="node4" href="$classSeisPSReader.html" title="reads from a prestack seismic data store. " alt="" coords="35,5,141,35"/>
+</map>

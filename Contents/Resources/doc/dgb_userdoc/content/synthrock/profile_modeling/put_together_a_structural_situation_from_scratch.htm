@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.3 Put Together a Structural Situation from Scratch</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/put_together_a_structural_situation_from_scratch.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.3 Put Together a Structural Situation from Scratch<a name="kanchor145"></a></h3>
+        <p><i>Put together a structural situation from scratch</i> is a powerful modeling tool with all classic Profile mode functionality. In this mode a user starts building a model from scratch. It gives all the flexibility available, but also requires more time than the pre-defined workflows. Therefore, it is recommended to start with pre-defined workflows if possible and, once a simple model is built, continue with a classic Profile mode functionality as described below.</p>
+        <p><i>Put together a structural situation from scratch</i> can be launched from <i><a name="kanchor146"></a>SynthRock</i> start window either by checking the corresponding box and clicking OK or simply by clicking on the large Profile icon.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_main.png" class="image" />
+        <p><b>Add/edit well and control profile</b>
+        </p>
+        <p>Control points for the profile modeling are added with a right-click in the bottom part of Layer modeling window. Before the first control point is added, a pop-up window <i>Set process parameters</i>  requires to confirm/specify modeling parameters and pop-up window <i>Layer Properties - Selection</i>  allows to select properties to be used in modeling. Later during the modeling both sets of parameters can be modified by clicking on the<img src="../../resources/images/icons/tools.png" class="icon" />  and <img src="../../resources/images/icons/defprops.png" class="icon" />  icons respectively. The first control point must be an existing well in the project. Additional control points can be created by adding more wells (Add well) or by setting existing pseudowells as control profiles (<i>Add Control Profile</i>).</p>
+        <p><b>Add the first well</b>
+        </p>
+        <p>Click in the area where it says <i>&lt;Click to add a well&gt;</i>. Once the modeling parameters and the property list are confirmed, the first control point can be added. <i>Add well</i> window allows to choose the well to be added.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_wll_1.png" class="image" />
+        <p>The <i>Relative Position</i> element specifies where the new well is added in the profile. Here, 0 and 100% correspond to the left and right ends of the profile respectively. Thus, the position of the added well is determined as (<i>N * Relative Position)/100</i> where <i>N</i> is the number of pseudowells to be generated (specified left of the<img src="../../resources/images/icons/go.png" class="icon" />   button). Note, that all properties chosen in <i>Layer Properties - Selection</i> window are required to have a log selected. Missing logs can be either created by clicking on the <img src="../../resources/images/icons/newlog.png" class="icon" /> icon without having to exit SynthRock or imported  using the <i>Well Manager</i>. The selected log can be displayed by clicking on the <img src="../../resources/images/icons/view_log.png" class="icon" /> icon. Pressing Ok or <i>Apply</i> creates a specified number of pseudowells that have been interpolated/extrapolated from the selected well with logs upscaled according to <i>Set process parameters</i> window. The original well is displayed as a solid vertical line. When the first well is added, the generated pseudowells are simply duplicates of the original one. Corresponding synthetic seismic section is generated using the chosen wavelet and displayed in the top part of <i>Layer modeling window</i>.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_lyr_mod.png" class="image" />
+        <p><b>Add more wells</b>
+        </p>
+        <p>Once the first well is added, right click in the lower part of the<i>Layer modeling</i> window brings up several options as shown below.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_mor_wlls.png" class="image" />
+        <p>The <i>Add Well</i> option brings exactly the same window as the first time. After adding a new well, the pseudowells are re-generated by horizontal interpolation between the original wells in the profile.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_mor_wlls_lyr_mod.png" class="image" />
+        <p><b>Add control profile</b>
+        </p>
+        <p>Right click on existing profile outside added wells and select to <i>Add Control Profile</i>. Specify <i>Relative Position</i> and click <i>Apply</i> to find out that a new control profile is added to the <i>Layer modeling</i> window without thickness or depth changes so far. In the example below, a control profile is added to the model containing only one original well <i>F03-4</i>. The control profile is displayed with a dashed line.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_lyr_mod.png" class="image" />
+        </div>
+        <p>When adding a control profile, depths of a single top or of several tops simultaneously can be changed in <i>Add control profile</i> window. The depth of a single top can be modified when <i>Couple depths</i> option is unchecked. Note, that the same modified depth is assigned to those tops whose stratigraphic order is broken by the modification, while the depths of all other tops are kept unchanged. In the example below <i>FS8</i> depth is changed from 535 to 650 . Note, that <i>FS7</i> and <i>Truncation</i> tops are assigned the same depth in order to preserve the stratigraphic order of the tops. All the other depths are kept unchanged.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_2.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_lyr_mod_2.png" class="image" />
+        </div>
+        <p>If the <i>Couple depths</i> option is checked, depths of several tops can be modified simultaneously. If both <i>Push</i> and <i>Pull</i> are checked, all tops can be shifted up or down by changing one depth by the desired shift. Note, that the stratigraphic order of tops is never broken in <i>Push</i> and <i>Pull</i> case. In the example below, the depth of <i>FS8</i> top is decreased by 100 m, thus shifting all formation tops 100 m up.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_3.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_lyr_mod_3.png" class="image" />
+        </div>
+        <p>If only <i>Push</i> is checked and the modified top is shifted up, then the tops above it are pushed up by the same amount. Similarly, if only <i>Push</i> is checked and the modified top is shifted down, then the tops below it are pushed down by the same amount. Note, that the stratigraphic order of tops is never broken in the <i>Push</i> only case. In the example below, the depth of <i>FS8</i> top was decreased by 100 m, thus shifting it and all the tops above it 100 m up, while the tops below it are kept unchanged.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_4.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_lyr_mod_4.png" class="image" />
+        </div>
+        <p>If only <i>Pull</i> is checked and the modified top is shifted up, then the tops below it are pulled up by the same amount. Similarly, if only <i>Pull</i> is checked and the modified top is shifted down, then the tops above it are pulled down by the same amount. Note, that the stratigraphic order of tops can be broken in the <i>Pull</i> only case. In the example below, the depth of <i>FS6</i> top was decreased by 200 m, thus shifting it and all the tops below it 200 m up. Note, that two tops above <i>FS6</i>, <i>Truncation</i> and <i>Top Foresets</i>, are assigned the same depth as <i>FS6</i> in order to preserve the stratigraphic order of the top. All the other tops above it are kept unchanged.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_5.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_add_cntrl_prfl_lyr_mod_5.png" class="image" />
+        </div>
+        <p><b>Edit well or control profile</b>
+        </p>
+        <p>Right click on added wells or control profiles allows to choose the <i>Edit</i> option.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_popout.png" class="image" />
+        <p><i>Edit well parameters</i> and <i>Edit control profile</i> windows are almost identical to the <i>Add well</i> and <i>Add control profile</i> windows respectively and allow changes of already added objects. Optionally, a single well or control profile can be removed by choosing <i>Remove</i> option.</p>
+        <p><b>Define Property Changes</b>
+        </p>
+        <p>Right click change Properties option brings up a Define property changes window. Properties of a selected interval can be changed in such a manner that individual samples of a property are scaled to have the user-specified average in the given interval. Note, that this window for added wells does not allow thickness to be changed, whereas the same window for a control profile does allow.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_wll.png" class="image" />
+        <p><i>Define property change for a well</i>
+        </p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_ctrl_prfl.png" class="image" />
+        <p><i>Define property change for a control profile</i>
+        </p>
+        <p>The first example shows construction of a simple model of a lateral change in porosity and acoustic impedance. The model consists of one well at the far-left side and one control profile at the far-right side of the profile. The two lower markers, light green and blue, correspond to <i>FS8</i> and <i>FS7</i> tops respectively. Green dots found on synthetic seismic panel correspond to <i>FS8</i> top. So far, the properties are not varied along the profile.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_exmpl_1.png" class="image" />
+        <p>Right click on the control profile and choose the <i>change Properties</i> option. Once the interval <i>FS8-FS7</i> is selected in the <i>Define property change</i> window, its greyed-out current properties are shown in the left column. User-modified properties are typed in the right column. Clicking <i>Apply</i> or OK re-generates pseudowells and synthetic seismic to reflect the changes.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_ctrl_prfl_2.png" class="image" />
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_edit_exmpl_2.png" class="image" />
+        <p><b>Use Horizon</b>
+        </p>
+        <p>Existing horizons from the project database can be used to easily and quickly mimic an interpreted (3D or 2D) structure and align the pseudo-wells along it in the profile modeling. This workflow is based on an automated creation of a number of <i>Control Profiles</i> that follow the depth trend of the selected horizon. It can be started by right clicking in the bottom part of <i>Layer modeling</i> window and selecting use <i>Horizon</i> option. The layout of <i>Use horizon for profile</i> window depends on the number of wells used in the modeling.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor.png" class="image" />
+        <p><b>If there is only one (real) well loaded in the layer</b>, the following dialogue window will appear:</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor_fr_prfl.png" class="image" />
+        <p>In the <i>Use horizon for profile</i> window the user must select a horizon (2D or 3D) on which the simulation of the structure is based. Then, the corresponding formation top has to be chosen. The algorithm adds a user-defined or automatically computed (if unchecked) number of control profiles. At these control profiles, depths of the chosen top are changed using the selected horizon. Linear interpolation of the top depths is performed between them. Handling of other formation tops is set with Shift other markers option to one of the following: <i>All, No, Only Above</i> or <i>Only Below.</i> <i>Section direction</i> and <i>section length</i> should be thought of as an orientation and a length of a 2D profile through the well along which the specified horizon is extracted.</p>
+        <p>The example below shows the case when a single <i>F03-4</i> well is used in the modeling. Note, that it is a zoom-in, red line on synthetic seismic corresponds to <i>Top Foresets</i>. Specifying parameters, as shown and described above, and clicking OK re-generates the pseudowells. Control profiles shown with dashed line guide the structural modeling.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor_fr_prfl_exmpl.png" class="image" />
+        <p><b>If there are more than one (real) wells loaded in the layer</b>, the <i>use Horizon</i> option will bring-up a slightly different dialogue. Two last options from a single well case are eliminated, because well locations determine the direction of the profile along which the specified horizon is extracted.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor_2.png" class="image" />
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor_fr_prfl_2.png" class="image" />
+        <p>The example below shows the case when two wells, <i>F03-4</i> and <i>F02-1</i>, are used in the modeling. Parameters are set as in the figure above. Upon clicking OK in the above window, control profiles are added as dashed lines, and pseudowells are re-generated as shown below. The green line on synthetic seismic display corresponds to <i>FS8</i> top.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_fm_scrtch_use_hor_fr_prfl_exmpl_2.png" class="image" />
+        <p>Finally, it is useful to note that depth trends of multiple horizons can be used to build a single profile model, by repeating the above workflow for different horizons and shifting only the corresponding marker each time. Perhaps, in such a case a much quicker option is to use one of the pre-defined workflows called <a href="model_an_existing_line_through_wells.htm" target="_self" style="font-style: normal;font-weight: normal;">Model an existing line through well(s)</a>.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

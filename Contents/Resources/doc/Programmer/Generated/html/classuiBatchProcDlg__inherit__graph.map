@@ -1,0 +1,10 @@
+<map id="uiBatchProcDlg" name="uiBatchProcDlg">
+<area shape="rect" id="node11" href="$classPreStack_1_1uiBatchProcSetup.html" title="PreStack::uiBatchProcSetup" alt="" coords="5,392,195,421"/>
+<area shape="rect" id="node13" href="$classuiAttrEMOut.html" title="Brief Base class Earth Model Output Batch dialog. Used for calculating attributes in relation with su..." alt="" coords="219,392,312,421"/>
+<area shape="rect" id="node19" href="$classuiAttrVolOut.html" title="Dialog for creating volume output. " alt="" coords="336,392,429,421"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="231,237,300,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="224,160,307,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="231,83,300,112"/>
+<area shape="rect" id="node15" href="$classuiAttrSurfaceOut.html" title="Surface Output Batch dialog. Used for calculating attributes on surfaces. " alt="" coords="137,469,255,499"/>
+<area shape="rect" id="node17" href="$classuiAttrTrcSelOut.html" title="Trace Selection Output Batch dialog. Used for calculating attributes between surfaces or withing a us..." alt="" coords="279,469,391,499"/>
+</map>

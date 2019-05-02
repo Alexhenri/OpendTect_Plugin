@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="6 Well Correlation Panel">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>6.3 Correlation Displays and Settings</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#well_correlation_panel/correlation_display_and_settings.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>6.3 Correlation Displays and Settings<a name="kanchor332"></a></h2>
+        <img src="../resources/images/well_correlation_panel/wcp_displays.png" class="image" />
+        <p><i><a name="kanchor333"></a>Several displays for WCP</i>
+        </p>
+        <p>WCP supports several displays for correlations; Equidistant display, in which the distance between the selected wells is set to an equal distance or normal distance display, in which the real well-to-well distance is scaled and is displayed in the correlation panel. Moreover, the well data can also be overlain on top of seismic or with a gap between seismic. Any wells can also be displayed without using seismic. These display settings can be accessed from the &lt;="" a=""&gt; and from the tree.</p>
+        <p>
+            <img src="../resources/images/well_correlation_panel/tree_items.png" class="image" style="float: left;" /> <b>Variable Density:</b> Right-click to display seismic data.</p>
+        <p><b>Horizon3D/2D:</b> Display a 3D horizon if an inline is displayed in the panel or a 2D horizon if a 2D line is displayed in the panel. Additionally, start interpreting a new 2D/3D horizon.</p>
+        <p><b>FaultStickSet:</b> Display a fault-stick set or interpret a new fault stick set.</p>
+        <p><b>Fault:</b> Display/Interpret a 3D fault.</p>
+        <p><b><a name="kanchor334"></a>HorizonCube:</b> Add a HorizonCube display.</p>
+        <p><b>Systems Tracts:</b><a name="kanchor335"></a> Add an overlay of SSIS interpretation i.e. systems tracts.</p>
+        <p><b>Correlation Views</b>
+        </p>
+        <p>The toolbar, available at the bottom of a well correlation panel, is used to prepare different type of correlation views e.g. well-well only without seismic, well-seismic correlations without displaying logs and the well-seismic correlations using well logs and seismic. The combo-box (shown below) is used for setting these properties.</p>
+        <p>The well settings<img src="../resources/images/icons/settings.png" class="icon" />  are used to display a well panel either as a gap between seismic transect or on top of the seismic transect. By default, the well panel is displayed as a separate panel connecting the seismic transect. Once the <i>On top</i> box is checked, the well logs panel is displayed on top of the seismic data. Additionally, the top log information header may be toggled off/on.</p>
+        <p>
+            <img src="../resources/images/well_correlation_panel/view_wells_seismics_129x20.png" style="width: 129;height: 20;" /> <img src="../resources/images/icons/settings.png" class="icon" /> <img src="../resources/images/icons/wellmarkercorr.png" class="icon" /></p>
+        <p>The width (pixels) is used to control the well panel width. The minimum range is 35pixels.</p>
+        <p>Set an <i>Equidistant Correlation View</i> check the <i>Set Equidistant</i> box.</p>
+        <img src="../resources/images/well_correlation_panel/well_settings.png" class="image" />
+        <p><i>Draw Marker Correlation(s)</i> by pressing this icon<img src="../resources/images/icons/wellmarkercorr.png" class="icon" />  . In the pop-up window i.e. 'Correlation Display', the <i>Draw marker connectors</i> box should be checked in order to draw a straight line marker connection between the wells. In addition, the section between the markers/horizons with the stratigraphy may be filled.</p>
+        <img src="../resources/images/well_correlation_panel/correlation_display.png" class="image" />
+        <p style="page-break-before: always"><b>Seismic Display Properties</b>
+        </p>
+        <p>The icon<img src="../resources/images/icons/disppars.png" class="icon" />  launches the seismic display properties dialog. This window (below) is used to change the color spectrum of the seismic and to define amplitude clipping range. The clipping range can be set to 'none' for no clipping. Once the parameters are set, press the <i>Apply</i> button to see changes of the seismic display in the WCP.</p>
+        <img src="../resources/images/well_correlation_panel/display_properties.png" class="image" />
+        <p><i>The color settings for the displayed seismic line are changed here.</i>
+        </p>
+        <p><b>Well Display Properties</b>
+        </p>
+        <p>The well display properties are launched by pressing this icon<img src="../resources/images/icons/well_props.png" class="icon" />  . The well display properties window opens the settings for individual well or for all wells. By default the settings are defined only for an individual well, as seen on the top of this window. To apply same settings to all wells displayed in the WCP, use the <i>Apply to all wells</i> button. Moreover, the tabs <i>Log 1</i> and <i>Log 2</i> are normally defined independently. However, both tabs have identical options.</p>
+        <p>By default, only one panels is displayed for the log display. The <i>Panel -- Number</i> field on the top of this window is used to add more panel and its corresponding settings. For instance, if <i>Number</i> is 2 and <i>Panel</i> is 1, and the user defines the settings in Log 1 tab, then the settings are only defined for the Panel 1. To apply new settings for another log panel, please change the <i>Panel</i> to 2.</p>
+        <p>In the <i>Log 1</i> tab, the log is selected from the drop down list of <i>Select</i> log field. The <i>Specify</i> option enables specification of a clipping/non-clipping range. If the <i>Specify</i> field is set to 'data range', the min/max log values are used to display the log curve (i.e. non-clipped). A user may over-rule this by setting <i>Log range (min/max)</i> manually. The selected log ranges can also be flipped by checking the <i>Mirror</i> option. The <i>logarithmic</i> option can be used to change the log curve display into a logarithmic display. The line <i>thickness</i> and <i>color</i> properties can also be modified. The log curve can be filled by setting the <i>Fill</i> properties. There are three types of filling properties currently supported: filling the curve on the left- or right side of the log or the full panel. Optionally, the log may be filled with a single user-defined color. Another option is to flip the color table, which reverses the color spectrum. Similar settings can be set for the other log from the tab <i>Log 2</i>.</p>
+        <img src="../resources/images/well_correlation_panel/well_display_properties.png" class="image" />
+        <p><i>Well logs are selected and their display settings are changed in this window.</i>
+        </p>
+        <p>Another WCP display option is to overlay the WCP with Stratigraphy<img src="../resources/images/icons/man_strat.png" class="icon" />  defined in OpendTect. This is added from the WCP well display properties (<i>Stratigraphy</i> tab)</p>
+        <img src="../resources/images/well_correlation_panel/stratigraphy.png" class="image" />
+        <p><i>Display Stratigraphy in WCP</i>
+        </p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

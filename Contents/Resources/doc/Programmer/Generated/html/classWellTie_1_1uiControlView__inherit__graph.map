@@ -1,0 +1,6 @@
+<map id="WellTie::uiControlView" name="WellTie::uiControlView">
+<area shape="rect" id="node2" href="$classuiFlatViewStdControl.html" title="The standard tools to control uiFlatViewer(s). " alt="" coords="11,315,155,344"/>
+<area shape="rect" id="node4" href="$classuiFlatViewControl.html" title="Tools to control uiFlatViewer(s). " alt="" coords="20,237,145,267"/>
+<area shape="rect" id="node6" href="$classuiGroup.html" title="uiGroup" alt="" coords="49,160,116,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="48,83,117,112"/>
+</map>

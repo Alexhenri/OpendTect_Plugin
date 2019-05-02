@@ -1,0 +1,28 @@
+<map id="resizeimage.h" name="resizeimage.h">
+<area shape="rect" id="node3" href="$paralleltask_8h.html" title="paralleltask.h" alt="" coords="7,83,105,112"/>
+<area shape="rect" id="node7" href="$task_8h.html" title="task.h" alt="" coords="547,160,605,189"/>
+<area shape="rect" id="node18" href="$atomic_8h.html" title="atomic.h" alt="" coords="317,1011,389,1040"/>
+<area shape="rect" id="node10" href="$namedobj_8h.html" title="namedobj.h" alt="" coords="337,237,425,267"/>
+<area shape="rect" id="node37" href="$objectset_8h.html" title="objectset.h" alt="" coords="641,469,727,499"/>
+<area shape="rect" id="node94" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="1056,779,1149,808"/>
+<area shape="rect" id="node102" href="$uistring_8h.html" title="uistring.h" alt="" coords="913,392,988,421"/>
+<area shape="rect" id="node13" href="$callback_8h.html" title="callback.h" alt="" coords="479,315,559,344"/>
+<area shape="rect" id="node62" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="372,701,455,731"/>
+<area shape="rect" id="node16" href="$refcount_8h.html" title="refcount.h" alt="" coords="556,392,636,421"/>
+<area shape="rect" id="node87" href="$sets_8h.html" title="sets.h" alt="" coords="711,392,769,421"/>
+<area shape="rect" id="node21" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="975,1088,1081,1117"/>
+<area shape="rect" id="node30" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="873,1088,951,1117"/>
+<area shape="rect" id="node24" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="939,1165,1011,1195"/>
+<area shape="rect" id="node39" href="$odset_8h.html" title="odset.h" alt="" coords="763,547,827,576"/>
+<area shape="rect" id="node56" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="629,547,739,576"/>
+<area shape="rect" id="node41" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="799,933,876,963"/>
+<area shape="rect" id="node43" href="$undefval_8h.html" title="undefval.h" alt="" coords="796,1011,879,1040"/>
+<area shape="rect" id="node48" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="903,1011,1017,1040"/>
+<area shape="rect" id="node51" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="1143,1011,1215,1040"/>
+<area shape="rect" id="node58" href="$debug_8h.html" title="debug.h" alt="" coords="415,624,481,653"/>
+<area shape="rect" id="node65" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="569,779,663,808"/>
+<area shape="rect" id="node72" href="$string2_8h.html" title="string2.h" alt="" coords="649,1011,721,1040"/>
+<area shape="rect" id="node68" href="$odstring_8h.html" title="odstring.h" alt="" coords="585,856,663,885"/>
+<area shape="rect" id="node89" href="$typeset_8h.html" title="typeset.h" alt="" coords="755,469,829,499"/>
+<area shape="rect" id="node105" href="$keystrs_8h.html" title="keystrs.h" alt="" coords="839,701,913,731"/>
+</map>

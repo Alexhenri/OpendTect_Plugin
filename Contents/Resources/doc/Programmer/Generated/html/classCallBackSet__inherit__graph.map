@@ -1,0 +1,8 @@
+<map id="CallBackSet" name="CallBackSet">
+<area shape="rect" id="node2" href="$classTypeSet.html" title="TypeSet\&lt; CallBack \&gt;" alt="" coords="103,376,249,405"/>
+<area shape="rect" id="node4" href="$classTypeSetBase.html" title="TypeSetBase\&lt; CallBack,\l int \&gt;" alt="" coords="5,182,176,229"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="163,5,232,35"/>
+<area shape="rect" id="node8" href="$classTypeSetBase.html" title="Base class for TypeSet, usually not used as such. " alt="" coords="125,85,269,115"/>
+<area shape="rect" id="node13" href="$classTypeSetBase.html" title="TypeSetBase\&lt; T, int \&gt;" alt="" coords="200,191,355,220"/>
+<area shape="rect" id="node11" href="$classTypeSet.html" title="Set of (small) copyable elements. " alt="" coords="189,280,291,309"/>
+</map>

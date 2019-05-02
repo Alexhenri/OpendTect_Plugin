@@ -1,0 +1,5 @@
+<map id="dgbWaveletTranslator" name="dgbWaveletTranslator">
+<area shape="rect" id="node2" href="$classWaveletTranslator.html" title="WaveletTranslator" alt="" coords="16,160,144,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="40,83,120,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="37,5,123,35"/>
+</map>

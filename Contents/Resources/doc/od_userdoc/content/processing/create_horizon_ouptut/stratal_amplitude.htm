@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="6 Processing|6.2 Create Horizon Output">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>6.2.2 Stratal Amplitude</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#processing/create_horizon_ouptut/stratal_amplitude.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>6.2.2 Stratal Amplitude<a name="kanchor288"></a></h3>
+        <p><i>Stratal Amplitude</i> is a processing tool available to compute statistics (min, max, rms, etc.) from an attribute along a horizon or between two horizons. The window can be launched from <i><a name="kanchor289"></a><a name="kanchor290"></a>Processing &gt; Create Horizon output &gt; Stratal Amplitude</i>. The output will be stored as horizon data (grid) saved on the top or base horizon.</p>
+        <p class="tip">This feature operates based on a single-trace calculation only (ie: no step-out). For multi-trace calculations (using step-out), you are advised to use the <a href="../../appendix_a-attributes_and_filters/volume_statistics.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor291">Volume Statistics</a> attribute.</p>
+        <img src="../../resources/images/processing/create_horizon_stratal_amplitude.png" class="General_Image" />
+        <p style="page-break-before: always">In this window, select the input attribute from which the values will be extracted. The extraction may be guided by a single horizon (<i>Single Horizon</i>) or between two horizons (<i>Double Horizon</i>).</p>
+        <ul>
+            <li value="1"><b>Single Horizon</b> is used to extract amplitude along a horizon within fixed window relative to the point.</li>
+            <li value="2"><b>Double Horizon</b> is an option of amplitude extraction between two horizons. In this case, the Z-offset parameters (see below) may be defined to increase or decrease the area defined by the horizons.</li>
+            <li value="3"><b>Z-offset</b> is the offset window specification above (negative values) or below (positive values) a horizon to restrict or extend the calculation interval. For example:</li>
+        </ul>
+        <img src="../../resources/images/processing/create_horizon_stratal_amplitude_z_offset_1.png" class="General_Image" />
+        <p><i><a name="kanchor292"></a>Settings to extract the average amplitude between 16 and 24 ms <b>above</b> ('-' values) the selected horizon.</i>
+        </p>
+        <img src="../../resources/images/processing/create_horizon_stratal_amplitude_z_offset_2.png" class="General_Image" />
+        <p style="font-style: italic;">Settings to extract the average amplitude between 8 and 32 ms <b>below</b> (for positive values there is no need to prefix with a '+' sign) the selected horizon.</p>
+        <img src="../../resources/images/processing/create_horizon_stratal_amplitude_z_offset_3.png" class="General_Image" />
+        <p><i>Settings to extract the average amplitude 8ms equally <b>around</b> the selected horizon.</i>
+        </p>
+        <ul>
+            <li value="1"><b>Area subselection</b> is used to specify the area within which the attribute is output.</li>
+            <li value="2"><b>Amplitude options</b> are the available statistics for amplitude extraction. Five amplitude statistics are available: Min, Max, Average or RMS and Sum.</li>
+            <li value="3"><b>Output fold as an extra attribute</b> optionally outputs data fold, i.e the number of point used for the processing, as separate horizon data.</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#processing/create_horizon_ouptut/stratal_amplitude.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

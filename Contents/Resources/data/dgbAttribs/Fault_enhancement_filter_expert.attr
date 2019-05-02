@@ -1,0 +1,54 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 2015, 16:08:40
+!
+Attribute Descriptions
+1.Definition: Storage id=100010.x output=0
+1.UserRef: 1 Original Seismics
+1.Hidden: No
+2.Definition: Storage id=100010.y output=0
+2.UserRef: 3 Steering BG Background_inline_dip
+2.Hidden: Yes
+3.Definition: Storage id=100010.y output=1
+3.UserRef: 3 Steering BG Background_crline_dip
+3.Hidden: Yes
+4.Definition: FullSteering phlock=no output=0
+4.UserRef: FullSteering 100010.y
+4.Hidden: Yes
+4.Input.0: 2
+4.Input.1: 3
+5.Definition: DipSteeredMedianFilter stepout=1,1 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+5.UserRef: Dip-steered median filter (DSMF) - small step
+5.Hidden: No
+5.Input.0: 1
+5.Input.1: 4
+6.Definition: DipSteeredMedianFilter stepout=2,2 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+6.UserRef: Dip-steered median filter (DSMF) - large step
+6.Hidden: No
+6.Input.0: 1
+6.Input.1: 4
+7.Definition: Similarity gate=[-28,28] stepout=1,1 extension=Cross steering=yes normalize=no output=3
+7.UserRef: Similarity
+7.Hidden: No
+7.Input.0: 5
+7.Input.1: 4
+8.Definition: Position stepout=1,1 gate=[0,0] oper=Max steering=yes output=0
+8.UserRef: Dip-steered diffusion filter (DSDF)
+8.Hidden: No
+8.Input.0: 7
+8.Input.1: 5
+8.Input.2: 4
+9.Definition: Math expression="Similarity > c0 ? DSMF : DSDF" constant0=0.5  output=0
+9.UserRef: Fault enhancement filter (FEF)
+9.Hidden: No
+9.Input.0: 7
+9.Input.1: 6
+9.Input.2: 8
+10.Definition: Similarity gate=[-28,28] stepout=1,1 extension=Cube steering=yes normalize=no output=3
+10.UserRef: Similarity on FEF
+10.Hidden: No
+10.Input.0: 9
+10.Input.1: 4
+MaxNrKeys: 10
+Type: 3D
+!

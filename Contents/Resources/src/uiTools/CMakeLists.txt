@@ -1,0 +1,125 @@
+#_______________________Pmake___________________________________________________
+#
+#	Makefile : 	General uiToolkits
+# 	Jan 2012	K. Tingdahl
+#	RCS :		$Id$
+#_______________________________________________________________________________
+
+add_definitions( -DmNoAutoUiString )
+
+SET( OD_MODULE_DEPS uiBase MMProc )
+SET( OD_MODULE_SOURCES
+	inituitools.cc
+	annotbuffill.cc
+	uiamplspectrum.cc
+	uiapplserv.cc
+	uiarray2dchg.cc
+	uiarray1dinterpol.cc
+	uiarray2dinterpol.cc
+	uiaxisdata.cc
+	uiaxishandler.cc
+	uibasemap.cc
+	uibatchjobdispatcher.cc
+	uibatchprocdlg.cc
+	uibinidtable.cc
+	uibuildlistfromlist.cc
+	uibuttonstateedit.cc
+	uichecklist.cc
+	uicolortable.cc
+	uicoltabimport.cc
+	uicoltabman.cc
+	uicoltabmarker.cc
+	uicoltabtools.cc
+	uicompparsel.cc
+	uiconstvel.cc
+	uicoordsystem.cc
+	uidirectionalplot.cc
+	uidlggroup.cc
+	uifileinput.cc
+	uifillpattern.cc
+	uifontsel.cc
+	uifreqfilter.cc
+	uifunctiondisplay.cc
+	uigeninput.cc
+	uigeninput_impl.cc
+	uigeninputdlg.cc
+	uigraphicsscalebar.cc
+	uigraphicssaveimagedlg.cc
+	uigraphicssceneaxismgr.cc
+	uigraphicsview.cc
+	uigridder2d.cc
+	uigvfreehandareaselectiontool.cc
+	uihandledlsitefail.cc
+	uihistogramdisplay.cc
+	uihistogramsel.cc
+	uiinterpollayermodel.cc
+	uiiosel.cc
+	uiissuereporter.cc
+	uilistboxfilter.cc
+	uimapperrangeeditor.cc
+	uimenuhandler.cc
+	uimapperrangeeditordlg.cc
+	uimarkerstyle.cc
+	uimathexpression.cc
+	uimathexpressionvariable.cc
+	uimeasuredlg.cc
+	uinotsaveddlg.cc
+	uiobjectitemview.cc
+	uiobjectitemviewwin.cc
+	uiofferinfo.cc
+	uipluginman.cc
+	uipluginsel.cc
+	uipositiontable.cc
+	uipropvalfld.cc
+	uiproxydlg.cc
+	uiraytrace1d.cc
+	uirgbarraycanvas.cc
+	uirockphysform.cc
+	uisaveimagedlg.cc
+	uiscaler.cc
+	uisellinest.cc
+	uiselsimple.cc
+	uisettings.cc
+	uishortcuts.cc
+	uislicepos.cc
+	uislicesel.cc
+	uistatsdisplay.cc
+	uistepoutsel.cc
+	uistratlvlsel.cc
+	uitblimpexpdatasel.cc
+	uitaskrunner.cc
+	uitextfile.cc
+	uitime2depthzaxistrans.cc
+	uitreeitemmanager.cc
+	uiunitsel.cc
+	uivalseriestracker.cc
+	uivariogram.cc
+	uivarwizard.cc
+	uiwindowfunctionsel.cc
+	uiwindowfuncseldlg.cc
+	uiwindowgrabber.cc
+	uiwizard.cc
+	uiworld2ui.cc
+	uizaxistransform.cc
+	uizrangeinput.cc
+	uipolardiagram.cc
+)
+
+set( OD_MODULE_GUI_PROGS
+	od_FileBrowser.cc
+	od_ImageViewer.cc
+	od_ProgressViewer.cc
+	od_uiReportIssue.cc
+)
+
+if( WIN32 )
+    list( APPEND OD_ELEVATED_PERMISSIONS_GUI_PROGS od_runinst.cc )
+    set( OD_od_runinst_RESOURCE resources/od_runinst.rc )
+endif( WIN32 )
+
+if ( OD_ENABLE_BREAKPAD )
+    list ( APPEND OD_MODULE_PROGS test_breakpad.cc )
+endif()
+
+
+OD_INIT_MODULE()

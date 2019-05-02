@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.4 Export|4.4.8 Export Seismics">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.4.8.1 Export SEG-Y</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#survey/export/export_seismics/export_seg-y.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor582"></a><a name="kanchor583"></a>4.4.8.1 Export SEG-Y<a name="kanchor584"></a></h4>
+        <p>2D/3D Poststack and 3D Prestack data can be exported from OpendTect in SEG-Y format:</p>
+        <img src="../../../resources/images/survey/export_seismics_segy_popout_menu.png" class="General_Image" />
+        <p>The SEG-Y revision 1 default bytes locations will be used during export, but additional positions can be used with the <a href="../../../utilities/settings/advanced_settings/personal_settings.htm" target="_self" data-mc-conditions="Default.ScreenOnly">personal setting keywords</a> listed on the right-hand side.</p>
+        <p>The point is a trace attribute stored in the OpendTect seismic files. It is most often not used.</p>
+        <p>The reference number is most often the Shot Point for 2D data but could be used for anything else. Please note that a SEG-Y scalar at bytes 201-202 apply for values stored in bytes 197-200. The SP scalar will always be -10, thus the value written on bytes 197-200 is 10 times the SP value.</p>
+        <p style="page-break-before: always">All values listed above are encoded on 4 bytes by default. The byte length can be overridden using the following personal key words, except for the coordinates:</p>
+        <ul>
+            <li value="1">SEG-Y.Nr bytes for In-line</li>
+            <li value="2">SEG-Y.Nr bytes for Cross-line</li>
+            <li value="3">SEG-Y.Nr bytes for Offset</li>
+            <li value="4">SEG-Y.Nr bytes for Azimuth</li>
+            <li value="5">SEG-Y.Nr bytes for trace number</li>
+            <li value="6">SEG-Y.Nr bytes for Point</li>
+            <li value="7">SEG-Y.Nr bytes for RefNr</li>
+        </ul>
+        <p>The layout of the SEG-Y export window changes slightly based on the data type.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#survey/export/export_seismics/export_seg-y.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

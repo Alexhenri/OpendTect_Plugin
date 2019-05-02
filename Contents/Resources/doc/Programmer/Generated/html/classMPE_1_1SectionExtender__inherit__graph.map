@@ -1,0 +1,9 @@
+<map id="MPE::SectionExtender" name="MPE::SectionExtender">
+<area shape="rect" id="node11" href="$classMPE_1_1BaseHorizon3DExtender.html" title="Sub class of SectionExtender. Use Horizon3DExtender instead. " alt="" coords="5,392,208,421"/>
+<area shape="rect" id="node15" href="$classMPE_1_1Horizon2DExtender.html" title="SectionExtender to extend EM::Horizon2D. " alt="" coords="232,392,405,421"/>
+<area shape="rect" id="node2" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="156,237,268,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="187,160,237,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="161,83,263,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="169,5,255,35"/>
+<area shape="rect" id="node13" href="$classMPE_1_1Horizon3DExtender.html" title="Used to extend EM::Horizon3D. " alt="" coords="20,469,193,499"/>
+</map>

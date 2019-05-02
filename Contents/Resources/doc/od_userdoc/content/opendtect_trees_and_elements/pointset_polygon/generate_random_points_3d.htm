@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.6 Pointset &amp; Polygon">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.6.2 Generate Random Points (3D)</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/generate_random_points_3d.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>3.6.2 Generate Random Points (3D)<a name="kanchor384"></a></h3>
+        <p>Randomly generated points are very useful especially for property prediction or object detection. This type of pointset has been defined in first place for unsupervised neural network training (see dGB Plugin documentation for more details, specifically: <a href="http://doc.opendtect.org/6.0.0/doc/dgb_userdoc/Default.htm#default_attribute_sets/unsupervised_waveform_segmentation.htm" target="_blank" data-mc-conditions="Default.ScreenOnly" name="kanchor385">Unsupervised waveform segmentation (UVQ)</a>).</p>
+        <p><a name="kanchor386"></a>To generate a random pointset, click on the tree element pointset/Polygon and in the drop down menu, select: <i>New pointset &gt; Generate 3D....</i> The following window pops up.</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/pickset_random_generate_3d.png" class="General_Image" />
+        <p><i>Generate locations by</i> provides several extraction options (see below).</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/generate_locations_by.png" class="General_Image" />
+        <p>A user-defined number of random points are created depending on the specified location type. If selecting:</p>
+        <ul>
+            <li value="1">Range: specify the inline, crossline and time range (or depth range if in a depth survey)</li>
+            <li value="2"><a name="kanchor387"></a>Well: select one or more well(s) and specify a time range (or depth if in a depth survey). Optionally add traces in the inline and/or crossline direction around the well track for the location selection.</li>
+            <li value="3">Polygon: select a stored polygon and specify the time range (or depth range if in a depth survey).</li>
+            <li value="4"><a name="kanchor388"></a>Table: select either an already saved pointset or a Table file. The table file needs to be X-Y-Z with no header.</li>
+            <li value="5"><a name="kanchor389"></a>Horizon: select a horizon and select if you want the points to be extracted along the selected horizon or the interval from that selected horizon to a second horizon to be selected.</li>
+            <li value="6"><a name="kanchor390"></a>Body: select if you want the extraction to be inside or outside the body that you selected. If outside, you need to specify the inline, crossline and z ranges for the extraction. By default the outside box is the full survey box.</li>
+        </ul>
+        <p>Optionally, a rejection filter can also be applied by selecting <i>Remove locations</i> (see window below). It passes each random position according to a selected filter (random, polygon, subsample, table, surface…). It is useful to avoid random points in unwanted regions e.g. by providing a polygon.</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/specify_filters.png" class="General_Image" />
+        <p>The number of random location to be extracted needs to be specified.</p>
+        <p>The pointset creation is finalized by giving it an appropriate name, selecting a color to be used for its display and clicking Ok.</p>
+        <p class="note"><a name="kanchor391"></a>The name can always be changed later from the pointset manager. The color can also be modified later on from the right-click menu on the pointset name &gt; Display &gt; Properties.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/generate_random_points_3d.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

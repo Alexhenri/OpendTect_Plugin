@@ -1,0 +1,7 @@
+<map id="uiListBox" name="uiListBox">
+<area shape="rect" id="node9" href="$classuiLabeledListBox.html" title="uiLabeledListBox. Deprecated. Don&#39;t use in new code " alt="" coords="5,315,125,344"/>
+<area shape="rect" id="node11" href="$classuiStratLithoBox.html" title="Displays a dialog to create/edit a new stratigraphic unit. " alt="" coords="149,315,259,344"/>
+<area shape="rect" id="node13" href="$classuiStratLvlList.html" title="uiStratLvlList" alt="" coords="283,315,381,344"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="171,160,237,189"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="169,83,239,112"/>
+</map>

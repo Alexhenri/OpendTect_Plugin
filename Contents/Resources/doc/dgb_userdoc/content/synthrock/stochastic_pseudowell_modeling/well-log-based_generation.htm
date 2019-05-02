@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.3 Stochastic Pseudowell Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.3.4 Well-Log - based Generation</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/stochastic_pseudowell_modeling/well-log-based_generation.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.3.4 Well-Log - based Generation<a name="kanchor369"></a></h3>
+        <p>Well-log based section can be either full or partly full of well log data, which has been upscaled/blocked at a constant size. This option is recommended for modeling a realistic overburden which is required for ray-tracing when working with prestack data.</p>
+        <p>Right-clicking inside the <i>Layer Description</i> panel of the <i>Layer Modeling</i> window, will bring up the following popup:</p>
+        <img src="../../resources/images/synthrock/wll_log_bsd_init_popup.png" class="image" />
+        <p>Clicking either '<i>Add Above...</i>' or '<i>Add Below...</i>' will bring up the following selection option:</p>
+        <img src="../../resources/images/synthrock/wll_log_bsd_gen_slct.png" class="image" />
+        <p>Choosing '<i>Well-Log based section</i>' will bring you here:</p>
+        <img src="../../resources/images/synthrock/wll_log_bsd_input_setup.png" class="image" />
+        <p>And selecting a well will allow auto-input of any available logs. Well-log based section can be either full or part of well log data, which has been upscaled/blocked at a constant size. This option is recommended for modeling a realistic overburden which is required for ray-tracing when working with prestack data.  See following example for F03-4:</p>
+        <img src="../../resources/images/synthrock/wll_log_bsd_wll_added.png" class="image" />
+        <p>The example above shows Layer Generation window for adding a well-log based section to a model description. Once the well is selected, define the interval bound by formation tops to be used. Thickness of the modeled interval can be Used as-is, or modified using one of the three options Cut from Top, Cut from Bottom or Stretch/Squeeze. If modified it can be set to a Constant, Range or Random (Uniform or Gaussian distribution). For example, Cut from Top in conjunction with Range or Random can be used to model subcropping strata, and Stretch/Squeeze along with Range or Random - to model thickness variations.</p>
+        <p>The next section of this window allows to choose well logs corresponding to the layer properties used in the modeling. Note that all used properties are required to have a log selected. Missing logs can be either created (<img src="../../resources/images/icons/newlog.png" class="icon" /><a name="kanchor370"></a>) without having to exit SynthRock or imported using the Well Manager. Selected log can be viewed (<img src="../../resources/images/icons/view_log.png" class="icon" />), or changed (<img src="../../resources/images/icons/change_log.png" class="icon" />).</p>
+        <p>Optionally, a well-log section can be assigned to a specific unit by selecting both formation and lithology member. If no unit is assigned, a name derived from bounding formation tops is displayed in the modeling description part of the Layer modeling window, but an actual layer name as well as lithology are left undefined (‘-’). Default colors for undefined formations and lithologies are white and grey respectively. Note that if no unit name is assigned, the subsequently created layers can not be used for plotting Attributes vs model properties or be a target quantity during the HitCube inversion.</p>
+        <p>All the logs are upscaled/blocked at the user-defined Block size. Note, that when modeling large intervals, Block size should be chosen with care as block sizes which are too small significantly increase time to generate pseudowells and memory consumption.</p>
+        <p>If Fill with fluid column is checked, the fluid column has to be <a href="../fluid_replacement/define_fluid_contents.htm" target="_self" style="font-weight: normal;font-style: normal;">Defined</a>. Presence in output controls the percentage of wells having the given well-log based section.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

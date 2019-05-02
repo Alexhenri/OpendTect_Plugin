@@ -1,0 +1,15 @@
+<map id="BasicInterval&lt; T &gt;" name="BasicInterval&lt; T &gt;">
+<area shape="rect" id="node3" href="$classInterval.html" title="Interval of values. " alt="" coords="299,153,395,183"/>
+<area shape="rect" id="node24" href="$classBasicInterval.html" title="BasicInterval\&lt; double \&gt;" alt="" coords="267,72,427,101"/>
+<area shape="rect" id="node27" href="$classBasicInterval.html" title="BasicInterval\&lt; float \&gt;" alt="" coords="273,5,420,35"/>
+<area shape="rect" id="node30" href="$classBasicInterval.html" title="BasicInterval\&lt; int \&gt;" alt="" coords="279,235,415,264"/>
+<area shape="rect" id="node33" href="$classBasicInterval.html" title="BasicInterval\&lt; od_int64 \&gt;" alt="" coords="261,303,432,332"/>
+<area shape="rect" id="node5" href="$classStepInterval.html" title="Interval with step. " alt="" coords="565,153,688,183"/>
+<area shape="rect" id="node13" href="$classInterval.html" title="Interval\&lt; double \&gt;" alt="" coords="564,73,689,103"/>
+<area shape="rect" id="node16" href="$classInterval.html" title="Interval\&lt; float \&gt;" alt="" coords="569,20,684,49"/>
+<area shape="rect" id="node19" href="$classInterval.html" title="Interval\&lt; int \&gt;" alt="" coords="576,245,677,275"/>
+<area shape="rect" id="node22" href="$classInterval.html" title="Interval\&lt; od_int64 \&gt;" alt="" coords="557,307,696,336"/>
+<area shape="rect" id="node7" href="$classStepInterval.html" title="StepInterval\&lt; double \&gt;" alt="" coords="811,141,965,171"/>
+<area shape="rect" id="node9" href="$classStepInterval.html" title="StepInterval\&lt; float \&gt;" alt="" coords="817,53,959,83"/>
+<area shape="rect" id="node11" href="$classStepInterval.html" title="StepInterval\&lt; int \&gt;" alt="" coords="823,213,953,243"/>
+</map>

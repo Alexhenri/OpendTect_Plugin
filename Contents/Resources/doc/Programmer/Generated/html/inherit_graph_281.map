@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classMathFunctionND.html" title="MathFunctionND\&lt; RT,\l RT \&gt;" alt="" coords="5,5,160,51"/>
+<area shape="rect" id="node3" href="$classMathFunction.html" title="MathFunction\&lt; RT, RT \&gt;" alt="" coords="209,13,377,43"/>
+<area shape="rect" id="node5" href="$classSampledFunction.html" title="Make any sampled series comply with MathFunction. " alt="" coords="427,13,608,43"/>
+<area shape="rect" id="node7" href="$classSampledFunctionImpl.html" title="Implementation for array&#45;type of SampledFunction. " alt="" coords="657,5,804,51"/>
+</map>

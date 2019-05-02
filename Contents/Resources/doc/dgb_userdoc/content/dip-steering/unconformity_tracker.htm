@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.7 Unconformity Tracker</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#dip-steering/unconformity_tracker.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>3.7 Unconformity Tracker<a name="kanchor290"></a></h2>
+        <p>This  seismic horizon tracker generates one or more horizons from a Steering Cube (dip volume). The tracker uses a constrained, inversion-based algorithm that globally minimizes the error between horizon dips and seismic dips (Wu and Hale, 2015).</p>
+        <p>A confidence weight volume is recommended for faulted intervals. A good confidence weight volume is given by the “Planarity” attribute. Planarity is computed in the “Faults &amp; Fractures” plugin, It is a measure of “local flatness” of a seismic event. When used as a confidence weight volume in the unconformity tracker it assigns low weights at fault positions and high weights at good reflectors. A flipped discontinuity attribute like similarity, semblance, or Thinned Fault Likelihood can be considered as alternatives to planarity.</p>
+        <p>The unconformity tracker is a general-purpose horizon tracker that can be used among others to:</p>
+        <ul>
+            <li value="1">Map unconformities (events that change laterally and are therefore difficult to map using conventional amplitude / similarity trackers)..</li>
+            <li value="2">Map horizons at intra-reservoir scale levels that tie exactly at given well markers.</li>
+            <li value="3"><a name="kanchor291"></a>Fast-track mapping of seismic events, e.g. for constructing a structural framework, to constrain a HorizonCube, or to build low-frequency models for seismic inversion.</li>
+        </ul>
+        <img src="../resources/images/dip-steering/unconformity_tracker.png" class="image" />
+        <p style="font-style: italic;">Main window for the Unconformity Tracker</p>
+        <p>The workflow can be started in three ways:</p>
+        <ul>
+            <li value="1">Insert a new horizon in the table for picking <img src="../resources/images/icons/addnew.png" class="icon" />.</li>
+            <li value="2">Click on the “Pick Seeds” icon <img src="../resources/images/icons/seedpickmode.png" class="icon" /> and manually pick a set of locations.</li>
+            <li value="3">Click on the “Load existing Pick Set” icon <img src="../resources/images/icons/open.png" class="icon" /> to open an existing pick set.</li>
+            <li value="4">Click on the “From Wells” icon <img src="../resources/images/icons/newvertwell.png" class="icon" /> and select one or several marker sets and the wells.</li>
+        </ul>
+        <p>Seeds can be added or removed thereafter regardless of the origin of the pickset, either interactively or using the table editor under the Edit options. At least one seed is required for each horizon to be tracked using this tracker.</p>
+        <p style="font-weight: bold;">Inputs</p>
+        <ul>
+            <li value="1">A pre-processed SteeringCube is mandatory. This SteeringCube must be filtered to have less noise. A typical Detailed SteeringCube should be a good starting point.</li>
+            <li value="2">Set of locations (from well makers and/or manually picked positions.</li>
+            <li value="3">Optional: confidence weight volume (planarity, flipped Thinned Fault Likelihood, …).</li>
+        </ul>
+        <p style="font-weight: bold;">Adding Well Markers</p>
+        <p>Multiple markers from multiple wells can be selected in the Select well markers window <img src="../resources/images/icons/newvertwell.png" class="icon" />. Each selected marker adds a row to the table in the main window.  The set of (manually-picked / markers)  locations can be QC-ed and edited by pressing the Edit button. To add more picks, select the relevant row, press the Pick Seed button and manually pick positions to add.</p>
+        <img src="../resources/images/dip-steering/select_well_markers.png" class="image" />
+        <p style="font-style: italic;">Selection of well markers is done here. Multiple markers can be selected. Each marker will create  a horizon.</p>
+        <img src="../resources/images/dip-steering/edit_seeds.png" class="image" />
+        <p style="font-style: italic;">Edit Seeds window will show the origin (user defined or wells) of the picks. By default the seeds are displayed on sections (e.g. inlines/crosslines only). To view in 3D, you may want to toggle this feature off.</p>
+        <p style="font-weight: bold;">Processing Parameters</p>
+        <img src="../resources/images/dip-steering/processing_parameters.png" class="image" />
+        <ul>
+            <li value="1">Manually interpreted faults are provided by setting <i>apply fault dips</i> to <i>yes</i>, which will perform two tasks:<ul><li value="1">Calculate fault dips and update the SteeringCube.</li><li value="2">Update the planarity cube at fault location by setting a minimum value of 0.01.</li></ul></li>
+            <li value="2">It is not recommended to use the faults without a confidence cube.</li>
+            <li value="3">A confidence weight volume is optional. It is only required if the interval is faulted. If the given volume has higher weights (e.g. near to 1) at the fault weights, you may flip the weights (1 – input) to minimize the effect of erroneous dips at fault locations.</li>
+            <li value="4">A planarity volume – as a confidence weight – can be created by pressing the <i>Create</i> button. This will create a SteeringCube with a planarity volume as a third component.</li>
+        </ul>
+        <img src="../resources/images/dip-steering/create_dip_volume.png" class="image" />
+        <p style="font-style: italic;">The following result is produced with a confidence weight volume. With a power of 8 (yellow horizon) the event is correctly located when compared with the power of 2 (orange horizon).</p>
+        <img src="../resources/images/dip-steering/tu_output.png" class="image" style="width: auto;" />
+        <ul>
+            <li value="1">When the batch processing finishes, the right component is chosen to select as a confidence cube (see below):</li>
+        </ul>
+        <img src="../resources/images/dip-steering/load_cube.png" class="image" />
+        <ul>
+            <li value="1">A power function is applied to the confidence weights (planarity). Its value is trivial. However, we recommend using a power of 6 or higher. A higher value increases the contrast between faults and continuous reflectors (see below).</li>
+        </ul>
+        <ul>
+            <li value="1">The <i>Number of Horizon updates</i> field (max. 100) is the number of times the horizon is changed and horizon dips are re-calculated. The quality of the results increase logarithmically with increasing number of horizon updates. After a certain number of updates, typically 10, the horizon will effectively not change further. If such a situation occurs, we consider that the results are fully converged and the best possible solution is achieved.</li>
+            <li value="2">The core of the algorithm is a preconditioned Conjugate Gradient ‘CG’ solver, which attempts to solve a system of linear equations.  This algorithm is controlled with the following parameters:<ul><li value="1"><b>Iterations:</b> The maximum number of iterations the GC solver is run to solve the inverse problem.</li><li value="2"><b>Residual error:</b> The threshold value below which the GC solver stops.</li><li value="3"><b>Preconditioning filter stepout:</b> Is a recursive filter to smooth the horizon and minimizes abrupt jumps (max. 10).</li><li value="4"><b>Inversion Operator Weight:</b> This parameter is trivial and helps in overriding the dips in bad data quality areas. If it is larger than 0 (max. 1), the weighted dip derivatives are subtracted from the dips obtained from horizons to minimize the erroneous dip effects. By default, we do not recommend adding such weights. The Confidence Weight volume mostly controls such effects.</li></ul></li>
+        </ul>
+        <p style="font-weight: bold;">Larger Surveys</p>
+        <p>For larger datasets (e.g. volume size &gt; 5GB) with limited RAM, we recommend decimation of the results. This can be done in the volume sub-selection. One may upscale the lateral stepouts (Inline/Crossline) to produce a horizon.</p>
+        <p style="font-weight: bold;">Reference</p>
+        <p>Wu, X., and Hale, D. (2015) Horizon Volume with Interpreted Constraints, Geophysics, v80, Issue 2, IM21-IM33.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

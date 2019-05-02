@@ -1,0 +1,50 @@
+<map id="Translator" name="Translator">
+<area shape="rect" id="node5" href="$classAttribDescSetTranslator.html" title="Base Translator class for I/O of DescSet. " alt="" coords="289,5,452,35"/>
+<area shape="rect" id="node9" href="$classElasticPropSelectionTranslator.html" title="ElasticPropSelectionTranslator" alt="" coords="271,61,471,91"/>
+<area shape="rect" id="node13" href="$classEMBodyTranslator.html" title="Base class for all EM::Body Translators. " alt="" coords="305,119,436,148"/>
+<area shape="rect" id="node17" href="$classEMFaultSet3DTranslator.html" title="Translator for EM::FaultSet3D. " alt="" coords="288,179,453,208"/>
+<area shape="rect" id="node21" href="$classEMStickSetTranslator.html" title="EM::StickSet Translator. " alt="" coords="296,259,445,288"/>
+<area shape="rect" id="node25" href="$classEMSurfaceTranslator.html" title="Translator for EM::Surface. " alt="" coords="299,325,443,355"/>
+<area shape="rect" id="node31" href="$classIOObjSelectionTranslator.html" title="IOObjSelectionTranslator" alt="" coords="287,379,455,408"/>
+<area shape="rect" id="node35" href="$classMathFormulaTranslator.html" title="MathFormulaTranslator" alt="" coords="293,432,448,461"/>
+<area shape="rect" id="node39" href="$classMPESetupTranslator.html" title="Translator for MPE::Setup. " alt="" coords="300,485,441,515"/>
+<area shape="rect" id="node43" href="$classMuteDefTranslator.html" title="Translator for mute definition. " alt="" coords="305,539,436,568"/>
+<area shape="rect" id="node47" href="$classODSessionTranslator.html" title="ODSessionTranslator" alt="" coords="297,592,444,621"/>
+<area shape="rect" id="node51" href="$classPickSetTranslator.html" title="PickSetTranslator" alt="" coords="308,645,433,675"/>
+<area shape="rect" id="node55" href="$classPosProvidersTranslator.html" title="PosProvidersTranslator" alt="" coords="292,699,449,728"/>
+<area shape="rect" id="node59" href="$classPosVecDataSetTranslator.html" title="PosVecDataSetTranslator" alt="" coords="284,752,457,781"/>
+<area shape="rect" id="node63" href="$classPreLoadsTranslator.html" title="PreLoadsTranslator" alt="" coords="304,805,437,835"/>
+<area shape="rect" id="node67" href="$classPreLoadSurfacesTranslator.html" title="PreLoadSurfacesTranslator" alt="" coords="281,859,460,888"/>
+<area shape="rect" id="node71" href="$classPreStackProcTranslator.html" title="Translator for PreStack processing. " alt="" coords="291,912,451,941"/>
+<area shape="rect" id="node75" href="$classProbDenFuncTranslator.html" title="ProbDenFuncTranslator" alt="" coords="291,965,451,995"/>
+<area shape="rect" id="node79" href="$classPSEventTranslator.html" title="Translator for PreStack Event. " alt="" coords="305,1019,436,1048"/>
+<area shape="rect" id="node81" href="$classRandomLineSetTranslator.html" title="RandomLineSetTranslator" alt="" coords="284,1072,457,1101"/>
+<area shape="rect" id="node83" href="$classSeisPS2DTranslator.html" title="SeisPS2DTranslator" alt="" coords="300,1125,441,1155"/>
+<area shape="rect" id="node85" href="$classSeisPS3DTranslator.html" title="SeisPS3DTranslator" alt="" coords="300,1179,441,1208"/>
+<area shape="rect" id="node87" href="$classSeisTrcTranslator.html" title="SeisTrcTranslator" alt="" coords="308,1232,433,1261"/>
+<area shape="rect" id="node89" href="$classSurvGeom2DTranslator.html" title="SurvGeom2DTranslator" alt="" coords="292,1285,449,1315"/>
+<area shape="rect" id="node91" href="$classVolProcessing2DTranslator.html" title="Volume Processing Translator. " alt="" coords="280,1339,461,1368"/>
+<area shape="rect" id="node93" href="$classVolProcessingTranslator.html" title="Volume Processing Translator. " alt="" coords="289,1392,452,1421"/>
+<area shape="rect" id="node95" href="$classWaveletTranslator.html" title="WaveletTranslator" alt="" coords="307,1445,435,1475"/>
+<area shape="rect" id="node97" href="$classWellTranslator.html" title="Well Translator base class. " alt="" coords="317,1499,424,1528"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,779,92,808"/>
+<area shape="rect" id="node7" href="$classdgbAttribDescSetTranslator.html" title="Actual Translator class for I/O of DescSet. " alt="" coords="537,5,719,35"/>
+<area shape="rect" id="node11" href="$classodElasticPropSelectionTranslator.html" title="odElasticPropSelectionTranslator" alt="" coords="521,59,735,88"/>
+<area shape="rect" id="node15" href="$classodEMBodyTranslator.html" title="OpendTect format EM::Body Translator. " alt="" coords="556,112,700,141"/>
+<area shape="rect" id="node19" href="$classdgbEMFaultSet3DTranslator.html" title="dgbEMFaultSet3DTranslator" alt="" coords="535,165,721,195"/>
+<area shape="rect" id="node23" href="$classlmkEMStickSetTranslator.html" title="Landmark EM::StickSet Translator. " alt="" coords="543,219,713,248"/>
+<area shape="rect" id="node27" href="$classdgbEMSurfaceTranslator.html" title="dgb EMSurfaceTranslator " alt="" coords="545,272,711,301"/>
+<area shape="rect" id="node29" href="$classlmkEMFault3DTranslator.html" title="Landmark EM::Fault3D EMSurfaceTranslator. " alt="" coords="545,325,711,355"/>
+<area shape="rect" id="node33" href="$classodIOObjSelectionTranslator.html" title="odIOObjSelectionTranslator" alt="" coords="537,379,719,408"/>
+<area shape="rect" id="node37" href="$classodMathFormulaTranslator.html" title="odMathFormulaTranslator" alt="" coords="543,432,713,461"/>
+<area shape="rect" id="node41" href="$classdgbMPESetupTranslator.html" title="MPESetupTranslator for dgbMPESetup. " alt="" coords="547,485,709,515"/>
+<area shape="rect" id="node45" href="$classdgbMuteDefTranslator.html" title="dgb MuteDefTranslator " alt="" coords="553,539,703,568"/>
+<area shape="rect" id="node49" href="$classdgbODSessionTranslator.html" title="dgbODSessionTranslator" alt="" coords="544,592,712,621"/>
+<area shape="rect" id="node53" href="$classdgbPickSetTranslator.html" title="dgbPickSetTranslator" alt="" coords="555,645,701,675"/>
+<area shape="rect" id="node57" href="$classdgbPosProvidersTranslator.html" title="dgbPosProvidersTranslator" alt="" coords="539,699,717,728"/>
+<area shape="rect" id="node61" href="$classodPosVecDataSetTranslator.html" title="odPosVecDataSetTranslator" alt="" coords="535,752,721,781"/>
+<area shape="rect" id="node65" href="$classdgbPreLoadsTranslator.html" title="dgbPreLoadsTranslator" alt="" coords="551,805,705,835"/>
+<area shape="rect" id="node69" href="$classdgbPreLoadSurfacesTranslator.html" title="dgbPreLoadSurfacesTranslator" alt="" coords="528,859,728,888"/>
+<area shape="rect" id="node73" href="$classdgbPreStackProcTranslator.html" title="dgb PreStackProcTranslator " alt="" coords="537,912,719,941"/>
+<area shape="rect" id="node77" href="$classodProbDenFuncTranslator.html" title="odProbDenFuncTranslator" alt="" coords="541,965,715,995"/>
+</map>

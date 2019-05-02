@@ -1,0 +1,7 @@
+<map id="HostDataList" name="HostDataList">
+<area shape="rect" id="node2" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; HostData \&gt;" alt="" coords="36,277,249,307"/>
+<area shape="rect" id="node4" href="$classObjectSet.html" title="ObjectSet\&lt; HostData \&gt;" alt="" coords="5,181,165,211"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="81,5,151,35"/>
+<area shape="rect" id="node8" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="123,85,235,115"/>
+<area shape="rect" id="node11" href="$classManagedObjectSet.html" title="ObjectSet where the objects contained are owned by this set. " alt="" coords="189,181,355,211"/>
+</map>

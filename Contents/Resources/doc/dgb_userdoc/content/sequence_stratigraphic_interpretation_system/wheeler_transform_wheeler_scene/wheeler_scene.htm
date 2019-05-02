@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Sequence Stratigraphic Interpretation System|5.4 Wheeler Transform, Wheeler Scene">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.4.1 Wheeler Scene</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#sequence_stratigraphic_interpretation_system/wheeler_transform_wheeler_scene/wheeler_scene.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>5.4.1 Wheeler Scene<a name="kanchor355"></a></h3>
+        <p><a name="kanchor356"></a><a name="kanchor357"></a>The Wheeler Scene in OpendTect is another scene, which is added from the SSIS menu. It may be noted that the Wheeler Scene is a transformation (flatenning) of HorizonCube into relative gelogical time (RGT). Therefore, before adding a Wheeler Scene, the HorizonCube should be selected.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/add_wheeler_scene.png" class="image" />
+        <p>In the Wheeler scene, flattened seismic data can be displayed by adding elements (inline, crossline, and timeslice) in the tree. By displaying flattened seismic data, one can assess the quality of the selected HorizonCube. Making a good HorizonCube is an iterative process. It will probably take several runs before the result is satisfactory. In order to improve HorizonCube the user can try to:</p>
+        <ul>
+            <li style="font-style: italic;" value="1">map additional horizons (sequence boundary)</li>
+            <li style="font-style: italic;" value="2">fill holes in mapped horizons</li>
+            <li style="font-style: italic;" value="3">make horizons continuous and watertight</li>
+            <li style="font-style: italic;" value="4">filter the SteeringCube (data-driven approach)</li>
+        </ul>
+        <p class="note"> In the Wheeler scene, stored data is transformed on-the-fly to the flattened domain. All attributes and neural network outputs are calculated in the normal domain first and then transformed to the Wheeler domain. Because of this transformation, quickly scanning through your Wheeler is only possible after <a href="create_wheeler_output.htm" target="_self" style="font-weight: normal;">creating a Wheeler cube</a>. On-the-fly calculations are not supported for the volume viewer, which only accepts input from pre-calculated Wheeler cubes.</p>
+        <p>Below, the two types of Wheeler transformation are displayed. One with <a href="../../horizoncube/horizoncube_control_center/processing/create_a_horizoncube/data_driven_settings/continuous_events.htm" target="_self" style="font-weight: normal;">Continuous HorizonCube</a> and the other is the same HorizonCube with a <a href="../../horizoncube/horizoncube_control_center/tools/truncate_horizoncube.htm" target="_self" style="font-weight: normal;">density filter</a>. Note that for Wheeler Transformation, the closely spaced events in a continous HorizonCube needs to be filtered out so that the hiatus, and stratal terminations become prominent and one can interpret base-level changes.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/continuous_events_horizoncube.png" class="image" />
+        <p><i>Top scene is a display of a seismic data and the HorizonCube with continuous events. Bottom display is the Wheeler Transformed Scene of the HorizonCube. The same seismic data is displayed in the wheeler domain.</i>
+        </p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/density_filter_horizoncube.png" class="image" />
+        <p><i>Top scene is a display of a seismic data and the continous HorizonCube with a <a href="../../horizoncube/horizoncube_control_center/tools/truncate_horizoncube.htm" target="_self" style="font-weight: normal;">density filter</a></i><i> applied. Bottom display is the Wheeler Transformed Scene of the displayed HorizonCube. The same seismic data is displayed in the wheeler domain.</i>
+        </p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+<map id="Seis::SelData" name="Seis::SelData">
+<area shape="rect" id="node3" href="$classSeis_1_1PolySelData.html" title="selection data by polygon or polyline. " alt="" coords="5,83,133,112"/>
+<area shape="rect" id="node5" href="$classSeis_1_1RangeSelData.html" title="selection data in simple ranges " alt="" coords="157,83,299,112"/>
+<area shape="rect" id="node7" href="$classSeis_1_1TableSelData.html" title="selection data in a table " alt="" coords="323,83,456,112"/>
+</map>

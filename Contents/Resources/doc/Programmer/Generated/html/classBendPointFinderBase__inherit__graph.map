@@ -1,0 +1,11 @@
+<map id="BendPointFinderBase" name="BendPointFinderBase">
+<area shape="rect" id="node11" href="$classBendPointFinder2DBase.html" title="Used to find bendpoints in two dimensional datasets. " alt="" coords="165,392,331,421"/>
+<area shape="rect" id="node19" href="$classBendPointFinder3D.html" title="Used to find bendpoints in three dimensional datasets. " alt="" coords="355,392,488,421"/>
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="288,237,381,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="309,160,360,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="284,83,385,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="292,5,377,35"/>
+<area shape="rect" id="node13" href="$classBendPointFinder2D.html" title="Used to find bendpoints in set of XY Coordinates. " alt="" coords="5,469,139,499"/>
+<area shape="rect" id="node15" href="$classBendPointFinder2DGeom.html" title="Used to find bendpoints in Line 2D Geometry. " alt="" coords="163,469,333,499"/>
+<area shape="rect" id="node17" href="$classBendPointFinderTrcKey.html" title="Used to find bendpoints in set of TrcKeys. " alt="" coords="357,469,517,499"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="uiGraphicsView" name="uiGraphicsView">
+<area shape="rect" id="node9" href="$classuiColTabMarkerCanvas.html" title="uiColTabMarkerCanvas" alt="" coords="649,5,807,35"/>
+<area shape="rect" id="node11" href="$classuiDirectionalPlot.html" title="creates a directional plot: Rose diagrams and more. " alt="" coords="669,59,787,88"/>
+<area shape="rect" id="node13" href="$classuiExtLayerSequenceGenDesc.html" title="Base class for external LayerSequenceGenDesc editors, i.e. editors that are not also Layer Model disp..." alt="" coords="629,112,827,141"/>
+<area shape="rect" id="node17" href="$classuiFunctionDisplay.html" title="displays a function of (X,Y) pairs on a canvas &#45; optionally a Y2. " alt="" coords="665,165,791,195"/>
+<area shape="rect" id="node23" href="$classuiFunctionDrawer.html" title="uiFunctionDrawer" alt="" coords="667,219,789,248"/>
+<area shape="rect" id="node25" href="$classuiObjectItemView.html" title="Embeds some uiObjects in a uiGraphicsView following a horizontal layout. Objects can be dynamically r..." alt="" coords="665,272,791,301"/>
+<area shape="rect" id="node31" href="$classuiPolarDiagram.html" title="Displays a polar diagram which can be used to set the azimuth and the dip by gyrating the pointer..." alt="" coords="673,325,783,355"/>
+<area shape="rect" id="node33" href="$classuiRGBArrayCanvas.html" title="Provides a canvas where a uiRGBArray is pre&#45;drawn. " alt="" coords="660,379,796,408"/>
+<area shape="rect" id="node39" href="$classuiStratDisplay.html" title="uiStratDisplay" alt="" coords="676,432,780,461"/>
+<area shape="rect" id="node41" href="$classuiWellDahDisplay.html" title="Well depth/distance along hole display. " alt="" coords="665,485,791,515"/>
+<area shape="rect" id="node2" href="$classuiGraphicsViewBase.html" title="uiGraphicsViewBase" alt="" coords="276,245,417,275"/>
+<area shape="rect" id="node4" href="$classuiObject.html" title="The base class for most UI elements. " alt="" coords="156,245,225,275"/>
+<area shape="rect" id="node15" href="$classuiBasicLayerSequenceGenDesc.html" title="uiBasicLayerSequenceGenDesc" alt="" coords="875,112,1085,141"/>
+<area shape="rect" id="node19" href="$classuiFuncTaperDisp.html" title="uiFuncTaperDisp" alt="" coords="920,165,1040,195"/>
+<area shape="rect" id="node21" href="$classuiHistogramDisplay.html" title="uiHistogramDisplay" alt="" coords="912,219,1048,248"/>
+<area shape="rect" id="node27" href="$classPreStackView_1_1uiViewer2D.html" title="PreStackView::uiViewer2D" alt="" coords="891,272,1069,301"/>
+<area shape="rect" id="node29" href="$classuiObjectItemViewInfoBar.html" title="uiObjectItemViewInfoBar" alt="" coords="897,325,1063,355"/>
+<area shape="rect" id="node35" href="$classuiColorTableCanvas.html" title="uiColorTableCanvas" alt="" coords="911,379,1049,408"/>
+<area shape="rect" id="node37" href="$classuiDataPointSetCrossPlotter.html" title="DataPointSet crossplotter. " alt="" coords="889,432,1071,461"/>
+<area shape="rect" id="node43" href="$classuiWellLogDisplay.html" title="Displays maximum two Well logs. " alt="" coords="919,485,1041,515"/>
+<area shape="rect" id="node45" href="$classuiWellStratDisplay.html" title="uiWellStratDisplay" alt="" coords="915,539,1045,568"/>
+</map>

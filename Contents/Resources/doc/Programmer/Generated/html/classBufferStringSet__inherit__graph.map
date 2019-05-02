@@ -1,0 +1,8 @@
+<map id="BufferStringSet" name="BufferStringSet">
+<area shape="rect" id="node15" href="$classDirList.html" title="Provides file and directory names in a certain directory. " alt="" coords="121,456,180,485"/>
+<area shape="rect" id="node2" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Buffer\lString \&gt;" alt="" coords="61,278,240,325"/>
+<area shape="rect" id="node4" href="$classObjectSet.html" title="ObjectSet\&lt; BufferString \&gt;" alt="" coords="5,181,179,211"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="88,5,157,35"/>
+<area shape="rect" id="node8" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="129,85,241,115"/>
+<area shape="rect" id="node11" href="$classManagedObjectSet.html" title="ObjectSet where the objects contained are owned by this set. " alt="" coords="203,181,368,211"/>
+</map>

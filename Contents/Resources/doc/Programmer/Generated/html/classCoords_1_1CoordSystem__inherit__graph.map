@@ -1,0 +1,5 @@
+<map id="Coords::CoordSystem" name="Coords::CoordSystem">
+<area shape="rect" id="node5" href="$classCoords_1_1AnchorBasedXY.html" title="Coords::AnchorBasedXY" alt="" coords="5,160,173,189"/>
+<area shape="rect" id="node7" href="$classCoords_1_1UnlocatedXY.html" title="Coords::UnlocatedXY" alt="" coords="197,160,347,189"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="137,5,223,35"/>
+</map>

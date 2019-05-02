@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.5 Manage">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.5.11 Manage Probability Density Functions</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#survey/manage/manage_probability_density_functions.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor1111"></a>4.5.11 Manage Probability Density Functions<a name="kanchor1112"></a></h3>
+        <p><i>Manage Probability Density Function</i> window is accessible via <i><a name="kanchor1113"></a>Survey</i> &gt; <i>Manage</i> &gt; <i>Probability Density Functions ...</i> menu. </p>
+        <p>The manager lists all PDFs available in the current project, allows to view/edit them and <a href="manage_probability_density_functions/generate_probability_density_functions.htm" target="_self" data-mc-conditions="Default.ScreenOnly">generate new synthetic PDFs</a> with user-defined specifications.</p>
+        <p class="note">PDFs may also be <a href="../import/import_probability_density_functions.htm" target="_self" data-mc-conditions="Default.ScreenOnly">imported</a> and/or <a href="../../analysis/cross-plot/cross-plot_window/probability_density_functions.htm" target="_self" data-mc-conditions="Default.ScreenOnly">extracted from crossplots</a>. </p>
+        <p class="note">Main uses of PDFs in OpendTect are <a href="../../processing/create_seismic_output/bayesian_classification.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1114">Bayesian Classification</a> and stochastic pseudowell modeling  in SynthRock. PDFs can also be exported to a file (ASCII/RockDoc format)&#160;for an external use.</p>
+        <img src="../../resources/images/survey/manage_pdf_main.png" class="General_Image" />
+        <p>Available actions on PDFs include:</p>
+        <ul>
+            <li value="1">
+                <img src="../../resources/images/icons/renameobj.png" class="Icons" src-original="../../../Resources/Images/Icons/renameobj.png" /> Rename.</li>
+            <li value="2">
+                <img src="../../resources/images/icons/lock.png" class="Icons" src-original="../../../Resources/Images/Icons/unlock.png" /> Lock / <img src="../../resources/images/icons/unlock.png" class="Icons" /> Unlock (toggle read-only status on/off).</li>
+            <li value="3">
+                <img src="../../resources/images/icons/delete.png" class="Icons" src-original="../../../Resources/Images/Icons/trashcan.png" mcNewContent="1" /> Delete.</li>
+            <li value="4">
+                <img src="../../resources/images/icons/makedefault.png" class="Icons" src-original="../../../Resources/Images/Icons/makedefault.png" /> Set as the default object of its type.</li>
+            <li value="5">
+                <img src="../../resources/images/icons/editprdf.png" style="width: 65px;height: 65px;" class="Icons" /><a name="kanchor1115"></a> Browse/Edit this PDF.</li>
+            <li value="6">
+                <img src="../../resources/images/icons/genprdf.png" class="Icons" /> Generate PDF.</li>
+        </ul>
+        <p>OpendTect supports both discrete and continuous PDFs. </p>
+        <p><i style="font-weight: bold;">Discrete PDF</i>: </p>
+        <ul>
+            <li value="1">can be created in OpendTect in one of the following ways:<ul style="list-style-type: circle;"><li value="1">by pressing <i>Generate PDF</i><img src="../../resources/images/icons/genprdf.png" class="Icons" /> and choosing either <i>Create an editable PDF filled with Gaussian values</i>) or (<i>Create an empty PDF to edit by hand</i></li><li value="2"><a href="../../analysis/cross-plot/cross-plot_window/probability_density_functions.htm" target="_self" data-mc-conditions="Default.ScreenOnly">extracted from crossplots</a></li></ul></li>
+            <li value="2">up to 3 dimensions;</li>
+            <li value="3">each dimension has a discrete number of bins;</li>
+            <li value="4">can be browsed, edited and smoothed after creation.</li>
+        </ul>
+        <p><b>Continuous PDF</b>:</p>
+        <ul>
+            <li value="1">can be created in OpendTect by pressing <i>Generate PDF</i><img src="../../resources/images/icons/genprdf.png" class="Icons" /> and choosing <i>Create a full Gaussian PDF</i> option;</li>
+            <li value="2">unlimited number of dimensions;</li>
+            <li value="3">exists only in the description form, corresponding probabilities are computed on-the-fly;</li>
+            <li value="4">only the description can be modified.</li>
+        </ul>
+        <p style="font-weight: bold;"><a name="edit_pdf"></a>Browse/Edit Discrete PDF</p>
+        <p>A discrete PDF can be browsed/edited by clicking on   <img src="../../resources/images/icons/editprdf.png" style="width: 65px;height: 65px;" class="Icons" /> in the <i>Manage PDFs</i> window. Names of the variables (dimensions) can be changed in the <i>Names</i> tab, and PDF values can be browsed/edited in the <i>Values</i> tab. Changes applied in any of the two tabs will be saved only after pressing OK button. A pop-up window gives the choice to overwrite, save as new or cancel changes.</p>
+        <img src="../../resources/images/survey/manage_pdf_edit_names.png" class="General_Image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/survey/manage_pdf_edit_values.png" class="General_Image" />
+        </div>
+        <p>The first icon right of the table (<img src="../../resources/images/icons/viewprdf.png" class="Icons" style="width: 18px;height: 18px;" />) launches a 2D viewer&#160;that displays the values seen in the table in a coloured density display. If the PDF has 3 dimensions, the  left and right arrows may be used to navigate through the bins of the third variable with increasing and decreasing values respectively.</p>
+        <img src="../../resources/images/survey/manage_pdf_2d_viewer.png" class="General_Image" />
+        <p style="font-style: normal;">The second icon   (<img src="../../resources/images/icons/smoothcurve.png" class="Icons" />) (in <i>Edit Probability Density Function</i>)&#160;performs smoothing of the PDF data. Weighted average of a central sample with 1/2 weight and N neighbouring samples (excluding diagonal neighbours) each with 1/2N weight is calculated at every bin, where N = 2, 4 and 6 for 1D, 2D and 3D PDF. This smoothing is rather gentle, and can be repeated multiple times for a more pronounced effect.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#survey/manage/manage_probability_density_functions.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

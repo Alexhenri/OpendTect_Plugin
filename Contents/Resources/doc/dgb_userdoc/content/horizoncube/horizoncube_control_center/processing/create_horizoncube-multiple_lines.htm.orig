@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="137" MadCap:lastWidth="1038">
+    <head>
+    </head>
+    <body>
+<<<<<<< HEAD
+        <h4>4.2.1.5 Create HorizonCube - Multiple Lines<MadCap:keyword term="4.2.1.5 Create HorizonCube - Multiple Lines" /></h4>
+        <p>Similar to 3D this tool allows to create one HorizonCube per 2D line. If the start position is set to user defined, it is recommended to select one line at a time, only one inline-crossline pair can be specified per line. Further the existing HorizonCube can be overwritten by adding more lines.</p>
+        <p>For more information refer to <a href="/Content/HorizonCube/HorizonCube_Control_Center/Processing/Create_A_HorizonCube.htm" target="_self">Create a HorizonCube</a> section.</p>
+=======
+        <h4>4.2.1.5 Create HorizonCube - Multiple Lines<MadCap:keyword term="Create HorizonCube - Multiple Lines" /></h4>
+>>>>>>> e1941c59c73ff0c7a85fffb04663406e96b81246
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<map id="uiWellDahDisplay" name="uiWellDahDisplay">
+<area shape="rect" id="node11" href="$classuiWellLogDisplay.html" title="Displays maximum two Well logs. " alt="" coords="5,392,128,421"/>
+<area shape="rect" id="node13" href="$classuiWellStratDisplay.html" title="uiWellStratDisplay" alt="" coords="152,392,283,421"/>
+<area shape="rect" id="node2" href="$classuiGraphicsView.html" title="uiGraphicsView" alt="" coords="85,237,197,267"/>
+<area shape="rect" id="node4" href="$classuiGraphicsViewBase.html" title="uiGraphicsViewBase" alt="" coords="71,160,212,189"/>
+<area shape="rect" id="node6" href="$classuiObject.html" title="The base class for most UI elements. " alt="" coords="107,83,176,112"/>
+</map>

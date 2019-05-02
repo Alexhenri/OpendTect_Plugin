@@ -1,0 +1,4 @@
+<map id="Well::odWriter" name="Well::odWriter">
+<area shape="rect" id="node2" href="$classWell_1_1odIO.html" title="base class for Reader and Writer. " alt="" coords="5,5,88,35"/>
+<area shape="rect" id="node4" href="$classWell_1_1WriteAccess.html" title="Base class for object reading data from data store into Well::Data. " alt="" coords="112,5,243,35"/>
+</map>

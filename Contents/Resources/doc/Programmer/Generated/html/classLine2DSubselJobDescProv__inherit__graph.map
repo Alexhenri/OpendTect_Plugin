@@ -1,0 +1,4 @@
+<map id="Line2DSubselJobDescProv" name="Line2DSubselJobDescProv">
+<area shape="rect" id="node2" href="$classParSubselJobDescProv.html" title="IOPar driven implementation of JobDescProv where splitting is based on IOPar subselection with a part..." alt="" coords="16,83,176,112"/>
+<area shape="rect" id="node4" href="$classJobDescProv.html" title="Interface for providing parameter files for jobs (job descriptions). Two implementations are pre&#45;cook..." alt="" coords="45,5,147,35"/>
+</map>

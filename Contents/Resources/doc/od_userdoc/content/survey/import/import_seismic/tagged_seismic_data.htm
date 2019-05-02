@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.11 Import Seismic">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.10.6 Tagged Seismic Data</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#survey/import/import_seismic/tagged_seismic_data.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4>4.3.10.6 Tagged Seismic Data<a name="kanchor129"></a></h4>
+        <p>The imported volumes may contain any data. However several types can be specified during import and/or after:</p>
+        <ul>
+            <li value="1"><a name="kanchor130"></a>Depth poststack volumes/lines loaded in time surveys. A check box must be toggled on during SEG-Y or simple file import.</li>
+            <li value="2">Time poststack volumes/lines loaded in depth surveys. A check box must be toggled on during SEG-Y or simple file import.</li>
+            <li value="3"><a name="kanchor131"></a>Velocity/anisotropy volumes must be tagged with respect to their type, when imported from an external file. The available types are:</li>
+            <li value="4">Vint: Interval velocity</li>
+            <li value="5">Vrms: RMS velocities (time domain only). A provided surface may provide elevation statics in meters. For time surveys a statics velocity must be provided in m/s, either from a velocity grid or using a constant velocity.</li>
+            <li value="6">Vavg: Defined as the ratio between the depth and the travel time: Vavg(TWT)=2*Z/TWT=Z/OWT.</li>
+            <li value="7">Delta: Thomsen anisotropy parameter of the same name.</li>
+            <li value="8">Epsilon: Thomsen anisotropy parameter of the same name.</li>
+            <li value="9">Eta: Effective anisotropy parameter, combine from delta and epsilon. This tag can also be used to grid another quantity (the software does not actually check that eta values are input).</li>
+        </ul>
+        <p>The assignment of velocity types (and properties) to a volume is called velocity edition. This window can be opened in most windows wherever velocity volumes are used (an exception is the attribute set window):</p>
+        <ul>
+            <li value="1"><a href="../../../analysis/volume_builder_setup/velocity_gridder.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor132">Volume gridding</a>
+            </li>
+            <li value="2"><a href="../../../scenes/time_and_depth-converted_scenes.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Time-to-depth scenes</a>
+            </li>
+            <li value="3"><a href="../../../processing/create_seismic_output/velocity/time-depth_conversion.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Time-to-depth conversions</a>
+            </li>
+            <li value="4"><a href="../../../processing/create_seismic_output/velocity/velocity_conversion.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Velocity conversions</a>
+            </li>
+        </ul>
+        <p>Application of velocity corrections on prestack gathers</p>
+        <img src="../../../resources/images/survey/import_tagged_specify_velocity_info.png" class="General_Image" />
+        <p class="tip">The velocity volumes may be scanned to get the Vavg range at their first and last sample. This allows the software to deduct and propose appropriate time/depth ranges during conversions (on-the-fly and batch).</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#survey/import/import_seismic/tagged_seismic_data.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

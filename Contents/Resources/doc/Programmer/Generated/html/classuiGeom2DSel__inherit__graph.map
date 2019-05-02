@@ -1,0 +1,6 @@
+<map id="uiGeom2DSel" name="uiGeom2DSel">
+<area shape="rect" id="node2" href="$classuiIOObjSel.html" title="User Interface (UI) element for selection of IOObjs. " alt="" coords="13,315,99,344"/>
+<area shape="rect" id="node4" href="$classuiIOSelect.html" title="UI element for selection of data objects. " alt="" coords="15,237,97,267"/>
+<area shape="rect" id="node6" href="$classuiGroup.html" title="uiGroup" alt="" coords="23,160,89,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="21,83,91,112"/>
+</map>

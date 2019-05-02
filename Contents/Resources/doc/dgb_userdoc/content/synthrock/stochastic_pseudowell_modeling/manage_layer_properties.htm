@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.3 Stochastic Pseudowell Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.3.5 Manage layer Properties</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/stochastic_pseudowell_modeling/manage_layer_properties.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3><a name="top"></a>7.3.5 Manage layer Properties<a name="kanchor381"></a></h3>
+        <p>This window is also accessible from the <i>Layer property selection</i> window in the Layer Modeling module. In this manager, different usable layer properties are listed with their corresponding type. For example Delta and Epsilon properties belong to the Anisotropy type. Click on the usable property in the right column to see on the left column what is the type associated (highlighted).</p>
+        <img src="../../resources/images/synthrock/manage_layer_properties_main.png" class="image" />
+        <p>The two lists are hardcoded. However the user can ask for adding an extra property or type in sending an email to <a href="http://opendtect.org/index.php/contact/support" target="_blank" style="font-weight: normal;">support</a>. Usable properties listed can be removed of the list if they have no use in the current project.</p>
+        <p style="page-break-before: always"><b>Define/Edit usable properties</b>
+        </p>
+        <p>One usable property can be correspond only to one property type. For changing the property type of a usable property, the usable property needs to be removed and added again in association to the selected property type. To add a usable property, select a property type and click on the <img src="../../resources/images/icons/rightarrow.png" class="icon" />in between the two list : it opens the property definition window.For each property needs a name. Possible aliases can be specified. It is useful to associate the correct log to a property: logs with different names can thus be related to the same property. Default display parameters are set up : the colour and the typical range value with the associated units.</p>
+        <p>Already defined usable properties can also be edited on clicking on the <img src="../../resources/images/icons/edit.png" class="icon" />icon.</p>
+        <img src="../../resources/images/synthrock/manage_layer_properties_property_definition.png" class="image" />
+        <p>Optionally, the default value of any property can be defined by a specific equation that can either be typed in or retrieved from a list of saved formulas on clicking on <i>Formula</i>... Further formulas and equations may be utilized from the RockPhysics library, reached via the <img src="../../resources/images/icons/rockphys.png" class="icon" />icon.</p>
+        <img src="../../resources/images/synthrock/manage_layer_properties_property_definition_formula.png" class="image" />
+        <p>The edited Layer Properties are saved when clicking on <i>Ok</i>. There are also options here to either <i>Load</i> <img src="../../resources/images/icons/open.png" class="icon" /> or <i>Save</i> <img src="../../resources/images/icons/save.png" class="icon" /> Maths Formulas.</p>
+        <p>Fixed Definition:  A property that will never be modeled directly but will be auto-computed in the background from other modeled properties. Formula for such properties always remain consistent, irrespective of any geological setting: Acoustic Impedance, Shear Impedance, Vp/Vs Ratio, Poisson’s Ratio, Lambda-Rho, Mu-Rho etc.</p>
+        <p>The ‘fixed definition’ for these properties can be specified by ticking the ‘Fixed definition’ box and clicking on the Formula button, bringing up the RockPhysics library:</p>
+        <img src="../../resources/images/synthrock/manage_layer_properties_property_fixed_def.png" class="image" />
+        <img src="../../resources/images/synthrock/manage_layer_properties_property_fixed_def_set.png" class="image" />
+        <p style="page-break-before: always"><b>Storing levels</b>
+        </p>
+        <p>The level where it is saved is specified in the main window:</p>
+        <ul>
+            <li value="1">For this survey only (default): save at the root of the survey, applicable for all users only for this survey (if no parameters saved for the user).</li>
+            <li value="2">As default for all surveys: save in dTect/data (where are all the surveys), applicable for all users and all surveys (if no parameters saved for the user or this survey)</li>
+            <li value="3">As default for my user ID only: save in home/.od. If it exists, it has the priority on the two others.</li>
+        </ul>
+        <p>Once the parameters saved, the only way to access the default parameters provided by OpendTect is to delete the Properties file where it is located. OpendTect will then access its default properties file.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

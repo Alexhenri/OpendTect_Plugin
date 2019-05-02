@@ -1,0 +1,53 @@
+OpendTect V6.4.x / dGB plugins: Release info
+---------
+v6.4.3: February 18, 2019
+* [F&F] Added options for hiding/displaying extracted skins and keeping
+  selected skins irrespective of filtered range
+* [F&F] Import facility for FaultSets
+* [F&F] Possibility to extract more than one Fault from a FaultSet in one go
+* [HC] Performance improvements for reading and displaying 2D HorizonCubes
+* [HC] Some fixes and improvements in the 2D HorizonCube region and line
+  correlation workflow
+* [SSIS] Added possibility to show/hide 2nd order Interpretation in SSIS
+* [WCP] Fix for viewing Wells only in Well Correlation Panel
+* [[WCP] Fix for not reconizing Inline/Crossline/2D line positions
+  (when launched from Tree scene) in Well Correlation Panel
+
+v6.4.2: December 12, 2018
+* [F&F] Improved GUI with option to filter the Fault skins based on Average
+  Strike and Average Dip apart from Skin Size
+* [HC] Fix for freezing issue while computing 2D HorizonCube with start
+  position at 'Max thickness'
+* [HC] Fix for not filling the significant gaps of 2D HorizonCube after adding
+  more iterations
+* [PetrelDirect] Support for surveys that have XY or Depth in Feet
+  (Needs an update of Petrel plugin)
+* [SynthRock] Fix for occasional crash while selecting wells input in the
+  Synthrock-HC wizard
+
+v6.4.1: November 26, 2018
+* [F&F] Fix for TFL border like artefacts when input volume is irregular
+* [F&F] Fix for Memory leak in Fault Planes Extraction(From Skins)
+* [F&F] Fix for FaultSet's Histogram Display and Change Transparency
+* [F&F] Fix for incorrect Fault Proximity attribute output
+* [SSIS] Seismic data in a Wheeler scene is not interpolated by default 
+* [SynthRock] Angle-stack computation in SynthRock is optimized
+
+v6.4.0: October 15, 2018
+* Faults & Fractures:
+    - New algorithm for extracting Fault planes from Fault Likelihood cubes. It 
+      first produces the best possible Fault skins which can be converted into
+      individual Fault planes or FaultSets with several Fault planes in one go.
+    - Introducing FaultSet containing several Fault planes that can be
+      visualized and managed collectively.
+
+* HorizonCube, SSIS, SynthRock:
+    - HorizonCube events and SSIS interpretations based on HorizonCube can be
+      used to perform structural/stratigraphic modelling to generate synthetic
+      sections in the Profile module of SynthRock.
+    - Provision for using available well logs and/or pseudo-1D models for
+      modelling the rock properties within the packages bound by HorizonCube
+      events or SSIS interpretations.
+    - Availability of a multiviewer to visualize the results in one syncronized
+      window: Seismic (along a 2D line or a 3D random line), Synthetic and the
+      Layer Model (e.g. Acoustic Impedance, Velocity, Porosity...) 

@@ -1,0 +1,19 @@
+<map id="strmdata.h" name="strmdata.h">
+<area shape="rect" id="node3" href="$strmprov_8h.html" title="strmprov.h" alt="" coords="13,83,96,112"/>
+<area shape="rect" id="node7" href="$segyresorter_8h.html" title="segyresorter.h" alt="" coords="120,83,224,112"/>
+<area shape="rect" id="node9" href="$segytr_8h.html" title="segytr.h" alt="" coords="248,83,317,112"/>
+<area shape="rect" id="node11" href="$seisimpbpsif_8h.html" title="seisimpbpsif.h" alt="" coords="341,83,448,112"/>
+<area shape="rect" id="node13" href="$seisimpps_8h.html" title="seisimpps.h" alt="" coords="472,83,563,112"/>
+<area shape="rect" id="node15" href="$cmddriver_8h.html" title="cmddriver.h" alt="" coords="587,83,677,112"/>
+<area shape="rect" id="node35" href="$uiimpexpselgrp_8h.html" title="uiimpexpselgrp.h" alt="" coords="701,83,821,112"/>
+<area shape="rect" id="node5" href="$__execbatch_8h.html" title="_execbatch.h" alt="" coords="5,160,104,189"/>
+<area shape="rect" id="node17" href="$command_8h.html" title="command.h" alt="" coords="587,160,677,189"/>
+<area shape="rect" id="node19" href="$canvascommands_8h.html" title="canvascommands.h" alt="" coords="33,237,172,267"/>
+<area shape="rect" id="node21" href="$drivercommands_8h.html" title="drivercommands.h" alt="" coords="196,237,324,267"/>
+<area shape="rect" id="node23" href="$inputcommands_8h.html" title="inputcommands.h" alt="" coords="348,237,473,267"/>
+<area shape="rect" id="node25" href="$listcommands_8h.html" title="listcommands.h" alt="" coords="497,237,612,267"/>
+<area shape="rect" id="node27" href="$menubutcommands_8h.html" title="menubutcommands.h" alt="" coords="636,237,783,267"/>
+<area shape="rect" id="node29" href="$qtcommands_8h.html" title="qtcommands.h" alt="" coords="807,237,913,267"/>
+<area shape="rect" id="node31" href="$tablecommands_8h.html" title="tablecommands.h" alt="" coords="937,237,1063,267"/>
+<area shape="rect" id="node33" href="$treecommands_8h.html" title="treecommands.h" alt="" coords="1087,237,1204,267"/>
+</map>

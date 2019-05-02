@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.3 Tools">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.3.5 Edit A HorizonCube</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/tools/edit_a_horizoncube.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor306"></a>4.2.3.5 Edit A HorizonCube<a name="kanchor307"></a></h4>
+        <p>HorizonCube editor is a tool to edit a 2D/3D <a href="../processing/create_a_horizoncube/data_driven_settings/continuous_events.htm" target="_self" style="font-weight: normal;">HorizonCube</a>. It is recommended to edit a continuous HorizonCube. The tool supports manual editing of one or more events in a loose grid (inlines/crosslines at a fixed interval e.g. 10 by 10). Once the events are edited, the user may proceed to correct the HorizonCube based on corrected events. There are two methods of editing supported: Error-based and Linear.</p>
+        <p>In the <i>error-based</i> interpolation method, the error between an edited and its non-edited event(s) is computed as delta-Z. This delta-Z is then linearly interpolated/extrapolated vertically as well as laterally. This method is generally not preferable as one sees the results as residuals, which may appear as wavy events.</p>
+        <p>In the <i>linear-based</i> interpolation method, the events are proportionally adjusted relative to the edited events. This is the default option and the preferable method for editing a HorizonCube if the Z-linear based interpolation type does not reveal satisfactory results.</p>
+        <p>In the <i>Z-based Linear</i> interpolation method, the events are adjusted by using a weighting factor on number of events prior to editing. It reduces the weight on spacing from the border to the center defined by the outermost seeds. This helps in smoothing the edges with less abrupt jumps and is, therefore, the preferred method.</p>
+        <p>The editor is launched from the HorizonCube control center (Tools--&gt; Edit.. and Press <i>Go</i> button). When the editor is launched, a suffix '[Edit]' is added for an active HorizonCube that is present in the tree. This is done to avoid accidental editing of the parent HorizonCube.</p>
+        <p>The editor layout is shown below:</p>
+        <img src="../../../resources/images/horizoncube/edit_horizoncube_3d.png" class="image" />
+        <p><i>HorizonCube Editor Dialog</i>
+        </p>
+        <p><b>Package(s) Selection</b>
+        </p>
+        <p>For HorizonCubes with more than one package, the user may utilize the package selection feature, selecting one package at a time for editing. This is particularly useful if the HorizonCube is very large. Note that the corrected HorizonCube will be a merged version (i.e. edited package and unedited packages).</p>
+        <img src="../../../resources/images/horizoncube/select_packages.png" class="image" />
+        <p><b>Event Index</b>
+        </p>
+        <p>This is a slider to <i>Add</i> events in the list for editing. Initially, the slider is positioned at 0-event level and all events of a selected HorizonCube are displayed in the scene on inlines/crosslines. When the slider is moved down/up the corresponding event is displayed in the scene. The event ID is always displayed in the text box below the the slider of the editor.</p>
+        <p><b>Add</b>
+        </p>
+        <p>This button is used to add an event in the selected events list. It becomes active as soon as one moves the slider downward from the default position.</p>
+        <p><b>Selected Events</b>
+        </p>
+        <p>It is a list of selected events as well as the framework events. The framework events are the events that are the original horizons used to create a HorizonCube. The framework events serve as a zero error boundaries per package i.e. neither the selected events nor the corrected events can cross the framework events. On the other hand, if one attempts to edit an event such that it crosses the framework, the edited event will merge together with the framework event (e.g. a pinch-out type event).</p>
+        <p class="note">The color of an event is set from the colortable of the displayed HorizonCube.</p>
+        <p>For display purposes, you may right click in the selected events panel to uncheck/check all events. The All option on the top of panel does the same thing. If an event is unchecked, it will not be displayed in the scene. To avoid displaying too many events in the scene, you may display only selected events by unchecking the unwanted events in the display.</p>
+        <p>Toolbar</p>
+        <ul>
+            <li value="1">
+                <img src="../../../resources/images/icons/qc.png" class="icon" /><i>QC</i> the output of a corrected HorizonCube on an inline / crossline</li>
+            <li value="2">
+                <img src="../../../resources/images/icons/unlock.png" class="icon" /><i>Lock</i> an event to make it a framework event. Another edited event cannot cross the locked event but it will merge with the locked one.</li>
+            <li value="3">
+                <img src="../../../resources/images/icons/trashcan.png" class="icon" /><i>Remove</i> an event(s) from the selected list.</li>
+            <li value="4">
+                <img src="../../../resources/images/icons/save.png" class="icon" /><i>Save</i> seeds and the edited events for later use in editing.</li>
+            <li value="5">
+                <img src="../../../resources/images/icons/open.png" class="icon" /><i>Open</i> the saved events.</li>
+        </ul>
+        <p><b>Interpolation Type</b>
+        </p>
+        <p>User has to decide which type of interpolation s/he has to select. These types are explained at the beginning of this section. The linear based interpolation also supports smoothing of an event close to the edges. The edges are formed by using the seeds that defines a rectangular edited area. It is recommended to use a mild (5 by 5) smoothing filter.</p>
+        <p style="page-break-before: always"><b>Advanced Settings</b>
+        </p>
+        <p>
+            <img src="../../../resources/images/icons/settings.png" class="icon" />As the one edits the events on a loose grid, therefore, the events should be gridded based on a gridding alogrithm. The advanced settings are used to change the default gridding settings. At present, triangulation and inverse distance gridding algorithms are supported.</p>
+        <img src="../../../resources/images/horizoncube/advanced_settings.png" class="image" />
+        <p><b>Apply</b>
+        </p>
+        <p>It applies the interpolation between the edited events on the input HorizonCube and activates the other buttons.</p>
+        <p><b>Revert</b>
+        </p>
+        <p>It reverts (UNDO) the changes made by the apply action. The scene goes back to actual editing of the HorizonCube events with seeds.</p>
+        <p><b>Save</b>
+        </p>
+        <p>Save the corrected HorizonCube. For first correction, it will suggest you to provide a new name. For subsequent editing, it will overwrite the active HorizonCube.</p>
+        <p><b>Save As</b>
+        </p>
+        <p>Save the corrected HorizonCube with a new name (recommended).</p>
+        <p><b>Saving a session</b>
+        </p>
+        <p>Sessions save/retrieve are supported for the HorizonCube editor. It saves the pre-loaded HorizonCube, the editor layout, edited events with seeds, and the scene layout.</p>
+        <p>Tips</p>
+        <ul>
+            <li value="1">Please avoid editing multiple areas. Best practice is to correct one area, and then continue editing the corrected HorizonCube in another area (if necessary).</li>
+            <li value="2">Save the edited HorizonCube with new name.</li>
+            <li value="3">While editing on sections, you may QC the output.</li>
+            <li value="4">If you edit an edited HorizonCube, you may over-write the same. This avoids too many copies of the same HorizonCube.</li>
+            <li value="5">Always use Revert option if you are not satisfied with the corrections.</li>
+            <li value="6">Save a session (Survey &gt; Session &gt; Save) with HorizonCube Editor Active.</li>
+        </ul>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+<map id="Pos::EMSurfaceProvider" name="Pos::EMSurfaceProvider">
+<area shape="rect" id="node5" href="$classPos_1_1EMSurface2DProvider3D.html" title="EMSurfaceProvider for 3D positions with 2D Horizon. " alt="" coords="5,160,205,189"/>
+<area shape="rect" id="node7" href="$classPos_1_1EMSurfaceProvider2D.html" title="EMSurfaceProvider for 2D positioning. " alt="" coords="229,160,411,189"/>
+<area shape="rect" id="node9" href="$classPos_1_1EMSurfaceProvider3D.html" title="EMSurfaceProvider for 3D positioning. " alt="" coords="435,160,616,189"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="279,5,361,35"/>
+</map>

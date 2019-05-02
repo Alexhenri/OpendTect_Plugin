@@ -1,0 +1,6 @@
+<map id="FileDownloader" name="FileDownloader">
+<area shape="rect" id="node2" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="5,237,117,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="36,160,87,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="11,83,112,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="19,5,104,35"/>
+</map>

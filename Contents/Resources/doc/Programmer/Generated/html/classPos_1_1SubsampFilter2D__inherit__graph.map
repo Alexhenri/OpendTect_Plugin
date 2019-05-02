@@ -1,0 +1,5 @@
+<map id="Pos::SubsampFilter2D" name="Pos::SubsampFilter2D">
+<area shape="rect" id="node2" href="$classPos_1_1Filter2D.html" title="Provides a filter related to 2D seismic data. " alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node4" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="84,5,167,35"/>
+<area shape="rect" id="node6" href="$classPos_1_1SubsampFilter.html" title="Passes each nth position. " alt="" coords="128,83,264,112"/>
+</map>

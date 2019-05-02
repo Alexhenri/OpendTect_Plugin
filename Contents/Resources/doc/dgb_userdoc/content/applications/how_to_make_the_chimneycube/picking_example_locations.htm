@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-searchable="False" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Applications|11.1 How to Make the ChimneyCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.1.2 Picking Example Locations</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#applications/how_to_make_the_chimneycube/picking_example_locations.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>11.1.2 Picking Example Locations<a name="kanchor183"></a></h3>
+        <p>Picking chimneys and non-chimneys is done in the graphics window using the plane viewers. Unless you know your data so well that you can immediately go to the inlines, crosslines, or timeslices (where you wish to pick chimneys), we recommend starting by making a few <i>similarity slices</i> at different times. Select the Time-plane viewer and add a new element (right-hand mouse button, select <i>Add</i>). Position the plane: click on the interact mode icon, click on the plane followed by a click and drag on one of the frame arrows. The position is displayed in the status bar below the scene. Click outside the frame when you have reached the desired position. The select view data menu pops up. Load one of the similarity attributes (option Attributes). If the Attributes option is not available and you can only select from the "Stored" data cubes, you have no active attribute set; create one in the attribute set editor from the <i>Processing</i> menu. Loading a similarity attribute from the set means that the attribute is calculated on the fly. This may take a few seconds depending on the data size and the hardware you use. To use similarity slices in context of processing a chimney cube check the display and look for circular patterns or other anomalous dots.</p>
+        <p>Display a seismic inline through one of the possible chimney locations (inline viewer). Let us assume that you have indeed identified a chimney on this line. You may want to display one or more attributes in a small window around the chimney (add another inline viewer, position it and resize it) to check how the chimney appears on single-attributes. (To compare different attributes you can add more viewers that can be toggled on/off in the tree, or you can add another scene (Windows menu, option New). You can also use the "Swift" icon to apply attributes from an open attribute set directly to an active element.</p>
+        <p>Having done this you are now ready to start picking chimneys and non-chimneys. The first action required is to create two new picksets: one for chimneys and one for non-chimneys. Use the right-hand pop-up menu from the picksets entry in the OpendTect tree to do this. Type the name of the pickset you wish to create, e.g. <i>chimneys_yes</i> and start picking locations (left-hand mouse button) inside the chimney. Picks can be removed by pressing <i>Ctrl</i> and left-hand mouse clicking the pick. Click on the data element in the OpendTect tree to be able to move the element to another position and repeat the process. Repeat this exercise until you have sampled all chimney points you need. Now select the <i>non-chimneys</i> pickset from the OpendTect tree and start picking non-chimney locations. When you are done save each pickset in a separate pickset Group (<i>Store</i> pop-up menu option from the tree).</p>
+        <p><b>Picking strategy:</b> Picking example locations is the key step in this procedure. You should aim to create representative sets for both chimneys and non-chimneys. Try not to limit yourself to one chimney if there are more chimneys in your data set. Try to sample these consistently and over as wide a time-range as possible.</p>
+        <p>The default chimney attribute set is tuned to find chimneys that are characterized by energy variations, low trace-to-trace similarity and chaotic reflection patterns (variations in local dip). The default attribute set extracts attributes in 3 separate windows of 80ms that are aligned above, around and below the evaluation point. This arrangement will help the network to distinguish between a vertical disturbance (of approx. 240ms) and a local disturbance that is not vertical, hence should be classified as non-chimney.</p>
+        <p>So, if you use the default chimney set, you should select example chimney locations inside zones where the energy and the reflection pattern are disturbed over a vertical zone. non-chimneys should be picked at locations where you see good reflectors but also at locations of non-vertical disturbance (e.g. at faults). A typical set for training consists of several hundred to a few thousand points.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

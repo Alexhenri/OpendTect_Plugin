@@ -1,0 +1,49 @@
+<map id="uiParent" name="uiParent">
+<area shape="rect" id="node5" href="$classuiGroup.html" title="uiGroup" alt="" coords="283,1168,349,1197"/>
+<area shape="rect" id="node95" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="275,1221,357,1251"/>
+<area shape="rect" id="node97" href="$classuiToolBar.html" title="uiToolBar" alt="" coords="277,1275,355,1304"/>
+<area shape="rect" id="node7" href="$classAttribParamGroup.html" title="AttribParamGroup" alt="" coords="447,5,572,35"/>
+<area shape="rect" id="node9" href="$classMPE_1_1uiPreviewGroup.html" title="Viewer for previewing data around seed. " alt="" coords="435,59,584,88"/>
+<area shape="rect" id="node11" href="$classMPE_1_1uiSetupGroup.html" title="MPE::uiSetupGroup" alt="" coords="440,112,579,141"/>
+<area shape="rect" id="node13" href="$classPreStack_1_1uiAngleCompGrp.html" title="PreStack::uiAngleCompGrp" alt="" coords="419,165,600,195"/>
+<area shape="rect" id="node15" href="$classPreStack_1_1uiProcessorManager.html" title="PreStack::uiProcessorManager" alt="" coords="408,219,611,248"/>
+<area shape="rect" id="node17" href="$classPreStack_1_1uiProcSel.html" title="PreStack::uiProcSel" alt="" coords="440,272,579,301"/>
+<area shape="rect" id="node19" href="$classPreStackView_1_1uiGatherDisplay.html" title="Displays multiple PreStack Gathers side by side with dynamic redraw possibility. " alt="" coords="407,325,612,355"/>
+<area shape="rect" id="node21" href="$classPreStackView_1_1uiGatherDisplayInfoHeader.html" title="PreStackView::uiGatherDisplay\lInfoHeader" alt="" coords="407,378,612,425"/>
+<area shape="rect" id="node23" href="$classui2DGridLines.html" title="ui2DGridLines" alt="" coords="457,448,561,477"/>
+<area shape="rect" id="node25" href="$classuiArr2DFilterPars.html" title="uiArr2DFilterPars" alt="" coords="448,501,571,531"/>
+<area shape="rect" id="node27" href="$classuiAttrDescEd.html" title="Attribute description editor. " alt="" coords="460,555,559,584"/>
+<area shape="rect" id="node29" href="$classuiAttrTypeSel.html" title="Selector for attribute type. " alt="" coords="459,608,560,637"/>
+<area shape="rect" id="node31" href="$classuiBaseMap.html" title="uiBaseMap" alt="" coords="467,661,552,691"/>
+<area shape="rect" id="node33" href="$classuiBatchJobDispatcherSel.html" title="Lets user select a batch job dispatcher suited for the job. " alt="" coords="425,715,593,744"/>
+<area shape="rect" id="node35" href="$classuiBinIDTable.html" title="uiBinIDTable" alt="" coords="461,768,557,797"/>
+<area shape="rect" id="node37" href="$classuiBuildListFromList.html" title="Base class for element allowing the building of lists of items from available &#39;ingredients&#39;. " alt="" coords="443,821,576,851"/>
+<area shape="rect" id="node39" href="$classuiButtonGroup.html" title="uiButtonGroup" alt="" coords="457,875,561,904"/>
+<area shape="rect" id="node41" href="$classuiButtonStateEdit.html" title="uiButtonStateEdit" alt="" coords="448,928,571,957"/>
+<area shape="rect" id="node43" href="$classuiCheckList.html" title="Group of check boxes. Ensures a certain policy is honored. " alt="" coords="464,981,555,1011"/>
+<area shape="rect" id="node45" href="$classuiColorInput.html" title="small element for color selection. Has no text label. " alt="" coords="464,1035,555,1064"/>
+<area shape="rect" id="node47" href="$classuiColorTableGroup.html" title="uiColorTableGroup" alt="" coords="444,1088,575,1117"/>
+<area shape="rect" id="node49" href="$classuiCompoundParSel.html" title="Single&#45;line element allowing multi&#45;parameter to be set via a dialog. " alt="" coords="443,1141,576,1171"/>
+<area shape="rect" id="node51" href="$classuiCreateLogCubeOutputSel.html" title="uiCreateLogCubeOutputSel" alt="" coords="419,1195,600,1224"/>
+<area shape="rect" id="node53" href="$classuiD2TModelGroup.html" title="uiD2TModelGroup" alt="" coords="447,1248,572,1277"/>
+<area shape="rect" id="node55" href="$classuiDateSel.html" title="uiDateSel" alt="" coords="471,1301,548,1331"/>
+<area shape="rect" id="node57" href="$classuiDialExtra.html" title="uiDialExtra" alt="" coords="467,1355,552,1384"/>
+<area shape="rect" id="node59" href="$classuiDlgGroup.html" title="uiDlgGroup" alt="" coords="467,1408,552,1437"/>
+<area shape="rect" id="node61" href="$classuiEditObjectList.html" title="Base class for element allowing maintenance of lists of (usually smaller) objects. " alt="" coords="452,1461,567,1491"/>
+<area shape="rect" id="node63" href="$classuiEditProbDenFunc.html" title="Base class for edit probability density function editors. " alt="" coords="443,1515,576,1544"/>
+<area shape="rect" id="node65" href="$classuiElasticModelProvider.html" title="uiElasticModelProvider" alt="" coords="432,1568,587,1597"/>
+<area shape="rect" id="node67" href="$classuiElasticPropSelGrp.html" title="uiElasticPropSelGrp" alt="" coords="440,1621,579,1651"/>
+<area shape="rect" id="node69" href="$classuiElasticPropSelGrp_1_1uiSelInpGrp.html" title="uiElasticPropSelGrp\l::uiSelInpGrp" alt="" coords="440,1674,579,1721"/>
+<area shape="rect" id="node71" href="$classuiFillPattern.html" title="one&#45;line element for fill pattern selection. No text label. " alt="" coords="464,1744,555,1773"/>
+<area shape="rect" id="node73" href="$classuiFlatDPPosSel.html" title="uiFlatDPPosSel" alt="" coords="452,1797,567,1827"/>
+<area shape="rect" id="node75" href="$classuiFlatViewAuxDataEditorList.html" title="A list with all auxdata in a FlatView::AuxDataEditor where the user can select which one should be ac..." alt="" coords="415,1851,604,1880"/>
+<area shape="rect" id="node77" href="$classuiFlatViewControl.html" title="Tools to control uiFlatViewer(s). " alt="" coords="447,1904,572,1933"/>
+<area shape="rect" id="node79" href="$classuiFlatViewer.html" title="Fulfills the FlatView::Viewer specifications using &#39;ui&#39; classes. " alt="" coords="463,1957,556,1987"/>
+<area shape="rect" id="node81" href="$classuiFreqFilterSelFreq.html" title="uiFreqFilterSelFreq" alt="" coords="444,2011,575,2040"/>
+<area shape="rect" id="node83" href="$classuiFreqTaperGrp.html" title="uiFreqTaperGrp" alt="" coords="453,2064,565,2093"/>
+<area shape="rect" id="node85" href="$classuiFuncSelDraw.html" title="uiFuncSelDraw" alt="" coords="455,2117,564,2147"/>
+<area shape="rect" id="node87" href="$classuiFVAnnotPropTab_1_1AxesGroup.html" title="uiFVAnnotPropTab::AxesGroup" alt="" coords="407,2171,612,2200"/>
+<area shape="rect" id="node89" href="$classuiGenInput.html" title="General Input Element. " alt="" coords="467,2224,552,2253"/>
+<area shape="rect" id="node91" href="$classuiGenInputBoolFld.html" title="uiGenInputBoolFld" alt="" coords="445,2277,573,2307"/>
+<area shape="rect" id="node93" href="$classuiGenInputGrp.html" title="uiGenInputGrp" alt="" coords="456,2331,563,2360"/>
+</map>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.5 Fluid Replacement">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.5.1 Define Fluid Contents</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/fluid_replacement/define_fluid_contents.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.5.1 Define Fluid Contents<a name="kanchor3"></a></h3>
+        <p><a name="kanchor4"></a>The fluid replacement algorithm in SynthRock is based on Gassmann's equation. Prior to any simulation, fluid possibly present can be specified in the <i>Contents Manager</i>.</p>
+        <p>In the <i>Profile</i> module, the hydrocarbon column has to be defined by particular thickness relative to a well marker(s). This is done by clicking on the bottom right<img src="../../resources/images/icons/contents.png" class="icon" />  icon, in the layer modeling window of the <i>Profile</i> module.Then a number of fluid contents, relative to various markers, can be defined in clicking on <i>Define:</i> below any individual marker, multiple fluid columns (e.g. oil column, gas column) of (possibly) different thickness can be specified.</p>
+        <img src="../../resources/images/synthrock/define_hc_contents.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/define_hc_column.png" class="image" />
+        </div>
+        <p>Optionally, the user can choose to limit the HC column down to another marker, below the original marker relative to which the HC column is defined. Pressing <i>Ok</i> will set-up the HC content.</p>
+        <p style="page-break-before: always">The gas column of the above example can be visualized by zooming in at the appropriate level and specifying <i>Gas</i> as fluid content, in the bottom part of the main layer modeling window. It appears as a rectangle made of red colored lines (see below). The <i>Outline color</i> and/or the <i>Pattern</i> of the fluid visualization can be changed under Manage Contents by clicking on the <img src="../../resources/images/icons/contents.png" class="icon" /> in the Manage Stratigraphy window.</p>
+        <img src="../../resources/images/synthrock/define_fluid_contents.png" class="image" />
+        <p>In the Stochastic or Basic Layer modeling, the fluid column has to be defined in the <a href="../stochastic_pseudowell_modeling/model_definition.htm" target="_self" style="font-weight: normal;">model building</a> itself. The display is done in the same way as in the Profile mode.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<map id="Array2DInterpol" name="Array2DInterpol">
+<area shape="rect" id="node11" href="$classContinuousCurvatureArray2DInterpol.html" title="ContinuousCurvatureArray2\lDInterpol" alt="" coords="712,5,893,51"/>
+<area shape="rect" id="node15" href="$classExtensionArray2DInterpol.html" title="Array 2D interpolator that works by extending the data into udf areas. " alt="" coords="717,75,888,104"/>
+<area shape="rect" id="node19" href="$classInverseDistanceArray2DInterpol.html" title="Interpolates 2D arrays using inverse distance method. " alt="" coords="699,128,907,157"/>
+<area shape="rect" id="node23" href="$classTriangulationArray2DInterpol.html" title="Uses triangulation method to interpolate two dimensional arrays. " alt="" coords="709,181,896,211"/>
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="393,101,487,131"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="293,101,344,131"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="143,101,244,131"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,101,92,131"/>
+<area shape="rect" id="node13" href="$classContinuousCurvatureHor3DGridder.html" title="ContinuousCurvatureHor3DGridder" alt="" coords="956,13,1180,43"/>
+<area shape="rect" id="node17" href="$classExtensionHor3DGridder.html" title="ExtensionHor3DGridder" alt="" coords="988,75,1148,104"/>
+<area shape="rect" id="node21" href="$classInvDistHor3DGridder.html" title="InvDistHor3DGridder" alt="" coords="996,128,1140,157"/>
+<area shape="rect" id="node25" href="$classTriangulationHor3DGridder.html" title="TriangulationHor3DGridder" alt="" coords="980,181,1156,211"/>
+</map>

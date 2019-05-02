@@ -1,0 +1,20 @@
+<map id="histequalizer.h" name="histequalizer.h">
+<area shape="rect" id="node5" href="$ranges_8h.html" title="ranges.h" alt="" coords="513,83,585,112"/>
+<area shape="rect" id="node7" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="497,547,575,576"/>
+<area shape="rect" id="node35" href="$math2_8h.html" title="math2.h" alt="" coords="356,160,425,189"/>
+<area shape="rect" id="node62" href="$ptrman_8h.html" title="ptrman.h" alt="" coords="701,469,773,499"/>
+<area shape="rect" id="node74" href="$varlenarray_8h.html" title="varlenarray.h" alt="" coords="633,237,729,267"/>
+<area shape="rect" id="node77" href="$samplingdata_8h.html" title="samplingdata.h" alt="" coords="449,160,559,189"/>
+<area shape="rect" id="node9" href="$undefval_8h.html" title="undefval.h" alt="" coords="372,624,455,653"/>
+<area shape="rect" id="node27" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="479,624,593,653"/>
+<area shape="rect" id="node30" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="617,624,689,653"/>
+<area shape="rect" id="node13" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="533,701,640,731"/>
+<area shape="rect" id="node22" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="432,701,509,731"/>
+<area shape="rect" id="node16" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="468,779,540,808"/>
+<area shape="rect" id="node39" href="$odcomplex_8h.html" title="odcomplex.h" alt="" coords="343,237,439,267"/>
+<area shape="rect" id="node43" href="$convert_8h.html" title="convert.h" alt="" coords="280,315,355,344"/>
+<area shape="rect" id="node45" href="$string2_8h.html" title="string2.h" alt="" coords="248,624,320,653"/>
+<area shape="rect" id="node55" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="273,392,367,421"/>
+<area shape="rect" id="node58" href="$odstring_8h.html" title="odstring.h" alt="" coords="281,469,359,499"/>
+<area shape="rect" id="node65" href="$atomic_8h.html" title="atomic.h" alt="" coords="713,624,785,653"/>
+</map>

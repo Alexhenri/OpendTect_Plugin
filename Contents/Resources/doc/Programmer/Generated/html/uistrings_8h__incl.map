@@ -1,0 +1,20 @@
+<map id="uistrings.h" name="uistrings.h">
+<area shape="rect" id="node5" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="213,469,307,499"/>
+<area shape="rect" id="node38" href="$uistring_8h.html" title="uistring.h" alt="" coords="387,83,461,112"/>
+<area shape="rect" id="node8" href="$odstring_8h.html" title="odstring.h" alt="" coords="227,547,304,576"/>
+<area shape="rect" id="node11" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="580,624,657,653"/>
+<area shape="rect" id="node13" href="$undefval_8h.html" title="undefval.h" alt="" coords="483,701,565,731"/>
+<area shape="rect" id="node30" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="707,701,821,731"/>
+<area shape="rect" id="node33" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="845,701,917,731"/>
+<area shape="rect" id="node16" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="685,779,792,808"/>
+<area shape="rect" id="node25" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="533,779,611,808"/>
+<area shape="rect" id="node19" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="624,856,696,885"/>
+<area shape="rect" id="node41" href="$keystrs_8h.html" title="keystrs.h" alt="" coords="227,392,301,421"/>
+<area shape="rect" id="node45" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="589,701,683,731"/>
+<area shape="rect" id="node50" href="$string2_8h.html" title="string2.h" alt="" coords="284,701,356,731"/>
+<area shape="rect" id="node59" href="$typeset_8h.html" title="typeset.h" alt="" coords="515,160,589,189"/>
+<area shape="rect" id="node61" href="$odset_8h.html" title="odset.h" alt="" coords="656,469,720,499"/>
+<area shape="rect" id="node64" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="497,237,607,267"/>
+<area shape="rect" id="node66" href="$debug_8h.html" title="debug.h" alt="" coords="333,315,400,344"/>
+<area shape="rect" id="node70" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="325,392,408,421"/>
+</map>

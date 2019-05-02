@@ -1,0 +1,7 @@
+<map id="Selector&lt; T &gt;" name="Selector&lt; T &gt;">
+<area shape="rect" id="node3" href="$classArraySelector.html" title="Selector based on array. " alt="" coords="5,101,139,131"/>
+<area shape="rect" id="node5" href="$classRangeSelector.html" title="Selector based on range specification (an Interval). " alt="" coords="163,101,301,131"/>
+<area shape="rect" id="node7" href="$classSingleSelector.html" title="Selector selecting only a single value. " alt="" coords="325,101,464,131"/>
+<area shape="rect" id="node9" href="$classSelector.html" title="Selector\&lt; Coord3 \&gt;" alt="" coords="488,101,624,131"/>
+<area shape="rect" id="node11" href="$classvisBase_1_1PolygonCoord3Selector.html" title="visBase::PolygonCoord3Selector" alt="" coords="449,181,663,211"/>
+</map>

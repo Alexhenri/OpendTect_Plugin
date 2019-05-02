@@ -1,0 +1,8 @@
+<map id="EM::EMUndoEvent" name="EM::EMUndoEvent">
+<area shape="rect" id="node5" href="$classEM_1_1PosIDChangeEvent.html" title="Saves information from a EMObject::changePosID call. " alt="" coords="348,5,513,35"/>
+<area shape="rect" id="node7" href="$classEM_1_1SetAllHor3DPosUndoEvent.html" title="UndoEvent for setting all positions on a EM::Horizon3D section. " alt="" coords="325,59,536,88"/>
+<area shape="rect" id="node9" href="$classEM_1_1SetPosAttribUndoEvent.html" title="UndoEvent for setting position attribute. " alt="" coords="336,112,525,141"/>
+<area shape="rect" id="node11" href="$classEM_1_1SetPosUndoEvent.html" title="EM::SetPosUndoEvent" alt="" coords="352,165,509,195"/>
+<area shape="rect" id="node13" href="$classEM_1_1SetPrefColorEvent.html" title="UndoEvent to set preferred Color. " alt="" coords="352,219,509,248"/>
+<area shape="rect" id="node2" href="$classUndoEvent.html" title="Holds the information on how to undo/redo something. " alt="" coords="7,112,92,141"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="uiCreatePicks" name="uiCreatePicks">
+<area shape="rect" id="node11" href="$classuiGenPosPicks.html" title="uiGenPosPicks" alt="" coords="5,392,117,421"/>
+<area shape="rect" id="node13" href="$classuiGenRandPicks2D.html" title="uiGenRandPicks2D" alt="" coords="141,392,277,421"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="100,237,169,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="93,160,176,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="100,83,169,112"/>
+</map>

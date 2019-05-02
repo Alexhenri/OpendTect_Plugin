@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="12 Default Attribute Sets">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>12.3 NN Chimney Cube</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#default_attribute_sets/nn_chimney_cube.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>12.3 NN Chimney Cube<a name="kanchor155"></a></h2>
+        <p>This attribute set is meant for usage in a neural network. A key feature of this set is that most attributes are extracted in three separate time windows: one above, one centered around, and one below the point of investigation. In this way, we utilize the fact that chimneys are vertical bodies with a certain dimension. It is expected that similar seismic characteristics of Chimneys are present in all three windows and thus a correlation exists between these three windows. The neural network will recognize this and will thus be able to distinguish between real chimneys and other (more localized) features.</p>
+        <p style="page-break-before: always">In this section, we compare the original seismic in Figure 1 with the results of chimney detecting neural network displayed in Figure 3. The main body of the chimney and its sidetracks are picked up, while other features (faults, low similarity/low energy layers) are rejected. In addition we compare a similarity attribute in Figure 2 with the neural network results in Figure 3. The similarity attribute highlights the chimney, but also other (unwanted) features are enhanced. The multi-attribute neural network is able to make a clear distinction between chimney and non-chimney. Neural networks with the NN ChimneyCube attribute set as input can (and in general will) also detect other fluid migration paths, e.g. dewatering structures.</p>
+        <img src="../resources/images/default_attribute_sets/mathematics.png" class="image" />
+        <p><i>"Chimney Cube" default attribute-set</i>
+        </p>
+        <p style="page-break-before: always"><b>Figure 1.Chimney in seismic data </b>
+        </p>
+        <img src="../resources/images/default_attribute_sets/similarity_attribute.png" class="image" data-mc-target-name="82" />
+        <p style="page-break-before: always"><b>Figure 2. The similarity attribute.</b>
+        </p>
+        <img src="../resources/images/default_attribute_sets/chimney_in_seismic_data.png" class="image" data-mc-target-name="81" />
+        <p style="page-break-before: always"><b>Figure 3. Result after applying a neural network with the NN Chimney Cube as input.</b>
+        </p>
+        <img src="../resources/images/default_attribute_sets/neural_network.png" class="image" data-mc-target-name="83" />
+        <p>For more details on chimney analysis workflow, look at : <a href="http://www.dgbes.com/index.php/support/tutorials/tutorial-videos" target="_blank" style="font-weight: normal;">dGB Tutorial videos</a>.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

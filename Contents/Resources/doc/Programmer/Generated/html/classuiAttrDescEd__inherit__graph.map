@@ -1,0 +1,31 @@
+<map id="uiAttrDescEd" name="uiAttrDescEd">
+<area shape="rect" id="node9" href="$classuiCoherencyAttrib.html" title="Coherency attribute description editor. " alt="" coords="557,5,683,35"/>
+<area shape="rect" id="node11" href="$classuiConvolveAttrib.html" title="Convolve Attribute description editor. " alt="" coords="561,59,679,88"/>
+<area shape="rect" id="node13" href="$classuiDeltaResampleAttrib.html" title="DeltaResample Attribute description editor. " alt="" coords="544,112,696,141"/>
+<area shape="rect" id="node15" href="$classuiDipFilterAttrib.html" title="DipFilter Attribute description editor. " alt="" coords="564,165,676,195"/>
+<area shape="rect" id="node17" href="$classuiEnergyAttrib.html" title="Energy Attribute ui. " alt="" coords="568,219,672,248"/>
+<area shape="rect" id="node19" href="$classuiEventAttrib.html" title="Event Attributes description editor. " alt="" coords="572,272,668,301"/>
+<area shape="rect" id="node21" href="$classuiFingerPrintAttrib.html" title="FingerPrint Attribute description editor. " alt="" coords="557,325,683,355"/>
+<area shape="rect" id="node23" href="$classuiFreqFilterAttrib.html" title="** Attribute description editor " alt="" coords="561,379,679,408"/>
+<area shape="rect" id="node25" href="$classuiFrequencyAttrib.html" title="Frequency Attribute description editor. " alt="" coords="559,432,681,461"/>
+<area shape="rect" id="node27" href="$classuiGapDeconAttrib.html" title="GapDecon Attribute description editor. " alt="" coords="557,485,683,515"/>
+<area shape="rect" id="node29" href="$classuiInstantaneousAttrib.html" title="Instantaneous Attribute description editor. " alt="" coords="548,539,692,568"/>
+<area shape="rect" id="node31" href="$classuiMatchDeltaAttrib.html" title="MatchDelta Attribute description editor. " alt="" coords="555,592,685,621"/>
+<area shape="rect" id="node33" href="$classuiMathAttrib.html" title="Math Attribute description editor. " alt="" coords="575,645,665,675"/>
+<area shape="rect" id="node35" href="$classuiPositionAttrib.html" title="Position Attribute description editor. " alt="" coords="565,699,675,728"/>
+<area shape="rect" id="node37" href="$classuiPreStackAttrib.html" title="PreStack Attribute ui. " alt="" coords="561,752,679,781"/>
+<area shape="rect" id="node39" href="$classuiReferenceAttrib.html" title="Reference Attribute description editor. " alt="" coords="559,805,681,835"/>
+<area shape="rect" id="node41" href="$classuiReliefAttrib.html" title="Pseudo Relief Attribute description editor. " alt="" coords="572,859,668,888"/>
+<area shape="rect" id="node43" href="$classuiSampleValueAttrib.html" title="SampleValue Attribute description editor. " alt="" coords="551,912,689,941"/>
+<area shape="rect" id="node45" href="$classuiScalingAttrib.html" title="Scaling Attribute description editor. " alt="" coords="567,965,673,995"/>
+<area shape="rect" id="node47" href="$classuiSemblanceAttrib.html" title="Semblance Attribute description editor. " alt="" coords="556,1019,684,1048"/>
+<area shape="rect" id="node49" href="$classuiShiftAttrib.html" title="Shift Attribute description editor. " alt="" coords="575,1072,665,1101"/>
+<area shape="rect" id="node51" href="$classuiSimilarityAttrib.html" title="Similarity Attribute description editor. " alt="" coords="561,1125,679,1155"/>
+<area shape="rect" id="node53" href="$classuiSpecDecompAttrib.html" title="Spectral Decomposition Attribute description editor. " alt="" coords="549,1179,691,1208"/>
+<area shape="rect" id="node55" href="$classuiTextureAttrib.html" title="uiTextureAttrib" alt="" coords="567,1232,673,1261"/>
+<area shape="rect" id="node57" href="$classuiVolProcAttrib.html" title="VolumeProcessing Attribute ui. " alt="" coords="565,1285,675,1315"/>
+<area shape="rect" id="node59" href="$classuiVolumeStatisticsAttrib.html" title="VolumeStatistics Attribute description editor. " alt="" coords="539,1339,701,1368"/>
+<area shape="rect" id="node61" href="$classuiWellLogAttrib.html" title="Energy Attribute ui. " alt="" coords="565,1392,675,1421"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="275,699,341,728"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="156,699,225,728"/>
+</map>

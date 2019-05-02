@@ -1,0 +1,5 @@
+<map id="uiODApplService" name="uiODApplService">
+<area shape="rect" id="node2" href="$classuiApplService.html" title="Services from application level to &#39;Part servers&#39;. " alt="" coords="16,160,117,189"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="16,83,117,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="24,5,109,35"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="SyntheticData" name="SyntheticData">
+<area shape="rect" id="node7" href="$classPostStackSyntheticData.html" title="PostStackSyntheticData" alt="" coords="209,237,375,267"/>
+<area shape="rect" id="node17" href="$classPreStackSyntheticData.html" title="PreStackSyntheticData" alt="" coords="399,237,556,267"/>
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="333,83,435,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="341,5,427,35"/>
+<area shape="rect" id="node9" href="$classPSBasedPostStackSyntheticData.html" title="PSBasedPostStackSyntheticData" alt="" coords="75,315,296,344"/>
+<area shape="rect" id="node15" href="$classStratPropSyntheticData.html" title="StratPropSyntheticData" alt="" coords="320,315,480,344"/>
+<area shape="rect" id="node11" href="$classAngleStackSyntheticData.html" title="AngleStackSyntheticData" alt="" coords="5,392,176,421"/>
+<area shape="rect" id="node13" href="$classAVOGradSyntheticData.html" title="AVOGradSyntheticData" alt="" coords="200,392,360,421"/>
+</map>

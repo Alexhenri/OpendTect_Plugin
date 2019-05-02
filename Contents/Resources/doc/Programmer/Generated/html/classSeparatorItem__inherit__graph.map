@@ -1,0 +1,5 @@
+<map id="SeparatorItem" name="SeparatorItem">
+<area shape="rect" id="node2" href="$classMenuItem.html" title="MenuItem" alt="" coords="24,160,104,189"/>
+<area shape="rect" id="node4" href="$classMenuItemHolder.html" title="MenuItemHolder" alt="" coords="5,83,123,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="21,5,107,35"/>
+</map>

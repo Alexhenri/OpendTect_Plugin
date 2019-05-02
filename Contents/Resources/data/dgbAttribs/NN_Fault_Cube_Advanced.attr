@@ -1,0 +1,347 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 18:24:26 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x output=0
+0.UserRef: Seismic Data
+0.Hidden: No
+1.Definition: Storage id=100010.y output=0
+1.UserRef: Steering Data
+1.Hidden: Yes
+1.Datatype: Dip
+2.Definition: Storage id=100010.y output=1
+2.UserRef: Steering Data
+2.Hidden: Yes
+2.Datatype: Dip
+3.Definition: FullSteering phlock=no output=0
+3.UserRef: FullSteering 100010.y
+3.Hidden: Yes
+3.Input.0: 1
+3.Input.1: 2
+4.Definition: Similarity gate=[-48,48] pos0=0,1 pos1=0,-1 extension=90 steering=yes normalize=yes output=3
+4.UserRef: Similarity LongWindow Parallel
+4.Hidden: No
+4.Input.0: 0
+4.Input.1: 3
+5.Definition: Similarity gate=[-48,48] pos0=1,1 pos1=-1,-1 extension=90 steering=yes normalize=yes output=3
+5.UserRef: Similarity LongWindow Diagonal
+5.Hidden: No
+5.Input.0: 0
+5.Input.1: 3
+6.Definition: Math expression=min(x0,x1) output=0
+6.UserRef: Similarity LongWindow AllDir
+6.Hidden: No
+6.Input.0: 4
+6.Input.1: 5
+7.Definition: Similarity gate=[-24,24] pos0=0,1 pos1=0,-1 extension=90 steering=yes normalize=yes output=3
+7.UserRef: Similarity MidWindow Parallel
+7.Hidden: No
+7.Input.0: 0
+7.Input.1: 3
+8.Definition: Similarity gate=[-24,24] pos0=1,1 pos1=-1,-1 extension=90 steering=yes normalize=yes output=3
+8.UserRef: Similarity MidWindow Diagonal
+8.Hidden: No
+8.Input.0: 0
+8.Input.1: 3
+9.Definition: Math expression=min(x0,x1) output=0
+9.UserRef: Similarity MidWindow AllDir
+9.Hidden: No
+9.Input.0: 7
+9.Input.1: 8
+10.Definition: Similarity gate=[-12,12] pos0=0,1 pos1=0,-1 extension=90 steering=yes normalize=yes output=3
+10.UserRef: Similarity ShortWindow Parallel
+10.Hidden: No
+10.Input.0: 0
+10.Input.1: 3
+11.Definition: Similarity gate=[-12,12] pos0=1,1 pos1=-1,-1 extension=90 steering=yes normalize=yes output=3
+11.UserRef: Similarity ShortWindow Diagonal
+11.Hidden: No
+11.Input.0: 0
+11.Input.1: 3
+12.Definition: Math expression=min(x0,x1) output=0
+12.UserRef: Similarity ShortWindow AllDir
+12.Hidden: No
+12.Input.0: 10
+12.Input.1: 11
+13.Definition: Similarity gate=[-24,24] pos0=0,2 pos1=0,-2 extension=90 steering=yes normalize=yes output=3
+13.UserRef: Similarity MidWindow Double Step-out Parallel
+13.Hidden: No
+13.Input.0: 0
+13.Input.1: 3
+14.Definition: Similarity gate=[-24,24] pos0=2,2 pos1=-2,-2 extension=90 steering=yes normalize=yes output=3
+14.UserRef: Similarity MidWindow Double Step-out Diagonal
+14.Hidden: No
+14.Input.0: 0
+14.Input.1: 3
+15.Definition: Math expression=min(x0,x1) output=0
+15.UserRef: Similarity MidWindow Double Step-out AllDir
+15.Hidden: No
+15.Input.0: 13
+15.Input.1: 14
+16.Definition: Similarity gate=[-24,24] pos0=0,1 pos1=0,-1 extension=90 steering=no normalize=yes output=3
+16.UserRef: Similarity MidWindow No-Steering Parallel
+16.Hidden: No
+16.Input.0: 0
+17.Definition: Similarity gate=[-24,24] pos0=1,1 pos1=-1,-1 extension=90 steering=no normalize=yes output=3
+17.UserRef: Similarity MidWindow No-Steering Diiagonal
+17.Hidden: No
+17.Input.0: 0
+18.Definition: Math expression=min(x0,x1) output=0
+18.UserRef: Similarity MidWindow No-Steering AllDir
+18.Hidden: No
+18.Input.0: 16
+18.Input.1: 17
+21.Definition: Curvature stepout=3 constantvel=yes velocity=2500 output=4
+21.UserRef: Most Positive Curvature
+21.Hidden: No
+21.Input.0: 3
+22.Definition: Curvature stepout=3 constantvel=yes velocity=2500 output=5
+22.UserRef: Most Negative Curvature
+22.Hidden: No
+22.Input.0: 3
+23.Definition: Math expression=max(x0,-x1) output=0
+23.UserRef: Maximum {+PosCurv,-NegCurv}
+23.Hidden: No
+23.Input.0: 21
+23.Input.1: 22
+24.Definition: Curvature stepout=3 constantvel=yes velocity=2500 output=7
+24.UserRef: Dip Curvature
+24.Hidden: No
+24.Input.0: 3
+25.Definition: Curvature stepout=3 constantvel=yes velocity=2500 output=8
+25.UserRef: Strike Curvature
+25.Hidden: No
+25.Input.0: 3
+26.Definition: Curvature stepout=3 constantvel=yes velocity=2500 output=10
+26.UserRef: Curvatureness
+26.Hidden: No
+26.Input.0: 3
+27.Definition: Math expression=|x0| output=0
+27.UserRef: AbsValue {DipCurv}
+27.Hidden: No
+27.Input.0: 24
+28.Definition: Math expression=|x0| output=0
+28.UserRef: AbsValue {StrikeCurv}
+28.Hidden: No
+28.Input.0: 25
+29.Definition: Reference output=2
+29.UserRef: TWT
+29.Hidden: No
+29.Input.0: 0
+30.Definition: PolarDip inlcrl2dipazi=yes output=0
+30.UserRef: Polardip
+30.Hidden: No
+30.Input.0: 1
+30.Input.1: 2
+31.Definition: PolarDip inlcrl2dipazi=yes output=2
+31.UserRef: Inlinedip
+31.Hidden: No
+31.Input.0: 1
+31.Input.1: 2
+32.Definition: PolarDip inlcrl2dipazi=yes output=3
+32.UserRef: Crosslinedip
+32.Hidden: No
+32.Input.0: 1
+32.Input.1: 2
+33.Definition: Convolve kernel=Prewitt output=1
+33.UserRef: InlineGradient {InlineDip}
+33.Hidden: No
+33.Input.0: 31
+34.Definition: Convolve kernel=Prewitt output=2
+34.UserRef: CrosslineGradient {InlineDip}
+34.Hidden: No
+34.Input.0: 31
+35.Definition: Convolve kernel=Prewitt output=1
+35.UserRef: InlineGradient {CrosslineDip}
+35.Hidden: No
+35.Input.0: 32
+36.Definition: Convolve kernel=Prewitt output=2
+36.UserRef: CrosslineGradient {CrosslineDip}
+36.Hidden: No
+36.Input.0: 32
+37.Definition: Convolve kernel=Laplacian shape=Sphere size=3 output=0
+37.UserRef: Laplacian {InlineDip}
+37.Hidden: No
+37.Input.0: 31
+38.Definition: Convolve kernel=Laplacian shape=Sphere size=3 output=0
+38.UserRef: Laplacian {CrosslineDip}
+38.Hidden: No
+38.Input.0: 32
+39.Definition: Math expression=|x0| output=0
+39.UserRef: AbsValue {IGrad {IDip}}
+39.Hidden: No
+39.Input.0: 33
+40.Definition: Math expression=|x0| output=0
+40.UserRef: AbsValue {CGrad {IDip}}
+40.Hidden: No
+40.Input.0: 34
+41.Definition: Math expression=|x0| output=0
+41.UserRef: AbsValue {IGrad {CDip}}
+41.Hidden: No
+41.Input.0: 35
+42.Definition: Math expression=|x0| output=0
+42.UserRef: AbsValue {CGrad {CDip}}
+42.Hidden: No
+42.Input.0: 36
+43.Definition: Math expression=|x0| output=0
+43.UserRef: AbsValue {Lapl {IDip}}
+43.Hidden: No
+43.Input.0: 37
+44.Definition: Math expression=|x0| output=0
+44.UserRef: AbsValue {Lapl {CDip}}
+44.Hidden: No
+44.Input.0: 38
+45.Definition: Energy gate=[-12,12] output=1
+45.UserRef: RMS Short
+45.Hidden: No
+45.Input.0: 0
+46.Definition: Energy gate=[-48,48] output=1
+46.UserRef: RMS Long
+46.Hidden: No
+46.Input.0: 0
+47.Definition: DipSteeredMedianFilter stepout=3,3 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+47.UserRef: Dip Steered Median Filter Step=3
+47.Hidden: No
+47.Input.0: 0
+47.Input.1: 3
+48.Definition: Math expression=x0-x1 output=0
+48.UserRef: Filter Residual
+48.Hidden: No
+48.Input.0: 0
+48.Input.1: 47
+49.Definition: Energy gate=[-24,24] output=1
+49.UserRef: Noise
+49.Hidden: No
+49.Input.0: 48
+50.Definition: Energy gate=[-24,24] output=1
+50.UserRef: Signal
+50.Hidden: No
+50.Input.0: 47
+51.Definition: Math expression=x0/x1 output=0
+51.UserRef: S/N
+51.Hidden: No
+51.Input.0: 50
+51.Input.1: 49
+52.Definition: VolumeStatistics stepout=1,1 shape=Rectangle gate=[-24,24] nrtrcs=1 steering=no output=2
+52.UserRef: StabilityOfSteering
+52.Hidden: No
+52.Input.0: 30
+54.Definition: Frequency gate=[-72,72] normalize=no window=Hanning dumptofile=no output=1
+54.UserRef: Average Frequency
+54.Hidden: No
+54.Input.0: 47
+54.Input.1: 78
+55.Definition: Math expression=(1+0.333*x0)*x1 output=0
+55.UserRef: AvFreq wSimpleTimeCorrection
+55.Hidden: No
+55.Input.0: 29
+55.Input.1: 54
+56.Definition: Math expression=x0*x1 output=0
+56.UserRef: NoNNInput SimWeighted RMS Short
+56.Hidden: No
+56.Input.0: 9
+56.Input.1: 45
+57.Definition: Math expression=x0*x1 output=0
+57.UserRef: NoNNInput SimWeighted RMS Long
+57.Hidden: No
+57.Input.0: 9
+57.Input.1: 46
+58.Definition: Math expression=x0*x1 output=0
+58.UserRef: NoNNInput SimWeighted Noise
+58.Hidden: No
+58.Input.0: 9
+58.Input.1: 49
+59.Definition: Math expression=x0*x1 output=0
+59.UserRef: NoNNInput SimWeighted S/N
+59.Hidden: No
+59.Input.0: 9
+59.Input.1: 51
+60.Definition: Math expression=x0*x1 output=0
+60.UserRef: NoNNInput SimWeighted StabilityOfSteering
+60.Hidden: No
+60.Input.0: 9
+60.Input.1: 52
+61.Definition: Math expression=x0*x1 output=0
+61.UserRef: NoNNInput SimWeighted Av Freq
+61.Hidden: No
+61.Input.0: 9
+61.Input.1: 54
+62.Definition: Math expression=x0*x1 output=0
+62.UserRef: NoNNInput SimWeighted Av Freq with SimpleTimeCorrection
+62.Hidden: No
+62.Input.0: 9
+62.Input.1: 55
+63.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+63.UserRef: NoNNInput TotalWeight
+63.Hidden: No
+63.Input.0: 9
+64.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+64.UserRef: NoNNInput Average SimWeighted RMS Short
+64.Hidden: No
+64.Input.0: 56
+65.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+65.UserRef: NoNNInput Average SimWeighted RMS Long
+65.Hidden: No
+65.Input.0: 57
+66.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+66.UserRef: NoNNInput Average SimWeighted Noise
+66.Hidden: No
+66.Input.0: 58
+67.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+67.UserRef: NoNNInput Average SimWeighted S/N
+67.Hidden: No
+67.Input.0: 59
+68.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+68.UserRef: NoNNInput Average SimWeighted StabilityOfSteering
+68.Hidden: No
+68.Input.0: 60
+69.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+69.UserRef: NoNNInput Average SimWeighted AvFrequency
+69.Hidden: No
+69.Input.0: 61
+70.Definition: VolumeStatistics stepout=3,3 shape=Ellipse gate=[0,0] nrtrcs=1 steering=no output=0
+70.UserRef: NoNNInput Average SimWeighted AvFrequencywith SimpleTimeCorrection
+70.Hidden: No
+70.Input.0: 62
+71.Definition: Math expression=x0/x1 output=0
+71.UserRef: NormAverage SimWeighted RMS Short
+71.Hidden: No
+71.Input.0: 64
+71.Input.1: 63
+72.Definition: Math expression=x0/x1 output=0
+72.UserRef: NormAverage SimWeighted RMS Long
+72.Hidden: No
+72.Input.0: 65
+72.Input.1: 63
+73.Definition: Math expression=x0/x1 output=0
+73.UserRef: NormAverage SimWeighted Noise
+73.Hidden: No
+73.Input.0: 66
+73.Input.1: 63
+74.Definition: Math expression=x0/x1 output=0
+74.UserRef: NormAverage SimWeighted S/N
+74.Hidden: No
+74.Input.0: 67
+74.Input.1: 63
+75.Definition: Math expression=x0/x1 output=0
+75.UserRef: NormAverage SimWeighted StabilityOfSteering
+75.Hidden: No
+75.Input.0: 68
+75.Input.1: 63
+76.Definition: Math expression=x0/x1 output=0
+76.UserRef: NormAverage SimWeighted AvFreq
+76.Hidden: No
+76.Input.0: 69
+76.Input.1: 63
+77.Definition: Math expression=x0/x1 output=0
+77.UserRef: NormAverage SimWeighted  AvFreq wSimpleTimeCorrection
+77.Hidden: No
+77.Input.0: 70
+77.Input.1: 63
+78.Definition: Hilbert halflen=30 output=0
+78.UserRef: _Median Dip Filter Step=3_imag
+78.Hidden: Yes
+78.Input.0: 47
+MaxNrKeys: 78
+!

@@ -1,0 +1,4 @@
+<map id="FlatView::uiAuxDataDisplay" name="FlatView::uiAuxDataDisplay">
+<area shape="rect" id="node2" href="$classFlatView_1_1AuxData.html" title="Class that represents non&#45;bitmap data to be displayed in a flatviewer, such as markers, lines and more. " alt="" coords="5,5,136,35"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="160,5,245,35"/>
+</map>

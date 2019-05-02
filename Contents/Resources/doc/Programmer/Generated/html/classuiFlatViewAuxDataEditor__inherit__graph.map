@@ -1,0 +1,4 @@
+<map id="uiFlatViewAuxDataEditor" name="uiFlatViewAuxDataEditor">
+<area shape="rect" id="node2" href="$classFlatView_1_1AuxDataEditor.html" title="Editor for FlatView::AuxData. Allows the end&#45;user to click&#45;drag&#45;release the points in data..." alt="" coords="7,83,172,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="47,5,132,35"/>
+</map>

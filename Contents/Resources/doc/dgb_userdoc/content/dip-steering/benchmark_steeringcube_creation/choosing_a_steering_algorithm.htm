@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering|3.6 Benchmark SteeringCube Creation">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.6.6 Choosing a Steering Algorithm</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#dip-steering/benchmark_steeringcube_creation/choosing_a_steering_algorithm.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>3.6.6 Choosing a Steering Algorithm<a name="kanchor192"></a></h3>
+        <p>Different Steering algorithms are available. The <i>precise</i> FFT algorithm yields an almost perfect SteeringCube at the costs of considerably longer calculation times. The <i>BG Fast Steering</i> algorithm seems to fit 95% of the situations and is very fast. dGB recommends the use of this algorithm, using its default calculation cube size of 3 and additional median filtering 113.</p>
+        <p>Although depending on the geology, data quality, available computation time and purpose other choices can be made. A number of examples are presented:</p>
+        <ul>
+            <li value="1">For a dataset of good quality with only small and low variance in dips, the <i>BG Fast Steering</i> method performs well enough. With a median filtering with step-out 1 1 3 applied the result is already very acceptable.</li>
+            <li value="2">For a poor quality dataset, one of the <i>FFT</i> algorithms should be used because the <i>BG Fast Steering</i> algorithm is sensitive to noise and will produce too much outliers. Minor vertical filtering might also help improve the results.</li>
+            <li value="3">For detailed studies at target level, the <i>precise FFT</i> algorithm can be considered for a sub-volume within the area of interest.</li>
+            <li value="4">When creating chrono-stratigraphy, the <i>Steering</i> is optimal because it looks for similar events (min, max) on neighboring traces in inline/crossline directions.</li>
+        </ul>
+        <p>It is always possible to go back and spend much more time in producing a SteeringCube using the FFT precise algorithm.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

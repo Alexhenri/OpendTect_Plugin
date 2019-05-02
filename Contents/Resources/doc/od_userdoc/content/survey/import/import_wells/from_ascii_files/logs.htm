@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.14 Import Wells|4.3.13.1 From Ascii Files">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.13.1.2 Logs</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#survey/import/import_wells/from_ascii_files/logs.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h5>4.3.13.1.2 Logs<a name="kanchor1318"></a></h5>
+        <p>Logs of a single well can be imported to OpendTect as LAS or pseudo-LAS file  via <i><a name="kanchor1319"></a>Survey</i> &gt; <i><a name="kanchor1320"></a>Import</i> &gt; <i><a name="kanchor1321"></a>Wells</i> &gt; <i>ASCII</i> &gt; <i>Logs...</i> The import of well logs requires the <a href="track.htm" target="_self" data-mc-conditions="Default.ScreenOnly">well track</a> to be imported first. </p>
+        <p class="note"> Logs can also be <a href="../../../manage/manage_wells/logs_import.htm" target="_self" data-mc-conditions="Default.ScreenOnly">imported</a> or <a href="../../../manage/manage_wells/logs_creation.htm" target="_self" data-mc-conditions="Default.ScreenOnly">computed</a> from the <a href="../../../manage/manage_wells.htm" target="_self" data-mc-conditions="Default.ScreenOnly">well manager</a>.</p>
+        <p class="note" data-mc-conditions="Default.ScreenOnly">For bulk import of well logs please refer to this <a href="../bulk/bulk_well_log_import.htm" target="_self">page</a>.</p>
+        <img src="../../../../resources/images/survey/manage_wells_logs_import_window.png" class="General_Image" />
+        <p><b>Import Logs:</b> The  LAS file should contain depth values as MD or TVDSS. Alternatively, the log files can be pseudo-LAS, meaning LAS (with one line of data per depth value) with the header replaced by a one-line definition: "Depth Gamma Sonic" etc (without quotes). Log names should be separated by blank characters (space or tab). For both LAS and pseudo LAS, the following units can be recognized. The recognition process is case insensitive.</p>
+        <p>Once the file has been selected all recognized logs will be listed in the <i>Select logs</i> section. Only the highlighted logs will be imported. Be careful that two logs do not have the same name. The depth interval can be limited to a sub-range. The start depth, stop depth and step written in the LAS files are not used; instead the depths found on the same line as the amplitudes will be used.</p>
+        <p>In pseudo LAS, units should follow directly behind the log name in parentheses, e.g. Depth(ft) Density(g/cc). Below are examples of text string that will match units:</p>
+        <ul>
+            <li value="1">Time:<i> s, msec, µsec</i></li>
+            <li value="2">Distance: <i>m, feet, f, ft, in</i></li>
+            <li value="3">Density: <i>kg/m3, g/cc, g/c</i></li>
+            <li value="4"><a name="kanchor1322"></a>Velocity: <i>m/s, ft/s, f/s, feet/s, km/s</i></li>
+            <li value="5">Sonic: <i>s/m, us/ft, µsec/f, us/m, usec/m</i></li>
+            <li value="6">Acoustic Impedance:<i> kg/m2s, kg/m2us, g/ft2s</i></li>
+            <li value="7">Fraction (porosity, water saturation): <i>%, PU, or blank for unitless</i></li>
+            <li value="8">Permeability:<i> k</i></li>
+            <li value="9">Gamma Ray: <i>API</i></li>
+            <li value="10">Electric Potential: <i>V</i></li>
+            <li value="11">Resistance: <i>ohm</i></li>
+            <li value="12">Compressibility: <i>1/Pa</i></li>
+            <li value="13">Temperature: <i>K, deg.C, deg.F</i></li>
+            <li value="14">Pressure: <i>Pa, bar</i></li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../Default.htm#survey/import/import_wells/from_ascii_files/logs.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

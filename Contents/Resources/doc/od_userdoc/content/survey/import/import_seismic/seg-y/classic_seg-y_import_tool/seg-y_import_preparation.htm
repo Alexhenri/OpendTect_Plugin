@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.11 Import Seismic|4.3.10.1 SEG-Y|4.3.10.1.2 Classic SEG-Y Import Tool">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.10.1.2.1 SEG-Y Import Preparation</title>
+        <link href="../../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../../Default.htm#survey/import/import_seismic/seg-y/classic_seg-y_import_tool/seg-y_import_preparation.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h6><a name="kanchor516"></a><a name="kanchor517"></a>4.3.10.1.2.1 SEG-Y Import Preparation<a name="kanchor518"></a></h6>
+        <p>SEG-Y import preparation starts with the <i>SEG-Y tool</i> window.</p>
+        <img src="../../../../../resources/images/survey/import_segy_classic_tool.png" class="General_Image" />
+        <p><b>Input&#160;SEG-Y file(s)</b>: <i>Select</i> a SEG-Y file to import.</p>
+        <p><b style="font-style: italic;">Import 3D pre- or poststack  data from multiple SEG-Y files</b>: files must contain consecutive blocks of inlines and be indexed as <i>filename_1.sgy</i>, <i>filename_2.sgy</i>...</p>
+        <ol style="font-style: normal;">
+            <li style="font-weight: normal; font-style: normal;" value="1"><i>Select</i> one of the files;</li>
+            <li style="font-weight: normal; font-style: normal;" value="2">replace the file index  by a wildcard * in the input field: <i>filepath/filename_*.sgy</i>;</li>
+            <li value="3">toggle on <i>Multiple files</i> option and specify the number of files to be merged. </li>
+        </ol>
+        <p><b style="font-style: italic;">Import multiple 2D lines with pre- or poststack data</b>: files must contain individual 2D&#160;lines and be indexed with the respective line names as <i>filename_linename1.sgy</i>, <i>filename_linename2.sgy</i>...</p>
+        <ol>
+            <li value="1"><![CDATA[  ]]><i>Select</i> one of the files;</li>
+            <li value="2">continue through the wizard with just one file selected until <i>SEG-Y Import</i> window (last step);</li>
+            <li value="3"> <i>SEG-Y Import</i> window: check option <i>Import more, similar files</i>;</li>
+            <li value="4"><i>2D&#160;SEG-Y multi-import</i> window replace line name in the file name with a wildcard <i>#L</i> (see <i><a href="seg-y_import.htm" target="_self" data-mc-conditions="Default.ScreenOnly">SEG-Y Import</a></i> page for more details)</li>
+        </ol>
+        <p><b>Manipulate...</b>: opens <a href="../manipulate_seg-y_file.htm" style="font-style: italic;" data-mc-conditions="Default.ScreenOnly">Manipulate SEG-Y file</a> window where text, binary and trace headers of a SEG-Y file can be edited.</p>
+        <p><b>Multiple files</b> (default = toggled off): toggle on if a single 3D&#160;dataset (pre- or poststack) is imported from multiple SEG-Y files (see above how to <b style="font-style: italic;">Import 3D pre- or poststack  data from multiple SEG-Y files</b>):</p>
+        <ul>
+            <li value="1"><i>Numbers</i>: specify indexes of the first and the last files as well as index <i>Step</i>.</li>
+        </ul>
+        <p><b>File Type</b>: specify which data is contained in a SEG-Y file(s).</p>
+        <ul>
+            <li value="1"><i><a name="kanchor519"></a>3D&#160;Volume</i> </li>
+            <li value="2"><i>Pre-Stack Volume</i>
+            </li>
+            <li value="3"><i>2D&#160;Line</i>
+            </li>
+            <li value="4"><i>Line 2D Pre-Stack</i>
+            </li>
+        </ul>
+        <p><b>Number of traces to examine</b> (default=100 traces): a number of traces at the beginning of the file to be analyzed in <i><a href="../seg-y_examiner.htm" data-mc-conditions="Default.ScreenOnly" name="kanchor520">SEG-Y Examiner</a></i>. Looking at the output is strongly recommended but not mandatory for a successful import. Enter 0 to skip <i>SEG-Y Examiner</i>.</p>
+        <ul>
+            <li value="1"><i>Save as default</i>: (optionally) check to save the <i>Number of traces to examine</i> in your user settings.</li>
+        </ul>
+        <p class="note">In most cases you can press <i>Next</i> after you have selected input file(s). Consider overruling options listed below (information coming from the file(s) itself) only if you have a proiri knowledge about problems with the file(s). </p>
+        <p><b>Overrule SEG-Y number of samples</b> (default = toggled off, i.e. standard locations are used: byte 21 of binary header / byte 115 of trace header): (optionally)&#160;overrule the number of samples per trace.</p>
+        <p><b style="font-style: normal;">SEG-Y 'format'</b> (default = byte 25 of binary header):  (optionally)&#160;overrule data format.</p>
+        <p><b>Bytes swapped</b> (default = toggled off, i.e. big-endian byte order used): (optionally) toggle on to use little-endian byte order for reading data.</p>
+        <p class="note">Most header values and data samples are written using several bytes for each word/sample. Therefore knowing a correct byte order is a necessity. All SEG-Y standards (Rev. 0, 1 and 2) require using big-endian byte order. Occasionally one can run into data written using little-endian (reverse) one. Using standard SEG-Y data formats for reading such data results in unexpected scanned values of trace headers and unexpectedly large sample values  (check the histogram in <a href="../seg-y_examiner.htm" data-mc-conditions="Default.ScreenOnly">SEG-Y Examiner</a>).</p>
+        <p style="font-weight: normal;">
+            <img src="../../../../../resources/images/icons/save.png" class="Icons" /><b>Store this setup</b>: save a SEG-Y import setup at the survey data root level.</p>
+        <p>
+            <img src="../../../../../resources/images/icons/open.png" /><b>Use saved SEG-Y setup</b>: retrieve one of the stored setups.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../../Default.htm#survey/import/import_seismic/seg-y/classic_seg-y_import_tool/seg-y_import_preparation.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

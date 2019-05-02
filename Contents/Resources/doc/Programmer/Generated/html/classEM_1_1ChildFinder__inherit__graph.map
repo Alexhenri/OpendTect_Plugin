@@ -1,0 +1,6 @@
+<map id="EM::ChildFinder" name="EM::ChildFinder">
+<area shape="rect" id="node2" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="7,237,119,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="37,160,88,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="12,83,113,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="20,5,105,35"/>
+</map>

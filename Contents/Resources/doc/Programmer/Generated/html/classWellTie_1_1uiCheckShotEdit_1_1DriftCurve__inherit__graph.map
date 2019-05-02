@@ -1,0 +1,5 @@
+<map id="WellTie::uiCheckShotEdit::DriftCurve" name="WellTie::uiCheckShotEdit::DriftCurve">
+<area shape="rect" id="node2" href="$classWell_1_1DahObj.html" title="Depth/Distance along hole object. " alt="" coords="41,160,140,189"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="40,83,141,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="48,5,133,35"/>
+</map>

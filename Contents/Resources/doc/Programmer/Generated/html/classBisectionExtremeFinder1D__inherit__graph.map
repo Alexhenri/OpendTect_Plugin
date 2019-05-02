@@ -1,0 +1,6 @@
+<map id="BisectionExtremeFinder1D" name="BisectionExtremeFinder1D">
+<area shape="rect" id="node2" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="39,237,151,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="69,160,120,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="44,83,145,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="52,5,137,35"/>
+</map>

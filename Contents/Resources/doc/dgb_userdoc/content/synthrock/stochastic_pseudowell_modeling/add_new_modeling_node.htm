@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.3 Stochastic Pseudowell Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.3.1 Add New Modeling Node</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/stochastic_pseudowell_modeling/add_new_modeling_node.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.3.1 Add New Modeling Node<a name="kanchor32"></a></h3>
+        <p>The modeling description is typically composed of a number of nodes that are added in a given order in the layer description. The nodes are taken from the current stratigraphic framework, thus this framework must first be filled with the formations and lithologies that will be used during the modeling, prior to the modeling.</p>
+        <p style="font-weight: bold;">How-to add a node</p>
+        <p>Click on the left side of layer modeling window for the clean start, or right-click in this column when there is already at least one top node:</p>
+        <img src="../../resources/images/synthrock/layer_modeling.png" class="image" />
+        <img src="../../resources/images/synthrock/layer_modeling2.png" class="image" />
+        <p><b>Empty vs existing</b>
+        </p>
+        <p>For the first clean run of the simulation (i.e. before any node has been added), specification of layer properties to be used in the modeling is mandatory. Various rock properties can be selected from the available list. It is also possible to define a new property by pressing<img src="../../resources/images/icons/defprops.png" class="icon" />  . For more details go to <a href="manage_layer_properties.htm#top" target="_self" style="font-weight: normal;">Manage Layer Properties</a>.</p>
+        <p>Simulation units can be:</p>
+        <ul>
+            <li value="1">Single layers, one lithology of a given formation. This is useful only if you want to insert a single, most often thick, blocky formation into the modeling.</li>
+        </ul>
+        <p class="note"> This option may be chosen to model relatively thick caprock shale above a (sand) reservoir as well as for modelling the underlying shale.</p>
+        <ul>
+            <li value="1">Sequence of layers, it could either be a single formation composed of all the lithologies it can contain or a meta-formation. Meta-formations regroup all the formations (and their corresponding lithologies) underneath, under a single tree structure, as individual simulation units (example below).</li>
+        </ul>
+        <p class="note"> The above option is useful while modeling multiple lithologies within a formation, e.g. an interbedded sand-shale sequence in the reservoir with a particular Net-to-Gross ratio or Sand-to-Shale ratio.</p>
+        <ul>
+            <li value="1">Well-log based section, it can contain either full or part of well log data, which has been upscaled/blocked at a constant size.</li>
+        </ul>
+        <p class="note"> This option is of particular use when a detailed overburden model is required, e.g. for generating pre stack synthetic gathers, where in the ray-tracing phase requires specification of the elastic model from ground-level down to the interval of interest. This could simply be achieved by choosing Vp, Vs and Density logs from an available well, where the logging is done from ground level down to the interval of interest.</p>
+        <p style="page-break-before: always"><i>Adding a Single Layer:</i>
+        </p>
+        <img src="../../resources/images/synthrock/select_what_to_add.png" class="image" /> <img src="../../resources/images/synthrock/sr_add_sngl_lyr.png" class="image" /><p><i>Adding a Multiple Layers:</i></p><img src="../../resources/images/synthrock/sr_add_mlti_lyr.png" class="image" /><p class="note"> On first-time addition of mulitple layers, you will be prompted to select the top node from the following window:</p><img src="../../resources/images/synthrock/select_top_node.png" class="image" /><p style="page-break-before: always">Before being taken to the Layer Generation window:</p><img src="../../resources/images/synthrock/sr_add_mlti_lyr_lyr_gen.png" class="image" /><p class="copyright">© dGB Beheer B.V. 2002 - 2019</p></body>
+</html>

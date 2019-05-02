@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="9 Velocity Model Building">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>9.3 Horizon-based Velocity Update</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#velocity_model_building/horizon-based_velocity_update.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>9.3 Horizon-based Velocity Update<a name="kanchor201"></a></h2>
+        <p><a name="kanchor202"></a>From the VMB toolbar, launch the horizon-based velocity analysis using the appropriate icon<img src="../resources/images/icons/horvelanalwinicon.png" class="icon" />  .</p>
+        <p>The window is setup using four 2D viewers, presented from top to bottom:</p>
+        <ol>
+            <li value="1">The migrated image on an inline or crossline</li>
+            <li value="2">The migrated image on that same inline or crossline, flattened with respect to the active horizon</li>
+            <li value="3">The semblance calculated at the intersection of the line and the active horizon</li>
+            <li value="4">A set of CIG along the selected line, before or after semblance pre-processing, with or without RMO correction</li>
+        </ol>
+        <img src="../resources/images/velocity_model_building/horizon-based_velocity_analysis_main.png" class="image" />
+        <p>The horizon-based analysis works similarly to the vertical velocity analysis, although only Velocity picks can be picked, and neither migration velocity nor picked velocity are displayed. The mutes and prestack events must be picked in the vertical velocity analysis window. The RMO function defined by the picks will be interpolated laterally over the entire section, providing RMO corrections at each CIG of the line. A combo box allows the quick toggle between the horizons loaded in the settings. Please note that the cursor as well as the velocity picks are synchronized between both velocity analysis windows.</p>
+        <p>In the two viewer you can jump to any inline or crossline any position using this toolbar icon<img src="../resources/images/icons/orientation64.png" class="icon" /> , that launches a line selection window:</p>
+        <img src="../resources/images/velocity_model_building/set_analysis_line.png" class="image" />
+        <p><b>Settings:</b> (available via <i>File--&gt; Settings...</i>)</p>
+        <p>This section presents only the settings that are different from the vertical velocity analysis settings.</p>
+        <ul>
+            <li value="1"><b>Input:</b> The input will link the prestack data and migration velocity to the corresponding stacked data visible in the two upper 2D viewers.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/input_data2.png" class="image" />
+        <ul>
+            <li value="1"><b>Cruise control:</b> The available item is either an inline or crossline range, depending on the choice of active line. This can be changed using the "Go to any position" button where the analysis line (number and type) can be set.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/cruise_control.png" class="image" />
+        <ul>
+            <li value="1"><b>Horizons:</b> The horizons used for the analyzes must be defined here and are loaded by pressing the add button. You can select as many horizons as you want, and specify the display range of the flattened section (second 2D viewer from the top).</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/vertical_update_settings2.png" class="image" />
+        <ul>
+            <li value="1"><b>Semblance:</b> The semblance settings are fully similar as for the vertical velocity analysis window.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/semblance2.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

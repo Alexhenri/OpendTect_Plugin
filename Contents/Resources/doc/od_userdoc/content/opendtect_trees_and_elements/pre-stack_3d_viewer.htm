@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.14 Pre-Stack 3D Viewer</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#opendtect_trees_and_elements/pre-stack_3d_viewer.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>3.14 Pre-Stack 3D Viewer<a name="kanchor112"></a></h2>
+        <p style="font-weight: bold;">Prestack gather selection from the tree</p>
+        <p>Prestack (PS) gathers can be displayed in the 3D scene, perpendicular to an inline or crossline. Post stack data must first be displayed on an inline/crossline. The poststack data does not need to be linked to the prestack data. Once the line is loaded, go to interact mode (graphical toolbar, second icon from the left), right-click in the scene your inline and use the option <i><a name="kanchor113"></a>Display PS gather</i>. The menu will list any prestack data available (loaded) in the survey. Please note that multiple PS gathers can be displayed on the same inline, and moving the inline to another position will keep the position of the PS gather and update its content.</p>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_3d_viewer_popout_menu.png" class="General_Image" />
+        <p><i>Right-click menu of a vertical slice tree item when prestack datasets are available.</i>
+        </p>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_3d_viewer_example_prestack_gather.png" class="General_Image" />
+        <p><i>Poststack data on an inline (left) with a prestack gather displayed perpendicular to it.</i>
+        </p>
+        <p style="font-weight: bold;">Positioning the prestack gather</p>
+        <p>When a prestack data is displayed in a scene, the prestack positioning window also pop-ups (look at the corners of the screen). By using this window, the prestack data can be scrolled interactively. The crossline value locates the currently-displayed prestack panel. That can be scrolled at given steps (increment). You can use either the arrows or the mouse wheel over the inline/crossline value.</p>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_3d_viewer_position.png" class="General_Image" />
+        <p style="font-weight: bold; page-break-before: always">Right-click options for a prestack dataset</p>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_3d_viewer_view_in_2d_panel.png" class="General_Image" />
+        <p><i>Right-click menu on the prestack gather display to open it in the prestack 2D viewer.</i>
+        </p>
+        <p style="font-weight: bold;">Properties</p>
+        <p>There are several display properties available that are described below. Please note that the gathers are first displayed without any processing. This can be set together with other properties in the PS gather display properties:</p>
+        <ul>
+            <li value="1"><b>Shape:</b> The shape tab will set the size of the gather with respect to other 3D elements and its relative position</li>
+            <li value="2"><b>Appearance:</b> Color bar, amplitude ranges and grid lines can be set in this tab.</li>
+            <li value="3"><b>Scaling:</b> This tab is used to scale (clip) the amplitude range of the displayed data.</li>
+            <li value="4"><b>Preprocessing:</b> Pre-processing may be applied to enhance the display. The available algorithms are presented in the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="../processing/create_seismic_output/pre-stack_processing.htm" target="_blank">prestack processing chapter</a></MadCap:conditionalText>.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_properties_shape.png" class="General_Image" />
+        <div style="page-break-before: always">
+            <img src="../resources/images/opendtect_trees_and_elements/prestack_properties_appearance.png" class="General_Image" />
+        </div>
+        <img src="../resources/images/opendtect_trees_and_elements/prestack_properties_scaling.png" class="General_Image" />
+        <div style="page-break-before: always">
+            <img src="../resources/images/opendtect_trees_and_elements/prestack_properties_preprocessing.png" class="General_Image" />
+        </div>
+        <p><b>Resolution:</b> Interpolates the data to get a better display (consumes more memory).</p>
+        <p><b>View in 2D panel:</b> Transfer this dataset to view it in the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="../getting_started/viewer_2d/pre-stack_2d_viewer.htm" target="_blank">prestack 2D viewer</a></MadCap:conditionalText>.</p>
+        <p><b>Amplitude spectrum:</b> Display the average frequency spectrum of the trace of that gather, for the displayed Z range.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#opendtect_trees_and_elements/pre-stack_3d_viewer.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

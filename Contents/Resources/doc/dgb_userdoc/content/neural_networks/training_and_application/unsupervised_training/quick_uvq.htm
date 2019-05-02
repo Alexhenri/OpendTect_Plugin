@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks|8.5 Training and Application|8.5.1 Unsupervised Training">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.5.1.1 Quick UVQ</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#neural_networks/training_and_application/unsupervised_training/quick_uvq.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4>8.5.1.1 Quick UVQ<a name="kanchor341"></a></h4>
+        <p>The <i>Quick UVQ</i> horizon option can be used to quickly segment the seismic waveform along the interpreted horizon. The attributes and data selection are made automatically, contrarily to the standard NN training mode that request the user to define attribute and training locations (picks) before going into the <a href="../../introduction/unsupervised_neural_networks.htm" target="_self" style="font-weight: normal;">NN training module</a>.</p>
+        <img src="../../../resources/images/neural_networks/quick_uvq.png" class="image" />
+        <p>The sole window requests the user to select the input seismic data (2D or 3D according to the type of intepretation). Around 2000 input traces are randomly chosen to train the neural network. The waveform in a given time window is the main parameter to input, together with the output number of classes. It is highly recommended to save the output network.</p>
+        <p>The time window should match the length of the target of interest, and be extended on either sides by a few samples.</p>
+        <p>Example: You have a top reservoir horizon and the target is 50m = 32ms thick. An appropriate time window would be [-12, 44] ms along the horizon.</p>
+        <p>The number of class is hard to determine in advance. Too many classes will give redundant class centres, but too few classes will not match the seismic.</p>
+        <p>The 'OK' button will start the unsupervised Neural Network training. The training that results above 90% match could then be accepted to create output maps. The 'OK' button in the Neural Network Training window will automatically start processing the two outputs (Segmentation and match grids) on the 3D horizon. The processed grids are only saved to the database using the right mouse click on the processed attributes (Class, Match) of the horizon.</p>
+        <p>After training an additional Neural Network Info window will pop-up.(see above). This dialog gives a detailed report about the Neural Network training. The Display button in the Neural Network info dialog is used to pop-up a class center display in a 2D viewer (see below). The classes can be color-coded using the Color Table, and the color table can be displayed in the 2D viewer by clicking on the 'show classification' button.</p>
+        <p style="page-break-before: always"><b>2D QUICK UVQs</b>
+        </p>
+        <p>The similar workflow is also available for a mapped 2D seismic horizon. Similar settings are required and the processing steps are also the same (as explained previously). After the Neural Network training is finished, the system will prompt to grid and save the classification and the match grids to a 3D horizon. Select or create a 3D horizon to process the classification and match maps.</p>
+        <img src="../../../resources/images/neural_networks/new_2d_quick_uvq_output.png" class="image" />
+        <img src="../../../resources/images/neural_networks/quick_uvq_output.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

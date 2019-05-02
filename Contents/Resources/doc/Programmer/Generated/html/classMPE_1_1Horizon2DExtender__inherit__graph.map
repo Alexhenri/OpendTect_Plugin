@@ -1,0 +1,7 @@
+<map id="MPE::Horizon2DExtender" name="MPE::Horizon2DExtender">
+<area shape="rect" id="node2" href="$classMPE_1_1SectionExtender.html" title="SequentialTask to extend the section of an EM object with ID EM::SectionID. " alt="" coords="15,315,169,344"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="36,237,148,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="67,160,117,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="41,83,143,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="49,5,135,35"/>
+</map>

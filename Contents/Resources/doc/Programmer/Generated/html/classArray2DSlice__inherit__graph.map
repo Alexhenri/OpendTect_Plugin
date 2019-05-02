@@ -1,0 +1,5 @@
+<map id="Array2DSlice&lt; T &gt;" name="Array2DSlice&lt; T &gt;">
+<area shape="rect" id="node2" href="$classArray2D.html" title="Array2D ( Subclass of ArrayND ) is a two dimensional array. " alt="" coords="7,83,108,112"/>
+<area shape="rect" id="node4" href="$classArrayND.html" title="An ArrayND is an array with a given number of dimensions and a size. " alt="" coords="5,5,109,35"/>
+<area shape="rect" id="node6" href="$classArrayNDSliceBase.html" title="Base class of Array1DSlice and Array2DSlice. Access&#45;tool to another ArrayND with higher dimensionalit..." alt="" coords="132,83,263,112"/>
+</map>

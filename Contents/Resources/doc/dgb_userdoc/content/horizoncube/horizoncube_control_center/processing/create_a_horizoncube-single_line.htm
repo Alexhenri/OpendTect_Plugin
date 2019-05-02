@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.1 Processing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.1.4 2D HorizonCube Processing</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/processing/create_a_horizoncube-single_line.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor78"></a>4.2.1.4 2D HorizonCube Processing<a name="kanchor79"></a></h4>
+        <p style="font-family: Arial;"><b>Introduction</b>
+        </p>
+        <p style="font-family: 'Times New Roman';">Since version 5.0 OpendTect  supports a new way of processing a 2D HorizonCube. The workflow is interactive and operates in regions. A region is defined as a vertical segment bounded by horizons and faults. HorizonCube processing is performed on a line-by-line basis and per region. Next the user interactively correlates HorizonCube segments from region to region over the entire line. This results in a merged HorizonCube in which all segments are correlated and the number of horizons per segment is equal. To process grids of 2D lines the user correlates and merges separately processed HorizonCubes into a final HorizonCube for the grid.</p>
+        <p style="font-family: 'Times New Roman';">HorizonCube processing for one line is performed in three steps:</p>
+        <ol>
+            <li style="font-family: 'Times New Roman';" value="1"><a href="create_a_horizoncube-single_line/preparing_the_framework.htm" target="_self" style="font-weight: normal;">Constructing the Framework</a>.<ol style="list-style-type: lower-alpha;"><li style="font-family: Arial;" value="1">Select an existing set of horizons and faults.</li><li style="font-family: Arial;" value="2">Optionally, add more framework horizons using the new multi-seed, dip steered tracking algorithm.</li></ol></li>
+            <li style="font-family: 'Times New Roman';" value="2"><a href="create_a_horizoncube-single_line/processing_horizoncube.htm" target="_self" style="font-weight: normal;">Processing of HorizonCube segments per region</a>.</li>
+            <li style="font-family: 'Times New Roman';" value="3"><a href="create_a_horizoncube-single_line/merge_horizoncube_regions.htm" target="_self" style="font-weight: normal;">Correlation of HorizonCubes between regions</a>.</li>
+        </ol>
+        <div style="page-break-before: always;font-family: 'Times New Roman';">
+            <img src="../../../resources/images/horizoncube/2d_hc_intro.png" class="image" />
+        </div>
+        <p style="font-family: 'Times New Roman';">HorizonCube regions are automatically constructed as closed polygons from the given set of horizons and faults. The illustration above shows a set of geological regions that are automatically constructed by the algorithm.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

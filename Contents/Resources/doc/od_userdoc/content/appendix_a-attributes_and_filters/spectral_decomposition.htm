@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.26 Spectral Decomposition</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/spectral_decomposition.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.26 Spectral Decomposition<a name="kanchor1009"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p>Spectral decomposition -- Frequency attribute that returns the amplitude spectrum (FFT) or wavelet coefficients (CWT)</p>
+        <p><b>Description</b>
+        </p>
+        <p>Spectral Decomposition unravels the seismic signal into its constituent frequencies, which allows the user to see phase and amplitude tuned to specific wavelengths. The amplitude component excels at quantifying thickness variability and detecting lateral discontinuities while the phase component detects lateral discontinuities.</p>
+        <p>It is a useful tool for "below resolution" seismic interpretation, sand thickness estimation, and enhancing channel structures.</p>
+        <p><b>Input Parameters</b>
+        </p>
+        <p>The user can choose between two types of transform:</p>
+        <ul>
+            <li value="1"><i>FFT</i> the Fast Fourier Transform. The FFT requires a short window (time-gate) and a step-size between the analyzed frequencies. This step can be interpreted as the frequency resolution.</li>
+            <li value="2"><i>CWT</i><a name="kanchor1010"></a> the Continuous Wavelet Transform. The CWT requires a wavelet type.</li>
+        </ul>
+        <p>When choosing the CWT, you can set the wavelet type:</p>
+        <ul>
+            <li value="1"><i>Morlet</i>
+            </li>
+            <li value="2"><i>Gaussian</i>
+            </li>
+            <li value="3"><i>Mexican Hat</i>
+            </li>
+        </ul>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_spectral_decomposition_cwt.png" class="General_Image" />
+        <p>In FFT only, the signal within the time-window will be transformed into frequency domain. The given step determines the output resolution, if necessary zeros will be added to acquire this resolution. The amplitude spectrum is calculated for the requested frequency. The time-window slides from top to bottom to cover the complete signal. In an ideal situation, the time-window encompasses one seismic event, which may be a superposition of multiple geological events which interfere in the seismic trace.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_spectral_decomposition.png" class="General_Image" />
+        <p><b>Output and Examples</b>
+        </p>
+        <p>The CWT is defined as the sum over the signal multiplied by a scaled and shifted wavelet. The wavelet is shifted along the signal and at each position the correlation of the wavelet with the signal is calculated. The result is called a wavelet coefficient. The given frequency corresponds to the central wavelet frequency. The step determines the output resolution, which is especially interesting when evaluating this attribute.</p>
+        <img src="../resources/images/appendix_a/output_examples.png" class="General_Image" />
+        <img src="../resources/images/appendix_a/output_legend.png" class="General_Image" />
+        <p><i>Spectral Decomposition (CWT) applied to a horizon. Notice that each index frequency is describing the specific parts of channels (NNE-SSW oriented). Also thinner and thicker parts of horizon along channels are highlighed clearly.</i>
+        </p>
+        <p style="page-break-before: always"><b>Time-frequency spectrum</b>
+        </p>
+        <p>The output frequency is best determined using the time-frequency spectrum panel. This panel displays the spectral decomposition output for all frequencies between 0 and the Nyquist frequency of the data, computed with a step of 1Hz. One must first select a position for this single trace analysis:</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_spectral_decomposition_position.png" class="General_Image" />
+        <p style="page-break-before: always">The time-frequency is then displayed in a 2D panel like this:</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_spectral_decomposition_tf_spectrum.png" class="General_Image" />
+        <p style="page-break-before: always"><b>Color blended display:</b>
+        </p>
+        <p><i>RGB(A)* blending attribute display</i> is used to create a normalized color-blended display that often show features with greater clarity and enhances a detail map view. Traditionally, it is used to blend the iso-frequency responses (Spectral Decomposition), but a user can blend three/four different attributes that define a spectrum that is comparable. For instance, spectral decomposition outputs the amplitude at discrete frequencies. So, it renders the same output (unit=amplitude). Depending upon a geological condition or the objective, FFT short window or CWT (continuous wavelet transform) can be chosen. Results are best displayed on time/horizon slices, volume.</p>
+        <p>(* RGB(A)- Red, Green, Blue, (Alpha) -channel)</p>
+        <img src="../resources/images/appendix_a/color_blended_display.png" class="General_Image" />
+        <p><i>A color blended map view (image on right) of the spectral decomposition (red-10hz, green-20Hz, blue-40hz). Compare the results with the coherency map (image on left). Note that the yellowish colored fault bounder region is thicker as compared to the surrounding regions. The faults throw (red-color) are also clearly observable. Coherency/similarity together with color blended spectral images can reveal better geological information.</i>
+        </p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/spectral_decomposition.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

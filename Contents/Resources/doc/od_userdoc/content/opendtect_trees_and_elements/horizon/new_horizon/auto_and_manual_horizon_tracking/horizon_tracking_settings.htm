@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.7 Horizon|3.7.7 New Horizon|3.7.7.1 Auto and Manual Horizon Tracking">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.7.7.1.1 Horizon Tracking Settings</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#opendtect_trees_and_elements/horizon/new_horizon/auto_and_manual_horizon_tracking/horizon_tracking_settings.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h5><a name="kanchor1275"></a><a name="kanchor1276"></a><a name="kanchor1277"></a>3.7.7.1.1 Horizon Tracking Settings<a name="kanchor1278"></a></h5>
+        <p>3D horizon interpretation in OpendTect can be conveniently started from the right-click menu of <i>3D&#160;Horizon</i> &gt; <i>New</i> &gt; <i>Auto and Manual Tracking</i><a name="kanchor1279"></a> in the Tree of either 3D&#160;scene or 2D viewer.</p>
+        <p>Horizons can be tracked in various modes:</p>
+        <ul>
+            <li value="1">Section Auto-tracking</li>
+            <li value="2"><a name="kanchor1280"></a>Volume Auto-tracking</li>
+            <li value="3">Manual Drawing with and without snapping</li>
+        </ul>
+        <p>OpendTect supports the following ways of picking:</p>
+        <ol>
+            <li value="1">Auto-tracking mode:<ul><li value="1">Recommended: Left-click to add  seeds (seeds are stored with a horizon).</li><li value="2">Optional: hold Left-click and draw along the section, seeds will be automatically added.</li><li value="3">Ctrl + Left-click to remove seeds.</li></ul></li>
+            <li value="2">Mouse draw:<ul><li value="1"> Recommended:  hold Left-click and draw along the section to create an individual patch (patches can be connected by simply drawing with overlaps).</li><li value="2">Optional: left-click to pick an individual patch and double-click to finish it.</li><li value="3">Hold (Ctrl + Left-click) and drag to erase interpretation along the line.</li></ul></li>
+        </ol>
+        <p style="font-weight: bold;font-size: 14pt;">Horizon Tracking Settings window.</p>
+        <p>Right-click <i>3D&#160;Horizon</i> in the tree and select <i>New</i> &gt; <i>Auto and Manual Tracking</i>. This will launch <i>Horizon Tracking Settings</i> window which contains several tabs. Optionally, the dialog can be retrieved by right clicking on the horizon in the Tree and&#160;choosing <i>Tracking</i> &gt;&#160;<i>Change Settings</i>.</p>
+        <p><b>Mode Tab</b>
+        </p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracking.png" class="General_Image" />
+        <p>Choose the tracking mode:</p>
+        <ul>
+            <li value="1"><i>Section Auto-track </i>is used to auto-track a horizon along a section (inline, crossline, and random line) of a given volume. If a sub-volume is preloaded, only the sub-volume area will be auto-tracked. When this mode is selected, the volume auto-tracking icon <img src="../../../../resources/images/icons/autotrack.png" class="Icons" /> will be active, which requires seeds.<ul><li value="1"><b><a name="kanchor1281"></a>Seed Trace</b> is an auto-tracking method which only compares seeded traces to do auto-tracking.</li><li style="font-weight: normal;" value="2"><b>Adjacent parents </b>utilizes the last known trace positions to compare amplitudes to do auto-tracking. This increases chances of loop skipping.</li></ul></li>
+            <li value="2"><i>Manual Draw</i> mode will manually pick a horizon (interpolated line) between two clicked or mouse dragged positions. Optionally, it also snaps to a selected event between the picked positions. This mode is used in difficult areas, for example to cross faults, noise zones or to interpret unconformities.</li>
+        </ul>
+        <p><b>Event Tab</b>
+        </p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracker_event.png" class="General_Image" />
+        <p><i>Event Tab</i> contains the defining parameters for Section / Volume auto-tracking.</p>
+        <ul>
+            <li value="1"><u>Input data:</u> The input data is automatically selected when you pick on a section. This can be the original seismic volume, or a filtered seismic volume (preferred) or any other attribute. The horizon is linked to this input seismic. you can change the input seismic at any time: it won't change your saved interpretation. If you change the data during interpretation, the next click on the new data may show a warning message. If you continue, then the new data will be used to do auto-tracking.</li>
+            <li value="2"><u>Event type:</u> Specify the event type you want to pick. The tracker can track negative reflectors (Min), positive reflectors (Max), a Z-type zero-crossing (0+-), or a S-type zero-crossing (0-+). If the tracking does not seem to work, check that the event type corresponds to the event you actually interpreted the seed(s). If <i>Seed Trace</i> method is chosen then one can interpret a mixed phased horizon.</li>
+            <li value="3"><u>Threshold type:</u>
+                <ul>
+                    <li value="1"><i>Cut-off amplitude</i>: Here, an absolute amplitude is used as the stopping criteria for the tracker. When the tracker encounters a value below this threshold value it stops tracking. (For a max-event the tracker stops if the value is below this threshold value, and for a min-event when it is above this threshold value). Tip: point your mouse at the event and the amplitude value is displayed at the bottom of your screen.</li>
+                    <li value="2"><i>Relative difference</i>: The tracker will compare the amplitude of the last tracked point to the amplitude of the point that is candidate for tracking. If the difference exceeds the chosen percentage, the tracker stops tracking. Further explanation on Steps is given below.</li>
+                </ul>
+            </li>
+            <li value="4"><u>Search Window:</u> The tracker searches for the chosen event type based on amplitude in a time window relative to the last tracked sample.</li>
+            <li value="5"><u><a name="kanchor1282"></a>Display Window:</u> This controls the display of WVA/VD of the surrounding trace segments near the last picked seeds. One can control the display window and number of traces. This gives an overview of the picked location. In the display, one can also change the search window by moving the green lines up/down.</li>
+        </ul>
+        <p class="tip">At the bottom of this tab, one may see a status note on picked/current data on which interpretation is being performed.</p>
+        <p><b>Correlation Tab</b>
+        </p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracker_similarity.png" class="General_Image" />
+        <p>A trace segment around the last tracked point is compared to all the trace segments on the neighboring traces around the points that lie within the Search window (See figure below). </p>
+        <p>In this tab, one can do auto-tracking by turning the correlation ON. The correlation window should be small enough to ensure a waveform. The threshold is generally strict (80% or higher)&#160;to track only high quality amplitudes. The correlation window size can be changed by moving the green lines in the display window.</p>
+        <p><b>Properties Tab</b>
+        </p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracker_properties.png" class="General_Image" />
+        <p>This tab is used to adjust the display properties of the horizon and corresponding seeds. Optionally, you can also change the color codes for various parts (parent paths, selection of a horizon if you intend to remove through a polygonal selection, locked tracking areas) of the horizon. </p>
+        <p><b><a name="kanchor1283"></a><a name="kanchor1284"></a>Dip Steering Tab</b>
+        </p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracker_dipsteer.png" class="General_Image" />
+        <p>A SteeringCube can be added as a constraint for horizon interpretation. This will improve the horizon tracking especially in the areas of dipping reflectors. Dip steering gives structural information.</p>
+        <p style="font-size: 14pt;"><b>3D&#160;Auto-Tracking Menu</b>
+        </p>
+        <p>A dedicated 3D&#160;Auto-tracking menu is generally launched by CTRL&#160;+&#160;right click in 3D&#160;scene.</p>
+        <img src="../../../../resources/images/opendtect_trees_and_elements/horizon_tracking_right_click_menu_with_comments.png" class="General_Image" />
+        <p>Using this menu, you can control several tracking features.</p>
+        <p style="font-size: 14pt;"><b>Tracking Workflow</b>
+        </p>
+        <p>After adjusting the parameters in the tracker setup (which can remain open during tracking), start picking seeds on a displayed inline/crossline.</p>
+        <p class="tip">Please refer to <a href="http://www.opendtect.org/600/doc/HTML_WF/Default.htm" target="_blank">How-to instructions</a> for step-by-step workflow on <a href="http://www.opendtect.org/600/doc/HTML_WF/Default.htm#TM6/workflows/General_Interpretation/Auto-track_3D.htm?TocPath=General%2520Interpretation|_____3" target="_blank">3D Auto-tracking</a> and <a href="http://www.opendtect.org/600/doc/HTML_WF/Default.htm#TM6/workflows/General_Interpretation/Tracking_In_2D_Viewer.htm?TocPath=General%2520Interpretation|_____2" target="_blank">Tracking in 2D&#160;viewer</a>.</p>
+        <p><b>Auto-tracking in a 3D volume</b>
+        </p>
+        <p>Auto-tracking in 3D&#160;is done in following steps:</p>
+        <ol>
+            <li value="1"><a name="kanchor1285"></a><a name="kanchor1286"></a>Pre-load a sub-volume (Survey &gt;&#160;Pre-load &gt;&#160;Seismic) within which you intend to do auto-tracking. If the volume size is small, you may pre-load the entire volume in the memory.</li>
+            <li value="2"><a name="kanchor1287"></a>Launch the basemap window (View &gt;&#160;basemap)&#160;to move the sections and QC the interpretation.</li>
+            <li value="3">Add inlines / crosslines / random line.</li>
+            <li value="4">Add a new 3D horizon in the tree.</li>
+            <li value="5">Pick several seeds on inlines / crosslines / random lines and adjust the tracking parameters.</li>
+            <li value="6">Press the auto-track button.</li>
+            <li value="7">If the tracking result is good, you may lock <img src="../../../../resources/images/icons/lock.png" class="Icons" /> (CTRL&#160;+&#160;right click) the results so that they are not changed. You may unlock <img src="../../../../resources/images/icons/unlock.png" class="Icons" /> the old tracking paths if you want to change them during interpretation.</li>
+            <li value="8">Otherwise, you add more seeds and choose re-track from seeds <img src="../../../../resources/images/icons/retrackhorizon.png" class="Icons" />.</li>
+            <li value="9">You can optionally, remove the wrong paths at a mouse location by using CTRL&#160;+&#160;right click menu (Select parent / children paths and relaunching the menu to remove the selection).</li>
+            <li value="10">Another option is to launch a 2D&#160;Viewer of parent paths to edit auto-tracking errors. If you do that, then you may have to re-track <img src="../../../../resources/images/icons/retrackhorizon.png" class="Icons" /> from seeds again.</li>
+        </ol>
+        <p><b>Some Important Tracking Short-cuts:</b>
+        </p>
+        <ul>
+            <li value="1">CTRL&#160;+ Z:&#160; Undo the last action.</li>
+            <li value="2">CTRL&#160;+&#160;Y:&#160;Redo the last action.</li>
+            <li value="3">CTRL&#160;+&#160;S:&#160;Saves the horizon.</li>
+            <li value="4">k :&#160;Auto-track.</li>
+            <li value="5">SPACE&#160;bar:&#160;Switches between picking (cross) horizon and dragging (green pointer)&#160;sections.</li>
+        </ul>
+        <p><b>Manual Drawing on Sections (2D/3D)</b>
+        </p>
+        <p>You can manually interpret a horizon by drawing on the seismic section. OpendTect supports both picking methods:&#160;drawing like a pen (Tablet/Touch screen) or mouse clicks. If you have picked a part of a reflectors, a green colored (temporary)&#160;line will appear. To confirm interpretation, you will required to double click. This will show a horizon segment in actual color. This method is very useful for picking in difficult areas (noisier zones or unconformities).</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../Default.htm#opendtect_trees_and_elements/horizon/new_horizon/auto_and_manual_horizon_tracking/horizon_tracking_settings.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

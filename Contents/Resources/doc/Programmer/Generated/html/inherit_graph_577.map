@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structTable_1_1Converter_1_1RowManipulator.html" title="Table::Converter::RowManipulator" alt="" coords="5,59,227,88"/>
+<area shape="rect" id="node3" href="$classTable_1_1DuplicateKeyRemover.html" title="Removes records with identical keys. " alt="" coords="276,5,468,35"/>
+<area shape="rect" id="node5" href="$classTable_1_1RecordMatcher.html" title="Only passes records where col(s) (don&#39;t) match expression(s) " alt="" coords="297,59,447,88"/>
+<area shape="rect" id="node7" href="$classTable_1_1StartStopManipulator.html" title="Removes lines at start or stop of input. " alt="" coords="280,112,464,141"/>
+</map>

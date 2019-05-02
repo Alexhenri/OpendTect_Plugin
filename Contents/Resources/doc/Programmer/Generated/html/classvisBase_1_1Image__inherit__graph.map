@@ -1,0 +1,4 @@
+<map id="visBase::Image" name="visBase::Image">
+<area shape="rect" id="node2" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="5,83,147,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="33,5,119,35"/>
+</map>

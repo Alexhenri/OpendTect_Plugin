@@ -1,0 +1,6 @@
+<map id="uiColorTableGroup" name="uiColorTableGroup">
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="21,160,88,189"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="20,83,89,112"/>
+<area shape="rect" id="node8" href="$classuiColorTable.html" title="uiColorTable" alt="" coords="112,160,205,189"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="116,83,201,112"/>
+</map>

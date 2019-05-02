@@ -1,0 +1,5 @@
+<map id="SEGY::DirectReader" name="SEGY::DirectReader">
+<area shape="rect" id="node3" href="$classSEGYDirect2DPSReader.html" title="reads from 2D PS data store reader based on SEG&#45;Y files " alt="" coords="5,83,176,112"/>
+<area shape="rect" id="node5" href="$classSEGYDirect3DPSReader.html" title="reads from 3D PS data store reader based on SEG&#45;Y files " alt="" coords="200,83,371,112"/>
+<area shape="rect" id="node7" href="$classSEGYDirectSeisTrcTranslator.html" title="SEGYDirectSeisTrcTranslator" alt="" coords="395,83,592,112"/>
+</map>

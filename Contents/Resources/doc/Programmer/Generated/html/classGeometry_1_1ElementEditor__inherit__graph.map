@@ -1,0 +1,8 @@
+<map id="Geometry::ElementEditor" name="Geometry::ElementEditor">
+<area shape="rect" id="node5" href="$classGeometry_1_1ElementEditorImpl.html" title="Geometry::ElementEditorImpl" alt="" coords="123,160,317,189"/>
+<area shape="rect" id="node11" href="$classGeometry_1_1PolygonSurfEditor.html" title="Geometry::PolygonSurfEditor" alt="" coords="341,160,533,189"/>
+<area shape="rect" id="node13" href="$classGeometry_1_1StickSetEditor.html" title="Geometry::StickSetEditor" alt="" coords="557,160,728,189"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="395,5,480,35"/>
+<area shape="rect" id="node7" href="$classGeometry_1_1BinIDElementEditor.html" title="Geometry::BinIDElementEditor" alt="" coords="5,237,208,267"/>
+<area shape="rect" id="node9" href="$classGeometry_1_1PlaneElementEditor.html" title="Geometry::PlaneElementEditor" alt="" coords="232,237,435,267"/>
+</map>

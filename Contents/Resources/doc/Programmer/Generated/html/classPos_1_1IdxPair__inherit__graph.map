@@ -1,0 +1,5 @@
+<map id="Pos::IdxPair" name="Pos::IdxPair">
+<area shape="rect" id="node7" href="$classBinID.html" title="Positioning in a seismic survey: inline/crossline or lineNr/trcNr. " alt="" coords="5,237,59,267"/>
+<area shape="rect" id="node9" href="$classRowCol.html" title="IdxPair used for its row() and col(). " alt="" coords="83,237,152,267"/>
+<area shape="rect" id="node2" href="$classIdxPair.html" title="A pair of numbers; base class for BinID et al. " alt="" coords="44,83,105,112"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Array1DInterpol" name="Array1DInterpol">
+<area shape="rect" id="node13" href="$classLinearArray1DInterpol.html" title="Does linear interpolation of one dimensional arrays. " alt="" coords="5,469,152,499"/>
+<area shape="rect" id="node15" href="$classPolyArray1DInterpol.html" title="Uses a 3rd degree polynomial for interpolation of one dimensional arrays. " alt="" coords="176,469,315,499"/>
+<area shape="rect" id="node2" href="$classExecutor.html" title="Specification to enable chunkwise execution of a process. " alt="" coords="124,315,199,344"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="105,237,217,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="136,160,187,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="111,83,212,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="119,5,204,35"/>
+</map>

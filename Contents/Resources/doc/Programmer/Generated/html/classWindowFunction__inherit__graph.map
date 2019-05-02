@@ -1,0 +1,12 @@
+<map id="WindowFunction" name="WindowFunction">
+<area shape="rect" id="node7" href="$classBartlettWindow.html" title="BartlettWindow" alt="" coords="564,5,673,35"/>
+<area shape="rect" id="node9" href="$classBlackmanWindow.html" title="BlackmanWindow" alt="" coords="556,59,681,88"/>
+<area shape="rect" id="node11" href="$classBoxWindow.html" title="BoxWindow" alt="" coords="573,112,664,141"/>
+<area shape="rect" id="node13" href="$classCosTaperWindow.html" title="Tapered Cosine Window Function. " alt="" coords="556,165,681,195"/>
+<area shape="rect" id="node15" href="$classFlatTopWindow.html" title="FlatTopWindow" alt="" coords="563,219,675,248"/>
+<area shape="rect" id="node17" href="$classHammingWindow.html" title="HammingWindow" alt="" coords="556,272,681,301"/>
+<area shape="rect" id="node19" href="$classHanningWindow.html" title="HanningWindow" alt="" coords="560,325,677,355"/>
+<area shape="rect" id="node21" href="$classKaiserWindow.html" title="Kaiser Window Function. " alt="" coords="565,379,672,408"/>
+<area shape="rect" id="node2" href="$classMathFunction.html" title="Mathematical function. " alt="" coords="208,192,339,221"/>
+<area shape="rect" id="node4" href="$classMathFunctionND.html" title="Multidimensional Mathematical function. " alt="" coords="5,183,160,230"/>
+</map>

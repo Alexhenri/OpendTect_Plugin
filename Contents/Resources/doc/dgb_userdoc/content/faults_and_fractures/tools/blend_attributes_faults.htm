@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="2 Faults and Fractures|2.4 Tools">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>2.4.1 Blend Attributes &amp; Faults</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#faults_and_fractures/tools/blend_attributes_faults.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>2.4.1 Blend Attributes &amp; Faults<a name="kanchor195"></a></h3>
+        <p><b>Blend Attributes and Faults</b> is a powerful technique to visualize faults and attributes as one volume. The tool can be started from the Tools menu of the Faults and Fractures Control Center.</p>
+        <p>To access the fault likelihood plugin, click on this icon <img src="../../resources/images/icons/dgbflt.png" class="icon" /> .</p>
+        <img src="../../resources/images/faults_fractures/blend_attributes_faults_control_center.png" class="image" />
+        <img src="../../resources/images/faults_fractures/blend_attributes_faults_parameters.png" class="image" />
+        <p><b>Attribute to blend:</b> Select an attribute to be blended.</p>
+        <p><b>Volume sub-selection:</b> To control what area to use, also useful for speeding up the process.</p>
+        <p><b>Fault positions from:</b> Two options are available - choose between a Fault Likelihood volume or manually interpreted faults.</p>
+        <p><b>Likelihood between [0,1</b>]: If a Fault Likelihood volume is selected, the user needs to define what range of the volume will be blended and replaced by a constant value, from a volume, or by undefined value.</p>
+        <img src="../../resources/images/faults_fractures/similarity.png" class="image" />
+        <p style="font-style: italic;">Similarity attribute</p>
+        <img src="../../resources/images/faults_fractures/similarity_blend_tfl.png" class="image" />
+        <p><i>Similarity blended with a TFL volume. Note that only TFL values between 0.5-1 are used here and replaced by the value of 1.</i>
+        </p>
+        <p><b>Tip:</b> If you display the original TFL volume over the new blended attribute, and restrict the color bar scale to 0.5-1, the TFL results will be identical to the blended results.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

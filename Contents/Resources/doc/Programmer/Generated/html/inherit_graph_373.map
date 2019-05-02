@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node3" href="$classPos_1_1IdxPairValues.html" title="IdxPair with 0&#45;N values. " alt="" coords="97,5,231,51"/>
+<area shape="rect" id="node7" href="$classPos_1_1ValueIdxPair.html" title="IdxPair with a value. " alt="" coords="97,74,231,121"/>
+<area shape="rect" id="node5" href="$classBinIDValues.html" title="BinID and values. If one of the values is Z, make it the first one. " alt="" coords="281,13,375,43"/>
+<area shape="rect" id="node9" href="$classBinIDValue.html" title="BinID and a value. " alt="" coords="284,83,372,112"/>
+</map>

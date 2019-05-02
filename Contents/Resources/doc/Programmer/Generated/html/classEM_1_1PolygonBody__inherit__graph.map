@@ -1,0 +1,6 @@
+<map id="EM::PolygonBody" name="EM::PolygonBody">
+<area shape="rect" id="node2" href="$classEM_1_1Surface.html" title="Base class for surfaces like horizons and faults. A surface is made up of one or more segments or pat..." alt="" coords="12,160,105,189"/>
+<area shape="rect" id="node4" href="$classEM_1_1EMObject.html" title="Base class for all EarthModel objects. " alt="" coords="5,83,112,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="16,5,101,35"/>
+<area shape="rect" id="node8" href="$classEM_1_1Body.html" title="A body that can deliver an implicit body. " alt="" coords="129,160,209,189"/>
+</map>

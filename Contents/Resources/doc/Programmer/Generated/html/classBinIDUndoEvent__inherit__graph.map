@@ -1,0 +1,7 @@
+<map id="BinIDUndoEvent" name="BinIDUndoEvent">
+<area shape="rect" id="node5" href="$classPreStack_1_1SetPickUndo.html" title="BinIDUndoEvent for PreStack pick. " alt="" coords="5,160,165,189"/>
+<area shape="rect" id="node7" href="$classVel_1_1PickAddEvent.html" title="Undo event for added velocity pick. " alt="" coords="189,160,320,189"/>
+<area shape="rect" id="node9" href="$classVel_1_1PickRemoveEvent.html" title="Undo event for removed velocity pick. " alt="" coords="344,160,501,189"/>
+<area shape="rect" id="node11" href="$classVel_1_1PickSetEvent.html" title="Undo event for changed velocity pick. " alt="" coords="525,160,653,189"/>
+<area shape="rect" id="node2" href="$classUndoEvent.html" title="Holds the information on how to undo/redo something. " alt="" coords="296,5,381,35"/>
+</map>

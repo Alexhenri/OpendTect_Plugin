@@ -1,0 +1,5 @@
+<map id="SEGYDirect3DPSReader" name="SEGYDirect3DPSReader">
+<area shape="rect" id="node2" href="$classSeisPS3DReader.html" title="reads from a 3D prestack seismic data store. " alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node4" href="$classSeisPSReader.html" title="reads from a prestack seismic data store. " alt="" coords="15,5,121,35"/>
+<area shape="rect" id="node6" href="$classSEGY_1_1DirectReader.html" title="SEGY::DirectReader" alt="" coords="155,83,299,112"/>
+</map>

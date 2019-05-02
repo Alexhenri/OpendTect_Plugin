@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.24 Semblance</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/semblance.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.24 Semblance<a name="kanchor705"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p><a name="kanchor706"></a>Semblance -- Attribute that returns a value (semblance coefficient) which is a measure of multichannel coherence.</p>
+        <p><b>Description</b>
+        </p>
+        <p>Semblance is, essentially, a measure of how similar a particular trace is to a group of traces within a user-defined correlation window. This attribute will calculate the semblance coefficient and return a value between 0 (completely dissimilar) and 1 (identical). This is done by summing the squares of the energies within the stack and dividing by the sum of those energies.</p>
+        <p class="tip">Whereas the <a href="similarity.htm" target="_blank" data-mc-conditions="Default.ScreenOnly">Similarity</a> attribute works by comparing pairs in given positions, Semblance uses all points within the window to create the score.</p>
+        <p><b>Input Parameters</b>
+        </p>
+        <p>The size of the correlation window is defined by the Time Gate and Stepout, with the 'Extension' defining its shape. </p>
+        <p><a name="kanchor707"></a>Steering may be used to enhance the results, if the <a href="http://opendtect.org/index.php/products/commercial-products/dip-steering" target="_blank" data-mc-conditions="Default.ScreenOnly">DipSteering plugin</a> is installed (with a valid license.)</p>
+        <p><b>Time-Gate:</b>
+        </p>
+        <p>Defines the  size of the vertical element in the correlation window (ie: the trace length to be used in the calculation).</p>
+        <p><b>Stepout:</b>
+        </p>
+        <p>Applies for <i>'Extensions'</i> of shape <i>Full block</i>, <i>Cross</i>, <i>All Directions</i> and <i>Diagonal</i>. Defines the  extent of the horizontal element in the correlation window (see 'Extension' below for more detail).</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_semblance_stepout.png" class="General_Image" />
+        <p><b><a name="kanchor708"></a>Trace Position:</b>
+        </p>
+        <p>Applies for <i>'Extensions'</i> of shape <i>None</i>, <i>Mirror 90 degrees</i> and <i>Mirror 180 degrees</i>. Defines the positions of the traces to be used in the correlation window (see 'Extension' below for more detail).</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_semblance_trace_position.png" class="General_Image" />
+        <p><b>Extension</b> shapes:</p>
+        <ul>
+            <li value="1"><i>None:</i> Semblance is calculated using only the traces defined in 'Trace positions'.</li>
+            <li value="2"><i>Mirror 90 degrees:</i> Semblance is calculated using two additional traces: the defined trace pair (as in 'None') and  the trace obtained by 90° rotation. (Not available for 2D data)</li>
+            <li value="3"><i>Mirror 180 degrees:</i> Semblance is calculated using two additional traces: the defined trace pair (as in 'None') and  the trace obtained by 180° degree rotation. </li>
+            <li value="4"><i>Full Block:</i> Semblance is calculated using all possible traces in the column defined by the time-gate/step-out. Beware of potentially long processing times with large time-gates/stepouts.</li>
+            <li value="5"><i>Cross:</i> Semblance is calculated using all possible traces in the '+' -shaped column bounded by the time-gate/step-out.</li>
+            <li value="6"><i>All Directions:</i> Semblance is calculated using all possible traces in the '✴' -shape bounded by time-gate/step-out. This is the extension found to be most useful: it gives a degree of accuracy almost equal to that of 'Full Block' but with significantly less processing time (depending on the step-out, up to a factor of 10).</li>
+            <li value="7"><i>Diagonal:</i> Semblance is calculated using all possible traces in the 'x' -shaped column bounded by the time-gate/step-out.</li>
+        </ul>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_semblance_extension.png" class="General_Image" />
+        <p><b>References</b>
+        </p>
+        <p>For a very concise explanation of semblance, please see: <a href="http://wiki.seg.org/wiki/Dictionary:Semblance" target="_blank" data-mc-conditions="Default.ScreenOnly">Dictionary: Semblance</a></p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/semblance.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

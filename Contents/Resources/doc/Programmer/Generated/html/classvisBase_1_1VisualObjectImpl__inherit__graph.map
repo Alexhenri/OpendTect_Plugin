@@ -1,0 +1,50 @@
+<map id="visBase::VisualObjectImpl" name="visBase::VisualObjectImpl">
+<area shape="rect" id="node9" href="$classvisBase_1_1Annotation.html" title="Annotation is a simple wireframe box with text on its axis. " alt="" coords="795,5,933,35"/>
+<area shape="rect" id="node11" href="$classvisBase_1_1BoxDragger.html" title="visBase::BoxDragger" alt="" coords="791,59,937,88"/>
+<area shape="rect" id="node13" href="$classvisBase_1_1DepthTabPlaneDragger.html" title="visBase::DepthTabPlaneDragger" alt="" coords="757,112,971,141"/>
+<area shape="rect" id="node15" href="$classvisBase_1_1FlatViewer.html" title="visBase::FlatViewer" alt="" coords="795,165,933,195"/>
+<area shape="rect" id="node17" href="$classvisBase_1_1GeomIndexedShape.html" title="visBase::GeomIndexedShape" alt="" coords="767,219,961,248"/>
+<area shape="rect" id="node19" href="$classvisBase_1_1GridLines.html" title="visBase::GridLines" alt="" coords="799,272,929,301"/>
+<area shape="rect" id="node21" href="$classvisBase_1_1HorizonSection.html" title="visBase::HorizonSection" alt="" coords="781,325,947,355"/>
+<area shape="rect" id="node23" href="$classvisBase_1_1ImageRect.html" title="visBase::ImageRect" alt="" coords="793,379,935,408"/>
+<area shape="rect" id="node25" href="$classvisBase_1_1MarchingCubesSurface.html" title="visBase::MarchingCubesSurface" alt="" coords="757,432,971,461"/>
+<area shape="rect" id="node27" href="$classvisBase_1_1MarkerSet.html" title="MarkerSet is a set of basic pickmarker with a constant size on screen. Size and shape are settable..." alt="" coords="796,485,932,515"/>
+<area shape="rect" id="node29" href="$classvisBase_1_1OrthogonalSlice.html" title="Slice that cuts orthogonal through a VolumeData. " alt="" coords="780,539,948,568"/>
+<area shape="rect" id="node31" href="$classvisBase_1_1PolygonSelection.html" title="visBase::PolygonSelection" alt="" coords="775,592,953,621"/>
+<area shape="rect" id="node33" href="$classvisBase_1_1RandomPos2Body.html" title="visBase::RandomPos2Body" alt="" coords="771,645,957,675"/>
+<area shape="rect" id="node35" href="$classvisBase_1_1RandomTrackDragger.html" title="visBase::RandomTrackDragger" alt="" coords="761,699,967,728"/>
+<area shape="rect" id="node37" href="$classvisBase_1_1ScaleBar.html" title="ScaleBar base object. " alt="" coords="799,752,929,781"/>
+<area shape="rect" id="node39" href="$classvisBase_1_1SceneColTab.html" title="visBase::SceneColTab" alt="" coords="787,805,941,835"/>
+<area shape="rect" id="node41" href="$classvisBase_1_1Text2.html" title="visBase::Text2" alt="" coords="809,859,919,888"/>
+<area shape="rect" id="node43" href="$classvisBase_1_1TexturePanelStrip.html" title="A TexturePanelStrip is geometrically invariant in the z&#45;direction. Its serially connected panels are ..." alt="" coords="773,912,955,941"/>
+<area shape="rect" id="node45" href="$classvisBase_1_1TextureRectangle.html" title="A TextureRectangle is a Rectangle with a datatexture. The data is set via setData. " alt="" coords="775,965,953,995"/>
+<area shape="rect" id="node47" href="$classvisBase_1_1TopBotImage.html" title="visBase::TopBotImage" alt="" coords="787,1019,941,1048"/>
+<area shape="rect" id="node49" href="$classvisBase_1_1Well.html" title="Base class for well display. " alt="" coords="813,1072,915,1101"/>
+<area shape="rect" id="node51" href="$classvisSurvey_1_1EMObjectDisplay.html" title="visSurvey::EMObjectDisplay" alt="" coords="769,1125,959,1155"/>
+<area shape="rect" id="node57" href="$classvisSurvey_1_1FaultStickSetDisplay.html" title="Display class for FaultStickSets. " alt="" coords="781,1178,947,1225"/>
+<area shape="rect" id="node59" href="$classvisSurvey_1_1LocationDisplay.html" title="Used for displaying picksets of varying types. The class is not intended for standalone usage..." alt="" coords="773,1248,955,1277"/>
+<area shape="rect" id="node69" href="$classvisSurvey_1_1MarchingCubesDisplay.html" title="visSurvey::MarchingCubes\lDisplay" alt="" coords="775,1301,953,1347"/>
+<area shape="rect" id="node71" href="$classvisSurvey_1_1MPEClickCatcher.html" title="visSurvey::MPEClickCatcher" alt="" coords="768,1371,960,1400"/>
+<area shape="rect" id="node73" href="$classvisSurvey_1_1MPEDisplay.html" title="visSurvey::MPEDisplay" alt="" coords="784,1424,944,1453"/>
+<area shape="rect" id="node75" href="$classvisSurvey_1_1MPEEditor.html" title="visSurvey::MPEEditor" alt="" coords="789,1477,939,1507"/>
+<area shape="rect" id="node77" href="$classvisSurvey_1_1MultiTextureSurveyObject.html" title="visSurvey::MultiTextureSurvey\lObject" alt="" coords="764,1530,964,1577"/>
+<area shape="rect" id="node81" href="$classvisSurvey_1_1PointSetDisplay.html" title="visSurvey::PointSetDisplay" alt="" coords="773,1600,955,1629"/>
+<area shape="rect" id="node83" href="$classvisSurvey_1_1PolygonBodyDisplay.html" title="visSurvey::PolygonBodyDisplay" alt="" coords="760,1653,968,1683"/>
+<area shape="rect" id="node85" href="$classvisSurvey_1_1PolyLineDisplay.html" title="visSurvey::PolyLineDisplay" alt="" coords="773,1707,955,1736"/>
+<area shape="rect" id="node87" href="$classvisSurvey_1_1PreStackDisplay.html" title="visSurvey::PreStackDisplay" alt="" coords="771,1760,957,1789"/>
+<area shape="rect" id="node89" href="$classvisSurvey_1_1PSEventDisplay.html" title="visSurvey::PSEventDisplay" alt="" coords="772,1813,956,1843"/>
+<area shape="rect" id="node91" href="$classvisSurvey_1_1RandomPosBodyDisplay.html" title="used for displaying a set of random picks in xyz coordinate. " alt="" coords="769,1866,959,1913"/>
+<area shape="rect" id="node93" href="$classvisSurvey_1_1Sower.html" title="visSurvey::Sower" alt="" coords="801,1936,927,1965"/>
+<area shape="rect" id="node95" href="$classvisSurvey_1_1VolumeDisplay.html" title="visSurvey::VolumeDisplay" alt="" coords="776,1989,952,2019"/>
+<area shape="rect" id="node97" href="$classvisSurvey_1_1WellDisplay.html" title="Used for displaying welltracks, markers and logs. " alt="" coords="785,2043,943,2072"/>
+<area shape="rect" id="node2" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="335,992,484,1021"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="143,992,284,1021"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,992,92,1021"/>
+<area shape="rect" id="node53" href="$classvisSurvey_1_1Horizon2DDisplay.html" title="visSurvey::Horizon2DDisplay" alt="" coords="1019,1076,1213,1105"/>
+<area shape="rect" id="node55" href="$classvisSurvey_1_1HorizonDisplay.html" title="visSurvey::HorizonDisplay" alt="" coords="1028,1129,1204,1159"/>
+<area shape="rect" id="node61" href="$classvisSurvey_1_1ArrowDisplay.html" title="Arrow. " alt="" coords="1033,1191,1199,1220"/>
+<area shape="rect" id="node63" href="$classvisSurvey_1_1ImageDisplay.html" title="Image display, owns the RGBImage and distributes it to the child objects. " alt="" coords="1032,1244,1200,1273"/>
+<area shape="rect" id="node65" href="$classvisSurvey_1_1PickSetDisplay.html" title="Used for displaying picks. " alt="" coords="1027,1297,1205,1327"/>
+<area shape="rect" id="node67" href="$classvisSurvey_1_1ScaleBarDisplay.html" title="visSurvey::ScaleBarDisplay" alt="" coords="1024,1351,1208,1380"/>
+<area shape="rect" id="node79" href="$classvisSurvey_1_1FaultDisplay.html" title="visSurvey::FaultDisplay" alt="" coords="1036,1539,1196,1568"/>
+</map>

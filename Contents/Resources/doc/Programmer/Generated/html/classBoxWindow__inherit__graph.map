@@ -1,0 +1,5 @@
+<map id="BoxWindow" name="BoxWindow">
+<area shape="rect" id="node2" href="$classWindowFunction.html" title="Base class for window functions. The inheriting classes will give a value between 0 and 1 in the inte..." alt="" coords="24,179,141,208"/>
+<area shape="rect" id="node4" href="$classMathFunction.html" title="Mathematical function. " alt="" coords="17,101,148,131"/>
+<area shape="rect" id="node6" href="$classMathFunctionND.html" title="Multidimensional Mathematical function. " alt="" coords="5,6,160,53"/>
+</map>

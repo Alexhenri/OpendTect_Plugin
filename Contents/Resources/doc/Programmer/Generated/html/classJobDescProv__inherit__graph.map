@@ -1,0 +1,8 @@
+<map id="JobDescProv" name="JobDescProv">
+<area shape="rect" id="node3" href="$classInlineSplitJobDescProv.html" title="Implementation of JobDescProv based upon splitting the inlines in the IOPar. " alt="" coords="52,83,209,112"/>
+<area shape="rect" id="node5" href="$classKeyReplaceJobDescProv.html" title="Simple implementation of JobDescProv based on replacing a value in the IOPar with another..." alt="" coords="233,83,404,112"/>
+<area shape="rect" id="node11" href="$classParSubselJobDescProv.html" title="IOPar driven implementation of JobDescProv where splitting is based on IOPar subselection with a part..." alt="" coords="441,83,601,112"/>
+<area shape="rect" id="node7" href="$classIDKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values taken from a range of IDs. " alt="" coords="5,160,192,189"/>
+<area shape="rect" id="node9" href="$classStringKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values are in a string set. " alt="" coords="216,160,421,189"/>
+<area shape="rect" id="node13" href="$classLine2DSubselJobDescProv.html" title="Special case of ParSubselJobDescProv where each job refers to a 2D Line. The subselkey in this case i..." alt="" coords="445,160,627,189"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classSeparString.html" title="List encoded in a string. " alt="" coords="5,32,96,61"/>
+<area shape="rect" id="node3" href="$classFileMultiString.html" title="SeparString with backquotes as separators, use in most ascii files. " alt="" coords="161,5,265,35"/>
+<area shape="rect" id="node5" href="$classuiActionSeparString.html" title="uiActionSeparString" alt="" coords="145,59,281,88"/>
+</map>

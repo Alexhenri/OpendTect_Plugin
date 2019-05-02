@@ -1,0 +1,5 @@
+<map id="BlocksSeisTrcTranslator" name="BlocksSeisTrcTranslator">
+<area shape="rect" id="node2" href="$classSeisTrcTranslator.html" title="SeisTrcTranslator" alt="" coords="25,160,151,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="48,83,128,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="45,5,131,35"/>
+</map>

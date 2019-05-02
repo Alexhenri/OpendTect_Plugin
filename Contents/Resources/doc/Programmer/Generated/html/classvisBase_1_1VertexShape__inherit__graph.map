@@ -1,0 +1,11 @@
+<map id="visBase::VertexShape" name="visBase::VertexShape">
+<area shape="rect" id="node11" href="$classvisBase_1_1Lines.html" title="visBase::Lines" alt="" coords="928,5,1035,35"/>
+<area shape="rect" id="node13" href="$classvisBase_1_1PointSet.html" title="visBase::PointSet" alt="" coords="919,59,1044,88"/>
+<area shape="rect" id="node15" href="$classvisBase_1_1PolyLine.html" title="visBase::PolyLine" alt="" coords="919,112,1044,141"/>
+<area shape="rect" id="node17" href="$classvisBase_1_1PolyLine3D.html" title="visBase::PolyLine3D" alt="" coords="909,165,1053,195"/>
+<area shape="rect" id="node19" href="$classvisBase_1_1TriangleStripSet.html" title="visBase::TriangleStripSet" alt="" coords="896,219,1067,248"/>
+<area shape="rect" id="node2" href="$classvisBase_1_1Shape.html" title="visBase::Shape" alt="" coords="533,112,648,141"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="335,112,484,141"/>
+<area shape="rect" id="node6" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="143,112,284,141"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,112,92,141"/>
+</map>

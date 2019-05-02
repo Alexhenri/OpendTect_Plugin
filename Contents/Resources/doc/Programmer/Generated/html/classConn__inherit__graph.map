@@ -1,0 +1,4 @@
+<map id="Conn" name="Conn">
+<area shape="rect" id="node3" href="$classStreamConn.html" title="Connection with an underlying iostream. " alt="" coords="5,83,99,112"/>
+<area shape="rect" id="node5" href="$classXConn.html" title="Connection implemented in terms of another Conn object. " alt="" coords="123,83,184,112"/>
+</map>

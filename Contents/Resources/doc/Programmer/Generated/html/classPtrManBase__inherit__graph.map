@@ -1,0 +1,50 @@
+<map id="PtrManBase&lt; T &gt;" name="PtrManBase&lt; T &gt;">
+<area shape="rect" id="node3" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; T \&gt;" alt="" coords="452,247,564,276"/>
+<area shape="rect" id="node15" href="$classConstArrPtrMan.html" title="ConstArrPtrMan\&lt; T \&gt;" alt="" coords="435,423,581,452"/>
+<area shape="rect" id="node17" href="$classConstPtrMan.html" title="ConstPtrMan\&lt; T \&gt;" alt="" coords="443,476,573,505"/>
+<area shape="rect" id="node19" href="$classConstRefMan.html" title="ConstRefMan\&lt; T \&gt;" alt="" coords="441,529,575,559"/>
+<area shape="rect" id="node21" href="$classPtrMan.html" title="PtrMan\&lt; T \&gt;" alt="" coords="460,583,556,612"/>
+<area shape="rect" id="node23" href="$classRefMan.html" title="RefMan\&lt; T \&gt;" alt="" coords="459,636,557,665"/>
+<area shape="rect" id="node25" href="$classPtrManBase.html" title="PtrManBase\&lt; QPixmap \&gt;" alt="" coords="423,689,593,719"/>
+<area shape="rect" id="node27" href="$classPtrManBase.html" title="PtrManBase\&lt; EnumDefImpl\l\&lt; Pol2D \&gt; \&gt;" alt="" coords="415,742,601,789"/>
+<area shape="rect" id="node29" href="$classPtrManBase.html" title="PtrManBase\&lt; ContinuousCurvature\lArray2DInterpol::BriggsData \&gt;" alt="" coords="393,30,623,77"/>
+<area shape="rect" id="node32" href="$classPtrManBase.html" title="PtrManBase\&lt; Attrib\l::Data2DHolder \&gt;" alt="" coords="440,811,576,858"/>
+<area shape="rect" id="node34" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Text2 \&gt;" alt="" coords="432,881,584,927"/>
+<area shape="rect" id="node36" href="$classPtrManBase.html" title="PtrManBase\&lt; EnumDefImpl\l\&lt; Month \&gt; \&gt;" alt="" coords="415,950,601,997"/>
+<area shape="rect" id="node38" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Normals \&gt;" alt="" coords="432,1019,584,1066"/>
+<area shape="rect" id="node40" href="$classPtrManBase.html" title="PtrManBase\&lt; EnumDefImpl\l\&lt; DayOfWeek \&gt; \&gt;" alt="" coords="415,1089,601,1135"/>
+<area shape="rect" id="node42" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::TextureChannels \&gt;" alt="" coords="432,1158,584,1205"/>
+<area shape="rect" id="node44" href="$classPtrManBase.html" title="PtrManBase\&lt; float \&gt;" alt="" coords="437,104,579,133"/>
+<area shape="rect" id="node47" href="$classPtrManBase.html" title="PtrManBase\&lt; Geometry\l::PrimitiveSetCreator \&gt;" alt="" coords="427,1227,589,1274"/>
+<area shape="rect" id="node49" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Scene \&gt;" alt="" coords="432,1297,584,1343"/>
+<area shape="rect" id="node51" href="$classPtrManBase.html" title="PtrManBase\&lt; TaskRunner \&gt;" alt="" coords="413,1367,603,1396"/>
+<area shape="rect" id="node53" href="$classPtrManBase.html" title="PtrManBase\&lt; ColTab\l::Sequence \&gt;" alt="" coords="435,165,581,211"/>
+<area shape="rect" id="node56" href="$classPtrManBase.html" title="PtrManBase\&lt; const visBase\l::visBase::Transformation \&gt;" alt="" coords="413,1419,603,1466"/>
+<area shape="rect" id="node58" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Coordinates \&gt;" alt="" coords="432,1489,584,1535"/>
+<area shape="rect" id="node60" href="$classPtrManBase.html" title="PtrManBase\&lt; const mVisTrans \&gt;" alt="" coords="400,1559,616,1588"/>
+<area shape="rect" id="node62" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::DataObjectGroup \&gt;" alt="" coords="432,1611,584,1658"/>
+<area shape="rect" id="node64" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::ThumbWheel \&gt;" alt="" coords="432,1681,584,1727"/>
+<area shape="rect" id="node66" href="$classPtrManBase.html" title="PtrManBase\&lt; Time2DepthStretcher \&gt;" alt="" coords="387,1751,629,1780"/>
+<area shape="rect" id="node68" href="$classPtrManBase.html" title="PtrManBase\&lt; OD::RGBImage\lLoader \&gt;" alt="" coords="409,1803,607,1850"/>
+<area shape="rect" id="node70" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::TextureRectangle \&gt;" alt="" coords="432,1873,584,1919"/>
+<area shape="rect" id="node72" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::PolygonSelection \&gt;" alt="" coords="432,1942,584,1989"/>
+<area shape="rect" id="node74" href="$classPtrManBase.html" title="PtrManBase\&lt; TypeSet\l\&lt; float \&gt; \&gt;" alt="" coords="431,2011,585,2058"/>
+<area shape="rect" id="node76" href="$classPtrManBase.html" title="PtrManBase\&lt; char \&gt;" alt="" coords="437,300,579,329"/>
+<area shape="rect" id="node79" href="$classPtrManBase.html" title="PtrManBase\&lt; ContinuousCurvature\lArray2DInterpol::HorizonData \&gt;" alt="" coords="393,353,623,399"/>
+<area shape="rect" id="node82" href="$classPtrManBase.html" title="PtrManBase\&lt; Coords\l::CoordSystem \&gt;" alt="" coords="435,2081,581,2127"/>
+<area shape="rect" id="node84" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Transformation \&gt;" alt="" coords="432,2150,584,2197"/>
+<area shape="rect" id="node86" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Axes \&gt;" alt="" coords="432,2219,584,2266"/>
+<area shape="rect" id="node88" href="$classPtrManBase.html" title="PtrManBase\&lt; EnumDefImpl\l\&lt; Type \&gt; \&gt;" alt="" coords="415,2289,601,2335"/>
+<area shape="rect" id="node90" href="$classPtrManBase.html" title="PtrManBase\&lt; ValueSeriesInterpolator\l\&lt; float \&gt; \&gt;" alt="" coords="388,2358,628,2405"/>
+<area shape="rect" id="node92" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::SceneColTab \&gt;" alt="" coords="432,2427,584,2474"/>
+<area shape="rect" id="node94" href="$classPtrManBase.html" title="PtrManBase\&lt; PickRetriever \&gt;" alt="" coords="409,2497,607,2527"/>
+<area shape="rect" id="node96" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::DepthTabPlaneDragger \&gt;" alt="" coords="419,2550,597,2597"/>
+<area shape="rect" id="node98" href="$classPtrManBase.html" title="PtrManBase\&lt; EnumDefImpl\l\&lt; Dir \&gt; \&gt;" alt="" coords="415,2619,601,2666"/>
+<area shape="rect" id="node100" href="$classPtrManBase.html" title="PtrManBase\&lt; TypeSet\l\&lt; Coord \&gt; \&gt;" alt="" coords="431,2689,585,2735"/>
+<area shape="rect" id="node102" href="$classPtrManBase.html" title="PtrManBase\&lt; visBase\l::Camera \&gt;" alt="" coords="432,2758,584,2805"/>
+<area shape="rect" id="node5" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; ContinuousCurvature\lArray2DInterpol::BriggsData \&gt;" alt="" coords="856,71,1072,118"/>
+<area shape="rect" id="node7" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; float \&gt;" alt="" coords="899,144,1029,173"/>
+<area shape="rect" id="node9" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; ColTab::\lSequence \&gt;" alt="" coords="893,230,1035,277"/>
+<area shape="rect" id="node11" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; char \&gt;" alt="" coords="899,317,1029,347"/>
+<area shape="rect" id="node13" href="$classArrPtrMan.html" title="ArrPtrMan\&lt; ContinuousCurvature\lArray2DInterpol::HorizonData \&gt;" alt="" coords="856,402,1072,449"/>
+</map>

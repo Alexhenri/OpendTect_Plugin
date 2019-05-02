@@ -1,0 +1,6 @@
+<map id="IdxPair" name="IdxPair">
+<area shape="rect" id="node5" href="$classPos_1_1IdxPair.html" title="IdxPair with position indices; base class for BinID et al. " alt="" coords="28,160,121,189"/>
+<area shape="rect" id="node11" href="$classPosInfo_1_1Line2DKey.html" title="Key holding ID for both lineset and line. " alt="" coords="145,160,284,189"/>
+<area shape="rect" id="node7" href="$classBinID.html" title="Positioning in a seismic survey: inline/crossline or lineNr/trcNr. " alt="" coords="5,237,59,267"/>
+<area shape="rect" id="node9" href="$classRowCol.html" title="IdxPair used for its row() and col(). " alt="" coords="83,237,152,267"/>
+</map>

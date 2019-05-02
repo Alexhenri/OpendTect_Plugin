@@ -1,0 +1,22 @@
+<map id="RefMan&lt; T &gt;" name="RefMan&lt; T &gt;">
+<area shape="rect" id="node5" href="$classRefMan.html" title="RefMan\&lt; visBase::Text2 \&gt;" alt="" coords="548,31,727,60"/>
+<area shape="rect" id="node7" href="$classRefMan.html" title="RefMan\&lt; visBase::Normals \&gt;" alt="" coords="540,84,735,113"/>
+<area shape="rect" id="node9" href="$classRefMan.html" title="RefMan\&lt; visBase::Texture\lChannels \&gt;" alt="" coords="548,137,727,183"/>
+<area shape="rect" id="node11" href="$classRefMan.html" title="RefMan\&lt; visBase::Scene \&gt;" alt="" coords="545,207,729,236"/>
+<area shape="rect" id="node13" href="$classRefMan.html" title="RefMan\&lt; const visBase\l::visBase::Transformation \&gt;" alt="" coords="545,259,729,306"/>
+<area shape="rect" id="node15" href="$classRefMan.html" title="RefMan\&lt; visBase::Coordinates \&gt;" alt="" coords="529,329,745,359"/>
+<area shape="rect" id="node17" href="$classRefMan.html" title="RefMan\&lt; const mVisTrans \&gt;" alt="" coords="543,383,732,412"/>
+<area shape="rect" id="node19" href="$classRefMan.html" title="RefMan\&lt; visBase::DataObject\lGroup \&gt;" alt="" coords="537,435,737,482"/>
+<area shape="rect" id="node21" href="$classRefMan.html" title="RefMan\&lt; visBase::ThumbWheel \&gt;" alt="" coords="525,505,749,535"/>
+<area shape="rect" id="node23" href="$classRefMan.html" title="RefMan\&lt; Time2DepthStretcher \&gt;" alt="" coords="529,559,745,588"/>
+<area shape="rect" id="node25" href="$classRefMan.html" title="RefMan\&lt; visBase::Texture\lRectangle \&gt;" alt="" coords="548,611,727,658"/>
+<area shape="rect" id="node27" href="$classRefMan.html" title="RefMan\&lt; visBase::Polygon\lSelection \&gt;" alt="" coords="547,681,728,727"/>
+<area shape="rect" id="node29" href="$classRefMan.html" title="RefMan\&lt; Coords::CoordSystem \&gt;" alt="" coords="527,751,748,780"/>
+<area shape="rect" id="node31" href="$classRefMan.html" title="RefMan\&lt; visBase::Transformation \&gt;" alt="" coords="520,804,755,833"/>
+<area shape="rect" id="node33" href="$classRefMan.html" title="RefMan\&lt; visBase::Axes \&gt;" alt="" coords="549,857,725,887"/>
+<area shape="rect" id="node35" href="$classRefMan.html" title="RefMan\&lt; visBase::SceneCol\lTab \&gt;" alt="" coords="541,910,733,957"/>
+<area shape="rect" id="node37" href="$classRefMan.html" title="RefMan\&lt; PickRetriever \&gt;" alt="" coords="552,980,723,1009"/>
+<area shape="rect" id="node39" href="$classRefMan.html" title="RefMan\&lt; visBase::DepthTab\lPlaneDragger \&gt;" alt="" coords="541,1033,733,1079"/>
+<area shape="rect" id="node41" href="$classRefMan.html" title="RefMan\&lt; visBase::Camera \&gt;" alt="" coords="541,1103,733,1132"/>
+<area shape="rect" id="node2" href="$classPtrManBase.html" title="PtrManBase\&lt; T \&gt;" alt="" coords="7,559,132,588"/>
+</map>

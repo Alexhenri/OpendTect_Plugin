@@ -1,0 +1,7 @@
+<map id="Fourier::CC::CC1D" name="Fourier::CC::CC1D">
+<area shape="rect" id="node2" href="$classGenericTransformND_1_1Transform1D.html" title="GenericTransformND\l::Transform1D" alt="" coords="5,238,152,285"/>
+<area shape="rect" id="node4" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="176,247,269,276"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="197,160,248,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="172,83,273,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="180,5,265,35"/>
+</map>

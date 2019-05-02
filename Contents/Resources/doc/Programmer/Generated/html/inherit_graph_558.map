@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classStrat_1_1LayerValue.html" title="Strat::LayerValue" alt="" coords="5,32,128,61"/>
+<area shape="rect" id="node3" href="$classStrat_1_1FormulaLayerValue.html" title="returns a layer value based on Math::Formula. It does not copy the Formula, so keep the formula alive..." alt="" coords="176,5,347,35"/>
+<area shape="rect" id="node5" href="$classStrat_1_1SimpleLayerValue.html" title="Strat::SimpleLayerValue" alt="" coords="180,59,343,88"/>
+</map>

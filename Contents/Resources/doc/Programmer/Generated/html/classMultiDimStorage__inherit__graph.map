@@ -1,0 +1,8 @@
+<map id="MultiDimStorage&lt; T &gt;" name="MultiDimStorage&lt; T &gt;">
+<area shape="rect" id="node3" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; SeisRandom\lRepository::TraceHolder * \&gt;" alt="" coords="412,11,617,58"/>
+<area shape="rect" id="node5" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; Geometry\l::IndexedGeometry * \&gt;" alt="" coords="421,81,608,127"/>
+<area shape="rect" id="node7" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; Vel\l::Pick \&gt;" alt="" coords="440,150,589,197"/>
+<area shape="rect" id="node9" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; int \&gt;" alt="" coords="436,220,593,249"/>
+<area shape="rect" id="node11" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; Marching\lCubesModel \&gt;" alt="" coords="423,273,607,319"/>
+<area shape="rect" id="node13" href="$classMultiDimStorage.html" title="MultiDimStorage\&lt; PreStack\l::EventSet * \&gt;" alt="" coords="423,342,607,389"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Pos::TableProvider3D" name="Pos::TableProvider3D">
+<area shape="rect" id="node2" href="$classPos_1_1Provider3D.html" title="Provides a subselection for 3D surveys. " alt="" coords="57,160,175,189"/>
+<area shape="rect" id="node4" href="$classPos_1_1Filter3D.html" title="Provides a filter related to 3D data. " alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node6" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="75,5,157,35"/>
+<area shape="rect" id="node8" href="$classPos_1_1Provider.html" title="Provides a series of positions; can also be used for subselection. " alt="" coords="128,83,229,112"/>
+</map>

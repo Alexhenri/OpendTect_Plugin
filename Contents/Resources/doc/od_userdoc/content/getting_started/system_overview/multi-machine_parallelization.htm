@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="2 Getting Started|2.1 System Overview">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>2.1.1 Multi-Machine &amp; Parallelization</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#getting_started/system_overview/multi-machine_parallelization.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor224"></a>2.1.1 Multi-Machine &amp; Parallelization<a name="kanchor225"></a></h3>
+        <p>To speed up processing time OpendTect supports batch processing of attribute volumes and other computer intensive processes. The user has the option to run batch processes on all computers (Linux, Mac or Windows operated workstations and clusters) in the network. Multi-machine distributed computing is highly recommended in operational settings. Corporate users are advised to contact their system administrator to enable multi-machine processing. Please see the administrator's manual for details.</p>
+        <p>In addition to multi-machine distributed computing OpendTect also supports multi-threading (parallel processing) of many algorithms. A thread of execution is the smallest unit of processing that can be scheduled by an operating system. It generally results from a fork of a computer program into two or more concurrently running tasks. The implementation of threads and processes differs from one operating system to another, but in most cases, a thread is contained inside a process.</p>
+        <p>Multi-threading allows multiple threads to exist within the context of a single or multiple process. These threads share the process' resources (such as memory) but are able to execute independently.</p>
+        <p>OpendTect uses the power of multi-threading to run different applications in data loading, visualization, processing etc...</p>
+        <p><b>Processes that use Multi-threading</b>
+        </p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <p><b><a name="kanchor226"></a><a name="kanchor227"></a>Dip-Steering Algorithms</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Compute a Steering Cube with BG&#160;Steering</p>
+                    </td>
+                    <td>
+                        <p>Completely re-designed in Nov. 2015</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Compute a Steering Cube with FFT</p>
+                    </td>
+                    <td>
+                        <p>Completely re-designed in Nov. 2015</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Apply Full Steering dip-steering in attributes and filters</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Apply Central&#160;Steering in attributes and&#160;filters</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <p><b>Attributes</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><a name="kanchor228"></a>Convolve (all except Wavelet option)</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Curvature</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Dip Angle</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><a name="kanchor229"></a><a name="kanchor230"></a>Velocity Fan Filter (=DipFilter)</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Energy (all except Gradient option)</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Event</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Frequency Filter</p>
+                    </td>
+                    <td>
+                        <p>multi-threading implemented in March 2014</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Frequency</p>
+                    </td>
+                    <td>
+                        <p>multi-threading implemented in March 2014</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><a name="kanchor231"></a>HorizonCube Data</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HorizonCube Density</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HorizonCube Layer</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Hilbert</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Instantaneous</p>
+                    </td>
+                    <td>
+                        <p>multi-threading improved in March 2014</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Local Fluid Contact Finder</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Maths (except when expression is recursive)</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Polar Dip</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Position</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>PreStack</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Reference</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Scaling (all except scaling type AGC and stats type = detrend)</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Semblance</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Similarity</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Spectral Decomposition</p>
+                    </td>
+                    <td>
+                        <p>multi-threading implemented in March 2014</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Texture</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Tutorial</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><a name="kanchor232"></a>Volume Statistics</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Processes that do not (yet) use multi-threading</b>
+        </p>
+        <table>
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><b>Attributes</b>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Constant Steering</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Convolve (Wavelet option)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>DeltaResample</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Energy (Gradient option)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Event Steering</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>FaultDip</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>FingerPrint</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>GapDecon</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HorizonCube Curvature</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HorizonCube Dip</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>HorizonCube Spacing</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Horizon</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Match Delta</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Maths (recursive expression)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Perpendicular Dip Extractor</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>SampleValue</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Scaling (scaling type AGC and stats type = detrend)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Shift</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p><i>*multi-threading implemented in March 2014<br />**multi-threading improved in March 2014</i>
+        </p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#getting_started/system_overview/multi-machine_parallelization.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

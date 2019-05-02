@@ -1,0 +1,24 @@
+<map id="undo.h" name="undo.h">
+<area shape="rect" id="node3" href="$picksetmgr_8h.html" title="picksetmgr.h" alt="" coords="25,83,121,112"/>
+<area shape="rect" id="node10" href="$emfault_8h.html" title="emfault.h" alt="" coords="209,83,284,112"/>
+<area shape="rect" id="node19" href="$emundo_8h.html" title="emundo.h" alt="" coords="344,83,421,112"/>
+<area shape="rect" id="node23" href="$velocitypicksundo_8h.html" title="velocitypicksundo.h" alt="" coords="445,83,581,112"/>
+<area shape="rect" id="node25" href="$prestackevents_8h.html" title="prestackevents.h" alt="" coords="605,83,728,112"/>
+<area shape="rect" id="node29" href="$emseedpicker_8h.html" title="emseedpicker.h" alt="" coords="787,83,901,112"/>
+<area shape="rect" id="node46" href="$uiwelltiecheckshotedit_8h.html" title="uiwelltiecheckshotedit.h" alt="" coords="925,83,1085,112"/>
+<area shape="rect" id="node48" href="$visplanedatadisplay_8h.html" title="visplanedatadisplay.h" alt="" coords="1109,83,1256,112"/>
+<area shape="rect" id="node5" href="$pickset_8h.html" title="pickset.h" alt="" coords="36,160,111,189"/>
+<area shape="rect" id="node8" href="$uiodannottreeitem_8h.html" title="uiodannottreeitem.h" alt="" coords="5,237,141,267"/>
+<area shape="rect" id="node12" href="$emfault3d_8h.html" title="emfault3d.h" alt="" coords="183,237,273,267"/>
+<area shape="rect" id="node16" href="$emfaultstickset_8h.html" title="emfaultstickset.h" alt="" coords="185,160,308,189"/>
+<area shape="rect" id="node14" href="$emfaultset3d_8h.html" title="emfaultset3d.h" alt="" coords="175,315,281,344"/>
+<area shape="rect" id="node21" href="$emmanager_8h.html" title="emmanager.h" alt="" coords="332,160,433,189"/>
+<area shape="rect" id="node27" href="$prestackeventascio_8h.html" title="prestackeventascio.h" alt="" coords="457,160,604,189"/>
+<area shape="rect" id="node31" href="$horizon2dseedpicker_8h.html" title="horizon2dseedpicker.h" alt="" coords="628,160,780,189"/>
+<area shape="rect" id="node33" href="$horizon3dseedpicker_8h.html" title="horizon3dseedpicker.h" alt="" coords="804,160,956,189"/>
+<area shape="rect" id="node35" href="$uihorizontracksetup_8h.html" title="uihorizontracksetup.h" alt="" coords="869,237,1016,267"/>
+<area shape="rect" id="node37" href="$uimpe_8h.html" title="uimpe.h" alt="" coords="1031,160,1097,189"/>
+<area shape="rect" id="node44" href="$vismpeeditor_8h.html" title="vismpeeditor.h" alt="" coords="1121,160,1228,189"/>
+<area shape="rect" id="node40" href="$uimpecorrelationgrp_8h.html" title="uimpecorrelationgrp.h" alt="" coords="1040,237,1187,267"/>
+<area shape="rect" id="node42" href="$uimpeeventgrp_8h.html" title="uimpeeventgrp.h" alt="" coords="1211,237,1328,267"/>
+</map>

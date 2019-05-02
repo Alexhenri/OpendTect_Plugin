@@ -1,0 +1,5 @@
+<map id="ODSessionTranslator" name="ODSessionTranslator">
+<area shape="rect" id="node7" href="$classdgbODSessionTranslator.html" title="dgbODSessionTranslator" alt="" coords="5,237,173,267"/>
+<area shape="rect" id="node2" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="49,83,129,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="47,5,132,35"/>
+</map>

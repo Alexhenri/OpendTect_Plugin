@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2777" MadCap:lastWidth="986">
+    <head>
+    </head>
+    <body>
+<<<<<<< HEAD
+        <h5>4.2.1.4.2 Processing 2D HorizonCube<MadCap:keyword term="4.2.1.4.2 Processing 2D HorizonCube" /></h5>
+        <p><i style="font-weight: bold; font-style: normal;">Region display properties</i>: visualization of the regions can be adjusted by changing the line color and line width. The changes will be reflected in the 3D scene.</p>
+=======
+        <h5>4.2.1.4.2 Processing 2D HorizonCube<MadCap:keyword term="Processing 2D HorizonCube" /></h5>
+        <p><i style="font-weight: bold; font-style: normal;">Settings</i>
+        </p>
+>>>>>>> e1941c59c73ff0c7a85fffb04663406e96b81246
+        <img src="../../../../Resources/Images/HorizonCube/2d_hc_proc_setts.png" class="image" />
+        <p>
+            <img src="../../../../Resources/Images/region_display_property.png" />
+        </p>
+        <p><b>Create/Update HorizonCube</b>
+        </p>
+        <p>To process a 2D HorizonCube, press the HorizonCube icon. The HorizonCube calculation settings dialogue window is launched.</p>
+        <img src="../../../../Resources/Images/HorizonCube_calculation_settings.png" class="image" />
+        <p><i style="font-weight: bold; font-style: normal;">Model-driven Modes:</i>
+        </p>
+        <p> The three model-driven modes are:</p>
+        <ul>
+            <li>Parallel to Upper</li>
+            <li>Parallel to Lower</li>
+            <li>Proportional</li>
+        </ul>
+        <p><b>Settings</b>:</p>
+        <p>Pressing the <i>Settings</i> … button launches the settings dialogue window. Two Event sampling methods are supported: <i>Spacing at maximum thickness</i> and the <i>number of events</i> for the package. More information can be found on <a href="/Content/HorizonCube/HorizonCube_Control_Center/Processing/Create_A_HorizonCube/Model_Driven_Settings.htm" target="_self">this page.</a></p>
+        <img src="../../../../Resources/Images/HorizonCube_2D_proportional_settings.png" class="image" />
+        <p><b>Data-driven Mode:</b> In this mode dip steered horizons are auto-tracked to produce data-driven HorizonCube segments per region. The settings for this mode are defined per package. </p>
+        <p><b>Settings</b>
+        </p>
+        <p>Pressing the <i>Settings</i> … button launches the settings dialogue window for a particular package and updates the 3D scene by showing regions and the proposed starting positions for the tracker. Hovering over the scene highlights the active region.</p>
+        <img src="../../../../Resources/Images/HorizonCube_2D_data_driven_settings.png" class="image" />
+        <p style="font-style: italic;text-decoration: underline;"><b style="font-style: normal; text-decoration: none;">Options</b>
+        </p>
+        <p><b>Steering</b> – Select the steering input per package.</p>
+        <p><b>Start position</b> – This is a crucial input parameter. The dip-steered auto-tracker simultaneously tracks all horizons from this position at the sampling interval specified in Advanced Settings. The starting position is displayed as a vertical line. This can be changed in the table but the recommended way to change the position is to interactively change this in the 3D scene. To do this press the green arrow icon. Now hover over the regions and QC and adjust the starting positions. Starting position should be selected in the thicker part of a region in good quality data areas and preferably not too close to a fault. The green wheel icon is used to change display settings of regions and start positions.</p>
+        <p><b>Skip a region</b> – Regions can be skipped, e.g. in bad data areas. No HorizonCube is processed in skipped areas.</p>
+        <p><b>Advanced Options</b> – See the section on <a href="../Create_A_HorizonCube/Data_Driven_Settings/Advanced_Options.htm" target="_self" style="font-weight: normal;" MadCap:conditions="Default.ScreenOnly">Advanced options</a><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">Advanced options</MadCap:conditionalText>.</p>
+        <p><b style="font-style: italic;">Processing (on-the-fly/batch mode):</b>
+        </p>
+        <p>HorizonCube processing can be done:</p>
+        <p><b>On-the-fly:</b>
+        </p>
+        <p>Recommended for smaller 2D lines (less than 20Km) with few regions only.</p>
+        <p>A Wheeler Scene is launched automatically once HorizonCube processing is finished.</p>
+        <p><b>Batch-mode:</b>
+        </p>
+        <p>Recommended for long 2D lines (greater than 20Km), or lines with many regions.</p>
+        <p>To inspect the data in the Wheeler domain a Wheeler scene must be added and filled manually.</p>
+        <p><b style="font-style: italic;">Updating the Results after Processing:</b>
+        </p>
+        <p>The Wheeler scene is an excellent tool to QC the HorizonCube processing results. Remember that segments are processed independently so that it cannot be expect that events are correlated over segments. Neither will the number of events be identical per segment. Correlation and merging will be done in a later step (see Correlating 2D HorizonCube Regions).</p>
+        <p>In this phase the Wheeler scene is used to study the flatness of seismic events. Dipping events in the Wheeler scene imply that the auto-tracker deviated from the actual seismic reflection patterns. HorizonCube processing can in that case be improved by adjusting the framework and rerunning the processing.</p>
+        <p style="page-break-before: always">Framework horizons can be picked and update in the normal scene as well as in the Wheeler scene.</p>
+        <img src="../../../../Resources/Images/HorizonCube/2d_hc_proc_updt_bfr.png" class="image" />
+        <p><i>Picking a (dip-steered) seismic horizon in the Wheeler domain.</i>
+        </p>
+        <img src="../../../../Resources/Images/HorizonCube/2d_hc_proc_updt_aftr.png" class="image" />
+        <p><i>The updated Wheeler scene after reprocessing the HorizonCube.</i>
+        </p>
+    </body>
+</html>

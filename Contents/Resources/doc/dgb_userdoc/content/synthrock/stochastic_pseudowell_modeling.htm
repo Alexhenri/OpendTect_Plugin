@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.3 Stochastic Pseudowell Modeling</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#synthrock/stochastic_pseudowell_modeling.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>7.3 Stochastic Pseudowell Modeling<a name="kanchor214"></a></h2>
+        <p>The stochastic modeling is performed using the following workflow:</p>
+        <ol>
+            <li value="1">First the <a href="stochastic_pseudowell_modeling/add_new_modeling_node.htm" target="_self" style="font-weight: normal;">modeling nodes</a> must be selected. They can be single layers, formations, or meta-formations.</li>
+            <li value="2">For each member of each node the <a href="stochastic_pseudowell_modeling/model_definition.htm" target="_self" style="font-weight: normal;">stochastic parameters</a> must be set. Default constant parameters are provided.</li>
+            <li value="3">Pressing "Go" will draw a user defined number of pseudowells that honor the modeling description.</li>
+            <li value="4">Then <a href="fluid_replacement.htm" target="_self" style="font-weight: normal;">fluid substitution</a> may be applied. This process duplicates the pseudowells into a brine set and a fluid-filled set.</li>
+        </ol>
+        <p>The modeling itself will take place on the left side of the layer definition window. The modeling description can be saved, but not the stochastically derived pseudowells, except by extracting the corresponding data using the <a href="http://opendtect.org/rel/doc/User/base/chapter6.5_layermodeling.htm#LINK-MANAGE.STRAT.CROSSPLOT" target="_blank" style="font-weight: normal;">crossplot extractor</a>. </p>
+        <p>The pseudowells are re-drawn by either pressing on the<img src="../resources/images/icons/go.png" class="icon" />  button or resizing the layer modeling window (sic). It is advised to start with a relatively low number of pseudowells while building the model, and then to increase it for the final application (several hundreds for a <a href="hitcube_stochastic_inversion.htm" target="_self" style="font-weight: normal;">HitCube inversion</a> are needed). An example is given below.</p>
+        <img src="../resources/images/synthrock/stochastic_pseudowell_modeling.png" class="image" />
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

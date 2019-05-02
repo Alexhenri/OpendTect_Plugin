@@ -1,0 +1,4 @@
+<map id="EM::StickSet" name="EM::StickSet">
+<area shape="rect" id="node2" href="$classEM_1_1EMObject.html" title="Base class for all EarthModel objects. " alt="" coords="5,83,112,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="16,5,101,35"/>
+</map>

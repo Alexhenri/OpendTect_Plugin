@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Sequence Stratigraphic Interpretation System|5.4 Wheeler Transform, Wheeler Scene">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.4.2 Create Wheeler Output (2D, 3D)</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#sequence_stratigraphic_interpretation_system/wheeler_transform_wheeler_scene/create_wheeler_output.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>5.4.2 Create Wheeler Output (2D, 3D)<a name="kanchor262"></a></h3>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/add_wheeler_scene.png" class="image" />
+        <p>A WheelerCube is a seismic volume in the Wheeler domain. When a WheelerCube is displayed on an element in the Wheeler scene, no transformation is needed as the Wheeler volume is created on-the-fly.</p>
+        <p class="note"><a name="kanchor263"></a> Before creating a WheelerCube a HorizonCube must be selected.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/create_wheeler_volume.png" class="image" />
+        <p><i>Create Wheeler output volume for a 3D volume</i>
+        </p>
+        <p>Any stored 3D-data (seismic, attribute, neural network output) can be converted into the Wheeler domain. Select the stored volume you want to transform and specify a name for the WheelerCube. Moreover, the wheeler volume can be reduced by specifying the <a href="wheeler_scene.htm" target="_self" style="font-weight: normal;">area-sub-selection</a>. The Wheeler Cube is created in batch-mode (see corresponding section in the OpendTect User Documentation). A stored WheelerCube can be displayed by right-clicking an element in the tree, then click select <i>attribute &gt; Wheeler Cubes</i>.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/create_wheeler_lineset.png" class="image" />
+        <p><i>Create Wheeler output volume for a 2D Lineset/Line</i>
+        </p>
+        <p>For a 2D type of Wheeler transformation, 2D HorizonCube is required. Select the 2D HorizonCube in the input. This will be used as a transformation matrix for the Wheeler transformtion. Next, provide the input 2D data e.g. seismic/AI data. Optionally, you may create it for one line only and also restrict the output to a limited number of traces (<i>Traces sub-selection</i><a name="kanchor264"></a>). After this, the Wheeler output is stored to the written line-set and the attribute (format: Lineset_Name|Output_Wheeler_Attribute_Name).</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

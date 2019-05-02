@@ -1,0 +1,84 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 12:16:07 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x output=0
+0.UserRef: Seismic Data
+0.Hidden: No
+1.Definition: Reference output=2
+1.UserRef: Reference time
+1.Hidden: No
+1.Input.0: 0
+2.Definition: Energy gate=[-52,52] dograd=no output=0
+2.UserRef: Energy [-52,52]
+2.Hidden: No
+2.Input.0: 0
+3.Definition: Energy gate=[-80,80] dograd=no output=0
+3.UserRef: Energy [-80,80]
+3.Hidden: No
+3.Input.0: 0
+4.Definition: Energy gate=[-40,40] dograd=no output=0
+4.UserRef: Energy [-40,40]
+4.Hidden: No
+4.Input.0: 0
+5.Definition: Storage id=100010.y|Steering output=0
+5.UserRef: Steering Data_inline_dip
+5.Hidden: Yes
+5.Datatype: Dip
+6.Definition: Storage id=100010.y|Steering output=1
+6.UserRef: Steering Data_crline_dip
+6.Hidden: Yes
+6.Datatype: Dip
+7.Definition: FullSteering phlock=no output=0
+7.UserRef: FullSteering 100010.y|Steering
+7.Hidden: Yes
+7.Input.0: 5
+7.Input.1: 6
+8.Definition: Curvature stepout=4 constantvel=yes velocity=4000 output=0
+8.UserRef: Curvature r=4
+8.Hidden: No
+8.Input.0: 7
+9.Definition: VolumeStatistics stepout=0,4 shape=Rectangle gate=[-32,32] nrtrcs=1 steering=yes output=2
+9.UserRef: CurvatureVariance [-32,32] r=4 FS
+9.Hidden: No
+9.Input.0: 8
+9.Input.1: 7
+10.Definition: PolarDip inlcrl2dipazi=yes output=0
+10.UserRef: Polar dip
+10.Hidden: No
+10.Input.0: 5
+10.Input.1: 6
+11.Definition: VolumeStatistics stepout=0,5 shape=Rectangle gate=[-12,12] nrtrcs=1 steering=no output=2
+11.UserRef: DipVariance [-12,12] stepout=5
+11.Hidden: No
+11.Input.0: 10
+12.Definition: VolumeStatistics stepout=0,5 shape=Rectangle gate=[-24,24] nrtrcs=1 steering=no output=2
+12.UserRef: DipVariance [-24,24] stepout=5
+12.Hidden: No
+12.Input.0: 10
+13.Definition: VolumeStatistics stepout=0,5 shape=Rectangle gate=[-32,32] nrtrcs=1 steering=no output=2
+13.UserRef: DipVariance [-32,32] stepout=5
+13.Hidden: No
+13.Input.0: 10
+14.Definition: Similarity gate=[-32,32] stepout=0,1 extension=Cube steering=yes normalize=yes output=0
+14.UserRef: CubeSimilarity [-32,32] stepout=1
+14.Hidden: No
+14.Input.0: 0
+14.Input.1: 7
+15.Definition: Similarity gate=[-32,32] pos0=0,0 pos1=0,1 extension=180 steering=yes normalize=yes output=3
+15.UserRef: Similarity [-32,32] (-1,0)x(0,1) FS min
+15.Hidden: No
+15.Input.0: 0
+15.Input.1: 7
+16.Definition: Similarity gate=[-40,40] pos0=0,0 pos1=0,1 extension=180 steering=no normalize=yes output=3
+16.UserRef: Similarity [-40,40] (-1,0)x(0,1) NS min
+16.Hidden: No
+16.Input.0: 0
+17.Definition: Similarity gate=[-32,32] pos0=0,0 pos1=0,1 extension=180 steering=no normalize=yes output=3
+17.UserRef: Similarity [-32,32] (-1,0)x(0,1) NS min
+17.Hidden: No
+17.Input.0: 0
+MaxNrKeys: 17
+Type: 2D
+!

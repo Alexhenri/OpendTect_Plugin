@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="9 Velocity Model Building">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>9.1 Introduction</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#velocity_model_building/introduction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>9.1 Introduction<a name="kanchor261"></a></h2>
+        <p><b>This plugin will work only on a 3D survey</b>
+        </p>
+        <p>The basic concept of <i>velocity model building</i> is to use the travel time of the acoustic waves to image the subsurface. Unlike the amplitudes, which are linked to acoustic properties (density and Lame parameters), the travel time and ray geometry between source and receiver are a function of the velocity (and anisotropy) field(s). This is a consequence of the ray geometry obeying Fermat’s principle of least time.</p>
+        <p>The velocity model building requires migrated <i>Common Image Gathers (CIG)</i>, as input. CIG are prestack seismic gathers migrated to depth, thus NMO corrected. The velocity field used for this migration will also be a necessary input for semblance calculation and thus RMO picking, and is linked to OpendTect CIG data store. The corresponding poststack volume might also be appended to the pair CIG/Velocity model to create a link between the post stack horizons and the prestack events and to perform horizon-based velocity analysis.</p>
+        <p>Picking velocities is possible since the velocity model determines the travel times and ray geometry. A correct travel time and ray geometry will allow the image gather (migrated seismic in depth) to be stacked constructively. The constructiveness of the gathers is measured via a semblance function which outputs a semblance value for each possible RMS velocity. The picking of the high semblances enables, therefore, the interpreter to retrieve the correct velocity function. </p>
+        <p>The process is made available on a semi-automated base in two modes:</p>
+        <ol>
+            <li value="1"><a href="vertical_velocity_analysis.htm" target="_self" style="font-weight: normal;">Vertical velocity update</a>
+            </li>
+            <li value="2"><a href="horizon-based_velocity_update.htm" target="_self" style="font-weight: normal;">Horizon-based velocity update</a>.</li>
+        </ol>
+        <p>The vertical velocity update presents the semblance panel for a single trace. The picked RMO’s generate a new velocity function with depth, which can be applied on-the-fly on the corresponding common image gather (CIG). Therefore, the flatness of the CIG can be very quickly appreciated during the picking phase. The maximum of semblance, therefore the change in the velocity function, is tracked between the picked positions and the next position. Therefore, the picking is called semi-automated. The picking may also be done along a poststack horizon instead of on a trace-by-trace basis. A standard workflow would be to track horizons on a migrated volume, pick the RMO’s along each horizon performing the horizon-based velocity update, and QC them in the vertical velocity update window.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

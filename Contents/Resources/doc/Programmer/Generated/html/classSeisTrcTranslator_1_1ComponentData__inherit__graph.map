@@ -1,0 +1,6 @@
+<map id="SeisTrcTranslator::ComponentData" name="SeisTrcTranslator::ComponentData">
+<area shape="rect" id="node9" href="$classSeisTrcTranslator_1_1TargetComponentData.html" title="ComponentData as it should be when the Translator puts it away. " alt="" coords="5,334,160,381"/>
+<area shape="rect" id="node2" href="$classBasicComponentInfo.html" title="Info on one component. " alt="" coords="11,160,155,189"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="32,83,133,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="40,5,125,35"/>
+</map>

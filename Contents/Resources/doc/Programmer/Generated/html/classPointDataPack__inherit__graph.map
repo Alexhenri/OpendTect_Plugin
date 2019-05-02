@@ -1,0 +1,6 @@
+<map id="PointDataPack" name="PointDataPack">
+<area shape="rect" id="node9" href="$classDataPointSet.html" title="Set of data points with group selection. " alt="" coords="11,315,109,344"/>
+<area shape="rect" id="node2" href="$classDataPack.html" title="A data packet: data+positioning and more that needs to be shared. " alt="" coords="20,160,100,189"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="9,83,111,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="17,5,103,35"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="odProbDenFuncTranslator" name="odProbDenFuncTranslator">
+<area shape="rect" id="node2" href="$classProbDenFuncTranslator.html" title="ProbDenFuncTranslator" alt="" coords="12,160,172,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="52,83,132,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="49,5,135,35"/>
+</map>

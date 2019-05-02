@@ -1,0 +1,6 @@
+<map id="SeisTrcBufDataPack" name="SeisTrcBufDataPack">
+<area shape="rect" id="node2" href="$classFlatDataPack.html" title="DataPack for flat data. " alt="" coords="27,237,128,267"/>
+<area shape="rect" id="node4" href="$classDataPack.html" title="A data packet: data+positioning and more that needs to be shared. " alt="" coords="37,160,117,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="27,83,128,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="35,5,120,35"/>
+</map>

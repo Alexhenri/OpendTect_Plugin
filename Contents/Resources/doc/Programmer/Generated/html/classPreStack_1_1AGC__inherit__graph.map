@@ -1,0 +1,7 @@
+<map id="PreStack::AGC" name="PreStack::AGC">
+<area shape="rect" id="node2" href="$classPreStack_1_1Processor.html" title="Processes PreStack data at one cdp location. The algorithm is implemented in subclasses, and can be created by the PreStack::PF() factory. " alt="" coords="5,315,147,344"/>
+<area shape="rect" id="node4" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="29,237,123,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="51,160,101,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="25,83,127,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="33,5,119,35"/>
+</map>

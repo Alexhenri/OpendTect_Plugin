@@ -1,0 +1,12 @@
+<map id="PreStack::Processor" name="PreStack::Processor">
+<area shape="rect" id="node11" href="$classPreStack_1_1AGC.html" title="Processor for PreStack AGC. " alt="" coords="751,5,863,35"/>
+<area shape="rect" id="node13" href="$classPreStack_1_1AngleMute.html" title="Angle mute. " alt="" coords="733,59,880,88"/>
+<area shape="rect" id="node15" href="$classPreStack_1_1LateralStack.html" title="Lateral stack. " alt="" coords="728,112,885,141"/>
+<area shape="rect" id="node17" href="$classPreStack_1_1Mute.html" title="Processor for PreStack muting. " alt="" coords="751,165,863,195"/>
+<area shape="rect" id="node19" href="$classPreStack_1_1Stack.html" title="Stacks PreStack data. " alt="" coords="748,219,865,248"/>
+<area shape="rect" id="node21" href="$classPreStack_1_1TrimStatics.html" title="Processor for PreStack Trim Statics. " alt="" coords="732,272,881,301"/>
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="393,139,487,168"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="293,139,344,168"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="143,139,244,168"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,139,92,168"/>
+</map>

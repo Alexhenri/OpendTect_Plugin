@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.1 Processing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.1.7 Create 2D Seismic Lattice</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/processing/create_seismic_lattice.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4>4.2.1.7 Create 2D Seismic Lattice<a name="kanchor65"></a></h4>
+        <p><a name="kanchor66"></a><a name="kanchor67"></a>This tool is used to create a 2D lattice/grid from 3D seismic data. This feature is released as a Multi2D workflow in the SSIS plugin (Chapter 4). The workflow is simple i.e. convert 3D seismic data into a coarse 2D grid with preferred orientation and geometry. After the conversion, the next step is to prepare a HorizonCube for all 2D lines. Using the HorizonCube for each 2D line, interpret sequence stratigraphic surfaces. The extracted sequence stratigraphic surfaces are then used to do detailed interpretations on the 3D seismic volume.</p>
+        <img src="../../../resources/images/horizoncube/create_2d_seismic_grid.png" class="image" />
+        <p>2D Seismic Grid options</p>
+        <ul>
+            <li value="1"><b>Input Cube:</b> Selected 3D seismic data to be used in this field.</li>
+            <li value="2"><b>Volume Subselection:</b> Optionally, the 3D volume can be restricted to an objective area. This subselection is made here by restricting inline/crossline/time ranges for the selected volume.</li>
+            <li value="3"><b>Create Grid from:</b> Define the output grid geometry and orientation of the 2D lines to be created. If Inl/Crl is selected for this option, the general inline/crossline orientation (or geometry) of the selected 3D data would be used within the defined inline/crossline range and the corresponding steps. Optionally, the inline/crossline range can be edited manually by setting loosely spaced inline/crossline numbers separated by commas.</li>
+        </ul>
+        <img src="../../../resources/images/horizoncube/create_grid_from.png" class="image" />
+        <p style="page-break-before: always">Another option is to define a 2D grid geometry using a <i>Random Line</i>. Using the selected random line, the grid can be created in both (parallel and perpendicular) directions of the randomline. This fixed spacing needs to be given in the <i>line spacing (m)</i> fields.</p>
+        <img src="../../../resources/images/horizoncube/random_line.png" class="image" />
+        <p>Random Line options</p>
+        <ul>
+            <li value="1"><b>Prefix:</b> Label the 2D-line names in the fields.</li>
+            <li value="2"><b>Output Lineset:</b> Output for the 2D lineset. Please provide the lineset name and the name for the seismic data (attribute).</li>
+            <li value="3"><b>Extract Horizons:</b> Convert the 3D interpreted horizons into 2D horizons by checking this box (optional). In the <i>Select horizons list</i>, select one or more horizons.</li>
+        </ul>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

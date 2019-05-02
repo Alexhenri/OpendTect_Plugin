@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.11 Import Seismic|4.3.10.1 SEG-Y|4.3.10.1.2 Classic SEG-Y Import Tool">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.10.1.2.2 SEG-Y Revision</title>
+        <link href="../../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../../Default.htm#survey/import/import_seismic/seg-y/classic_seg-y_import_tool/seg-y_revision.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h6><a name="kanchor550"></a>4.3.10.1.2.2 SEG-Y Revision<a name="kanchor551"></a></h6>
+        <p>After <a href="seg-y_import_preparation.htm" data-mc-conditions="Default.ScreenOnly">SEG-Y import preparation</a> a pop-up question asks to <i>Determine SEG-Y Revision</i> of the input file(s). The default choice is auto-selected based on byte 301 of the file's binary header, but can be overruled by a user. The choice determines the layout of <i><a href="seg-y_import.htm" data-mc-conditions="Default.ScreenOnly" name="kanchor552">Import SEG-Y window</a></i>.</p>
+        <p class="note">For details please refer to <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="http://www.seg.org/resources/publications/misc/technical-standards" target="_blank">SEG standards</a></MadCap:conditionalText>.</p>
+        <img src="../../../../../resources/images/survey/import_segy_revision_yes.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>No: the file is NOT SEG-Y Rev.1 - treat as legacy (i.e. Rev.0)</b> - For un-lucky users the revision 1 flag might wrongly be set to "Yes" in the line header while obviously the file does not comply with the SEG-Y revision 1 norm. It may happen when the software blindly copies entire headers without refreshing all the necessary characters. "Rev.0" is an older way of loading SEG-Y files: The inline and crossline offset (bytes) must be present in the trace headers and their offsets must be provided to the software since it may vary from file to file.</li>
+            <li value="2"><b>Mostly: It's Rev.1 but I may need to overrule some things</b><a name="kanchor553"></a> - The file is 100% SEG-Y Rev.1 but you would like to overrule some particular information e.g. Coordinates, Sampling rate and Start time etc.</li>
+            <li value="3"><b>Yes: I know the file is 100% correct SEG-Y Rev.1</b> - For lucky people, this is by far the most easy and quick way to import your SEG-Y file. No additional settings are required except the final output volume/line name in the OpendTect database.</li>
+        </ul>
+        <p>After selecting appropriate option, press <i>Next</i> to reach the import window.</p>
+        <p>You can save the answer to this question in your survey settings by activating the option "Don't ask again for this survey". If you set this flag by mistake and wish to go back you need to edit the ".defs" file (in the OpendTect survey directory) with a text editor and remove the line "SEG-Y Rev. 1 policy:".</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../../Default.htm#survey/import/import_seismic/seg-y/classic_seg-y_import_tool/seg-y_revision.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks|8.4 Property Prediction (using Well Logs)">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.4.1 Balance Data</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#neural_networks/property_prediction/balance_data.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>8.4.1 Balance Data<a name="kanchor233"></a></h3>
+        <p><i>Balancing</i> is a mandatory pre-processing step for neural network training. The distribution of input vectors is modified in order to get a flat distribution for the output quantity (target log), in the training data set. Balancing is done automatically when training from picksets or on a target log that is containing lithology codes. In both cases, the output values are discrete (integers), thus <i>Balancing</i> can be automated safely. An ordinary log will show continuous values between a minimum and maximum.</p>
+        <p>Based on the histogram display the user may:</p>
+        <ul>
+            <li value="1">Adjust the output level for the flat distribution using the <i>Data points per class</i> parameter.</li>
+            <li value="2">Train for a range of values smaller than the extracted minimum and maximum values by specifying another <i>Data range to use</i>.</li>
+        </ul>
+        <p>The over-represented classes will be decimated to the <i>data point per class</i> parameter.</p>
+        <p>The under-represented classes will be duplicated to the <i>data point per class</i> parameter, with a small change of the target value for each duplicated vector. This change is controlled by the parameter <i>Percentage noise when adding</i>, but the default value will be appropriate for most situations.</p>
+        <p style="page-break-before: always">The binning is automatically performed to compute the number of classes based on minimum, maximum and number of points. At least 10 classes will be used, with a maximum of 100 classes. 20 and 50 classes may be used to reach an optimal of 25 vectors per class. This optimal is considered as the best compromise between statistical representation and training speed.</p>
+        <img src="../../resources/images/neural_networks/property_prediction_well_logs_data_preparation.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

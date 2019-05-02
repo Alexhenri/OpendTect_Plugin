@@ -1,0 +1,29 @@
+<map id="MathFunction&lt; RT, PT &gt;" name="MathFunction&lt; RT, PT &gt;">
+<area shape="rect" id="node5" href="$classAlongVectorFunction.html" title="A MathFunction that cuts through another mathfunction with higher number of dimensions. " alt="" coords="516,5,657,51"/>
+<area shape="rect" id="node7" href="$classAttrib_1_1Frequency_1_1FreqFunc.html" title="Attrib::Frequency::\lFreqFunc\&lt; float, float \&gt;" alt="" coords="508,74,665,121"/>
+<area shape="rect" id="node9" href="$classAttrib_1_1Similarity_1_1SimiFunc.html" title="Attrib::Similarity\l::SimiFunc\&lt; float, float \&gt;" alt="" coords="504,143,669,190"/>
+<area shape="rect" id="node11" href="$classLineParameters.html" title="LineParameters\&lt; float \&gt;" alt="" coords="1024,801,1187,831"/>
+<area shape="rect" id="node13" href="$classSecondOrderPoly.html" title="A class for 2nd order polynomials of the form: a x^2 + b x + c. " alt="" coords="504,266,669,313"/>
+<area shape="rect" id="node15" href="$classSeisTrcFunction.html" title="SeisTrcFunction\&lt; float,\l float \&gt;" alt="" coords="508,335,665,382"/>
+<area shape="rect" id="node17" href="$classSincInterpolator1D.html" title="SincInterpolator1D\l\&lt; RT, PT \&gt;" alt="" coords="521,405,652,451"/>
+<area shape="rect" id="node19" href="$classThirdOrderPoly.html" title="A class for 3rd order polynomials on the form: a x^3 + b x^2 + c x + d. " alt="" coords="512,474,661,521"/>
+<area shape="rect" id="node21" href="$classValSeriesMathFunc.html" title="ValSeriesMathFunc\&lt;\l float, float \&gt;" alt="" coords="515,543,659,590"/>
+<area shape="rect" id="node23" href="$classWaveletFunction.html" title="WaveletFunction\&lt; float,\l float \&gt;" alt="" coords="507,613,667,659"/>
+<area shape="rect" id="node25" href="$classWindowFunction.html" title="Base class for window functions. The inheriting classes will give a value between 0 and 1 in the inte..." alt="" coords="507,682,667,729"/>
+<area shape="rect" id="node43" href="$classMathFunction.html" title="MathFunction\&lt; RT, RT \&gt;" alt="" coords="503,936,671,965"/>
+<area shape="rect" id="node49" href="$classMathFunction.html" title="MathFunction\&lt; yT, xT \&gt;" alt="" coords="505,879,668,908"/>
+<area shape="rect" id="node53" href="$classMathFunction.html" title="MathFunction\&lt; T, T \&gt;" alt="" coords="512,213,661,243"/>
+<area shape="rect" id="node2" href="$classMathFunctionND.html" title="Multidimensional Mathematical function. " alt="" coords="5,439,160,486"/>
+<area shape="rect" id="node27" href="$classBartlettWindow.html" title="BartlettWindow" alt="" coords="768,611,877,640"/>
+<area shape="rect" id="node29" href="$classBlackmanWindow.html" title="BlackmanWindow" alt="" coords="760,664,885,693"/>
+<area shape="rect" id="node31" href="$classBoxWindow.html" title="BoxWindow" alt="" coords="777,717,868,747"/>
+<area shape="rect" id="node33" href="$classCosTaperWindow.html" title="Tapered Cosine Window Function. " alt="" coords="760,771,885,800"/>
+<area shape="rect" id="node35" href="$classFlatTopWindow.html" title="FlatTopWindow" alt="" coords="767,397,879,427"/>
+<area shape="rect" id="node37" href="$classHammingWindow.html" title="HammingWindow" alt="" coords="760,451,885,480"/>
+<area shape="rect" id="node39" href="$classHanningWindow.html" title="HanningWindow" alt="" coords="764,504,881,533"/>
+<area shape="rect" id="node41" href="$classKaiserWindow.html" title="Kaiser Window Function. " alt="" coords="769,557,876,587"/>
+<area shape="rect" id="node45" href="$classSampledFunction.html" title="Make any sampled series comply with MathFunction. " alt="" coords="732,944,913,973"/>
+<area shape="rect" id="node47" href="$classSampledFunctionImpl.html" title="Implementation for array&#45;type of SampledFunction. " alt="" coords="1032,935,1179,982"/>
+<area shape="rect" id="node51" href="$classBendPointBasedMathFunction.html" title="MathFunction based on bend points. " alt="" coords="724,874,921,921"/>
+<area shape="rect" id="node55" href="$classLineParameters.html" title="Steepness and intercept. " alt="" coords="751,312,895,341"/>
+</map>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.6 Pointset &amp; Polygon">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.6.5 Pop-Up Menus</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/pop-up_menus.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>3.6.5 Pop-Up Menus<a name="kanchor734"></a></h3>
+        <p style="font-weight: bold;"><a name="kanchor735"></a><a name="kanchor736"></a>pointset/Polygon Element Pop-up Menu</p>
+        <p>This is the menu right-click menu accessed from the main pointset/Polygon element when at least one pointset/polygon is already loaded (see pictures below).</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_menu.png" class="General_Image" />
+        <img src="../../resources/images/opendtect_trees_and_elements/polygon_popup_menus_menu.png" class="General_Image" />
+        <p>It contains the following menu items.</p>
+        <ul>
+            <li value="1"><b>Add …:</b> load a stored pointset/polygon in the 3D scene and tree.</li>
+            <li value="2"><b>New:</b>  Create a new pointset/polygon (see <a href="../pointset_polygon.htm" data-mc-conditions="Default.ScreenOnly">3.6 pointset &amp; Polygon</a>).</li>
+            <li value="3"><a name="kanchor737"></a>Display only at sections: Display points only intersecting the displayed elements (plane(s) and/or horizon(s)) in the 3D scene. This mode enables picking in a new location without being distracted by previously picked points throughout the survey box.</li>
+            <li value="4"><b>Display in Full:</b> Display all the points of the pointset or the full polygon within the survey box.</li>
+            <li value="5"><b><a name="kanchor738"></a>Merge Sets:</b> (<i>for pointsets only</i>) Merge stored pointsets into a new pointset. A window pops up and the sets can be selected. A name for the output set should be defined. pointsets can also be merged from the <a href="../../survey/manage/manage_pointsets_polygons.htm" data-mc-conditions="Default.ScreenOnly">pointset Manager</a>.</li>
+            <li value="6"><b>Save changes:</b> The pointset/polygon changes can be saved and reloaded at any time during the building process.</li>
+        </ul>
+        <p>When more than one pointset/polygon are loaded in the tree, the menu has additional entries:</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_sub-elements_menu.png" class="General_Image" />
+        <img src="../../resources/images/opendtect_trees_and_elements/polygon_popup_menus_subelement_menu.png" class="General_Image" />
+        <ul>
+            <li value="1">Show all items: Display all the pointsets/polygons from the tree in the 3D scene.</li>
+            <li value="2">Hide all items: Unselect all the pointsets/polygons from the tree. They are no more displayed in the 3D scene.</li>
+            <li value="3">Remove all items: Remove all the pointsets/polygons from the tree</li>
+        </ul>
+        <p style="font-weight: bold;">pointset / Polygon sub-elements Pop-up Menu</p>
+        <p>If at least one pointset or polygon is loaded in the tree, then the following options are available from the right-click menu (see picture below):</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/random_line_display.png" class="General_Image" />
+        <img src="../../resources/images/opendtect_trees_and_elements/bright_spot_display.png" class="General_Image" /> <ul><li value="1"><b><a name="kanchor739"></a>Calculate Volume:</b> In OpendTect, an estimated volume can be computed from a polygon to a given surface. The velocity default is set to 3000 m/s. Negative thicknesses can either be discarded or taken into account.</li></ul><img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_calculate_volume.png" class="General_Image" /><ul><li value="1"><b>Convert to body:</b> (<i>for pointset only</i>) Convert the pointset into a <a href="../body.htm" data-mc-conditions="Default.ScreenOnly">body</a>.</li><li value="2"><b><a name="kanchor740"></a>Create Body:</b> (<i>for polygon only</i>) Create a body using the polygon as a constraining area. It requires a top and bottom horizon between which the body would be created. This feature is only enabled if <a href="http://doc.opendtect.org/6.0.0/doc/dgb_userdoc/Default.htm#default_attribute_sets/unsupervised_waveform_segmentation.htm" target="_blank" data-mc-conditions="Default.ScreenOnly" name="kanchor741">SSIS plugin</a>  is loaded (or licensed). F</li><li value="3"><b>Close polygon:</b> (<i>only when interpreting a new polygon</i>) During, and at the end of a picking session, pointsets should be stored.</li><li value="4"><b>Display:</b><ul style="list-style-type: circle;"><li value="1"><b>Display only at sections:</b> Display points only intersecting the displayed elements (plane(s) and/or horizon(s)) in the 3D scene.  This mode allows to pick new locations without being distracted by previously picked points throughout the survey volume.</li><li value="2"><b>Properties:</b> In this window the <i>Type</i>, <i>Size</i> and <i>Color</i> of the point markers in the 3D scene can be set. The type <i>Arrow</i> is also automatically used when the point is given directional information in the Set directions option under the pointset pop-up menu.</li><li value="3"><b>Set direction:</b> (<i>for pointset only</i>) Display direction, guided by the SteeringCube/attribute. This helps to understand the geological dips and fluid flow. It is assigned by setting a direction to each point based on dip and azimuth information (attributes). In the pop-up window (see below), specify either a SteeringCube or two attributes providing the polar dip and azimuth in degrees. A velocity of 2000 m/s will be used in time survey to convert the dip from degrees to µs/m if the dip angle data is read from a stored cube instead of the dip angle attribute. Do not forget after setting the directions to save you pointset and change the display type to "Arrow".</li></ul></li></ul><img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_example_direction_setting.png" class="General_Image" /><p style="font-style: italic;">An example of setting direction (black arrows) to a pointset.</p><p><a name="kanchor742"></a>When setting the direction for a given pointset, you can select to get the direction from a SteeringCube or from the Azimuth and Dip attributes (stored or on the fly) (see picture below)</p><img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_add_direction_steering.png" class="General_Image" /><img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_add_direction_attribute.png" class="General_Image" /><ul><li value="1"><b>Save/Save As:</b> Either overwrite the stored input by using option Save or store as new pointset / polygon by using <i>Save As</i> option.</li><li value="2"><b>Lock / Unlock:</b> Lock the selected object. It prevents accidental removing, moving or displaying data on the object. Clicking "Unlock" enables editing again.</li><li value="3"><b>Remove:</b> Remove pointset/polygon from tree.</li></ul><p class="note">Removing any unsaved pointset/polygon will result in complete loss of the unsaved interpretation.</p><ul><li value="1"><b><a name="kanchor743"></a>Export to Google KML:</b> Export selected polygon to a Google KML file. When selected, the following export window is launched. Fill in the output KML parameters and write/select the output file location. Press the 'Ok' button to export the polygon in the selected location. The feature will prompt an additional conversion dialog if the conversion settings for the survey are not defined. For further information, please refer to the <a href="../../survey/select_setup_survey/survey_selection_window.htm" data-mc-conditions="Default.ScreenOnly" name="kanchor744">Survey Selection</a> section.</li></ul><img src="../../resources/images/opendtect_trees_and_elements/pickset_popup_menus_export_to_google_klm.png" class="General_Image" /><p style="font-style: italic;">Export the polygon to a KML file</p><p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p><p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/pop-up_menus.htm">Open topic with navigation</a></p></body>
+</html>

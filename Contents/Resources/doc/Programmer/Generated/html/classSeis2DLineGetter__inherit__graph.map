@@ -1,0 +1,9 @@
+<map id="Seis2DLineGetter" name="Seis2DLineGetter">
+<area shape="rect" id="node13" href="$classSEGYDirect2DLineGetter.html" title="SEGYDirect2DLineGetter" alt="" coords="5,469,176,499"/>
+<area shape="rect" id="node15" href="$classSeisCBVS2DLineGetter.html" title="SeisCBVS2DLineGetter" alt="" coords="200,469,363,499"/>
+<area shape="rect" id="node2" href="$classExecutor.html" title="Specification to enable chunkwise execution of a process. " alt="" coords="148,315,223,344"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="129,237,241,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="160,160,211,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="135,83,236,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="143,5,228,35"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="randposEMBodyTranslator" name="randposEMBodyTranslator">
+<area shape="rect" id="node2" href="$classodEMBodyTranslator.html" title="OpendTect format EM::Body Translator. " alt="" coords="21,237,165,267"/>
+<area shape="rect" id="node4" href="$classEMBodyTranslator.html" title="Base class for all EM::Body Translators. " alt="" coords="28,160,159,189"/>
+<area shape="rect" id="node6" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="53,83,133,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="51,5,136,35"/>
+</map>

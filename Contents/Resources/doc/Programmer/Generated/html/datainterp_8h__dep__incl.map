@@ -1,0 +1,12 @@
+<map id="datainterp.h" name="datainterp.h">
+<area shape="rect" id="node3" href="$cbvsreader_8h.html" title="cbvsreader.h" alt="" coords="5,83,101,112"/>
+<area shape="rect" id="node5" href="$cbvsreadmgr_8h.html" title="cbvsreadmgr.h" alt="" coords="125,83,232,112"/>
+<area shape="rect" id="node7" href="$convmemvalseries_8h.html" title="convmemvalseries.h" alt="" coords="256,83,397,112"/>
+<area shape="rect" id="node9" href="$tracedata_8h.html" title="tracedata.h" alt="" coords="421,83,507,112"/>
+<area shape="rect" id="node11" href="$segytr_8h.html" title="segytr.h" alt="" coords="328,160,397,189"/>
+<area shape="rect" id="node13" href="$seiscbvs_8h.html" title="seiscbvs.h" alt="" coords="421,160,507,189"/>
+<area shape="rect" id="node15" href="$seistrc_8h.html" title="seistrc.h" alt="" coords="531,160,603,189"/>
+<area shape="rect" id="node17" href="$seisrandomprovider_8h.html" title="seisrandomprovider.h" alt="" coords="321,237,468,267"/>
+<area shape="rect" id="node19" href="$seis2deventsnapper_8h.html" title="seis2deventsnapper.h" alt="" coords="492,237,641,267"/>
+<area shape="rect" id="node21" href="$createlogcube_8h.html" title="createlogcube.h" alt="" coords="665,237,780,267"/>
+</map>

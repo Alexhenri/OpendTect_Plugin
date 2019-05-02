@@ -1,0 +1,22 @@
+<map id="welllogdisp.h" name="welllogdisp.h">
+<area shape="rect" id="node5" href="$ranges_8h.html" title="ranges.h" alt="" coords="275,83,347,112"/>
+<area shape="rect" id="node81" href="$color_8h.html" title="color.h" alt="" coords="456,469,517,499"/>
+<area shape="rect" id="node85" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="861,315,944,344"/>
+<area shape="rect" id="node7" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="329,547,407,576"/>
+<area shape="rect" id="node35" href="$math2_8h.html" title="math2.h" alt="" coords="477,160,547,189"/>
+<area shape="rect" id="node62" href="$ptrman_8h.html" title="ptrman.h" alt="" coords="184,469,256,499"/>
+<area shape="rect" id="node74" href="$varlenarray_8h.html" title="varlenarray.h" alt="" coords="172,237,268,267"/>
+<area shape="rect" id="node77" href="$samplingdata_8h.html" title="samplingdata.h" alt="" coords="221,160,331,189"/>
+<area shape="rect" id="node9" href="$undefval_8h.html" title="undefval.h" alt="" coords="387,624,469,653"/>
+<area shape="rect" id="node27" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="133,624,248,653"/>
+<area shape="rect" id="node30" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="37,624,109,653"/>
+<area shape="rect" id="node13" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="96,701,203,731"/>
+<area shape="rect" id="node22" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="389,701,467,731"/>
+<area shape="rect" id="node16" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="299,779,371,808"/>
+<area shape="rect" id="node39" href="$odcomplex_8h.html" title="odcomplex.h" alt="" coords="592,237,688,267"/>
+<area shape="rect" id="node43" href="$convert_8h.html" title="convert.h" alt="" coords="707,315,781,344"/>
+<area shape="rect" id="node45" href="$string2_8h.html" title="string2.h" alt="" coords="721,624,793,653"/>
+<area shape="rect" id="node55" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="804,392,897,421"/>
+<area shape="rect" id="node58" href="$odstring_8h.html" title="odstring.h" alt="" coords="643,469,720,499"/>
+<area shape="rect" id="node65" href="$atomic_8h.html" title="atomic.h" alt="" coords="272,624,344,653"/>
+</map>

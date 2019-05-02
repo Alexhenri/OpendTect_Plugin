@@ -1,0 +1,5 @@
+<map id="dgbVolProcessingTranslator" name="dgbVolProcessingTranslator">
+<area shape="rect" id="node2" href="$classVolProcessingTranslator.html" title="Volume Processing Translator. " alt="" coords="16,160,179,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="57,83,137,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="55,5,140,35"/>
+</map>

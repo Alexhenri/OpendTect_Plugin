@@ -1,0 +1,6 @@
+<map id="CBVSSeisTrc2DTranslator" name="CBVSSeisTrc2DTranslator">
+<area shape="rect" id="node2" href="$classSeisTrc2DTranslator.html" title="Base translator for 2D Seismics. " alt="" coords="24,237,165,267"/>
+<area shape="rect" id="node4" href="$classSeisTrcTranslator.html" title="SeisTrcTranslator" alt="" coords="32,160,157,189"/>
+<area shape="rect" id="node6" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="55,83,135,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="52,5,137,35"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="uiSaveImageDlg" name="uiSaveImageDlg">
+<area shape="rect" id="node11" href="$classuiGraphicsSaveImageDlg.html" title="uiGraphicsSaveImageDlg" alt="" coords="5,392,176,421"/>
+<area shape="rect" id="node13" href="$classuiPrintSceneDlg.html" title="uiPrintSceneDlg" alt="" coords="200,392,315,421"/>
+<area shape="rect" id="node15" href="$classuiSaveWinImageDlg.html" title="uiSaveWinImageDlg" alt="" coords="339,392,480,421"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="223,237,292,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="216,160,299,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="223,83,292,112"/>
+</map>

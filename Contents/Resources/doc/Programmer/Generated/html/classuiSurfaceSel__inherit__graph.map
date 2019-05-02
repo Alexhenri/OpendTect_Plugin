@@ -1,0 +1,8 @@
+<map id="uiSurfaceSel" name="uiSurfaceSel">
+<area shape="rect" id="node9" href="$classuiSurface2DSel.html" title="ui for horizon 2D selection " alt="" coords="5,315,117,344"/>
+<area shape="rect" id="node13" href="$classuiSurface3DSel.html" title="ui for horizon 3D selection " alt="" coords="141,315,253,344"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="96,160,163,189"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="95,83,164,112"/>
+<area shape="rect" id="node11" href="$classuiHorizon2DSel.html" title="uiHorizon2DSel" alt="" coords="5,392,117,421"/>
+<area shape="rect" id="node15" href="$classuiHorizon3DSel.html" title="uiHorizon3DSel" alt="" coords="141,392,253,421"/>
+</map>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.4 Export|4.4.4 Export Horizons">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.4.4.1 Export Ascii 3D Horizons</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#survey/export/export_horizons/export_ascii_3d_horizons.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor1430"></a><a name="kanchor1431"></a>4.4.4.1 Export Ascii 3D Horizons<a name="kanchor1432"></a></h4>
+        <p>3D horizons (surfaces) can be exported as ASCII files via <i><a name="kanchor1433"></a>Survey </i>&gt;<i> Export </i>&gt;<i> Horizons </i>&gt;<i> ASCII 3D...</i></p>
+        <p>In the <i>Export Horizon</i> window: select a 3D horizon; optionally include available <i>Calculated attributes</i>; specify the output format; type an output file name (to save to Survey Data Root folder) or provide a full path by clicking <i>Select</i>; and press <i>Export</i>.</p>
+        <img src="../../../resources/images/survey/export_horizons_3d_main.png" class="General_Image" />
+        <p>A successful export is confirmed with a message, and the export window stays open to export more horizons.</p>
+        <p><b>Output Format options.</b>
+        </p>
+        <p><b>Calculated attributes</b>: one or more attributes from the stored horizon data can be exported along with a horizon.</p>
+        <p class="tip">Horizon data can be <a href="../../../processing/create_horizon_output.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1434">created via Processing &gt; Create Horizon Output</a>, or an attribute calculated on-the-fly on a horizon in the 3D scene can be <a href="../../../opendtect_trees_and_elements/horizon/add_attribute.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1436">Saved as Horizon Data</a>. More information about calculating attributes in OpendTect can be found <a href="../../../analysis/attributes/calculate_attributes.htm" target="_self" data-mc-conditions="Default.ScreenOnly">here</a>.</p>
+        <p class="tip">Use <a href="../../manage/manage_horizons/horizon_manager_3d.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1437">Manage 3D Horizons</a> window to manage stored horizon data.</p>
+        <p><b>Output Type</b>:</p>
+        <ul>
+            <li value="1">default OpendTect horizon export format: based on either <i>X/Y</i> or <i>Inl/Crl</i> coordinates;</li>
+        </ul>
+        <p class="tip">Column 1: X or Inline; Column 2: Y or Crossline: Column 3: Z in user-specified units (if Output Z is Yes or Transformed) or the first selected item in the Calculated attributes list (if Output Z is No); followed by other selected items in the Calculated attributes list.</p>
+        <ul>
+            <li value="1"> pre-defined GeoFrame <i>IESX (3d_ci7m)</i> format: <i><a name="kanchor1438"></a>Settings</i> button  appears and allows to change <i>Horizon name in file</i> and add <i>Comment</i>.</li>
+        </ul>
+        <img src="../../../resources/images/survey/export_horizons_3d_iesx.png" class="General_Image" />
+        <p><b>Output Z</b>: available if the <i>Output Type</i> is set to either <i>X/Y</i> or <i>Inl/Crl</i>. </p>
+        <ul>
+            <li value="1"><i>Yes</i>: by default Z is written to the output file in <i>Z Unit</i> specified by a user;</li>
+            <li value="2"><i>No</i>: this option can be used when exporting attribute grids only;</li>
+            <li value="3"><i>Transformed</i>: allows domain conversion based on one of the following:<ul><li value="1"><i><a name="kanchor1439"></a><a name="kanchor1440"></a>Velocity Volume</i>: selected interval velocity model;</li><li value="2"><i><a name="kanchor1441"></a>Well's Depth model</i>: a time-depth model of a chosen well;</li><li value="3"><i>Linear velocity</i>: a linear velocity function based on a starting interval velocity <i>Vint</i> and a velocity gradient <i>Gradient</i></li></ul></li>
+        </ul>
+        <p><b>Coordinate System</b>: select a coordinate system of the output file (the option is available only if  the current survey has a defined projection based coordinate system).</p>
+        <p><b>Header</b>: available if the <i>Output Type</i> is set to either <i>X/Y</i> or <i>Inl/Crl</i>.</p>
+        <ul>
+            <li value="1"><i>No</i>: no header is written to the file by default;</li>
+            <li value="2"><i>Single line</i>: the 1st line contains column names,  the 2nd line is a separator, while data starts from the 3rd line only;</li>
+            <li value="3"><i>Multi line</i>: column names are listed in the individual lines followed by a separating line.</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#survey/export/export_horizons/export_ascii_3d_horizons.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

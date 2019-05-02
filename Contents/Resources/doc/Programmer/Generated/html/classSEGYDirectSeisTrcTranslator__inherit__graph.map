@@ -1,0 +1,6 @@
+<map id="SEGYDirectSeisTrcTranslator" name="SEGYDirectSeisTrcTranslator">
+<area shape="rect" id="node2" href="$classSeisTrcTranslator.html" title="SeisTrcTranslator" alt="" coords="5,160,131,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="28,83,108,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="25,5,111,35"/>
+<area shape="rect" id="node8" href="$classSEGY_1_1DirectReader.html" title="SEGY::DirectReader" alt="" coords="155,160,299,189"/>
+</map>

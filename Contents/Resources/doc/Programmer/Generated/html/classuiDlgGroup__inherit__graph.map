@@ -1,0 +1,49 @@
+<map id="uiDlgGroup" name="uiDlgGroup">
+<area shape="rect" id="node9" href="$classCoords_1_1uiCoordSystem.html" title="Coords::uiCoordSystem" alt="" coords="549,32,712,61"/>
+<area shape="rect" id="node15" href="$classCoords_1_1uiCoordSystemSelGrp.html" title="Coords::uiCoordSystemSelGrp" alt="" coords="529,85,732,115"/>
+<area shape="rect" id="node17" href="$classMPE_1_1uiCorrelationGroup.html" title="Horizon tracking setup dialog. " alt="" coords="548,139,713,168"/>
+<area shape="rect" id="node19" href="$classMPE_1_1uiEventGroup.html" title="Horizon tracking setup dialog. " alt="" coords="561,192,700,221"/>
+<area shape="rect" id="node21" href="$classuiArray1DInterpolSel.html" title="uiArray1DInterpolSel" alt="" coords="560,245,701,275"/>
+<area shape="rect" id="node23" href="$classuiArray2DInterpol.html" title="uiArray2DInterpol" alt="" coords="569,299,692,328"/>
+<area shape="rect" id="node31" href="$classuiArray2DInterpolSel.html" title="uiArray2DInterpolSel" alt="" coords="560,352,701,381"/>
+<area shape="rect" id="node33" href="$classuiEventTracker.html" title="uiEventTracker" alt="" coords="576,405,685,435"/>
+<area shape="rect" id="node35" href="$classuiFaultDisplayOptGrp.html" title="uiFaultDisplayOptGrp" alt="" coords="557,459,704,488"/>
+<area shape="rect" id="node37" href="$classuiFlatViewPropTab.html" title="uiFlatViewer properties tabs. " alt="" coords="565,512,696,541"/>
+<area shape="rect" id="node47" href="$classuiGridder2DSel.html" title="uiGridder2DSel" alt="" coords="576,565,685,595"/>
+<area shape="rect" id="node49" href="$classuiInverseDistanceGridder2D.html" title="uiInverseDistanceGridder2D" alt="" coords="537,619,724,648"/>
+<area shape="rect" id="node51" href="$classuiLineStyleGrp.html" title="uiLineStyleGrp" alt="" coords="577,672,684,701"/>
+<area shape="rect" id="node53" href="$classuiMarkerStyleGrp.html" title="uiMarkerStyleGrp" alt="" coords="569,725,692,755"/>
+<area shape="rect" id="node55" href="$classuiMaterialGrp.html" title="uiMaterialGrp" alt="" coords="581,779,680,808"/>
+<area shape="rect" id="node57" href="$classuiSelectPropRefsGrp.html" title="Allow user to select PropertyRefs. " alt="" coords="559,832,703,861"/>
+<area shape="rect" id="node59" href="$classuiSettingsGroup.html" title="uiSettingsGroup" alt="" coords="573,885,688,915"/>
+<area shape="rect" id="node73" href="$classuiTextureInterpolateGrp.html" title="uiTextureInterpolateGrp" alt="" coords="552,939,709,968"/>
+<area shape="rect" id="node75" href="$classuiVisIsoSurfaceThresholdDlg.html" title="Dialog to set isovalue of an isosurface. " alt="" coords="536,992,725,1021"/>
+<area shape="rect" id="node77" href="$classuiVisPlaneDataDisplayDragProp.html" title="uiVisPlaneDataDisplayDragProp" alt="" coords="525,1045,736,1075"/>
+<area shape="rect" id="node79" href="$classuiVisPolygonSurfBezierDlg.html" title="uiVisPolygonSurfBezierDlg" alt="" coords="541,1099,720,1128"/>
+<area shape="rect" id="node81" href="$classuiZAxisTransform.html" title="uiZAxisTransform" alt="" coords="568,1152,693,1181"/>
+<area shape="rect" id="node95" href="$classuiZAxisTransformSel.html" title="uiZAxisTransformSel" alt="" coords="559,1205,703,1235"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="275,619,341,648"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="156,619,225,648"/>
+<area shape="rect" id="node11" href="$classCoords_1_1uiAnchorBasedXYSystem.html" title="Coords::uiAnchorBasedXYSystem" alt="" coords="785,5,1007,35"/>
+<area shape="rect" id="node13" href="$classCoords_1_1uiUnlocatedXYSystem.html" title="Coords::uiUnlocatedXYSystem" alt="" coords="795,59,997,88"/>
+<area shape="rect" id="node25" href="$classuiExtensionArray2DInterpol.html" title="uiExtensionArray2DInterpol" alt="" coords="805,245,987,275"/>
+<area shape="rect" id="node27" href="$classuiInverseDistanceArray2DInterpol.html" title="uiInverseDistanceArray2DInterpol" alt="" coords="787,299,1005,328"/>
+<area shape="rect" id="node29" href="$classuiTriangulationArray2DInterpol.html" title="uiTriangulationArray2DInterpol" alt="" coords="797,352,995,381"/>
+<area shape="rect" id="node39" href="$classuiFlatViewDataDispPropTab.html" title="uiFlatViewer data display properties tabs. " alt="" coords="803,485,989,515"/>
+<area shape="rect" id="node45" href="$classuiFVAnnotPropTab.html" title="uiFlatViewer annotation properties tabs. " alt="" coords="831,539,961,568"/>
+<area shape="rect" id="node41" href="$classuiFVVDPropTab.html" title="uiFlatViewer VD display properties tabs. " alt="" coords="1087,459,1204,488"/>
+<area shape="rect" id="node43" href="$classuiFVWVAPropTab.html" title="uiFlatViewer WVA display properties tabs. " alt="" coords="1081,512,1209,541"/>
+<area shape="rect" id="node61" href="$classuiFontSettingsGroup.html" title="uiFontSettingsGroup" alt="" coords="825,752,967,781"/>
+<area shape="rect" id="node63" href="$classuiGeneralSettingsGroup.html" title="uiGeneralSettingsGroup" alt="" coords="816,805,976,835"/>
+<area shape="rect" id="node65" href="$classuiHorizonSettings.html" title="uiHorizonSettings" alt="" coords="833,859,959,888"/>
+<area shape="rect" id="node67" href="$classuiKeyBindingSettingsGroup.html" title="uiKeyBindingSettingsGroup" alt="" coords="805,912,987,941"/>
+<area shape="rect" id="node69" href="$classuiProcSettings.html" title="uiProcSettings" alt="" coords="843,965,949,995"/>
+<area shape="rect" id="node71" href="$classuiVisSettingsGroup.html" title="uiVisSettingsGroup" alt="" coords="829,1019,963,1048"/>
+<area shape="rect" id="node83" href="$classuiTime2DepthZTransformBase.html" title="uiTime2DepthZTransformBase" alt="" coords="796,1152,996,1181"/>
+<area shape="rect" id="node85" href="$classuiVelModelZAxisTransform.html" title="uiVelModelZAxisTransform" alt="" coords="1056,1099,1235,1128"/>
+<area shape="rect" id="node91" href="$classuiWellT2DTransform.html" title="uiWellT2DTransform" alt="" coords="1075,1152,1216,1181"/>
+<area shape="rect" id="node93" href="$classVel_1_1uiLinearVelTransform.html" title="Vel::uiLinearVelTransform" alt="" coords="1060,1205,1231,1235"/>
+<area shape="rect" id="node87" href="$classuiDepth2Time.html" title="uiDepth2Time" alt="" coords="1284,1072,1385,1101"/>
+<area shape="rect" id="node89" href="$classuiTime2Depth.html" title="uiTime2Depth" alt="" coords="1284,1125,1385,1155"/>
+<area shape="rect" id="node97" href="$classuiT2DConvSel.html" title="single&#45;line object for selecting T to depth conversion. " alt="" coords="843,1205,949,1235"/>
+</map>

@@ -1,0 +1,50 @@
+<map id="SequentialTask" name="SequentialTask">
+<area shape="rect" id="node9" href="$classBisectionExtremeFinder1D.html" title="Bisection Extreme Finder. " alt="" coords="559,512,737,541"/>
+<area shape="rect" id="node11" href="$classDataUploader.html" title="&gt;Provides file or data upload facility " alt="" coords="597,565,699,595"/>
+<area shape="rect" id="node13" href="$classEM_1_1ChildFinder.html" title="EM::ChildFinder" alt="" coords="591,619,705,648"/>
+<area shape="rect" id="node15" href="$classExecutor.html" title="Specification to enable chunkwise execution of a process. " alt="" coords="611,672,685,701"/>
+<area shape="rect" id="node69" href="$classExtremeFinder1D.html" title="Finds extreme values in FloatMathFunctions. " alt="" coords="587,725,709,755"/>
+<area shape="rect" id="node71" href="$classExtremeFinderND.html" title="Finds the nearest local extreme position in ND&#39;s. Implementation of Powell&#39;s Quadratically Convergent..." alt="" coords="585,779,711,808"/>
+<area shape="rect" id="node73" href="$classFileDownloader.html" title="&gt;Provides file download facility " alt="" coords="592,832,704,861"/>
+<area shape="rect" id="node75" href="$classGenericTransformND.html" title="Lets any 1D orthogonal transform (GenericTransformND::GenericTransform1D) be extended to ND..." alt="" coords="575,885,721,915"/>
+<area shape="rect" id="node77" href="$classHorizon3DTesselator.html" title="Horizon3DTesselator" alt="" coords="576,939,720,968"/>
+<area shape="rect" id="node79" href="$classMPE_1_1SectionAdjuster.html" title="SequentialTask to adjust the section of an EM object with ID EM::SectionID. " alt="" coords="573,992,723,1021"/>
+<area shape="rect" id="node81" href="$classMPE_1_1SectionExtender.html" title="SequentialTask to extend the section of an EM object with ID EM::SectionID. " alt="" coords="571,1045,725,1075"/>
+<area shape="rect" id="node83" href="$classMPE_1_1SectionSourceSelector.html" title="SequentialTask to select source of an EM section with ID EM::SectionID. " alt="" coords="552,1099,744,1128"/>
+<area shape="rect" id="node85" href="$classPreStack_1_1EventExporter.html" title="Outputs an ascii string with all PreStack event, each pick on one row. The columns are as follows: ..." alt="" coords="565,1152,731,1181"/>
+<area shape="rect" id="node87" href="$classPreStack_1_1EventImporter.html" title="PreStack event importer. " alt="" coords="565,1205,731,1235"/>
+<area shape="rect" id="node89" href="$classuiTreeItemRemover.html" title="uiTreeItemRemover" alt="" coords="580,1259,716,1288"/>
+<area shape="rect" id="node91" href="$classVel_1_1FunctionAscIO.html" title="Vel::FunctionAscIO" alt="" coords="580,1312,716,1341"/>
+<area shape="rect" id="node93" href="$classVelocityModelScanner.html" title="VelocityModelScanner" alt="" coords="572,1365,724,1395"/>
+<area shape="rect" id="node95" href="$classvisBase_1_1TileGlueTesselator.html" title="visBase::TileGlueTesselator" alt="" coords="555,1419,741,1448"/>
+<area shape="rect" id="node97" href="$classvisBase_1_1TileTesselator.html" title="visBase::TileTesselator" alt="" coords="569,1472,727,1501"/>
+<area shape="rect" id="node2" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="293,992,344,1021"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="143,992,244,1021"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,992,92,1021"/>
+<area shape="rect" id="node17" href="$classArray1DInterpol.html" title="Base class for one dimensional array interpolators. " alt="" coords="836,5,948,35"/>
+<area shape="rect" id="node19" href="$classArray2DFilterer.html" title="Filters an Array2D. " alt="" coords="821,59,963,88"/>
+<area shape="rect" id="node21" href="$classArrayNDGentleSmoother.html" title="Gently smooths ArrayND by averaging with neighbours. " alt="" coords="793,112,991,141"/>
+<area shape="rect" id="node23" href="$classAttrib_1_1PosVecOutputGen.html" title="Positionvector output generator for attributes. " alt="" coords="807,165,977,195"/>
+<area shape="rect" id="node25" href="$classAttrib_1_1Processor.html" title="Attribute Processor. " alt="" coords="832,219,952,248"/>
+<area shape="rect" id="node27" href="$classBendPointFinder2DGeomSet.html" title="BendPointFinder2DGeomSet" alt="" coords="797,272,987,301"/>
+<area shape="rect" id="node29" href="$classDPSMerger.html" title="DPSMerger" alt="" coords="847,325,937,355"/>
+<area shape="rect" id="node31" href="$classEM_1_1dgbSurfDataReader.html" title="Reads auxdata from file. " alt="" coords="809,379,975,408"/>
+<area shape="rect" id="node33" href="$classEM_1_1dgbSurfDataWriter.html" title="Writes auxdata to file. " alt="" coords="813,432,971,461"/>
+<area shape="rect" id="node35" href="$classEM_1_1Hor2DTo3D.html" title="Horizon2D to Horizon3D. " alt="" coords="832,485,952,515"/>
+<area shape="rect" id="node37" href="$classEM_1_1HorizonZTransformer.html" title="Horizon z&#45;axis transformer " alt="" coords="805,539,979,568"/>
+<area shape="rect" id="node39" href="$classExecutorGroup.html" title="Executor consisting of other executors. " alt="" coords="837,592,947,621"/>
+<area shape="rect" id="node41" href="$classHor2DFrom3DCreator.html" title="Executor to create EM::Horizon2D from EM::Horizon3D. " alt="" coords="817,645,967,675"/>
+<area shape="rect" id="node43" href="$classHorizon2DScanner.html" title="Horizon2DScanner" alt="" coords="827,699,957,728"/>
+<area shape="rect" id="node45" href="$classHorizonScanner.html" title="Executor to scan horizons. " alt="" coords="835,752,949,781"/>
+<area shape="rect" id="node47" href="$classHorizonSorter.html" title="Executor to sort horizons. " alt="" coords="841,805,943,835"/>
+<area shape="rect" id="node49" href="$classJobRunner.html" title="Runs all jobs defined by JobDescProv. " alt="" coords="849,859,935,888"/>
+<area shape="rect" id="node51" href="$classLinSolverTask.html" title="LinSolverTask\&lt; T \&gt;" alt="" coords="824,912,960,941"/>
+<area shape="rect" id="node53" href="$classlmkEMFault3DReader.html" title="Landmark EM::Fault3D reader. " alt="" coords="817,965,967,995"/>
+<area shape="rect" id="node55" href="$classlmkEMFault3DWriter.html" title="Landmark EM::Fault3D writer. " alt="" coords="820,1019,964,1048"/>
+<area shape="rect" id="node57" href="$classlmkEMStickSetReader.html" title="Landmark EM::StickSet reader. " alt="" coords="815,1072,969,1101"/>
+<area shape="rect" id="node59" href="$classlmkEMStickSetWriter.html" title="Landmark EM::StickSet writer. " alt="" coords="819,1125,965,1155"/>
+<area shape="rect" id="node61" href="$classPreStack_1_1EventDuplicator.html" title="Duplicator for PreStack events. " alt="" coords="804,1179,980,1208"/>
+<area shape="rect" id="node63" href="$classPreStack_1_1EventReader.html" title="Reader for PreStack events. " alt="" coords="812,1232,972,1261"/>
+<area shape="rect" id="node65" href="$classPreStack_1_1EventWriter.html" title="Writer for PreStack events. " alt="" coords="816,1285,968,1315"/>
+<area shape="rect" id="node67" href="$classSEGY_1_1FileIndexer.html" title="SEGY::FileIndexer" alt="" coords="827,1339,957,1368"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classScaler.html" title="Scaling of floating point numbers. " alt="" coords="5,85,64,115"/>
+<area shape="rect" id="node3" href="$classAsymptScaler.html" title="Asymptotic or &#39;Squeeze&#39; scaling, with a linear (main) part. " alt="" coords="112,5,216,35"/>
+<area shape="rect" id="node5" href="$classExpScaler.html" title="Exponential scaling, base e or ten. " alt="" coords="123,59,205,88"/>
+<area shape="rect" id="node7" href="$classLinScaler.html" title="Linear scaling. " alt="" coords="127,112,201,141"/>
+<area shape="rect" id="node9" href="$classLogScaler.html" title="Logarithmic scaling, base e or ten. " alt="" coords="124,165,204,195"/>
+</map>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering|3.6 Benchmark SteeringCube Creation">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.6.4 Filtering of the SteeringCubes</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#dip-steering/benchmark_steeringcube_creation/filtering_of_the_steeringcubes.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>3.6.4 Filtering of the SteeringCubes<a name="kanchor49"></a></h3>
+        <p><i>Figure 6</i> and <i>Figure 7</i> show the results after applying a median filter with different step-outs to the steering cubes. It is apparent that no lateral filtering and only a small vertical filtering, gives the best result with the FFT algorithm.</p>
+        <p>The BG steering needs to be filtered in the lateral and vertical direction. The best results were obtained with median filter with step-outs 1 1 3. After filtering, the outputs of the precise steering with cube size 7 and median filtered with step-out of 2 only in the vertical direction (FFT7+ med002) and Fast BG steering median filtered with the step-outs 1 1 and 3 (BG3 med113) are very similar in accuracy. However, the latter is produced 10 times faster.</p>
+        <p style="font-weight: bold;">Figure 6. Filtering of FFT+ using calculation cube size = 7: raw (A), median filter with step outs 0 0 2 (B), median filter with step-outs 0 0 4 (C), median filter with step outs 1 1 2 (D).</p>
+        <img src="../../resources/images/dip-steering/filtering_fft.png" class="image" />
+        <p style="font-weight: bold; page-break-before: always">Figure 7. Filtering of BG steering using calculation cube size=3: raw (A), median filter with step-outs 0 0 2 (B), median filter with step outs 1 1 1 (C), median filter with step outs 1 1 3 (D).</p>
+        <img src="../../resources/images/dip-steering/filtering_fft2.png" class="image" />
+        <p><i>Figure 8</i> shows that adding a dip limit during the processing does not affect the speed of the algorithms. The final result is strictly identical when the dip is lower than the limit L, and the extreme values are rounded toward L. Using a limit requires a priori knowledge and is in the end a choice of the interpreter.</p>
+        <p><b>Figure 8. Filtering of FFT+ using calculation cube size=7: median filter with step-outs 0 0 2 (A) median filter with step-outs 0 0 2 and maximum dip of 300 (B), and filtering of BG steering using calculation cube size=3: median filter with step-outs 1 1 3 (C), median filter with step-outs 1 1 3 and maximum dip of 300 (D).</b>
+        </p>
+        <img src="../../resources/images/dip-steering/filtering_fft3.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

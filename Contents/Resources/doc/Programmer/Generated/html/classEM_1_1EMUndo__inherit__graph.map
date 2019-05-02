@@ -1,0 +1,4 @@
+<map id="EM::EMUndo" name="EM::EMUndo">
+<area shape="rect" id="node2" href="$classUndo.html" title="Class to handle undo/redo information. " alt="" coords="29,83,83,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="13,5,99,35"/>
+</map>

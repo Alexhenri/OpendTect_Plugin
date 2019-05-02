@@ -1,0 +1,33 @@
+dTect V6.0
+Attribute Set Table
+Mon June 8 10:52:13 2015
+!
+3D.dGB Evaluate Attributes:		Evaluate_Attributes.attr
+3D.Dip-steered median filter:		Dip-steered_median_filter.attr
+3D.Dip-steered diffusion filter:	Dip-steered_diffusion_filter.attr
+3D.Fault enhancement filter:		Fault_enhancement_filter.attr
+3D.Fault enhancement filter (Expert):	Fault_enhancement_filter_expert.attr
+3D.Ridge enhancement filter:		Ridge_enhancement_filter.attr
+3D.Ridge enhancement filter (Expert):	Ridge_enhancement_filter_expert.attr
+3D.Fault enhancement attributes:	Fault_enhancement_attributes.attr
+3D.Workflow - Data Enhancement (dGB):	Seismic_filters__median_diffusion_fault_enhancement_.attr
+3D.Workflow - Unsupervised Waveform Segmentation:	Unsupervised_Waveform_Segmentation.attr
+3D.Workflow - NN Fault Cube:			NN_Fault_Cube.attr
+3D.Workflow - NN Fault Cube Advanced:		NN_Fault_Cube_Advanced.attr
+3D.Workflow - NN Chimney Cube:			NN_Chimney_Cube.attr
+3D.Workflow - NN Salt Cube:			NN_Salt_Cube.attr
+3D.Workflow - NN Slump Cube:			NN_Slump_Cube.attr
+2D.dGB Evaluate Attributes:		dGB_Evaluate_Attributes_2D.attr
+2D.Dip-steered median filter:		Dip-steered_median_filter_2D.attr
+2D.Dip-steered diffusion filter:	Dip-steered_diffusion_filter_2D.attr
+2D.Fault enhancement filter:		Fault_enhancement_filter_2D.attr
+2D.Ridge enhancement filter:		Ridge_enhancement_filter_2D.attr
+2D.Seismic filters median / diffusion / fault enhancement:	Seismic_filters__median_diffusion_fault_enhancement_2D.attr
+2D.Fault enhancement attributes:	Fault_enhancement_attributes_2D.attr
+2D.Unsupervised Waveform Segmentation:	Unsupervised_Waveform_Segmentation_2D.attr
+2D.NN Fault Detection:			NN_Fault_Detection_2D.attr
+2D.NN Fault Detection Advanced:		NN_Fault_Detection_2D_Advanced.attr
+2D.NN Chimney Detection:		NN_Chimney_Detection_2D.attr
+2D.NN Salt Detection:			NN_Salt_Detection_2D.attr
+2D.NN Slump Detection:			NN_Slump_Detection_2D.attr
+!

@@ -1,0 +1,10 @@
+<map id="EnumDefImpl&lt; ENUM &gt;" name="EnumDefImpl&lt; ENUM &gt;">
+<area shape="rect" id="node9" href="$classEnumDefImpl.html" title="EnumDefImpl\&lt; Dir \&gt;" alt="" coords="773,5,915,35"/>
+<area shape="rect" id="node11" href="$classEnumDefImpl.html" title="EnumDefImpl\&lt; Month \&gt;" alt="" coords="763,59,925,88"/>
+<area shape="rect" id="node13" href="$classEnumDefImpl.html" title="EnumDefImpl\&lt; DayOfWeek \&gt;" alt="" coords="745,112,943,141"/>
+<area shape="rect" id="node15" href="$classEnumDefImpl.html" title="EnumDefImpl\&lt; Type \&gt;" alt="" coords="767,165,921,195"/>
+<area shape="rect" id="node17" href="$classEnumDefImpl.html" title="EnumDefImpl\&lt; Pol2D \&gt;" alt="" coords="763,219,925,248"/>
+<area shape="rect" id="node2" href="$classEnumDef.html" title="Holds data pertinent to a certain enum. It does not know the enum values themselves, but treat them as integers. " alt="" coords="299,112,376,141"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="145,112,247,141"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,112,92,141"/>
+</map>

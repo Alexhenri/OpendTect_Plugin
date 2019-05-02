@@ -1,0 +1,11 @@
+<map id="UserInputObj" name="UserInputObj">
+<area shape="rect" id="node3" href="$classUserInputObjImpl.html" title="UserInputObjImpl\&lt; T \&gt;" alt="" coords="156,112,311,141"/>
+<area shape="rect" id="node5" href="$classUserInputObjImpl.html" title="UserInputObjImpl\&lt; int \&gt;" alt="" coords="464,31,627,60"/>
+<area shape="rect" id="node13" href="$classUserInputObjImpl.html" title="UserInputObjImpl\&lt; const\l char * \&gt;" alt="" coords="461,126,629,173"/>
+<area shape="rect" id="node17" href="$classUserInputObjImpl.html" title="UserInputObjImpl\&lt; bool \&gt;" alt="" coords="460,217,631,247"/>
+<area shape="rect" id="node7" href="$classuiComboBox.html" title="Combo box. " alt="" coords="700,5,796,35"/>
+<area shape="rect" id="node11" href="$classuiGenInputIntFld.html" title="uiGenInputIntFld" alt="" coords="689,59,807,88"/>
+<area shape="rect" id="node9" href="$classuiColorTableSel.html" title="uiColorTableSel" alt="" coords="864,5,979,35"/>
+<area shape="rect" id="node15" href="$classuiLineEdit.html" title="uiLineEdit" alt="" coords="709,135,787,164"/>
+<area shape="rect" id="node19" href="$classuiGenInputBoolFld.html" title="uiGenInputBoolFld" alt="" coords="684,217,812,247"/>
+</map>

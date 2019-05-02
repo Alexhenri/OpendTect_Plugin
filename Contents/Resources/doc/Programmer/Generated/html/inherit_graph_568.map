@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classSurvey_1_1Geometry.html" title="A Geometry which holds trace positions. " alt="" coords="5,32,133,61"/>
+<area shape="rect" id="node3" href="$classSurvey_1_1Geometry2D.html" title="Geometry of a 2D Line. " alt="" coords="183,5,327,35"/>
+<area shape="rect" id="node5" href="$classSurvey_1_1Geometry3D.html" title="Scaled down survey geometry for an inl/crl geometry. " alt="" coords="183,59,327,88"/>
+<area shape="rect" id="node7" href="$classSeis_1_1Blocks_1_1HGeom.html" title="Seis::Blocks::HGeom" alt="" coords="376,59,525,88"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="uiWaveletSel" name="uiWaveletSel">
+<area shape="rect" id="node2" href="$classuiIOObjSel.html" title="User Interface (UI) element for selection of IOObjs. " alt="" coords="12,315,97,344"/>
+<area shape="rect" id="node4" href="$classuiIOSelect.html" title="UI element for selection of data objects. " alt="" coords="13,237,96,267"/>
+<area shape="rect" id="node6" href="$classuiGroup.html" title="uiGroup" alt="" coords="21,160,88,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="20,83,89,112"/>
+</map>

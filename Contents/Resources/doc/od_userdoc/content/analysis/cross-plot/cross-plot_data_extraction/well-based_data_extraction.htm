@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.3 Cross-Plot|5.3.1 Cross-Plot Data Extraction">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.3.1.1 Well-based Data Extraction</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#analysis/cross-plot/cross-plot_data_extraction/well-based_data_extraction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor931"></a>5.3.1.1 Well-based Data Extraction<a name="kanchor932"></a></h4>
+        <p>This window presents the attributes and/or logs that can be extracted along well path. The output will be presented in table before being used for cross-plot. At least one well must be selected, and one attribute or one log. It is also possible to select only attributes, or only logs.</p>
+        <p>The well <a href="../../../survey/manage/manage_wells/well_track_editor.htm" target="_self" data-mc-conditions="Default.ScreenOnly">track</a> and <a href="../../../survey/manage/manage_wells/checkshot_and_time-depth_models.htm" target="_self" data-mc-conditions="Default.ScreenOnly">time-depth model</a> provide the locations where to extract the data. Values will be vertically extracted along a specially built measured depth axis. This axis is such that the step between two consecutive depth samples is constant but with few jumps, such that the Z difference (time or depth depending on the survey type) between consecutive depths is around the survey default sampling rate. Therefore at shallow level 1 seismic sample can correspond to 4 meters, then 8 meters at intermediate depths, 12, 16 and so on.</p>
+        <ul>
+            <li value="1"><a name="kanchor933"></a>Attribute values are vertically interpolated along that created MD axis, since they are unlikely to be along the Z axis defined by the survey geometry. A polynomial interpolation is performed.</li>
+            <li value="2"><a name="kanchor934"></a>Log values are extracted in the depth domain around the depth to be computed, plus or minus half of the distance to the previous and next depths. All collected values are then processed (up-scaled) using a provided "Log resampling method" (see below).</li>
+        </ul>
+        <img src="../../../resources/images/analysis/analysis_crossplot_well_attribute_3d_main.png" class="General_Image" />
+        <p><i>3D Data extraction for Well vs. Attributes Cross-Plot</i>
+        </p>
+        <img src="../../../resources/images/analysis/analysis_crossplot_well_attribute_2d_main.png" class="General_Image" />
+        <p><i>2D Data extraction for Well vs. Attributes Cross-Plot</i>
+        </p>
+        <p>The following specific extraction parameters are available:</p>
+        <p><b>Extract between:</b> It is used to limit the z-range (depth or time) of the data to extract. There are three options supported: <i>Markers</i>, <i>Depth</i> and <i>Time</i>.</p>
+        <p>If <i>Markers</i> is selected (which is default), the Start/Stop markers should also be selected from the combo boxes that are available below the extract between field.</p>
+        <p>If <i>Depth</i> is selected in the extract between field, the start/stop (m) field will be toggled on. In the later fields, starting and stopping depth range is typed in to restrict the data extraction into an interval.</p>
+        <p>Similarly, if <i>Time</i> is selected in the extract between field, the start/stop (ms) field will be toggled on.</p>
+        <p>Finally, the step-out for extracting both <i>Attributes</i> and <i>Well data</i> samples has to be defined. This can be defined in meters (default), feet (if the survey is in feet) or milliseconds. The <i>Extract in time</i> check box is usually toggled on if you want to define the data extraction step-out in TWT. It is advisable to check this box when extracting data for crossplotting against seismic volumes.</p>
+        <ul>
+            <li value="1"><b>Distance above/below:</b> It is used to modify the vertical range of the extraction window using a relative distance from the provided well markers, in depth. A negative number will decrease the extraction window, a positive number will increase it.</li>
+            <li value="2"><b>Log resampling method:</b> Logs will be up-scaled using this method. <i>'Average'</i> should be used for most of the logs. <i>Median</i>, most frequent and nearest sample are more fit for discrete logs like lithology, but can also occasionally be used for other types.</li>
+            <li value="3"><b>Radius around wells:</b> All traces that can be reached within the search radius will be extracted. If several traces around a well are found, the same extracted log value is posted in front of the collected attributes values. This option will only duplicate all data if no attributes are extracted. The default value is the survey bin size, <i>use value "0" to extract only the nearest trace</i>, i.e. one value per well per depth.</li>
+            <li value="4"><b><a name="kanchor935"></a>Filter positions:</b> See the <a href="location_filters.htm" target="_self" data-mc-conditions="Default.ScreenOnly">location filters</a> section in the same chapter.</li>
+        </ul>
+        <img src="../../../resources/images/analysis/analysis_crossplot_well_attribute_extract_between.png" class="General_Image" />
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#analysis/cross-plot/cross-plot_data_extraction/well-based_data_extraction.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

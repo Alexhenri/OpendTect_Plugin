@@ -1,0 +1,13 @@
+<map id="ExecutorGroup" name="ExecutorGroup">
+<area shape="rect" id="node13" href="$classEM_1_1dgbSurfaceReader.html" title="Surface Reader. " alt="" coords="839,5,996,35"/>
+<area shape="rect" id="node15" href="$classEM_1_1dgbSurfaceWriter.html" title="Surface Writer. " alt="" coords="843,59,992,88"/>
+<area shape="rect" id="node17" href="$classHor2DFrom3DCreatorGrp.html" title="ExecutorGroup to create EM::Horizon2D from EM::Horizon3D. " alt="" coords="832,112,1003,141"/>
+<area shape="rect" id="node19" href="$classHorizon2DGridCreator.html" title="ExecutorGroup to create 2D horizon grid from 3D. " alt="" coords="843,165,992,195"/>
+<area shape="rect" id="node21" href="$classSeis2DGridCreator.html" title="ExecutorGroup to create 2D seismic grid from 3D. " alt="" coords="852,219,983,248"/>
+<area shape="rect" id="node23" href="$classSeisEventSnapper2D.html" title="ExecutorGroup to snap 2D seismic line set event. " alt="" coords="844,272,991,301"/>
+<area shape="rect" id="node2" href="$classExecutor.html" title="Specification to enable chunkwise execution of a process. " alt="" coords="552,139,627,168"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="392,139,504,168"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="293,139,344,168"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="143,139,244,168"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,139,92,168"/>
+</map>

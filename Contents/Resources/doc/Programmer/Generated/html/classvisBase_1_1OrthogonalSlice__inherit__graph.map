@@ -1,0 +1,6 @@
+<map id="visBase::OrthogonalSlice" name="visBase::OrthogonalSlice">
+<area shape="rect" id="node2" href="$classvisBase_1_1VisualObjectImpl.html" title="visBase::VisualObjectImpl" alt="" coords="5,237,181,267"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="19,160,168,189"/>
+<area shape="rect" id="node6" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="23,83,164,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="51,5,136,35"/>
+</map>

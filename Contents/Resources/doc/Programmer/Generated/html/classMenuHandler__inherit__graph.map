@@ -1,0 +1,6 @@
+<map id="MenuHandler" name="MenuHandler">
+<area shape="rect" id="node7" href="$classuiMenuHandler.html" title="uiMenuHandler" alt="" coords="5,237,115,267"/>
+<area shape="rect" id="node9" href="$classuiTreeItemTBHandler.html" title="uiTreeItemTBHandler" alt="" coords="139,237,285,267"/>
+<area shape="rect" id="node2" href="$classMenuItemHolder.html" title="MenuItemHolder" alt="" coords="77,83,195,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="93,5,179,35"/>
+</map>

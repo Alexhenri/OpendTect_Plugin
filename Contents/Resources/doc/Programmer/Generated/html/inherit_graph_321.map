@@ -1,0 +1,314 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classNotifierAccess.html" title="Interface class for Notifier. See comments there. " alt="" coords="7,9789,113,9819"/>
+<area shape="rect" id="node3" href="$classCNotifier.html" title="Notifier with automatic capsule creation. " alt="" coords="228,5,351,35"/>
+<area shape="rect" id="node5" href="$classCNotifier.html" title="CNotifier\&lt; Attrib::\lDescSet, Attrib::DescID \&gt;" alt="" coords="201,58,377,105"/>
+<area shape="rect" id="node7" href="$classCNotifier.html" title="CNotifier\&lt; BaseMapObject,\l const MouseEvent &amp; \&gt;" alt="" coords="199,127,380,174"/>
+<area shape="rect" id="node9" href="$classCNotifier.html" title="CNotifier\&lt; BaseMapObject,\l const uiString &amp; \&gt;" alt="" coords="199,197,380,243"/>
+<area shape="rect" id="node11" href="$classCNotifier.html" title="CNotifier\&lt; EM::EMObject,\l const EM::EMObjectCallbackData &amp; \&gt;" alt="" coords="164,266,415,313"/>
+<area shape="rect" id="node13" href="$classCNotifier.html" title="CNotifier\&lt; FlatView\l::AuxDataEditor, bool \&gt;" alt="" coords="211,335,368,382"/>
+<area shape="rect" id="node15" href="$classCNotifier.html" title="CNotifier\&lt; Geometry\l::Element, const TypeSet\l\&lt; GeomPosID \&gt; * \&gt;" alt="" coords="204,405,375,469"/>
+<area shape="rect" id="node17" href="$classCNotifier.html" title="CNotifier\&lt; Geometry\l::RandomLine, const\l Geometry::RandomLine\l::ChangeData &amp; \&gt;" alt="" coords="208,493,371,574"/>
+<area shape="rect" id="node19" href="$classCNotifier.html" title="CNotifier\&lt; Geometry\l::RandomLineManager,\l int \&gt;" alt="" coords="211,597,368,661"/>
+<area shape="rect" id="node21" href="$classCNotifier.html" title="CNotifier\&lt; MenuHandler,\l int \&gt;" alt="" coords="207,685,372,731"/>
+<area shape="rect" id="node23" href="$classCNotifier.html" title="CNotifier\&lt; MouseCursorExchange,\l const MouseCursorExchange\l::Info &amp; \&gt;" alt="" coords="176,755,403,819"/>
+<area shape="rect" id="node25" href="$classCNotifier.html" title="CNotifier\&lt; Network\l::RequestConnection,\l od_int32 \&gt;" alt="" coords="215,843,364,907"/>
+<area shape="rect" id="node27" href="$classCNotifier.html" title="CNotifier\&lt; ui3DViewer,\l bool \&gt;" alt="" coords="211,930,368,977"/>
+<area shape="rect" id="node29" href="$classCNotifier.html" title="CNotifier\&lt; uiBaseMap,\l int \&gt;" alt="" coords="212,999,367,1046"/>
+<area shape="rect" id="node31" href="$classCNotifier.html" title="CNotifier\&lt; uiCrossAttrEvaluate\lDlg, int \&gt;" alt="" coords="188,1069,391,1115"/>
+<area shape="rect" id="node33" href="$classCNotifier.html" title="CNotifier\&lt; uiDataPointSet,\l int \&gt;" alt="" coords="200,1138,379,1185"/>
+<area shape="rect" id="node35" href="$classCNotifier.html" title="CNotifier\&lt; uiDataPointSet\lCrossPlotter, bool \&gt;" alt="" coords="203,1207,376,1254"/>
+<area shape="rect" id="node37" href="$classCNotifier.html" title="CNotifier\&lt; uiDataPointSet\lCrossPlotter, Interval\l\&lt; float \&gt; \&gt;" alt="" coords="203,1277,376,1341"/>
+<area shape="rect" id="node39" href="$classCNotifier.html" title="CNotifier\&lt; uiEvaluateDlg,\l int \&gt;" alt="" coords="204,1365,375,1411"/>
+<area shape="rect" id="node41" href="$classCNotifier.html" title="CNotifier\&lt; uiGraphicsView\lBase, uiSize \&gt;" alt="" coords="201,1434,377,1481"/>
+<area shape="rect" id="node43" href="$classCNotifier.html" title="CNotifier\&lt; uiListBox,\l int \&gt;" alt="" coords="217,1503,361,1550"/>
+<area shape="rect" id="node45" href="$classCNotifier.html" title="CNotifier\&lt; uiObject,\l uiRect &amp; \&gt;" alt="" coords="220,1573,359,1619"/>
+<area shape="rect" id="node47" href="$classCNotifier.html" title="CNotifier\&lt; uiODHorizonParent\lTreeItem, int \&gt;" alt="" coords="191,1642,388,1689"/>
+<area shape="rect" id="node49" href="$classCNotifier.html" title="CNotifier\&lt; uiODSceneMgr,\l int \&gt;" alt="" coords="200,1711,379,1758"/>
+<area shape="rect" id="node51" href="$classCNotifier.html" title="CNotifier\&lt; uiODViewer2DMgr,\l int \&gt;" alt="" coords="191,1781,388,1827"/>
+<area shape="rect" id="node53" href="$classCNotifier.html" title="CNotifier\&lt; uiStratLayerModel\lDisp, IOPar \&gt;" alt="" coords="195,1850,384,1897"/>
+<area shape="rect" id="node55" href="$classCNotifier.html" title="CNotifier\&lt; uiSynthGenDlg,\l BufferString \&gt;" alt="" coords="200,1919,379,1966"/>
+<area shape="rect" id="node57" href="$classCNotifier.html" title="CNotifier\&lt; uiTable,\l int \&gt;" alt="" coords="224,1989,355,2035"/>
+<area shape="rect" id="node59" href="$classCNotifier.html" title="CNotifier\&lt; uiTextEditBase,\l bool \&gt;" alt="" coords="200,2058,379,2105"/>
+<area shape="rect" id="node61" href="$classCNotifier.html" title="CNotifier\&lt; uiToolBar,\l int \&gt;" alt="" coords="217,2127,361,2174"/>
+<area shape="rect" id="node63" href="$classCNotifier.html" title="CNotifier\&lt; uiTreeFactory\lSet, int \&gt;" alt="" coords="207,2197,372,2243"/>
+<area shape="rect" id="node65" href="$classCNotifier.html" title="CNotifier\&lt; uiVisDataPoint\lSetDisplayMgr, int \&gt;" alt="" coords="203,2266,376,2313"/>
+<area shape="rect" id="node67" href="$classCNotifier.html" title="CNotifier\&lt; uiVisPartServer,\l int \&gt;" alt="" coords="199,2335,380,2382"/>
+<area shape="rect" id="node69" href="$classCNotifier.html" title="CNotifier\&lt; UserActionHandler,\l int \&gt;" alt="" coords="189,2405,389,2451"/>
+<area shape="rect" id="node71" href="$classCNotifier.html" title="CNotifier\&lt; Vel::Picks,\l const BinID &amp; \&gt;" alt="" coords="215,2474,364,2521"/>
+<area shape="rect" id="node73" href="$classCNotifier.html" title="CNotifier\&lt; visBase\l::EventCatcher, const\l visBase::EventInfo &amp; \&gt;" alt="" coords="208,2544,371,2608"/>
+<area shape="rect" id="node75" href="$classCNotifier.html" title="CNotifier\&lt; visBase\l::RandomTrackDragger,\l int \&gt;" alt="" coords="208,2632,371,2696"/>
+<area shape="rect" id="node77" href="$classCNotifier.html" title="CNotifier\&lt; visBase\l::SelectionManager, int \&gt;" alt="" coords="205,2719,373,2766"/>
+<area shape="rect" id="node79" href="$classCNotifier.html" title="CNotifier\&lt; visBase\l::ThumbWheel, float \&gt;" alt="" coords="213,2789,365,2835"/>
+<area shape="rect" id="node81" href="$classCNotifier.html" title="CNotifier\&lt; Vw2DDataManager,\l int \&gt;" alt="" coords="188,2858,391,2905"/>
+<area shape="rect" id="node83" href="$classCNotifier.html" title="CNotifier\&lt; Well::Well\l::Data, int \&gt;" alt="" coords="216,2927,363,2974"/>
+<area shape="rect" id="node85" href="$classNotifier.html" title="Notifier\&lt; T \&gt;" alt="" coords="241,2997,337,3027"/>
+<area shape="rect" id="node87" href="$classNotifier.html" title="Notifier\&lt; Attrib::Attrib\l::Processor \&gt;" alt="" coords="216,3050,363,3097"/>
+<area shape="rect" id="node89" href="$classNotifier.html" title="Notifier\&lt; BaseMapObject \&gt;" alt="" coords="199,3120,380,3149"/>
+<area shape="rect" id="node91" href="$classNotifier.html" title="Notifier\&lt; CmdDrive\l::CmdDriver \&gt;" alt="" coords="223,3173,356,3219"/>
+<area shape="rect" id="node93" href="$classNotifier.html" title="Notifier\&lt; ColTab::Mapper\lSetup \&gt;" alt="" coords="205,3242,373,3289"/>
+<area shape="rect" id="node95" href="$classNotifier.html" title="Notifier\&lt; ColTab::SeqMgr \&gt;" alt="" coords="199,3312,380,3341"/>
+<area shape="rect" id="node97" href="$classNotifier.html" title="Notifier\&lt; ColTab::Sequence \&gt;" alt="" coords="192,3365,387,3395"/>
+<area shape="rect" id="node99" href="$classNotifier.html" title="Notifier\&lt; DataPackMgr \&gt;" alt="" coords="205,3419,373,3448"/>
+<area shape="rect" id="node101" href="$classNotifier.html" title="Notifier\&lt; EM::EMManager \&gt;" alt="" coords="196,3472,383,3501"/>
+<area shape="rect" id="node103" href="$classNotifier.html" title="Notifier\&lt; EM::Fault3DPainter \&gt;" alt="" coords="188,3525,391,3555"/>
+<area shape="rect" id="node105" href="$classNotifier.html" title="Notifier\&lt; EM::FaultStick\lPainter \&gt;" alt="" coords="208,3578,371,3625"/>
+<area shape="rect" id="node107" href="$classNotifier.html" title="Notifier\&lt; EM::HorizonPainter2D \&gt;" alt="" coords="180,3648,399,3677"/>
+<area shape="rect" id="node109" href="$classNotifier.html" title="Notifier\&lt; EM::HorizonPainter3D \&gt;" alt="" coords="180,3701,399,3731"/>
+<area shape="rect" id="node111" href="$classNotifier.html" title="Notifier\&lt; EM::HorizonZTransform \&gt;" alt="" coords="176,3755,403,3784"/>
+<area shape="rect" id="node113" href="$classNotifier.html" title="Notifier\&lt; Executor \&gt;" alt="" coords="220,3808,359,3837"/>
+<area shape="rect" id="node115" href="$classNotifier.html" title="Notifier\&lt; FlatView\l::AuxDataEditor \&gt;" alt="" coords="227,3861,352,3907"/>
+<area shape="rect" id="node117" href="$classNotifier.html" title="Notifier\&lt; FlatView\l::Sower \&gt;" alt="" coords="227,3930,352,3977"/>
+<area shape="rect" id="node119" href="$classNotifier.html" title="Notifier\&lt; Geometry\l::ElementEditor \&gt;" alt="" coords="223,3999,356,4046"/>
+<area shape="rect" id="node121" href="$classNotifier.html" title="Notifier\&lt; Geometry\l::RandomLine \&gt;" alt="" coords="223,4069,356,4115"/>
+<area shape="rect" id="node123" href="$classNotifier.html" title="Notifier\&lt; GestureEventHandler \&gt;" alt="" coords="183,4139,396,4168"/>
+<area shape="rect" id="node125" href="$classNotifier.html" title="Notifier\&lt; i_QPtrImpl \&gt;" alt="" coords="215,4192,364,4221"/>
+<area shape="rect" id="node127" href="$classNotifier.html" title="Notifier\&lt; IOMan \&gt;" alt="" coords="227,4245,352,4275"/>
+<area shape="rect" id="node129" href="$classNotifier.html" title="Notifier\&lt; JobRunner \&gt;" alt="" coords="215,4299,364,4328"/>
+<area shape="rect" id="node131" href="$classNotifier.html" title="Notifier\&lt; KeyboardEventHandler \&gt;" alt="" coords="179,4352,400,4381"/>
+<area shape="rect" id="node133" href="$classNotifier.html" title="Notifier\&lt; MarchingCubesSurface \&gt;" alt="" coords="177,4405,401,4435"/>
+<area shape="rect" id="node135" href="$classNotifier.html" title="Notifier\&lt; MarchingCubesSurface\lEditor \&gt;" alt="" coords="184,4458,395,4505"/>
+<area shape="rect" id="node137" href="$classNotifier.html" title="Notifier\&lt; MenuHandler \&gt;" alt="" coords="207,4528,372,4557"/>
+<area shape="rect" id="node139" href="$classNotifier.html" title="Notifier\&lt; MenuItemHolder \&gt;" alt="" coords="197,4581,381,4611"/>
+<area shape="rect" id="node141" href="$classNotifier.html" title="Notifier\&lt; MouseEventHandler \&gt;" alt="" coords="187,4635,392,4664"/>
+<area shape="rect" id="node143" href="$classNotifier.html" title="Notifier\&lt; MPE::EMSeedPicker \&gt;" alt="" coords="184,4688,395,4717"/>
+<area shape="rect" id="node145" href="$classNotifier.html" title="Notifier\&lt; MPE::Engine \&gt;" alt="" coords="207,4741,372,4771"/>
+<area shape="rect" id="node147" href="$classNotifier.html" title="Notifier\&lt; MPE::HorizonFlat\lViewEditor \&gt;" alt="" coords="200,4794,379,4841"/>
+<area shape="rect" id="node149" href="$classNotifier.html" title="Notifier\&lt; MPE::HorizonFlat\lViewEditor2D \&gt;" alt="" coords="200,4863,379,4910"/>
+<area shape="rect" id="node151" href="$classNotifier.html" title="Notifier\&lt; MPE::HorizonFlat\lViewEditor3D \&gt;" alt="" coords="200,4933,379,4979"/>
+<area shape="rect" id="node153" href="$classNotifier.html" title="Notifier\&lt; MPE::HorizonTracker\lMgr \&gt;" alt="" coords="188,5002,391,5049"/>
+<area shape="rect" id="node155" href="$classNotifier.html" title="Notifier\&lt; MPE::ObjectEditor \&gt;" alt="" coords="191,5072,388,5101"/>
+<area shape="rect" id="node157" href="$classNotifier.html" title="Notifier\&lt; MPE::uiCorrelation\lGroup \&gt;" alt="" coords="196,5125,383,5171"/>
+<area shape="rect" id="node159" href="$classNotifier.html" title="Notifier\&lt; MPE::uiEventGroup \&gt;" alt="" coords="188,5195,391,5224"/>
+<area shape="rect" id="node161" href="$classNotifier.html" title="Notifier\&lt; MPE::uiHorizon\lSetupGroup \&gt;" alt="" coords="205,5247,373,5294"/>
+<area shape="rect" id="node163" href="$classNotifier.html" title="Notifier\&lt; MPE::uiPreview\lGroup \&gt;" alt="" coords="204,5317,375,5363"/>
+<area shape="rect" id="node165" href="$classNotifier.html" title="Notifier\&lt; Network::\lRequestConnection \&gt;" alt="" coords="215,5386,364,5433"/>
+<area shape="rect" id="node167" href="$classNotifier.html" title="Notifier\&lt; Network::\lRequestServer \&gt;" alt="" coords="223,5455,356,5502"/>
+<area shape="rect" id="node169" href="$classNotifier.html" title="Notifier\&lt; NotSavedPrompter \&gt;" alt="" coords="191,5525,388,5555"/>
+<area shape="rect" id="node171" href="$classNotifier.html" title="Notifier\&lt; ODGraphicsDynamic\lImageItem \&gt;" alt="" coords="189,5578,389,5625"/>
+<area shape="rect" id="node173" href="$classNotifier.html" title="Notifier\&lt; ODNetworkReply \&gt;" alt="" coords="195,5648,384,5677"/>
+<area shape="rect" id="node175" href="$classNotifier.html" title="Notifier\&lt; Pick::SetMgr \&gt;" alt="" coords="208,5701,371,5731"/>
+<area shape="rect" id="node177" href="$classNotifier.html" title="Notifier\&lt; PreStack\l::EventManager \&gt;" alt="" coords="224,5754,355,5801"/>
+<area shape="rect" id="node179" href="$classNotifier.html" title="Notifier\&lt; PreStack\l::ProcessManager \&gt;" alt="" coords="220,5823,359,5870"/>
+<area shape="rect" id="node181" href="$classNotifier.html" title="Notifier\&lt; PreStack\l::uiProcessorManager \&gt;" alt="" coords="209,5893,369,5939"/>
+<area shape="rect" id="node183" href="$classNotifier.html" title="Notifier\&lt; PreStack\l::uiProcSel \&gt;" alt="" coords="224,5962,355,6009"/>
+<area shape="rect" id="node185" href="$classNotifier.html" title="Notifier\&lt; PreStackView\l::uiViewer2DControl \&gt;" alt="" coords="211,6031,368,6078"/>
+<area shape="rect" id="node187" href="$classNotifier.html" title="Notifier\&lt; PreStackView\l::uiViewer2DMainWin \&gt;" alt="" coords="209,6101,369,6147"/>
+<area shape="rect" id="node189" href="$classNotifier.html" title="Notifier\&lt; PreStackView\l::uiViewer2DPosDlg \&gt;" alt="" coords="211,6170,368,6217"/>
+<area shape="rect" id="node191" href="$classNotifier.html" title="Notifier\&lt; Seis::PreLoadData\lManager \&gt;" alt="" coords="196,6239,383,6286"/>
+<area shape="rect" id="node193" href="$classNotifier.html" title="Notifier\&lt; SeisRandomProvider \&gt;" alt="" coords="184,6309,395,6339"/>
+<area shape="rect" id="node195" href="$classNotifier.html" title="Notifier\&lt; SeisRandomRepository \&gt;" alt="" coords="176,6363,403,6392"/>
+<area shape="rect" id="node197" href="$classNotifier.html" title="Notifier\&lt; SeisSingleTrace\lProc \&gt;" alt="" coords="204,6415,375,6462"/>
+<area shape="rect" id="node199" href="$classNotifier.html" title="Notifier\&lt; Strat::Level \&gt;" alt="" coords="212,6485,367,6515"/>
+<area shape="rect" id="node201" href="$classNotifier.html" title="Notifier\&lt; Strat::LevelSet \&gt;" alt="" coords="203,6539,376,6568"/>
+<area shape="rect" id="node203" href="$classNotifier.html" title="Notifier\&lt; Strat::Lithology\lSet \&gt;" alt="" coords="208,6591,371,6638"/>
+<area shape="rect" id="node205" href="$classNotifier.html" title="Notifier\&lt; Strat::RefTree \&gt;" alt="" coords="204,6661,375,6691"/>
+<area shape="rect" id="node207" href="$classNotifier.html" title="Notifier\&lt; Strat::UnitRef \&gt;" alt="" coords="205,6715,373,6744"/>
+<area shape="rect" id="node209" href="$classNotifier.html" title="Notifier\&lt; SurveyInfo \&gt;" alt="" coords="215,6768,364,6797"/>
+<area shape="rect" id="node211" href="$classNotifier.html" title="Notifier\&lt; TextTranslateMgr \&gt;" alt="" coords="195,6821,384,6851"/>
+<area shape="rect" id="node213" href="$classNotifier.html" title="Notifier\&lt; Threads::\lWorkManager \&gt;" alt="" coords="224,6874,355,6921"/>
+<area shape="rect" id="node215" href="$classNotifier.html" title="Notifier\&lt; Timer \&gt;" alt="" coords="229,6944,349,6973"/>
+<area shape="rect" id="node217" href="$classNotifier.html" title="Notifier\&lt; ui2DGridLines \&gt;" alt="" coords="204,6997,375,7027"/>
+<area shape="rect" id="node219" href="$classNotifier.html" title="Notifier\&lt; ui3DViewer \&gt;" alt="" coords="212,7051,367,7080"/>
+<area shape="rect" id="node221" href="$classNotifier.html" title="Notifier\&lt; uiArrowDialog \&gt;" alt="" coords="205,7104,373,7133"/>
+<area shape="rect" id="node223" href="$classNotifier.html" title="Notifier\&lt; uiAttribDescSetEd \&gt;" alt="" coords="192,7157,387,7187"/>
+<area shape="rect" id="node225" href="$classNotifier.html" title="Notifier\&lt; uiAttrTypeSel \&gt;" alt="" coords="207,7211,372,7240"/>
+<area shape="rect" id="node227" href="$classNotifier.html" title="Notifier\&lt; uiBatchJobDispatcher\lSel \&gt;" alt="" coords="188,7263,391,7310"/>
+<area shape="rect" id="node229" href="$classNotifier.html" title="Notifier\&lt; uiBitMapDisplay \&gt;" alt="" coords="199,7333,380,7363"/>
+<area shape="rect" id="node231" href="$classNotifier.html" title="Notifier\&lt; uiChangeHorizon\lDlg \&gt;" alt="" coords="201,7386,377,7433"/>
+<area shape="rect" id="node233" href="$classNotifier.html" title="Notifier\&lt; uiCheckedCompound\lParSel \&gt;" alt="" coords="189,7455,389,7502"/>
+<area shape="rect" id="node235" href="$classNotifier.html" title="Notifier\&lt; uiCheckList \&gt;" alt="" coords="211,7525,368,7555"/>
+<area shape="rect" id="node237" href="$classNotifier.html" title="Notifier\&lt; uiColorBarDialog \&gt;" alt="" coords="196,7579,383,7608"/>
+<area shape="rect" id="node239" href="$classNotifier.html" title="Notifier\&lt; uiColorInput \&gt;" alt="" coords="211,7632,368,7661"/>
+<area shape="rect" id="node241" href="$classNotifier.html" title="Notifier\&lt; uiColorTable \&gt;" alt="" coords="209,7685,369,7715"/>
+<area shape="rect" id="node243" href="$classNotifier.html" title="Notifier\&lt; uiColorTableMan \&gt;" alt="" coords="196,7739,383,7768"/>
+<area shape="rect" id="node245" href="$classNotifier.html" title="Notifier\&lt; uiColTabMarker\lCanvas \&gt;" alt="" coords="205,7791,373,7838"/>
+<area shape="rect" id="node247" href="$classNotifier.html" title="Notifier\&lt; uiColTabMarker\lDlg \&gt;" alt="" coords="205,7861,373,7907"/>
+<area shape="rect" id="node249" href="$classNotifier.html" title="Notifier\&lt; uiComboBox \&gt;" alt="" coords="208,7931,371,7960"/>
+<area shape="rect" id="node251" href="$classNotifier.html" title="Notifier\&lt; uiCompoundParSel \&gt;" alt="" coords="189,7984,389,8013"/>
+<area shape="rect" id="node253" href="$classNotifier.html" title="Notifier\&lt; uiCreateHorizon \&gt;" alt="" coords="199,8037,380,8067"/>
+<area shape="rect" id="node255" href="$classNotifier.html" title="Notifier\&lt; uiCrossAttrEvaluate\lDlg \&gt;" alt="" coords="193,8090,385,8137"/>
+<area shape="rect" id="node257" href="$classNotifier.html" title="Notifier\&lt; uiDataPointSet \&gt;" alt="" coords="201,8160,377,8189"/>
+<area shape="rect" id="node259" href="$classNotifier.html" title="Notifier\&lt; uiDataPointSet\lCrossPlotter \&gt;" alt="" coords="208,8213,371,8259"/>
+<area shape="rect" id="node261" href="$classNotifier.html" title="Notifier\&lt; uiDial \&gt;" alt="" coords="229,8283,349,8312"/>
+<area shape="rect" id="node263" href="$classNotifier.html" title="Notifier\&lt; uiDialog \&gt;" alt="" coords="223,8336,356,8365"/>
+<area shape="rect" id="node265" href="$classNotifier.html" title="Notifier\&lt; uiDirectionalPlot \&gt;" alt="" coords="199,8389,380,8419"/>
+<area shape="rect" id="node267" href="$classNotifier.html" title="Notifier\&lt; uiDispEditMarker\lDlg \&gt;" alt="" coords="201,8442,377,8489"/>
+<area shape="rect" id="node269" href="$classNotifier.html" title="Notifier\&lt; uiEditObjectList \&gt;" alt="" coords="200,8512,379,8541"/>
+<area shape="rect" id="node271" href="$classNotifier.html" title="Notifier\&lt; uiEvaluateDlg \&gt;" alt="" coords="205,8565,373,8595"/>
+<area shape="rect" id="node273" href="$classNotifier.html" title="Notifier\&lt; uiEventFilter \&gt;" alt="" coords="209,8619,369,8648"/>
+<area shape="rect" id="node275" href="$classNotifier.html" title="Notifier\&lt; uiFaultParSel \&gt;" alt="" coords="207,8672,372,8701"/>
+<area shape="rect" id="node277" href="$classNotifier.html" title="Notifier\&lt; uiFaultStickTransfer\lDlg \&gt;" alt="" coords="193,8725,385,8771"/>
+<area shape="rect" id="node279" href="$classNotifier.html" title="Notifier\&lt; uiFillPattern \&gt;" alt="" coords="211,8795,368,8824"/>
+<area shape="rect" id="node281" href="$classNotifier.html" title="Notifier\&lt; uiFlatViewAuxData\lEditorList \&gt;" alt="" coords="196,8847,383,8894"/>
+<area shape="rect" id="node283" href="$classNotifier.html" title="Notifier\&lt; uiFlatViewColTabEd \&gt;" alt="" coords="187,8917,392,8947"/>
+<area shape="rect" id="node285" href="$classNotifier.html" title="Notifier\&lt; uiFlatViewControl \&gt;" alt="" coords="195,8971,384,9000"/>
+<area shape="rect" id="node287" href="$classNotifier.html" title="Notifier\&lt; uiFlatViewer \&gt;" alt="" coords="209,9024,369,9053"/>
+<area shape="rect" id="node289" href="$classNotifier.html" title="Notifier\&lt; uiFont \&gt;" alt="" coords="228,9077,351,9107"/>
+<area shape="rect" id="node291" href="$classNotifier.html" title="Notifier\&lt; uiFreqFilterSel\lFreq \&gt;" alt="" coords="209,9130,369,9177"/>
+<area shape="rect" id="node293" href="$classNotifier.html" title="Notifier\&lt; uiFuncSelDraw \&gt;" alt="" coords="201,9200,377,9229"/>
+<area shape="rect" id="node295" href="$classNotifier.html" title="Notifier\&lt; uiFuncTaperDisp \&gt;" alt="" coords="196,9253,383,9283"/>
+<area shape="rect" id="node297" href="$classNotifier.html" title="Notifier\&lt; uiFunctionDisplay \&gt;" alt="" coords="193,9307,385,9336"/>
+<area shape="rect" id="node299" href="$classNotifier.html" title="Notifier\&lt; uiGenInput \&gt;" alt="" coords="215,9360,364,9389"/>
+<area shape="rect" id="node301" href="$classNotifier.html" title="Notifier\&lt; uiGenInputBool\lFld \&gt;" alt="" coords="207,9413,372,9459"/>
+<area shape="rect" id="node303" href="$classNotifier.html" title="Notifier\&lt; uiGraphicsScene \&gt;" alt="" coords="196,9483,383,9512"/>
+<area shape="rect" id="node305" href="$classNotifier.html" title="Notifier\&lt; uiGraphicsView\lBase \&gt;" alt="" coords="207,9535,372,9582"/>
+<area shape="rect" id="node307" href="$classNotifier.html" title="Notifier\&lt; uiGVFreehandArea\lSelectionTool \&gt;" alt="" coords="196,9605,383,9651"/>
+<area shape="rect" id="node309" href="$classNotifier.html" title="Notifier\&lt; uiHistogramDisplay \&gt;" alt="" coords="188,9675,391,9704"/>
+<area shape="rect" id="node311" href="$classNotifier.html" title="Notifier\&lt; uiHistogramSel \&gt;" alt="" coords="201,9728,377,9757"/>
+<area shape="rect" id="node313" href="$classNotifier.html" title="Notifier\&lt; uiHorizonInterpol\lDlg \&gt;" alt="" coords="203,9781,376,9827"/>
+<area shape="rect" id="node315" href="$classNotifier.html" title="Notifier\&lt; uiHorizonShift\lDialog \&gt;" alt="" coords="211,9850,368,9897"/>
+<area shape="rect" id="node317" href="$classNotifier.html" title="Notifier\&lt; uiImpExpPickSet \&gt;" alt="" coords="195,9920,384,9949"/>
+<area shape="rect" id="node319" href="$classNotifier.html" title="Notifier\&lt; uiImportFault \&gt;" alt="" coords="208,9973,371,10003"/>
+<area shape="rect" id="node321" href="$classNotifier.html" title="Notifier\&lt; uiImportHorizon \&gt;" alt="" coords="200,10027,379,10056"/>
+<area shape="rect" id="node323" href="$classNotifier.html" title="Notifier\&lt; uiImportHorizon2D \&gt;" alt="" coords="191,10080,388,10109"/>
+<area shape="rect" id="node325" href="$classNotifier.html" title="Notifier\&lt; uiIOObjInserter \&gt;" alt="" coords="201,10133,377,10163"/>
+<area shape="rect" id="node327" href="$classNotifier.html" title="Notifier\&lt; uiIOObjSelGrp \&gt;" alt="" coords="204,10187,375,10216"/>
+<area shape="rect" id="node329" href="$classNotifier.html" title="Notifier\&lt; uiIOObjSelWrite\lTranslator \&gt;" alt="" coords="204,10239,375,10286"/>
+<area shape="rect" id="node331" href="$classNotifier.html" title="Notifier\&lt; uiIOObjTranslator\lWriteOpts \&gt;" alt="" coords="200,10309,379,10355"/>
+<area shape="rect" id="node333" href="$classNotifier.html" title="Notifier\&lt; uiIOSelect \&gt;" alt="" coords="215,10379,364,10408"/>
+<area shape="rect" id="node335" href="$classNotifier.html" title="Notifier\&lt; uiIOSurface \&gt;" alt="" coords="211,10432,368,10461"/>
+<area shape="rect" id="node337" href="$classNotifier.html" title="Notifier\&lt; uiLineEdit \&gt;" alt="" coords="217,10485,361,10515"/>
+<area shape="rect" id="node339" href="$classNotifier.html" title="Notifier\&lt; uiListBox \&gt;" alt="" coords="219,10539,360,10568"/>
+<area shape="rect" id="node341" href="$classNotifier.html" title="Notifier\&lt; uiListBoxChoiceIO \&gt;" alt="" coords="191,10592,388,10621"/>
+<area shape="rect" id="node343" href="$classNotifier.html" title="Notifier\&lt; uiListBoxFilter \&gt;" alt="" coords="204,10645,375,10675"/>
+<area shape="rect" id="node345" href="$classNotifier.html" title="Notifier\&lt; uiMainWin \&gt;" alt="" coords="215,10699,364,10728"/>
+<area shape="rect" id="node347" href="$classNotifier.html" title="Notifier\&lt; uiMapperRangeEditor \&gt;" alt="" coords="183,10752,396,10781"/>
+<area shape="rect" id="node349" href="$classNotifier.html" title="Notifier\&lt; uiMarkerStyle2D \&gt;" alt="" coords="197,10805,381,10835"/>
+<area shape="rect" id="node351" href="$classNotifier.html" title="Notifier\&lt; uiMathExpression \&gt;" alt="" coords="193,10859,385,10888"/>
+<area shape="rect" id="node353" href="$classNotifier.html" title="Notifier\&lt; uiMathExpression\lVariable \&gt;" alt="" coords="200,10911,379,10958"/>
+<area shape="rect" id="node355" href="$classNotifier.html" title="Notifier\&lt; uiMathFormula \&gt;" alt="" coords="203,10981,376,11011"/>
+<area shape="rect" id="node357" href="$classNotifier.html" title="Notifier\&lt; uiMdiArea \&gt;" alt="" coords="216,11035,363,11064"/>
+<area shape="rect" id="node359" href="$classNotifier.html" title="Notifier\&lt; uiMeasureDlg \&gt;" alt="" coords="205,11088,373,11117"/>
+<area shape="rect" id="node361" href="$classNotifier.html" title="Notifier\&lt; uiMultiMapperRange\lEditWin \&gt;" alt="" coords="192,11141,387,11187"/>
+<area shape="rect" id="node363" href="$classNotifier.html" title="Notifier\&lt; uiMultiSurface\lRead \&gt;" alt="" coords="211,11210,368,11257"/>
+<area shape="rect" id="node365" href="$classNotifier.html" title="Notifier\&lt; uiMultiWellSel \&gt;" alt="" coords="204,11280,375,11309"/>
+<area shape="rect" id="node367" href="$classNotifier.html" title="Notifier\&lt; uiObject \&gt;" alt="" coords="221,11333,357,11363"/>
+<area shape="rect" id="node369" href="$classNotifier.html" title="Notifier\&lt; uiObjectItemView \&gt;" alt="" coords="195,11387,384,11416"/>
+<area shape="rect" id="node371" href="$classNotifier.html" title="Notifier\&lt; uiODApplMgr \&gt;" alt="" coords="207,11440,372,11469"/>
+<area shape="rect" id="node373" href="$classNotifier.html" title="Notifier\&lt; uiODMain \&gt;" alt="" coords="216,11493,363,11523"/>
+<area shape="rect" id="node375" href="$classNotifier.html" title="Notifier\&lt; uiODMenuMgr \&gt;" alt="" coords="204,11547,375,11576"/>
+<area shape="rect" id="node377" href="$classNotifier.html" title="Notifier\&lt; uiODSceneMgr \&gt;" alt="" coords="201,11600,377,11629"/>
+<area shape="rect" id="node379" href="$classNotifier.html" title="Notifier\&lt; uiODViewer2D \&gt;" alt="" coords="203,11653,376,11683"/>
+<area shape="rect" id="node381" href="$classNotifier.html" title="Notifier\&lt; uiODViewer2DPos\lGrp \&gt;" alt="" coords="196,11706,383,11753"/>
+<area shape="rect" id="node383" href="$classNotifier.html" title="Notifier\&lt; uiPolarDiagram \&gt;" alt="" coords="201,11776,377,11805"/>
+<area shape="rect" id="node385" href="$classNotifier.html" title="Notifier\&lt; uiPosSubSel \&gt;" alt="" coords="208,11829,371,11859"/>
+<area shape="rect" id="node387" href="$classNotifier.html" title="Notifier\&lt; uiPrDenFunVarSel \&gt;" alt="" coords="192,11883,387,11912"/>
+<area shape="rect" id="node389" href="$classNotifier.html" title="Notifier\&lt; uiPropertyValFld \&gt;" alt="" coords="197,11936,381,11965"/>
+<area shape="rect" id="node391" href="$classNotifier.html" title="Notifier\&lt; uiRayTracer1D \&gt;" alt="" coords="201,11989,377,12019"/>
+<area shape="rect" id="node393" href="$classNotifier.html" title="Notifier\&lt; uiRayTracerSel \&gt;" alt="" coords="200,12043,379,12072"/>
+<area shape="rect" id="node395" href="$classNotifier.html" title="Notifier\&lt; uiSaveImageDlg \&gt;" alt="" coords="197,12096,381,12125"/>
+<area shape="rect" id="node397" href="$classNotifier.html" title="Notifier\&lt; uiSeis2DLineName\lSel \&gt;" alt="" coords="196,12149,383,12195"/>
+<area shape="rect" id="node399" href="$classNotifier.html" title="Notifier\&lt; uiSeis2DLineSel \&gt;" alt="" coords="197,12219,381,12248"/>
+<area shape="rect" id="node401" href="$classNotifier.html" title="Notifier\&lt; uiSeisEventSnapper \&gt;" alt="" coords="187,12272,392,12301"/>
+<area shape="rect" id="node403" href="$classNotifier.html" title="Notifier\&lt; uiSeisRandTo2DBase \&gt;" alt="" coords="181,12325,397,12355"/>
+<area shape="rect" id="node405" href="$classNotifier.html" title="Notifier\&lt; uiSeisSubSel \&gt;" alt="" coords="207,12379,372,12408"/>
+<area shape="rect" id="node407" href="$classNotifier.html" title="Notifier\&lt; uiSeisWaveletSel \&gt;" alt="" coords="195,12432,384,12461"/>
+<area shape="rect" id="node409" href="$classNotifier.html" title="Notifier\&lt; uiSeisWvltSlider\lDlg \&gt;" alt="" coords="204,12485,375,12531"/>
+<area shape="rect" id="node411" href="$classNotifier.html" title="Notifier\&lt; uiSelLineStyle \&gt;" alt="" coords="204,12555,375,12584"/>
+<area shape="rect" id="node413" href="$classNotifier.html" title="Notifier\&lt; uiSelNrRange \&gt;" alt="" coords="205,12608,373,12637"/>
+<area shape="rect" id="node415" href="$classNotifier.html" title="Notifier\&lt; uiSelZRange \&gt;" alt="" coords="208,12661,371,12691"/>
+<area shape="rect" id="node417" href="$classNotifier.html" title="Notifier\&lt; uiSGSel \&gt;" alt="" coords="221,12715,357,12744"/>
+<area shape="rect" id="node419" href="$classNotifier.html" title="Notifier\&lt; uiSGSelGrp \&gt;" alt="" coords="211,12768,368,12797"/>
+<area shape="rect" id="node421" href="$classNotifier.html" title="Notifier\&lt; uiShortcutsMgr \&gt;" alt="" coords="201,12821,377,12851"/>
+<area shape="rect" id="node423" href="$classNotifier.html" title="Notifier\&lt; uiSimilarityAttrib\l::uiSimiSteeringSel \&gt;" alt="" coords="204,12874,375,12921"/>
+<area shape="rect" id="node425" href="$classNotifier.html" title="Notifier\&lt; uiSlicePos \&gt;" alt="" coords="215,12944,364,12973"/>
+<area shape="rect" id="node427" href="$classNotifier.html" title="Notifier\&lt; uiSlider \&gt;" alt="" coords="224,12997,355,13027"/>
+<area shape="rect" id="node429" href="$classNotifier.html" title="Notifier\&lt; uiSpinBox \&gt;" alt="" coords="216,13051,363,13080"/>
+<area shape="rect" id="node431" href="$classNotifier.html" title="Notifier\&lt; uiSteeringSel \&gt;" alt="" coords="207,13104,372,13133"/>
+<area shape="rect" id="node433" href="$classNotifier.html" title="Notifier\&lt; uiStepOutSel \&gt;" alt="" coords="207,13157,372,13187"/>
+<area shape="rect" id="node435" href="$classNotifier.html" title="Notifier\&lt; uiStratGenDesc\lTools \&gt;" alt="" coords="205,13210,373,13257"/>
+<area shape="rect" id="node437" href="$classNotifier.html" title="Notifier\&lt; uiStratLayerContent \&gt;" alt="" coords="188,13280,391,13309"/>
+<area shape="rect" id="node439" href="$classNotifier.html" title="Notifier\&lt; uiStratLayerModel \&gt;" alt="" coords="193,13333,385,13363"/>
+<area shape="rect" id="node441" href="$classNotifier.html" title="Notifier\&lt; uiStratLayerModel\lDisp \&gt;" alt="" coords="199,13386,380,13433"/>
+<area shape="rect" id="node443" href="$classNotifier.html" title="Notifier\&lt; uiStratLayModEdit\lTools \&gt;" alt="" coords="199,13455,380,13502"/>
+<area shape="rect" id="node445" href="$classNotifier.html" title="Notifier\&lt; uiStratLevelSel \&gt;" alt="" coords="201,13525,377,13555"/>
+<area shape="rect" id="node447" href="$classNotifier.html" title="Notifier\&lt; uiStratSelUnits \&gt;" alt="" coords="201,13579,377,13608"/>
+<area shape="rect" id="node449" href="$classNotifier.html" title="Notifier\&lt; uiStratSynthDisp \&gt;" alt="" coords="196,13632,383,13661"/>
+<area shape="rect" id="node451" href="$classNotifier.html" title="Notifier\&lt; uiStratTreeToDisp \&gt;" alt="" coords="192,13685,387,13715"/>
+<area shape="rect" id="node453" href="$classNotifier.html" title="Notifier\&lt; uiStratViewControl \&gt;" alt="" coords="191,13739,388,13768"/>
+<area shape="rect" id="node455" href="$classNotifier.html" title="Notifier\&lt; uiSurveyInfoEditor \&gt;" alt="" coords="192,13792,387,13821"/>
+<area shape="rect" id="node457" href="$classNotifier.html" title="Notifier\&lt; uiSynthCorrections\lGrp \&gt;" alt="" coords="196,13845,383,13891"/>
+<area shape="rect" id="node459" href="$classNotifier.html" title="Notifier\&lt; uiSynthGenDlg \&gt;" alt="" coords="201,13915,377,13944"/>
+<area shape="rect" id="node461" href="$classNotifier.html" title="Notifier\&lt; uiSynthSeisGrp \&gt;" alt="" coords="200,13968,379,13997"/>
+<area shape="rect" id="node463" href="$classNotifier.html" title="Notifier\&lt; uiSynthSlicePos \&gt;" alt="" coords="197,14021,381,14051"/>
+<area shape="rect" id="node465" href="$classNotifier.html" title="Notifier\&lt; uiSystemTrayIcon \&gt;" alt="" coords="192,14075,387,14104"/>
+<area shape="rect" id="node467" href="$classNotifier.html" title="Notifier\&lt; uiTabBar \&gt;" alt="" coords="220,14128,359,14157"/>
+<area shape="rect" id="node469" href="$classNotifier.html" title="Notifier\&lt; uiTable \&gt;" alt="" coords="224,14181,355,14211"/>
+<area shape="rect" id="node471" href="$classNotifier.html" title="Notifier\&lt; uiTableImpData\lSel \&gt;" alt="" coords="205,14234,373,14281"/>
+<area shape="rect" id="node473" href="$classNotifier.html" title="Notifier\&lt; uiTextBrowser \&gt;" alt="" coords="204,14304,375,14333"/>
+<area shape="rect" id="node475" href="$classNotifier.html" title="Notifier\&lt; uiTextEditBase \&gt;" alt="" coords="201,14357,377,14387"/>
+<area shape="rect" id="node477" href="$classNotifier.html" title="Notifier\&lt; uiTextFile \&gt;" alt="" coords="217,14411,361,14440"/>
+<area shape="rect" id="node479" href="$classNotifier.html" title="Notifier\&lt; uiToolBar \&gt;" alt="" coords="219,14464,360,14493"/>
+<area shape="rect" id="node481" href="$classNotifier.html" title="Notifier\&lt; uiTreeView \&gt;" alt="" coords="213,14517,365,14547"/>
+<area shape="rect" id="node483" href="$classNotifier.html" title="Notifier\&lt; uiTreeViewItem \&gt;" alt="" coords="200,14571,379,14600"/>
+<area shape="rect" id="node485" href="$classNotifier.html" title="Notifier\&lt; uiUnitSel \&gt;" alt="" coords="219,14624,360,14653"/>
+<area shape="rect" id="node487" href="$classNotifier.html" title="Notifier\&lt; uiVarWizard \&gt;" alt="" coords="211,14677,368,14707"/>
+<area shape="rect" id="node489" href="$classNotifier.html" title="Notifier\&lt; uiVelSel \&gt;" alt="" coords="221,14731,357,14760"/>
+<area shape="rect" id="node491" href="$classNotifier.html" title="Notifier\&lt; uiVisPartServer \&gt;" alt="" coords="200,14784,379,14813"/>
+<area shape="rect" id="node493" href="$classNotifier.html" title="Notifier\&lt; uiVisPickRetriever \&gt;" alt="" coords="192,14837,387,14867"/>
+<area shape="rect" id="node495" href="$classNotifier.html" title="Notifier\&lt; uiWaveletExtraction \&gt;" alt="" coords="187,14891,392,14920"/>
+<area shape="rect" id="node497" href="$classNotifier.html" title="Notifier\&lt; uiWellDisplayControl \&gt;" alt="" coords="184,14944,395,14973"/>
+<area shape="rect" id="node499" href="$classNotifier.html" title="Notifier\&lt; uiWellDispProp\lDlg \&gt;" alt="" coords="207,14997,372,15043"/>
+<area shape="rect" id="node501" href="$classNotifier.html" title="Notifier\&lt; uiWellDispProperties \&gt;" alt="" coords="184,15067,395,15096"/>
+<area shape="rect" id="node503" href="$classNotifier.html" title="Notifier\&lt; uiWellImportAsc \&gt;" alt="" coords="197,15120,381,15149"/>
+<area shape="rect" id="node505" href="$classNotifier.html" title="Notifier\&lt; uiWellLogDispDlg \&gt;" alt="" coords="193,15173,385,15203"/>
+<area shape="rect" id="node507" href="$classNotifier.html" title="Notifier\&lt; uiWellLogEditor \&gt;" alt="" coords="200,15227,379,15256"/>
+<area shape="rect" id="node509" href="$classNotifier.html" title="Notifier\&lt; uiWellMarkerSel \&gt;" alt="" coords="199,15280,380,15309"/>
+<area shape="rect" id="node511" href="$classNotifier.html" title="Notifier\&lt; uiWellParSel \&gt;" alt="" coords="208,15333,371,15363"/>
+<area shape="rect" id="node513" href="$classNotifier.html" title="Notifier\&lt; uiWellPartServer \&gt;" alt="" coords="196,15387,383,15416"/>
+<area shape="rect" id="node515" href="$classNotifier.html" title="Notifier\&lt; uiWellPropSel \&gt;" alt="" coords="204,15440,375,15469"/>
+<area shape="rect" id="node517" href="$classNotifier.html" title="Notifier\&lt; uiWellSingleProp\lSel \&gt;" alt="" coords="203,15493,376,15539"/>
+<area shape="rect" id="node519" href="$classNotifier.html" title="Notifier\&lt; uiWellTo2DLine\lDlg \&gt;" alt="" coords="205,15562,373,15609"/>
+<area shape="rect" id="node521" href="$classNotifier.html" title="Notifier\&lt; Undo \&gt;" alt="" coords="231,15632,348,15661"/>
+<area shape="rect" id="node523" href="$classNotifier.html" title="Notifier\&lt; UserAction \&gt;" alt="" coords="213,15685,365,15715"/>
+<area shape="rect" id="node525" href="$classNotifier.html" title="Notifier\&lt; UserActionHandler \&gt;" alt="" coords="191,15739,388,15768"/>
+<area shape="rect" id="node527" href="$classNotifier.html" title="Notifier\&lt; Vel::GriddedSource \&gt;" alt="" coords="189,15792,389,15821"/>
+<area shape="rect" id="node529" href="$classNotifier.html" title="Notifier\&lt; Vel::uiFunction\lSel \&gt;" alt="" coords="208,15845,371,15891"/>
+<area shape="rect" id="node531" href="$classNotifier.html" title="Notifier\&lt; visBase::\lBoxDragger \&gt;" alt="" coords="224,15914,355,15961"/>
+<area shape="rect" id="node533" href="$classNotifier.html" title="Notifier\&lt; visBase::\lCamera \&gt;" alt="" coords="224,15983,355,16030"/>
+<area shape="rect" id="node535" href="$classNotifier.html" title="Notifier\&lt; visBase::\lCoordinates \&gt;" alt="" coords="224,16053,355,16099"/>
+<area shape="rect" id="node537" href="$classNotifier.html" title="Notifier\&lt; visBase::\lDataManager \&gt;" alt="" coords="224,16122,355,16169"/>
+<area shape="rect" id="node539" href="$classNotifier.html" title="Notifier\&lt; visBase::\lDataObjectGroup \&gt;" alt="" coords="223,16191,356,16238"/>
+<area shape="rect" id="node541" href="$classNotifier.html" title="Notifier\&lt; visBase::\lDepthTabPlaneDragger \&gt;" alt="" coords="204,16261,375,16307"/>
+<area shape="rect" id="node543" href="$classNotifier.html" title="Notifier\&lt; visBase::\lDragger \&gt;" alt="" coords="224,16330,355,16377"/>
+<area shape="rect" id="node545" href="$classNotifier.html" title="Notifier\&lt; visBase::\lDraggerBase \&gt;" alt="" coords="224,16399,355,16446"/>
+<area shape="rect" id="node547" href="$classNotifier.html" title="Notifier\&lt; visBase::\lFlatViewer \&gt;" alt="" coords="224,16469,355,16515"/>
+<area shape="rect" id="node549" href="$classNotifier.html" title="Notifier\&lt; visBase::\lMaterial \&gt;" alt="" coords="224,16538,355,16585"/>
+<area shape="rect" id="node551" href="$classNotifier.html" title="Notifier\&lt; visBase::\lOrthogonalSlice \&gt;" alt="" coords="224,16607,355,16654"/>
+<area shape="rect" id="node553" href="$classNotifier.html" title="Notifier\&lt; visBase::\lRandomTrackDragger \&gt;" alt="" coords="208,16677,371,16723"/>
+<area shape="rect" id="node555" href="$classNotifier.html" title="Notifier\&lt; visBase::\lScene \&gt;" alt="" coords="224,16746,355,16793"/>
+<area shape="rect" id="node557" href="$classNotifier.html" title="Notifier\&lt; visBase::\lVisualObject \&gt;" alt="" coords="224,16815,355,16862"/>
+<area shape="rect" id="node559" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::EMObjectDisplay \&gt;" alt="" coords="217,16885,361,16931"/>
+<area shape="rect" id="node561" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::FaultDisplay \&gt;" alt="" coords="223,16954,356,17001"/>
+<area shape="rect" id="node563" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::FaultStickSetDisplay \&gt;" alt="" coords="207,17023,372,17070"/>
+<area shape="rect" id="node565" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::ImageDisplay \&gt;" alt="" coords="223,17093,356,17139"/>
+<area shape="rect" id="node567" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::LocationDisplay \&gt;" alt="" coords="223,17162,356,17209"/>
+<area shape="rect" id="node569" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::MPEClickCatcher \&gt;" alt="" coords="216,17231,363,17278"/>
+<area shape="rect" id="node571" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::MPEDisplay \&gt;" alt="" coords="223,17301,356,17347"/>
+<area shape="rect" id="node573" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::MPEEditor \&gt;" alt="" coords="223,17370,356,17417"/>
+<area shape="rect" id="node575" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::PlaneDataDisplay \&gt;" alt="" coords="216,17439,363,17486"/>
+<area shape="rect" id="node577" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::PreStackDisplay \&gt;" alt="" coords="220,17509,359,17555"/>
+<area shape="rect" id="node579" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::RandomTrackDisplay \&gt;" alt="" coords="205,17578,373,17625"/>
+<area shape="rect" id="node581" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::Scene \&gt;" alt="" coords="223,17647,356,17694"/>
+<area shape="rect" id="node583" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::SceneTransformManager \&gt;" alt="" coords="196,17717,383,17763"/>
+<area shape="rect" id="node585" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::Seis2DDisplay \&gt;" alt="" coords="223,17786,356,17833"/>
+<area shape="rect" id="node587" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::Sower \&gt;" alt="" coords="223,17855,356,17902"/>
+<area shape="rect" id="node589" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::VolumeDisplay \&gt;" alt="" coords="223,17925,356,17971"/>
+<area shape="rect" id="node591" href="$classNotifier.html" title="Notifier\&lt; visSurvey\l::WellDisplay \&gt;" alt="" coords="223,17994,356,18041"/>
+<area shape="rect" id="node593" href="$classNotifier.html" title="Notifier\&lt; Vw2DDataManager \&gt;" alt="" coords="188,18064,391,18093"/>
+<area shape="rect" id="node595" href="$classNotifier.html" title="Notifier\&lt; VW2DFault \&gt;" alt="" coords="212,18117,367,18147"/>
+<area shape="rect" id="node597" href="$classNotifier.html" title="Notifier\&lt; VW2DFaultSS2D \&gt;" alt="" coords="195,18171,384,18200"/>
+<area shape="rect" id="node599" href="$classNotifier.html" title="Notifier\&lt; VW2DFaultSS3D \&gt;" alt="" coords="195,18224,384,18253"/>
+<area shape="rect" id="node601" href="$classNotifier.html" title="Notifier\&lt; Vw2DHorizon2D \&gt;" alt="" coords="196,18277,383,18307"/>
+<area shape="rect" id="node603" href="$classNotifier.html" title="Notifier\&lt; Vw2DHorizon3D \&gt;" alt="" coords="196,18331,383,18360"/>
+<area shape="rect" id="node605" href="$classNotifier.html" title="Notifier\&lt; VW2DPickSet \&gt;" alt="" coords="203,18384,376,18413"/>
+<area shape="rect" id="node607" href="$classNotifier.html" title="Notifier\&lt; VW2DSeis \&gt;" alt="" coords="213,18437,365,18467"/>
+<area shape="rect" id="node609" href="$classNotifier.html" title="Notifier\&lt; Well::Well\l::Data \&gt;" alt="" coords="221,18490,357,18537"/>
+<area shape="rect" id="node611" href="$classNotifier.html" title="Notifier\&lt; WellTie::\lPickSetMgr \&gt;" alt="" coords="225,18559,353,18606"/>
+<area shape="rect" id="node613" href="$classNotifier.html" title="Notifier\&lt; WellTie::\luiControlView \&gt;" alt="" coords="225,18629,353,18675"/>
+<area shape="rect" id="node615" href="$classNotifier.html" title="Notifier\&lt; WellTie::\luiInfoDlg \&gt;" alt="" coords="225,18698,353,18745"/>
+<area shape="rect" id="node617" href="$classNotifier.html" title="Notifier\&lt; WellTie::\luiTieView \&gt;" alt="" coords="225,18767,353,18814"/>
+<area shape="rect" id="node619" href="$classNotifier.html" title="Notifier\&lt; WellTie::\luiWavelet \&gt;" alt="" coords="225,18837,353,18883"/>
+<area shape="rect" id="node621" href="$classNotifier.html" title="Notifier\&lt; WellTie::\luiWaveletView \&gt;" alt="" coords="225,18906,353,18953"/>
+<area shape="rect" id="node623" href="$classNotifier.html" title="Notifier\&lt; WellTie::\lWellDataMgr \&gt;" alt="" coords="225,18975,353,19022"/>
+</map>

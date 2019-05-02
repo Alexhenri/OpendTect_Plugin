@@ -1,0 +1,8 @@
+<map id="uiSteerCubeSel" name="uiSteerCubeSel">
+<area shape="rect" id="node15" href="$classuiSteerAttrSel.html" title="uiSteerAttrSel" alt="" coords="11,547,112,576"/>
+<area shape="rect" id="node2" href="$classuiSeisSel.html" title="uiSeisSel" alt="" coords="23,392,100,421"/>
+<area shape="rect" id="node4" href="$classuiIOObjSel.html" title="User Interface (UI) element for selection of IOObjs. " alt="" coords="19,315,104,344"/>
+<area shape="rect" id="node6" href="$classuiIOSelect.html" title="UI element for selection of data objects. " alt="" coords="20,237,103,267"/>
+<area shape="rect" id="node8" href="$classuiGroup.html" title="uiGroup" alt="" coords="28,160,95,189"/>
+<area shape="rect" id="node10" href="$classuiParent.html" title="uiParent" alt="" coords="27,83,96,112"/>
+</map>

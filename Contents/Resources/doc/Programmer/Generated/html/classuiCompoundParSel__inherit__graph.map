@@ -1,0 +1,15 @@
+<map id="uiCompoundParSel" name="uiCompoundParSel">
+<area shape="rect" id="node9" href="$classCoords_1_1uiCoordSystemSel.html" title="Coords::uiCoordSystemSel" alt="" coords="576,5,757,35"/>
+<area shape="rect" id="node11" href="$classuiCheckedCompoundParSel.html" title="CompoundParSel providing something that is optional. " alt="" coords="573,59,760,88"/>
+<area shape="rect" id="node13" href="$classuiEMAuxDataSel.html" title="Dialog for surface aux data selection. " alt="" coords="605,112,728,141"/>
+<area shape="rect" id="node15" href="$classuiFaultParSel.html" title="uiFaultParSel" alt="" coords="617,165,716,195"/>
+<area shape="rect" id="node17" href="$classuiHorizonParSel.html" title="uiHorizonParSel" alt="" coords="609,219,724,248"/>
+<area shape="rect" id="node19" href="$classuiMultCompSel.html" title="CompoundParSel to capture and sum up the user&#45;selected components. " alt="" coords="612,272,721,301"/>
+<area shape="rect" id="node21" href="$classuiPosFilterSetSel.html" title="uiPosFilterSetSel" alt="" coords="605,325,728,355"/>
+<area shape="rect" id="node23" href="$classuiPosProvSel.html" title="CompoundParSel to capture a user&#39;s Pos::Provider wishes. " alt="" coords="616,379,717,408"/>
+<area shape="rect" id="node25" href="$classuiSeis2DLineSel.html" title="uiSeis2DLineSel" alt="" coords="608,432,725,461"/>
+<area shape="rect" id="node29" href="$classuiWellParSel.html" title="uiWellParSel" alt="" coords="619,485,715,515"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="275,245,341,275"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="156,245,225,275"/>
+<area shape="rect" id="node27" href="$classuiSeis2DMultiLineSel.html" title="uiSeis2DMultiLineSel" alt="" coords="808,432,955,461"/>
+</map>

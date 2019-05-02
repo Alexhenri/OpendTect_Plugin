@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4 Profile Modeling</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#synthrock/profile_modeling.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>7.4 Profile Modeling<a name="kanchor7"></a></h2>
+        <p>The profile modeling is used to create pseudowells by interpolating well logs between control points. The control points are inserted from real wells loaded in the project, with well-log data upscaled/blocked into layers of user-defined size, or added as control profiles during the modeling.</p>
+        <img src="../resources/images/synthrock/sr_prfl_simp_wdg_mod_slct.png" class="image" />
+        <p>The modeling is performed in two steps by adding the control points and modifying the model parameters  . An output example is given below. The modeling itself takes place in the bottom part of Layer modeling window. The modeling description can be saved, while interpolated pseudowells are not saved along with it. The pseudowells can be either dumped to a text file, or the corresponding data can be extracted using the crossplot extractor. The pseudowells are re-drawn by pressing on  button. The number on the left of   button defines the number of pseudowells to be created. It is advised to start with a relatively low number while building the model, and then increase it for the final application (several hundreds for a HitCube inversion are needed).</p>
+        <img src="../resources/images/synthrock/sr_dmp_mod_intro_exmpl.png" class="image" />
+        <p><b>Profile modeling offers three options to start modeling</b>
+        </p>
+        <p>Simple Wedge model/Property variations, using one well and Model an existing line through well(s) are two pre-defined workflows that allow user to quickly set up most commonly used models. These workflows are pre-defined in a sense that a user is guided through the required sequence of windows by the software. They allow to build simple models much faster than doing so from scratch. Once a simple model is built, further modeling can be continued using the classic Profile mode  functionality in the Layer modeling window.</p>
+        <p>Note, that some windows in the pre-defined workflows are unique and might not be accessible from Layer modeling window if accidentally closed by a user. In such case, a user either have to continue in the Layer modeling window with the classic Profile mode functionality, which allows to do the same things but requires more user input, or start the pre-defined workflow again.</p>
+        <p>The third option, the classic Profile mode, is accessable either by clicking on the large Profile icon or by selecting Put together a structural situation from scratch option and clicking OK.</p>
+        <ul>
+            <li value="1"><a href="profile_modeling/simple_wedge_model.htm" target="_self" style="font-weight: normal;">Simple Wedge model/Property variations, using one well</a>
+            </li>
+            <li value="2"><a href="profile_modeling/model_an_existing_line_through_wells.htm" target="_self" style="font-weight: normal;">Model an existing line through well(s)</a>
+            </li>
+            <li value="3"><a href="profile_modeling/put_together_a_structural_situation_from_scratch.htm" target="_self" style="font-weight: normal;">Put together a structural situation from scratch</a>
+            </li>
+        </ul>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-searchable="False" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Applications|11.1 How to Make the ChimneyCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.1.3 Neural Network Training</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#applications/how_to_make_the_chimneycube/neural_network_training.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>11.1.3 Neural Network Training<a name="kanchor389"></a></h3>
+        <p>The next step is the training of a neural network. Click the corresponding icon or start the <a href="../../neural_networks.htm" target="_self" style="font-weight: normal;">network module</a> from the Processing menu. Create a New neural network, and select the attributes you wish to use (normally all) and the pickset groups containing the chimney and non-chimney locations. In general not all locations are used to train the network but a percentage (10 to 20 ) of the examples is used to avoid overfitting the network. The network will extract the attributes of your choice at the locations you specified, it will randomly split the data into train and test sets and it starts the training phase.</p>
+        <p>Training performance is tracked during training and presented in two figures. The normalized RMS error curves indicate the overall error on the train and test sets, respectively on a scale from 1 (maximum error) to 0 (no error). Both curves should go down during training. When the test curve goes up again the network is overfitting. Training should be stopped preferably before this happens. Typically an RMS value in the 0.8 range is considered reasonable, between 0.8 and 0.6 is good, between 0.6 and 0.4 is very good and below 0.4 is excellent.</p>
+        <p>A better feel for the network's performance is presented in the lower figure, which shows the percentage mis-classified for train and test sets as a function of training cycles.</p>
+        <p>Finally, you will notice that the nodes of the network change colors during training. The colors indicate how important each node (each input attribute) is for the classification. The colors run from red (most important) via yellow to white (least important).</p>
+        <p style="page-break-before: always"><b>Overtraining:</b> Overfitting occurs when a network starts to recognize individual examples from the training set. The network performs better on the training set, but the performance on the test set decreases. For optimal results network training is stopped when the performance on the test set is maximum (minimum error). The point to stop can be seen from the performance graphics in the network training window.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

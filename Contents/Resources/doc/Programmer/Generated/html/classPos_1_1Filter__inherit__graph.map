@@ -1,0 +1,28 @@
+<map id="Pos::Filter" name="Pos::Filter">
+<area shape="rect" id="node3" href="$classPos_1_1EMSurfaceProvider.html" title="Provider based on surface(s) " alt="" coords="324,112,489,141"/>
+<area shape="rect" id="node11" href="$classPos_1_1Filter2D.html" title="Provides a filter related to 2D seismic data. " alt="" coords="156,165,255,195"/>
+<area shape="rect" id="node24" href="$classPos_1_1Filter3D.html" title="Provides a filter related to 3D data. " alt="" coords="156,432,255,461"/>
+<area shape="rect" id="node50" href="$classPos_1_1FilterSet.html" title="Set of Filters. Owns the Filters. " alt="" coords="155,272,256,301"/>
+<area shape="rect" id="node54" href="$classPos_1_1Provider.html" title="Provides a series of positions; can also be used for subselection. " alt="" coords="155,219,256,248"/>
+<area shape="rect" id="node58" href="$classPos_1_1RandomFilter.html" title="Passes a percentage of the positions. " alt="" coords="140,325,271,355"/>
+<area shape="rect" id="node62" href="$classPos_1_1SubsampFilter.html" title="Passes each nth position. " alt="" coords="137,379,273,408"/>
+<area shape="rect" id="node5" href="$classPos_1_1EMSurface2DProvider3D.html" title="EMSurfaceProvider for 3D positions with 2D Horizon. " alt="" coords="539,165,739,195"/>
+<area shape="rect" id="node7" href="$classPos_1_1EMSurfaceProvider2D.html" title="EMSurfaceProvider for 2D positioning. " alt="" coords="548,59,729,88"/>
+<area shape="rect" id="node9" href="$classPos_1_1EMSurfaceProvider3D.html" title="EMSurfaceProvider for 3D positioning. " alt="" coords="548,112,729,141"/>
+<area shape="rect" id="node13" href="$classPos_1_1FilterSet2D.html" title="2D FilterSet " alt="" coords="348,165,465,195"/>
+<area shape="rect" id="node15" href="$classPos_1_1Provider2D.html" title="Provides a subselection for 2D surveys &#45; requires the line name(s). " alt="" coords="348,59,465,88"/>
+<area shape="rect" id="node20" href="$classPos_1_1RandomFilter2D.html" title="Passes a percentage of the positions (2D). " alt="" coords="333,219,480,248"/>
+<area shape="rect" id="node22" href="$classPos_1_1SubsampFilter2D.html" title="Passes each nth position (2D). " alt="" coords="329,272,484,301"/>
+<area shape="rect" id="node18" href="$classPos_1_1RangeProvider2D.html" title="2D provider based on StepInterval&lt;int&gt;. " alt="" coords="561,5,716,35"/>
+<area shape="rect" id="node26" href="$classPos_1_1FilterSet3D.html" title="3D FilterSet " alt="" coords="348,379,465,408"/>
+<area shape="rect" id="node28" href="$classPos_1_1Provider3D.html" title="Provides a subselection for 3D surveys. " alt="" coords="348,325,465,355"/>
+<area shape="rect" id="node46" href="$classPos_1_1RandomFilter3D.html" title="Passes a percentage of the positions (3D). " alt="" coords="333,432,480,461"/>
+<area shape="rect" id="node48" href="$classPos_1_1SubsampFilter3D.html" title="Passes each nth position (3D). " alt="" coords="329,485,484,515"/>
+<area shape="rect" id="node30" href="$classPos_1_1EMImplicitBodyProvider.html" title="EM implicit body provider for 3D positioning. " alt="" coords="543,325,735,355"/>
+<area shape="rect" id="node32" href="$classPos_1_1EMRegion3DProvider.html" title="EM Region provider for 3D positioning. " alt="" coords="549,379,728,408"/>
+<area shape="rect" id="node36" href="$classPos_1_1PolyProvider3D.html" title="Volume/Area provider based on Polygon. " alt="" coords="567,432,711,461"/>
+<area shape="rect" id="node38" href="$classPos_1_1RangeProvider3D.html" title="3D provider based on TrcKeyZSampling " alt="" coords="561,485,716,515"/>
+<area shape="rect" id="node40" href="$classPos_1_1SeisProvider3D.html" title="3D provider based on cube of PS data store " alt="" coords="567,539,711,568"/>
+<area shape="rect" id="node42" href="$classPos_1_1TableProvider3D.html" title="Provider based on BinIDValueSet table. " alt="" coords="564,219,713,248"/>
+<area shape="rect" id="node44" href="$classPos_1_1WellProvider3D.html" title="Volume/Area provider based on Wells. " alt="" coords="567,272,711,301"/>
+</map>

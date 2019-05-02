@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.1 Processing|4.2.1.4 Create A HorizonCube - Single Line">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.1.4.1 Preparing the Framework</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#horizoncube/horizoncube_control_center/processing/create_a_horizoncube-single_line/preparing_the_framework.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h5 style="text-align: left;">4.2.1.4.1 Preparing the Framework<a name="kanchor310"></a></h5>
+        <img src="../../../../resources/images/horizoncube/2d_horizoncube_creator.png" class="image" />
+        <p style="text-align: left;"><a name="kanchor311"></a>The user interface for the HorizonCube creator supports the following:</p>
+        <ol style="text-align: left;">
+            <li style="text-align: left;" value="1"><i>Select working line</i>: Selection of a single 2D line on which a HorizonCube is processed.</li>
+            <li style="text-align: left;" value="2"><i>Steering Data</i>: The steering data corresponding to selected 2D line should be provided.</li>
+            <li style="text-align: left;" value="3"><i>Faults</i>: This option is used to select multiple fault stick sets. The fault sticks will be automatically displayed in the scene. The tracking algorithm can treat faults in different ways:<ol style="list-style-type: lower-alpha;"><li style="text-align: left;" value="1">Forbid Crossing – Tracking of Framework horizons and HorizonCube events stops when a fault stick is encountered. This option generates HorizonCube segments that will require correlation to make a final merged output.</li><li style="text-align: left;" value="2">Allow Crossing – Tracking of Framework horizons and HorizonCube events will continue across fault sticks. This option generates a HorizonCube that does not require merging. It approximates results produced in older versions of OpendTect.</li></ol></li>
+        </ol>
+        <p class="note" style="text-align: left;"> A user may draw channels and other geological terminations as (fake) fault sticks and select these as constraints to construct regions. This combined with manual correlation can improve the results.</p>
+        <img src="../../../../resources/images/horizoncube/faultstickset_selection.png" class="image" />
+        <p style="text-align: left;"><b>Framework horizons</b>: Framework horizons are either imported, or they are created on-the-fly. To select existing seismic horizons press the open icon.</p>
+        <p style="text-align: left;">To create a new dip steered horizon proceed as follows:</p>
+        <ol style="list-style-type: lower-alpha;">
+            <li style="text-align: left;" value="1">Press the + icon to add a new horizon.</li>
+            <li style="text-align: left;" value="2">Press the seed icon and start picking in the scene. The auto-tracker follows the dip until it reaches the end of the line, or a fault stick it is not allowed to cross. Optionally tracking is controlled by adding more seeds. Options:<ol style="list-style-type: upper-roman;"><li style="text-align: left;" value="1">Insert seed: Left mouse click.</li><li style="text-align: left;" value="2">Delete a seed: CTRL + Left mouse click.</li><li style="text-align: left;" value="3">Rename a framework horizon by double clicking the horizon (column) cell.</li><li style="text-align: left;" value="4">Edit button in the table: controls the range over which the tracking error of the tracked events is smoothed in the mid-section between two seeds.</li></ol></li>
+            <li style="text-align: left;" value="3">Framework horizons can be removed from the table using the trash button.</li>
+            <li style="text-align: left;" value="4">Pick mode is indicated by the mouse pointer and can be toggled ON/OFF with keyboard ESC. If pick mode is OFF the display can be changed:<ol style="list-style-type: upper-roman;"><li style="text-align: left;" value="1">Pan: click and drag with CTRL-Left, SHIFT-Left, or Middle mouse.</li><li style="text-align: left;" value="2">Rotate: click and drag with Left mouse.</li><li style="text-align: left;" value="3">Zoom: Rotate with middle mouse wheel.</li></ol></li>
+        </ol>
+        <img src="../../../../resources/images/horizoncube/2d_hc_prep_hc_mlti_sd_pk.png" class="image" />
+        <p style="text-align: left;"><i>Multi-seed picking of a horizon with the dip-steered auto-tracker.</i>
+        </p>
+        <img src="../../../../resources/images/horizoncube/edit_seeds.png" class="image" />
+        <p style="text-align: left;">A table (above) listing the picked seeds for a dip steered seismic horizon. It also allows changing the seed position (trace and z-value) and smoothing the tracking error between seeds. You can select multiple rows and delete all seeds (CTRL+A plus trash button, or select multiple entries while left mouse button is pressed followed by clicking the trash button).</p>
+        <p style="text-align: left;"><i style="font-weight: bold;">Preview Regions</i>
+        </p>
+        <p style="text-align: left;">This feature is allows HorizonCube regions to be QC-ed. All regions are displayed as polygons overlying the mapped horizons and fault sticks. To update a region, either manually adjust fault sticks (using OpendTect’s fault picking tools), or adjust framework horizons using the dip-steered auto-tracker in the 2D HorizonCube Creator window.</p>
+        <p style="text-align: left;">You can customize the display settings for this region previewer through the settings sub-menu or icon.</p>
+        <p class="note" style="text-align: left;">Regions can also be previewed from the data-driven settings dialog, see <a href="processing_horizoncube.htm" target="_self" style="font-weight: normal;">4.2.1.4.2 Processing 2D HorizonCube</a></p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

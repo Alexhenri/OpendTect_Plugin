@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.10 FaultStickSet">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.10.1 FaultStickSet to Fault</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#opendtect_trees_and_elements/faultstickset/faultstickset_to_fault.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>3.10.1 FaultStickSet to Fault<a name="kanchor141"></a></h3>
+        <p>In OpendTect, newly interpreted faultsticksets (or a selection) can be transformed into 3D faults and vice versa, from 3D faults the user can output faultsticks.</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/fault_stick_set_to_fault_main.jpg" class="General_Image" />
+        <p>The conversion between faults and faultsticks is done in a special toolbar as shown below:</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/fault_stick_set_to_fault_toolbar.png" class="General_Image" />
+        <p>In the toolbar, they are two modes: The <b><a name="kanchor142"></a>Edit mode</b> and the <b>Selection mode</b>:</p>
+        <p><b>Edit Mode:</b> In this mode, nodes are yellow, the user can add nodes (click), remove nodes (Ctrl+click). Nodes can be dragged from one location to another. New sticks are created by Shift+click for the first node then just click for other sticks.</p>
+        <p>When using Space+click, this will duplicate the node(s) and new sticks can be added to the user-defined direction.</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/fault_stick_set_edit_mode.png" class="General_Image" />
+        <p>Nodes are yellow in <i>Edit Mode</i></p>
+        <p><b>Selection mode:</b> When this mode is active, Faults/Faultsticks are selected, copied (or moved) to new or already existed faults/sticks group. The outputs are: New group, merge to existing one, replace (overwrite) the already existed group.</p>
+        <p>Creating new group of faults/sticks in series will automatically rename group by adding a suffix to the first new group name provided by the user. If the name is e.g Fault-Area then automatically generated names will be like, Fault-Area_1, Fault-Area_2, Fault-Area_3 etc ....</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/fault_stick_set_selection_mode.png" class="General_Image" />
+        <p>In <i>Selection Mode</i>, Nodes are green (selected) and pink (unselected)</p>
+        <p class="tip">When converting faultsticks into faults, please keep in mind that OpendTect doesn't support the files that contain (1) Crossing fault sticks, (2) Fault sticks interpreted on vertical (e.g. inline) as well as horizontal (e.g. Z slice) planes. If the input file contains such type of stick sorting, you might encounter problem in OpendTect to get a regular fault plane.</p>
+        <p>Clicking the <img src="../../resources/images/icons/tools.png" class="Icons" /> icon allows you to set the transfer (or conversion) settings which will be applied after the copy or move is put into action:</p>
+        <img src="../../resources/images/opendtect_trees_and_elements/fault_stick_set_transfer_settings.png" class="General_Image" />
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#opendtect_trees_and_elements/faultstickset/faultstickset_to_fault.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+<map id="CmdDrive::SnapshotActivator" name="CmdDrive::SnapshotActivator">
+<area shape="rect" id="node2" href="$classCmdDrive_1_1Activator.html" title="CmdDrive::Activator" alt="" coords="32,83,173,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="60,5,145,35"/>
+</map>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="1 OpendTect Pro">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>1.2 Basemap</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#opendtect_pro/basemap.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>1.2 Basemap<a name="kanchor302"></a></h2>
+        <p>OpendTect’s basemap is accessible from OpendTect’s main menu (View &gt; Basemap) or this shortcut icon (<img src="../resources/images/icons/basemap.png" class="icon" />). A separate detached window is launched, which is by default synchronized with the 3D scene. We recommend turning such synchronization off if the data size (e.g. area or number of 2D seismic line) is huge.</p>
+        <p>Basemap comes with its own tree allowing an independent control of data displays.  An overview of the basemap window is given below:</p>
+        <img src="../resources/images/opendtect_pro/basemap.png" class="image" />
+        <p style="font-weight: bold;">Main Menus</p>
+        <p style="font-weight: bold;">Basemap</p>
+        <p>This includes:</p>
+        <p>Save (<img src="../resources/images/icons/save.png" class="icon" />) or Save As (<img src="../resources/images/icons/save_as.png" class="icon" />) are used to save the current displays as a map for future use. We highly recommend saving a basemap on a routine bases. Multiple copies of the map are also allowed.</p>
+        <img src="../resources/images/opendtect_pro/save_basemap.png" class="image" />
+        <p>A previously stored basemap can be retrieved using the Open (<img src="../resources/images/icons/open.png" class="icon" />) icon. You can set one basemap as a favourite /default item (<img src="../resources/images/icons/makedefault.png" class="icon" />). If set, the selected basemap will be opened every time a new OpendTect is started.</p>
+        <img src="../resources/images/opendtect_pro/load_basemap.png" class="image" />
+        <p>The settings sub-menu is used to change the outline style (line pattern, thickness, and color) of the current basemap. The default background color is white, which can also be changed, if needed be.</p>
+        <img src="../resources/images/opendtect_pro/basemap_settings.png" class="image" />
+        <p style="font-weight: bold;">Processing</p>
+        <p><b>Filtering</b>: A selected horizon grid can be filtered within the basemap. Median filtered is preferred if you intend to de-spike a horizon grid. Average filter is considered as a general smoothing filter. If you intend to display the resultant grid then check the <i>Display after create</i> option.</p>
+        <img src="../resources/images/opendtect_pro/horizon_filtering.png" class="image" />
+        <p><b>Gridding</b>: OpendTect supports several gridding algorithms (For details refer to <a href="http://www.opendtect.org/600/doc/od_userdoc/Default.htm#opendtect_trees_and_elements/horizon/tools/grid.htm" target="_blank">3.7.3.1 Grid</a> in OpendTect User Documentation). The supported parameters are summarized below:</p>
+        <ul>
+            <li value="1"><b>Scope</b>: This is used to control the exterior geometry of the output horizon. Convex hull is mostly used, which automatically creates polygon (hull) using the exterior data points of a given horizon and creates are horizon within this polygon.</li>
+            <li value="2"><b>Inl/Crl Steps</b>: This option defines the output grid spacing. Often the seismic surveys are defined with an average spacing of 12.5m or 25m as a step. For larger surveys, we recommend under-sampling the output grid to 2 by 2 or even 5 by 5.</li>
+            <li value="3"><b>Keep holes larger than (m)</b>: This option is used to keep larger holes in the survey. The gridding algorithm will not interpolate the areas larger than the set size.</li>
+            <li value="4"><b>Algorithm</b>: Several gridding algorithms are supported (For details refer to <a href="http://www.opendtect.org/600/doc/od_userdoc/Default.htm#opendtect_trees_and_elements/horizon/tools/grid.htm" target="_blank">3.7.3.1 Grid</a> in OpendTect User Documentation). Some of them use the fault e.g. dip steered gridding algorithm (requires 3D seismic).</li>
+            <li value="5"><b>Search radius (m)</b>: It is mostly a best practice to include a part of data points within the search radius. For instance, if 2D lines are evenly spaced at 2000m and most of the lines have been  interpreted, then the search radius should approximately be 2000m or larger.</li>
+        </ul>
+        <img src="../resources/images/opendtect_pro/horizon_gridding.png" class="image" />
+        <p style="font-weight: bold;">Synchronization</p>
+        <p>Data displays can be handled from the basemap. This is done if the synchronization is turned off/on for specific items. At present, the synchronization is set globally between the basemap, 2D Viewers and 3D Scene.</p>
+        <p>If it is turned ON, then the data will be displayed in 3D as well as in 2D Viewers - if launched.</p>
+        <p>Contrarily, if the sync is turned OFF, you can display on an element from the basemap to a 3D scene / a 2D Viewer. This is done via the right-click menu.</p>
+        <p class="note">For larger 2D surveys, it is recommended to turn off the synchronization between the 3D Scene and the basemap. This will avoid memory consumption issues and instabilities in large data displays.</p>
+        <p style="font-weight: bold;">Help</p>
+        <p>It is a standard help button pointing to this documentation.</p>
+        <p style="font-weight: bold;">Trees and Elements</p>
+        <p style="font-weight: bold;">Inline, Crossline and Z-slices</p>
+        <p>These elements are added in the tree through a right-click menu. The position of the element (Inline and Crossline) is selected by clicking on the basemap. If the synchronization (via the Main Menu) between the 3D scene and basemap is turned ON, the inserted inline will be visible in the 3D scene. Dragging of the elements will not only change the position of the lines but also interactively update the 3D scene if the data is preloaded.</p>
+        <img src="../resources/images/opendtect_pro/basemap_scene.png" class="image" />
+        <p style="font-style: italic;">This is an example screenshot of adding an Inline element in the basemap. Note the label along with the tool tip for guide. The same implies for the Crossline.</p>
+        <p>If a Z-slice is added, it will show the following dialog to sub-select the area of the z-slice. By default, the values will be the survey range.</p>
+        <img src="../resources/images/opendtect_pro/basemap_parameters.png" class="image" />
+        <p style="font-style: italic;">It adds z-slice in the basemap with a given range.</p>
+        <p>Z-slice also has a right-click menu (tree &gt; z-slice &gt; right-click) containing several options. The properties option will show the positioning dialog to reposition the slice. One can also show the z-slice in a 2D Viewer or in a 3D scene via the right-click menu.</p>
+        <p class="note">If you intend to add a z-slice in the basemap, we will recommend preloading the data as the seismic data visualization along these slices could be slower.</p>
+        <p>Alternatively, you can also add inline at a mouse position. This is done via the right-click menu:</p>
+        <img src="../resources/images/opendtect_pro/position.png" class="image" />
+        <p style="font-weight: bold;">Cube Outline</p>
+        <p>This element displays an outline polygon for a given cube.</p>
+        <p style="font-weight: bold;">Random Line</p>
+        <p style="font-weight: bold;">New Lines</p>
+        <p>In the basemap, random lines can be created as a group or individual sub-elements. Once an individual random line is added in the tree, a user has to click on the basemap to draw its geometry. Once finished, double click to confirm the geometry. The geometry can be manipulated by dragging the line nodes on the basemap. If the data is preloaded, the random line will be interactively displayed in the 3D scene.</p>
+        <p>Furthermore, one can drag/rotate the line in the 3D scene. Its geometry will be updated in the basemap and vice versa.</p>
+        <p>Random lines can also be launched in a 2D Viewer to perform interpretation (within the basemap, right-click on the line and choose 2D Viewer).</p>
+        <p>Like other elements, random line also has its own right-click menu giving a flexibility to manage the element.</p>
+        <img src="../resources/images/opendtect_pro/random_line.png" class="image" />
+        <p style="font-style: italic;">Random line right-click menu</p>
+        <img src="../resources/images/opendtect_pro/rand_line_properties.png" class="image" />
+        <p style="font-style: italic;">Random line properties</p>
+        <p style="font-weight: bold;">Add Existing Lines</p>
+        <p>Pre-existing random lines are added using the Random Line &gt; Add right-click menu. When multiple lines are selected a common property (such as line color and line width) is set to all selected lines.</p>
+        <img src="../resources/images/opendtect_pro/rand_line_basemap.png" class="image" />
+        <p style="font-style: italic;">Add selected random lines in the basemap.</p>
+        <img src="../resources/images/opendtect_pro/save_selection.png" class="image" />
+        <p style="font-style: italic;">This image shows how to Save selection for future use. Using the same method, one can retrieve the selection by selecting the Read selection option.</p>
+        <p style="font-weight: bold;">Grouping</p>
+        <p>Random lines can be grouped (Basemap Tree &gt; Random Line &gt; Create Group). In each group, a new random line can be created or an existing random line can be inserted. Sub-groups can also be created using the right-click menu.</p>
+        <p>To rename a group, double click on the newly added group name.</p>
+        <img src="../resources/images/opendtect_pro/group.png" class="image" />
+        <p class="note">For the time being, basemap does not support saving of the groups. If you have grouped the random lines in the basemap, we recommend saving the basemap so that you can retrieve the current layout and settings else the set grouping will be lost.</p>
+        <p style="font-weight: bold;">2D Line</p>
+        <p>2D lines can be added on individual basis or as a group. The latter is preferred if you are dealing with multiple seismic vintages.</p>
+        <p class="note">If you intend to add many 2D lines in the basemap, we recommend turning the synchronization off between the basemap and 3D Scene. This will speed-up the displays and will give you a freedom to choose what to display in a 3D Scene.</p>
+        <p style="font-weight: bold;">Add Selected Lines</p>
+        <p>Selected 2D lines can be added in the basemap via the right-click menu (Basemap Tree &gt; 2D Lines &gt; Add). For future use, you may save the selection using the menu available at the top level (a drop-down arrow). This is identical to saving a selection list for the random lines (as mentioned above).</p>
+        <p>Common line properties (line color and line width) are set to a given selection.</p>
+        <img src="../resources/images/opendtect_pro/select_2d_lines.png" class="image" />
+        <p style="font-style: italic;">Multiple selection of a list of 2D lines.</p>
+        <img src="../resources/images/opendtect_pro/save_2d_lines.png" class="image" />
+        <p style="font-style: italic;">Save selection for future usage.</p>
+        <p style="font-weight: bold;">Grouping</p>
+        <p>2D lines can be grouped per vintage or as you like. A group contains a list of selection that can be extended at later stages.</p>
+        <p>If grouping is done in the basemap, we recommend saving the basemap for future use.</p>
+        <img src="../resources/images/opendtect_pro/grouping_2d_lines.png" class="image" />
+        <p style="font-style: italic;">An example structure of grouping a set of 2D lines.</p>
+        <p>A 2D line group has its own right-click menu to manipulate the displays. Most of the options are self-explanatory. Highlight is the only option that could be used for QC purposes, which highlights the 2D lines on the basemap that have dataset.</p>
+        <img src="../resources/images/opendtect_pro/right-click_menu.png" class="image" />
+        <p style="font-style: italic;">2D Line grouping and a right-click menu.</p>
+        <p style="font-weight: bold;">Properties</p>
+        <p>Line properties can be changed at a group level or at an individual level. Only line color and line width are currently supported.</p>
+        <img src="../resources/images/opendtect_pro/line_width.png" class="image" />
+        <p style="font-weight: bold;">Displaying a 2D Line</p>
+        <p>A 2D line can be displayed in a 2D viewer or in a 3D Scene. Traditionally, the 2D lines are displayed in a flat viewer such as 2D Viewer in OpendTect. This is done via the right-click menu on the basemap and choosing Show in 2D (as shown below). In such a viewer, one can perform seismic interpretation and continue working with the basemap.</p>
+        <img src="../resources/images/opendtect_pro/show_in_2d.png" class="image" />
+        <img src="../resources/images/opendtect_pro/display_2d.png" class="image" />
+        <p style="font-weight: bold;">3D Horizon</p>
+        <p>A color coded horizon grid is displayed in the basemap via this tree item. Attributes computed on a horizon can be displayed as horizon data. To add one or more horizons, use the right-click menu from the basemap tree (3D horizon &gt; Add). The color table of the horizon grid can be changed from the color bar shown in the top toolbar (by default).</p>
+        <img src="../resources/images/opendtect_pro/add_3d_horizon.png" class="image" />
+        <p>If you intend to add large number of horizons in the basemap, it is recommended to turn of the Synchronization with 3D (via the Main Menu &gt; Synchronization).</p>
+        <table style="width: 100%; margin-left: 0; margin-right: auto;">
+            <col style="width: 237px;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="../resources/images/opendtect_pro/horizon_3d_menu.png" class="image" />
+                    </td>
+                    <td>
+                        <p><b>Show in 3D/2D</b>: Shows the selected horizon in a 3D scene or a 2D Viewer.</p>
+                        <p><b>Filtering / Gridding</b>: Each horizon can be individually filtered or gridded by following the right-click menu or from the main menu of the basemap (see under Processing).</p>
+                        <p><b>Remove</b>: Only removes the horizon display from the basemap.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Note that the order/overlay of the horizon display in the basemap is according to their Z-values (m or ft).</p>
+        <p style="font-weight: bold;">Contour</p>
+        <p>Contoured display of a horizon grid can be added using this tree item. The following window shows the contour range, contour step, and line properties for a selected window. By default, contours are plotted on top of the 3D horizon.</p>
+        <img src="../resources/images/opendtect_pro/contour.png" class="image" />
+        <p>After the display, you can change the contour range/step by right-clicking on the contour item in the tree and choosing the properties option.</p>
+        <p style="font-weight: bold;">2D Horizon</p>
+        <p>Since version 6.2 2D horizons are displayed as color-coded lines. Grouping feature is also supported for 2D Horizons.</p>
+        <p style="font-weight: bold;">Fault Stick Set</p>
+        <p>Fault sticks are projected on the basemap and hence may show the spatial location and extent of the fault.</p>
+        <img src="../resources/images/opendtect_pro/fault_stick_properties.png" class="image" />
+        <p style="font-style: italic;">Fault stick properties</p>
+        <p style="font-weight: bold;">Well</p>
+        <p>To add one or more wells in the basemap use the right-click in the basemap tree. Just like other elements (e.g. Random lines / 2D lines), wells can be grouped by creating a group and adding a set of wells in it. If you intend to create such a thing, we recommend saving the basemap.</p>
+        <p>Well properties allow you to control the well symbol, size, and projection.</p>
+        <img src="../resources/images/opendtect_pro/well_properties.png" class="image" />
+        <img src="../resources/images/opendtect_pro/well_trajectory.png" class="image" />
+        <p style="font-style: italic;">Well properties – Display projection to see the well trajectory.</p>
+        <p style="font-weight: bold;">Pickset</p>
+        <p>This element is reserved for displaying a point (or pickset) data in the basemap.</p>
+        <p style="font-weight: bold;">Polygon</p>
+        <p>This element is reserved for displaying existing polygons or creating new polygons in the basemap.</p>
+        <img src="../resources/images/opendtect_pro/create_new_polygon.png" class="image" />
+        <p style="font-weight: bold;">Shapefile</p>
+        <p>Allows adding shapefiles to the basemap.</p>
+        <img src="../resources/images/opendtect_pro/add_shapefile.png" class="image" />
+        <p style="font-weight: bold;">Image</p>
+        <p>An image (PNG, JPEG, XPM, or BMP) can be added in the basemap. Its coordinates have to be properly added to position it at correct level. An image can have borders, which may not position the image correctly. You can use geo-reference (e.g. <a href="http://www.qgistutorials.com/en/docs/georeferencing_basics.html" target="_blank">QGIS</a>) tools to measure the actual coordinates of the image.</p>
+        <img src="../resources/images/opendtect_pro/image_coordinates.png" class="image" />
+        <p style="font-weight: bold;">Annotation</p>
+        <p>To add grid lines on the basemap, this element is used. Grid lines and their annotation can be based on inline / crossline steps or XY spacing.</p>
+        <img src="../resources/images/opendtect_pro/annotation.png" class="image" />
+        <p style="font-weight: bold;">Toolbars</p>
+        <p style="font-weight: bold;">Main (Top) Toolbar</p>
+        <p>This toolbar appears (by default) under the main menu of the basemap. It contains the following icon:</p>
+        <p>
+            <img src="../resources/images/icons/showin3d.png" class="icon" /> Shows the selected item in a 3D scene.</p>
+        <p>
+            <img src="../resources/images/icons/remove.png" class="icon" /> Removes selected items from the basemap (and/or 3D scene if sync is ON).</p>
+        <p style="font-weight: bold;">General Toolbar</p>
+        <p>
+            <img src="../resources/images/icons/open.png" class="icon" />Open a stored basemap setup.</p>
+        <p>
+            <img src="../resources/images/icons/save.png" class="icon" /> Save the basemap.</p>
+        <p>
+            <img src="../resources/images/icons/save_as.png" class="icon" /> Save the basemap with a new name.</p>
+        <p>
+            <img src="../resources/images/icons/snapshot.png" class="icon" /> Take a high resolutions snapshot of the basemap.</p>
+        <p>
+            <img src="../resources/images/icons/printer.png" class="icon" /> Prints the basemap on a larger scale (e.g. PDF of A0 size).</p>
+        <p>
+            <img src="../resources/images/icons/northarrow.png" class="icon" /> Show or hide the North Arrow in the basemap.</p>
+        <p>
+            <img src="../resources/images/icons/scale.png" class="icon" /> Show or hide the scale bar in the basemap. Scale bar also has settings next to it (small arrow) to change the width of the bar.</p>
+        <p>
+            <img src="../resources/images/icons/colorbar.png" class="icon" /> Show or hide the color bar in the basemap.</p>
+        <p>
+            <img src="../resources/images/icons/legend.png" class="icon" /> Show/hide the legends in the basemap. Note that this item is editable (click on the text to change it). It can also be freely moved and placed at a desired location on the basemap.</p>
+        <p>
+            <img src="../resources/images/icons/selectsticks.png" class="icon" /> Selects data within the polygon e.g. horizon.</p>
+        <p>
+            <img src="../resources/images/icons/clearselection.png" class="icon" /> Removes/deletes the selected data.</p>
+        <p style="font-weight: bold;">Color Tables</p>
+        <p>Color tables are linked to 3D horizon grids displayed in the basemap. You can flip the color bar values, clip the range, or manually fill in the numbers.</p>
+        <img src="../resources/images/opendtect_pro/color_bar.png" class="image" />
+        <p style="font-weight: bold;">Title and Printing</p>
+        <p>Basemap title appears within the basemap. This field is editable (single click on the text and start editing). We support two ways of printing the basemap. The first one is via the Screenshot method, where you can take a high resolution image of the current map. The second one is via the print icon, which allows you to change the orientation (e.g. landscape), and output printer (e.g. PDF if installed).</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

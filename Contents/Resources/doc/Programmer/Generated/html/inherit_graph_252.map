@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classJobDescProv.html" title="Interface for providing parameter files for jobs (job descriptions). Two implementations are pre&#45;cook..." alt="" coords="5,59,107,88"/>
+<area shape="rect" id="node3" href="$classInlineSplitJobDescProv.html" title="Implementation of JobDescProv based upon splitting the inlines in the IOPar. " alt="" coords="163,5,320,35"/>
+<area shape="rect" id="node5" href="$classKeyReplaceJobDescProv.html" title="Simple implementation of JobDescProv based on replacing a value in the IOPar with another..." alt="" coords="156,59,327,88"/>
+<area shape="rect" id="node11" href="$classParSubselJobDescProv.html" title="IOPar driven implementation of JobDescProv where splitting is based on IOPar subselection with a part..." alt="" coords="161,112,321,141"/>
+<area shape="rect" id="node7" href="$classIDKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values taken from a range of IDs. " alt="" coords="387,5,573,35"/>
+<area shape="rect" id="node9" href="$classStringKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values are in a string set. " alt="" coords="377,59,583,88"/>
+<area shape="rect" id="node13" href="$classLine2DSubselJobDescProv.html" title="Special case of ParSubselJobDescProv where each job refers to a 2D Line. The subselkey in this case i..." alt="" coords="389,112,571,141"/>
+</map>

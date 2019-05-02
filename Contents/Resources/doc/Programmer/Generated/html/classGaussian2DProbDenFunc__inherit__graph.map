@@ -1,0 +1,6 @@
+<map id="Gaussian2DProbDenFunc" name="Gaussian2DProbDenFunc">
+<area shape="rect" id="node2" href="$classProbDenFunc2D.html" title="Probability Density Function for two dimensional datasets. " alt="" coords="33,237,151,267"/>
+<area shape="rect" id="node4" href="$classProbDenFunc.html" title="Base class for Probability Density Functions. " alt="" coords="41,160,143,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="41,83,143,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="49,5,135,35"/>
+</map>

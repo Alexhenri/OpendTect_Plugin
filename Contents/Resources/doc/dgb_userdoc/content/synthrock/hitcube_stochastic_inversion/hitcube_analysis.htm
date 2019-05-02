@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.6 HitCube Stochastic Inversion">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.6.2 HitCube Analysis</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/hitcube_stochastic_inversion/hitcube_analysis.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.6.2 HitCube Analysis<a name="kanchor275"></a></h3>
+        <p>The Analysis window is maybe the most important window in the HitCube, because it allows you to set the parameters and to evaluate their QC.</p>
+        <p>The first part of this window allows you to select some parameters. Here, you can select the <i>Matching part of the models</i> by setting a time range. Notice the button on the right of this time range selection field. This button allows you to watch the matching traces defined with the previously selected time range. Then you can chose the matching method between four proposals :</p>
+        <ul>
+            <li value="1">Similarity which is Amplitude and phase sensitive</li>
+            <li value="2">Cross-correlation which is only phase sensitive</li>
+            <li value="3">Similarity of amplitude spectra</li>
+            <li value="4">Cross-correlation of amplitude spectra</li>
+        </ul>
+        <p>Then, you can select or not the <i>Search for the best match mode</i>. This mode gives you the access to a searching method you can apply before calculation and which will proceed the scoring at each sub-seismic step in a range around an <i>initial shift</i>. This range is defined as plus and minus the aperture value you can set. The output score will be the highest found in this range. So this best match can be shifted in time. You will be able to select as output these time shifts.</p>
+        <p>Then, you are able to chose the outputs and to set the related parameters. So you can set the time gate of interest around the horizon you want to output if the <i>Along horizon</i> mode was selected in the input window. The step will be the sampling path of your output.</p>
+        <p>Just above, you can chose the <i>Matching type</i>. This option proposes two methods.</p>
+        <p>The first is the <i>Fixed window</i> one. This method will process only one score at each trace. This score is calculated around the horizon in the range set in the Matching part of the models field.</p>
+        <p>The second is the <i>Sliding window</i> method. This one will process a score at each step of the <i>Output time gate around the horizon</i>. The value is also calculated the time range defined in the <i>Matching part of the models field</i>.</p>
+        <p>Just below the output time get field, you chose the number of best models you want to use.</p>
+        <p>And finally, you have several output selection fields for which you can evaluate the QC of their related parameters with an evaluation window. The access to this evaluation window is the button at the end of each selected line. With these fields, you can select different outputs you will store :</p>
+        <ul>
+            <li value="1">Score : stores the average, the median or the minimum value of the best pseudo-wells at each trace for the fixed window method and at each sample for the sliding window method, which number is set just above ;</li>
+            <li value="2">Snap delta Z : stores, for each trace or sample, the average or median of Z shifts, only available with the search mode ;</li>
+            <li value="3">Number of hits : stores the number of pseudo-wells which score value is higher than the one selected at each trace or sample ;</li>
+            <li value="4">Top model number ;</li>
+            <li value="5">Model properties : stores the average weighted by score values, the median, the most frequent value ( adviced for discrete log ) or the standard deviation of the selected property at each trace or sample. You can also normalize the score values by squeezing them in the range which can be set.</li>
+        </ul>
+        <img src="../../resources/images/synthrock/hitcube_analysis2.png" class="image" />
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

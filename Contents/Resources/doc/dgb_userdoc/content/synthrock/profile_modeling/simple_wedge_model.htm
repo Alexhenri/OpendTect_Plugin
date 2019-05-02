@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.1 Simple Wedge Model/Property Variations Using one Well</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/simple_wedge_model.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.1 Simple Wedge Model/Property Variations Using one Well<a name="kanchor187"></a></h3>
+        <p><i>Simple Wedge model/Property variations</i>, <i>using one well</i><a name="kanchor188"></a> is the first pre-defined workflow in SynthRock profile modeling which allows to quickly build a simple wedge model and/or model lateral property variations. It is launched by checking the corresponding box in <i>SynthRock</i> start window and clicking OK.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_mod_slct.png" class="image" />
+        <p>A user is expected to go through the pre-defined sequence of windows. The workflow starts, as any profile modeling in SynthRock, with setting modeling parameters in Set process parameters window and selecting properties to be modeled in Layer Properties - Selection  window. Once the workflow is completed, both sets of parameters can be modified by clicking on<img src="../../resources/images/icons/tools.png" class="icon" />   and <img src="../../resources/images/icons/man_props.png" class="icon" />  icons of the <i>Layer modeling window</i> respectively.</p>
+        <p>In the example below, few changes of the default parameters are made in the first window in order to limit the modeled interval.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_pars1.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_pars2.png" class="image" />
+        </div>
+        <p>Porosity is added in addition to the default properties in the second window.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_lay_props_slct.png" class="image" />
+        <p>Once the modeling parameters and the property list are confirmed, Add well window allows to choose an existing well from a project database. In the example below <i>F02-1</i> is selected. An attempt to automatically determine well logs matching the modeled properties is made by the software, but it is recommended to always confirm the correct logs are selected. Note, that all properties chosen in <i>Layer Properties - Selection window</i> are required to have a log selected. Missing logs can be either created by clicking on the <img src="../../resources/images/icons/newlog.png" class="icon" /> icon without having to exit SynthRock or imported  using Well Manager. Selected log can be displayed by clicking on the<img src="../../resources/images/icons/view_log.png" class="icon" />  icon.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_add_wll.png" class="image" />
+        <p>Before proceeding further observe changes in the <i>Layer modeling window</i> after clicking on the <i>Apply</i> button. A default number of pseudowells has been created, which are in fact simply duplicates of the selected well with logs upscaled according to Set process parameters window. The original well is positioned at the far-left side of the profile and displayed as a solid vertical line. The control profile is positioned at the far-right side of the profile and displayed as a dashed vertical line. Corresponding synthetic seismic section has been generated using the chosen wavelet and displayed in the top part of <i>Layer modeling</i> window.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_lay_mod_win.png" class="image" />
+        <p>Clicking on OK button prompts to <i>Create Initial Model</i> window where a wedge thickness change and/or lateral property variations can be defined. First, a user must specify a zone by choosing existing well tops.</p>
+        <p><b style="text-decoration: none;">A wedge model</b>
+        </p>
+        <p>If thickness changes are modeled in the selected zone, <i>Make a wedge</i> option has to be checked, and <i>End thickness</i>, corresponding to the control profile at far right, has to be set. In the example below, wedge model of the <i>FS8 - Top Foresets</i> interval is defined by varying its thickness from the original value at the well (128 m) to 0 m. Clicking OK generates the defined model.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_mod1.png" class="image" />
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_mod2.png" class="image" />
+        <p style="page-break-before: always"><a name="Define_property_changes"></a><b style="text-decoration: none;">Define property changes</b>
+        </p>
+        <p>If property changes are modeled alone, <i>Property variations</i> option must be checked and <i>Make a wedge</i> option must be unchecked. <i>Property variations</i> have to be specified by clicking on Define button.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_def_prop_chngs.png" class="image" />
+        <p>In <i>Define property changes</i> window, properties of a selected interval can be changed in such a manner that individual samples of a property are scaled to have the user-specified average in the given interval. The greyed-out left column contains initial average property values, and new average values must be specified in the right column. In the example below, <i>Porosity</i> is decreased to 5 percent with corresponding increases in <i>Density</i> and <i>Pwave velocity</i>. Click OK to confirm the changes.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_def_prop_chngs2.png" class="image" />
+        <p>The <i>Create Initial Model</i> window is updated as shown below. Click <i>Apply</i> or OK to generate the model.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_def_prop_chngs3.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_simp_wdg_def_prop_chngs4.png" class="image" />
+        </div>
+        <p style="font-weight: bold;text-decoration: none;">A wedge model with property variations</p>
+        <p>Finally, a wedge model can be combined with property variations by checking both options and defining the parameters as described above.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

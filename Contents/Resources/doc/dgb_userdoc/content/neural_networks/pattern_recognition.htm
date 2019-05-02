@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.3 Pattern Recognition (using Picksets)</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#neural_networks/pattern_recognition.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>8.3 Pattern Recognition (using Picksets)<a name="kanchor203"></a></h2>
+        <p>The Neural Network plugin supports two types of neural networks based on picks: fully connected Multi-Layer-Perceptrons (MLPs) and Unsupervised Vector Quantizers (UVQs). MLPs are used in supervised (<i>with a priori, learn by example</i>) mode, while UVQs are used in unsupervised experiments (<i>segmentation = clustering</i>).</p>
+        <p><b>Analysis method.</b> The <i>Supervised</i> method allows the choice of one or more output nodes. The groups of nodes (<i>PickSets</i>) indicate how the neural network should separate the character found in the input attributes. <i>Unsupervised</i> separates the nodes in the (single!) pickset based on a clustering in a user defined number of classes. A saved pickset can be used but a random pickset can also be created for this purpose.</p>
+        <p><b>Input Training data set.</b> Specify whether the input data set must be extracted on the fly, or retrieved from a stored input set. An input training set consists of a range of attributes (names and values) at given example locations. To create a training set the user must specify which attributes to use and at which locations these attributes must be calculated.</p>
+        <p><b>Select input/output attributes.</b> The <i>Select input attributes</i> lists all attributes defined in the current attribute set as well as all data that is stored on disk. Select any or all of these to serve as input to the neural network. The <i>Select output nodes</i> on the right contains all available pickset groups. Select the pickset group containing the locations at which attributes must be extracted to create a training set. Note that for an object probability cube such as TheChimneyCube the user needs two pickset groups: chimneys and non-chimneys.</p>
+        <p><b>Percentage used for test set.</b> In the supervised mode, it is recommended to create a subset for testing the neural network's performance during training, specify a <i>Percentage</i> of the pickset to use for the test set. The test set is created by randomly drawing example locations from the selected picksets. Test set examples will not be used to update the neural network weight set during training, they are merely passed through the network to compare the network's classification with the actual classification.</p>
+        <p><b>Non-standard number of hidden nodes.</b>If the option is activated, a user can define a non-standard number of the hidden nodes.</p>
+        <p><b>Number of Classes.</b> In unsupervised mode, attributes at locations in the specified pickset are clustered (segmented) into the specified <i>Number of classes</i>. During the training phase the UVQ network learns to find the cluster centers. At each iteration, when an vector of values has been assigned to a cluster, the cluster center is moved to minimize the (euclidean) distance with the different vectors of attributes values. In the application phase the input attributes are compared to each cluster center. The input is assigned to the winning segment, which is a number from 1 to N, where N is the number of clusters. In addition, the network calculates how close the input is to the cluster center of the winning cluster. This measure of confidence is called a <i>match</i>, which can range between 1 (perfect match, i.e. input and cluster center are the same) and 0 (input and cluster center are completely different).</p>
+        <img src="../resources/images/neural_networks/nn_design.png" class="image" />
+        <p><i>Fast pickset creation</i>
+        </p>
+        <p>The neural network extraction module can quickly create in unsupervised mode the required input set of training locations by pressing the '<i>Create</i>' button:</p>
+        <img src="../resources/images/neural_networks/random_pickset_creation4.png" class="image" />
+        <p class="note">More sophisticated 3D pickset creation tools are available from the tree by right-clicking on the element '<i>Pickset/Polygon</i>'.</p>
+        <img src="../resources/images/neural_networks/random_pickset_creation.png" class="image" />
+        <p>Extraction setting in volume for 3D UVQ</p>
+        <div style="page-break-before: always">
+            <img src="../resources/images/neural_networks/random_pickset_creation2.png" class="image" />
+        </div>
+        <p>Extraction settings along single horizon for 3D UVQ</p> <img src="../resources/images/neural_networks/random_pickset_creation3.png" class="image" /><p><i>Extraction setting between two horizons for 3D UVQ</i></p><p class="copyright">© dGB Beheer B.V. 2002 - 2019</p></body>
+</html>

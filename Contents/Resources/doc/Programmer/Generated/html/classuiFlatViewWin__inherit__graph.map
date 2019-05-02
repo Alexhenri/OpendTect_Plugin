@@ -1,0 +1,10 @@
+<map id="uiFlatViewWin" name="uiFlatViewWin">
+<area shape="rect" id="node3" href="$classPreStackView_1_1uiViewer2DMainWin.html" title="PreStackView::uiViewer2DMainWin" alt="" coords="161,83,391,112"/>
+<area shape="rect" id="node9" href="$classuiFlatViewDockWin.html" title="(Non&#45;modal) main window containing one or more uiFlatViewer(s). " alt="" coords="208,139,344,168"/>
+<area shape="rect" id="node11" href="$classuiFlatViewMainWin.html" title="(Non&#45;modal) main window containing one or more uiFlatViewer(s). " alt="" coords="209,196,343,225"/>
+<area shape="rect" id="node5" href="$classPreStackView_1_1uiStoredViewer2DMainWin.html" title="PreStackView::uiStoredViewer2\lDMainWin" alt="" coords="440,5,648,51"/>
+<area shape="rect" id="node7" href="$classPreStackView_1_1uiSyntheticViewer2DMainWin.html" title="PreStackView::uiSynthetic\lViewer2DMainWin" alt="" coords="455,74,633,121"/>
+<area shape="rect" id="node13" href="$classuiFKSpectrum.html" title="uiFKSpectrum" alt="" coords="492,144,596,173"/>
+<area shape="rect" id="node15" href="$classuiSeisTrcBufViewer.html" title="uiSeisTrcBufViewer" alt="" coords="476,197,612,227"/>
+<area shape="rect" id="node17" href="$classWellTie_1_1uiTieWin.html" title="WellTie::uiTieWin" alt="" coords="481,251,607,280"/>
+</map>

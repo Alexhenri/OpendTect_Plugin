@@ -1,0 +1,24 @@
+<map id="uimouseeventblockerbygesture.h" name="uimouseeventblockerbygesture.h">
+<area shape="rect" id="node3" href="$uieventfilter_8h.html" title="uieventfilter.h" alt="" coords="456,83,555,112"/>
+<area shape="rect" id="node7" href="$callback_8h.html" title="callback.h" alt="" coords="521,160,601,189"/>
+<area shape="rect" id="node11" href="$refcount_8h.html" title="refcount.h" alt="" coords="560,237,640,267"/>
+<area shape="rect" id="node82" href="$sets_8h.html" title="sets.h" alt="" coords="668,237,727,267"/>
+<area shape="rect" id="node89" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="611,856,704,885"/>
+<area shape="rect" id="node13" href="$atomic_8h.html" title="atomic.h" alt="" coords="211,856,283,885"/>
+<area shape="rect" id="node32" href="$objectset_8h.html" title="objectset.h" alt="" coords="655,315,740,344"/>
+<area shape="rect" id="node16" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="848,933,955,963"/>
+<area shape="rect" id="node25" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="696,933,773,963"/>
+<area shape="rect" id="node19" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="787,1011,859,1040"/>
+<area shape="rect" id="node34" href="$odset_8h.html" title="odset.h" alt="" coords="812,392,876,421"/>
+<area shape="rect" id="node51" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="679,392,788,421"/>
+<area shape="rect" id="node36" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="731,779,808,808"/>
+<area shape="rect" id="node38" href="$undefval_8h.html" title="undefval.h" alt="" coords="728,856,811,885"/>
+<area shape="rect" id="node43" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="835,856,949,885"/>
+<area shape="rect" id="node46" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="973,856,1045,885"/>
+<area shape="rect" id="node53" href="$debug_8h.html" title="debug.h" alt="" coords="388,469,455,499"/>
+<area shape="rect" id="node57" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="340,547,423,576"/>
+<area shape="rect" id="node60" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="240,624,333,653"/>
+<area shape="rect" id="node67" href="$string2_8h.html" title="string2.h" alt="" coords="484,856,556,885"/>
+<area shape="rect" id="node63" href="$odstring_8h.html" title="odstring.h" alt="" coords="256,701,333,731"/>
+<area shape="rect" id="node84" href="$typeset_8h.html" title="typeset.h" alt="" coords="764,315,839,344"/>
+</map>

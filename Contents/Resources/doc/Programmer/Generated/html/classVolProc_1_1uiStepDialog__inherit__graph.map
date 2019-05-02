@@ -1,0 +1,13 @@
+<map id="VolProc::uiStepDialog" name="VolProc::uiStepDialog">
+<area shape="rect" id="node11" href="$classVolProc_1_1uiBodyFiller.html" title="VolProc::uiBodyFiller" alt="" coords="751,5,895,35"/>
+<area shape="rect" id="node13" href="$classVolProc_1_1uiHorInterFiller.html" title="VolProc::uiHorInterFiller" alt="" coords="743,59,903,88"/>
+<area shape="rect" id="node15" href="$classVolProc_1_1uiLateralSmoother.html" title="VolProc::uiLateralSmoother" alt="" coords="732,112,913,141"/>
+<area shape="rect" id="node17" href="$classVolProc_1_1uiSmoother.html" title="VolProc::uiSmoother" alt="" coords="752,165,893,195"/>
+<area shape="rect" id="node19" href="$classVolProc_1_1uiSurfaceLimitedFiller.html" title="VolProc::uiSurfaceLimited\lFiller" alt="" coords="736,218,909,265"/>
+<area shape="rect" id="node21" href="$classVolProc_1_1uiVelocityGridder.html" title="VolProc::uiVelocityGridder" alt="" coords="736,288,909,317"/>
+<area shape="rect" id="node23" href="$classVolProc_1_1uiVolumeReader.html" title="VolProc::uiVolumeReader" alt="" coords="737,341,908,371"/>
+<area shape="rect" id="node25" href="$classVolProc_1_1uiWellLogInterpolator.html" title="VolProc::uiWellLogInterpolator" alt="" coords="724,395,921,424"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="405,196,475,225"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="275,196,357,225"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="156,196,225,225"/>
+</map>

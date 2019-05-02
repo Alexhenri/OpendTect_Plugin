@@ -1,0 +1,5 @@
+<map id="Gridder2D" name="Gridder2D">
+<area shape="rect" id="node3" href="$classInverseDistanceGridder2D.html" title="Uses inverse distance method for 2D gridding. " alt="" coords="5,83,181,112"/>
+<area shape="rect" id="node5" href="$classRadialBasisFunctionGridder2D.html" title="Uses Radial Basic Function to predict the values. " alt="" coords="205,83,405,112"/>
+<area shape="rect" id="node7" href="$classTriangulatedGridder2D.html" title="Uses Delaunay triangulation to find a points neighbors and does inverse distance between the neighbor..." alt="" coords="429,83,581,112"/>
+</map>

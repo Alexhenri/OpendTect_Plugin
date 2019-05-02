@@ -1,0 +1,6 @@
+<map id="EM::FaultStickSet" name="EM::FaultStickSet">
+<area shape="rect" id="node2" href="$classEM_1_1Fault.html" title="Fault Surface base class. " alt="" coords="31,237,108,267"/>
+<area shape="rect" id="node4" href="$classEM_1_1Surface.html" title="Base class for surfaces like horizons and faults. A surface is made up of one or more segments or pat..." alt="" coords="23,160,116,189"/>
+<area shape="rect" id="node6" href="$classEM_1_1EMObject.html" title="Base class for all EarthModel objects. " alt="" coords="16,83,123,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="27,5,112,35"/>
+</map>

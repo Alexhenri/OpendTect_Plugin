@@ -1,0 +1,12 @@
+<map id="uiIOObjSel" name="uiIOObjSel">
+<area shape="rect" id="node11" href="$classuiGeom2DSel.html" title="uiGeom2DSel" alt="" coords="5,392,107,421"/>
+<area shape="rect" id="node13" href="$classuiSeisSel.html" title="uiSeisSel" alt="" coords="131,392,208,421"/>
+<area shape="rect" id="node21" href="$classuiWaveletSel.html" title="uiWaveletSel" alt="" coords="232,392,331,421"/>
+<area shape="rect" id="node23" href="$classuiWellSel.html" title="uiWellSel" alt="" coords="355,392,432,421"/>
+<area shape="rect" id="node2" href="$classuiIOSelect.html" title="UI element for selection of data objects. " alt="" coords="184,237,267,267"/>
+<area shape="rect" id="node4" href="$classuiGroup.html" title="uiGroup" alt="" coords="192,160,259,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="191,83,260,112"/>
+<area shape="rect" id="node15" href="$classuiSteerCubeSel.html" title="uiSteerCubeSel" alt="" coords="56,469,168,499"/>
+<area shape="rect" id="node19" href="$classuiVelSel.html" title="Field that selects a velocity volume, and edit it&#39;s properties/velocity tag. " alt="" coords="192,469,261,499"/>
+<area shape="rect" id="node17" href="$classuiSteerAttrSel.html" title="uiSteerAttrSel" alt="" coords="61,547,163,576"/>
+</map>

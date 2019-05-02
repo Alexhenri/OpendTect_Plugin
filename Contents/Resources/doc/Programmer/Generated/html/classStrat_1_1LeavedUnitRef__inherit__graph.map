@@ -1,0 +1,5 @@
+<map id="Strat::LeavedUnitRef" name="Strat::LeavedUnitRef">
+<area shape="rect" id="node2" href="$classStrat_1_1NodeUnitRef.html" title="UnitRef for units containing other units only. " alt="" coords="11,160,144,189"/>
+<area shape="rect" id="node4" href="$classStrat_1_1UnitRef.html" title="Reference data for a stratigraphic unit. " alt="" coords="27,83,128,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="35,5,120,35"/>
+</map>

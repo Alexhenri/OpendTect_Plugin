@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-searchable="False" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Applications|11.1 How to Make the ChimneyCube">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.1.1 Workflow</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#applications/how_to_make_the_chimneycube/workflow.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>11.1.1 Workflow<a name="kanchor186"></a></h3>
+        <p>Creating a ChimneyCube is a simple process. The only input needed is picks from example locations, where chimneys have been identified along with counter examples, i.e. points that do not belong to a chimney. At these example locations, attributes will be extracted to train a neural network in order to classify the data into chimneys and non-chimneys. Typically, all attributes in the set are used but it is possible to select a sub-set only, e.g. to speed up the processing time. The ChimneyCube network has two output nodes representing chimneys and non-chimneys. Each node is given the value one (true) or zero (false). In other words, the network tries to predict a vector (1,0) when the example is a chimney and (0,1) when the example location is not a chimney. When the trained network is applied, it is sufficient to output only the chimney node. A value close to one describes a high chimney-probability at that specific location, while a value close to zero indicates low probability.</p>
+        <p class="note">The procedure to create the ChimneyCube is not a true classification process. This, due to the output not being binary but rather continuous. However, the neural networks plugin for OpendTect does support a true classification output. This procedure is especially useful for classifying data into more than two classes, e.g. for supervised facies classification. If <i>Classify output</i> in the Create Neural Network window is set to "Yes", the network output consists of two nodes: <i>Classification</i> and <i>Confidence</i>. The Classification output returns the winning class, i.e. an integer number between 1 and N, where N is the number of classes. The Confidence indicates how close the output vector is to the optimal vector representing the winning class (e.g. 0,1,0,0 represents the second class in a 4 class problem). The match has a value between 1 (perfect) and 0 (very poor).</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classConn.html" title="Data connection. " alt="" coords="5,32,59,61"/>
+<area shape="rect" id="node3" href="$classStreamConn.html" title="Connection with an underlying iostream. " alt="" coords="108,5,201,35"/>
+<area shape="rect" id="node5" href="$classXConn.html" title="Connection implemented in terms of another Conn object. " alt="" coords="124,59,185,88"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="HelpProvider" name="HelpProvider">
+<area shape="rect" id="node3" href="$classDevDocHelp.html" title="DevDocHelp" alt="" coords="5,83,101,112"/>
+<area shape="rect" id="node5" href="$classFlareHelpProvider.html" title="FlareHelpProvider" alt="" coords="125,83,251,112"/>
+<area shape="rect" id="node7" href="$classSimpleHelpProvider.html" title="A simple HelpProvider that can be extended to create a HelpProvider for third party plug&#45;ins..." alt="" coords="275,83,411,112"/>
+<area shape="rect" id="node9" href="$classWebsiteHelp.html" title="WebsiteHelp" alt="" coords="435,83,531,112"/>
+</map>

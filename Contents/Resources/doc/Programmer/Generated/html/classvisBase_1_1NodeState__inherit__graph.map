@@ -1,0 +1,7 @@
+<map id="visBase::NodeState" name="visBase::NodeState">
+<area shape="rect" id="node5" href="$classvisBase_1_1DrawStyle.html" title="visBase::DrawStyle" alt="" coords="5,160,144,189"/>
+<area shape="rect" id="node7" href="$classvisBase_1_1Light.html" title="Class for all lights. More options are available in osg, but only what we currently need is implement..." alt="" coords="168,160,272,189"/>
+<area shape="rect" id="node9" href="$classvisBase_1_1Material.html" title="visBase::Material" alt="" coords="296,160,419,189"/>
+<area shape="rect" id="node11" href="$classvisBase_1_1PolygonOffset.html" title="visBase::PolygonOffset" alt="" coords="443,160,603,189"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="245,5,331,35"/>
+</map>

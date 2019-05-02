@@ -1,0 +1,6 @@
+<map id="uiSeisSingleTraceDisplay" name="uiSeisSingleTraceDisplay">
+<area shape="rect" id="node2" href="$classuiFlatViewer.html" title="Fulfills the FlatView::Viewer specifications using &#39;ui&#39; classes. " alt="" coords="67,237,160,267"/>
+<area shape="rect" id="node4" href="$classuiGroup.html" title="uiGroup" alt="" coords="21,160,88,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="20,83,89,112"/>
+<area shape="rect" id="node10" href="$classFlatView_1_1Viewer.html" title="Flat Viewer using FlatView::Data and FlatView::Appearance. " alt="" coords="112,160,232,189"/>
+</map>

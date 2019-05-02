@@ -1,0 +1,4 @@
+<map id="i_LayoutMngr" name="i_LayoutMngr">
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="155,83,256,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="163,5,248,35"/>
+</map>

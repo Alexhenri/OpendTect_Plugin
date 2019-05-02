@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.2 Create Steering Data</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#dip-steering/create_steering_data.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>3.2 Create Steering Data<a name="kanchor207"></a></h2>
+        <p>The processing main menu is use to start (2D/3D)-SteeringCube creation and filtering.</p>
+        <img src="../resources/images/dip-steering/ds_bkgrd_proc_popout.png" class="image" />
+        <p><i>Select</i> input data cube (usually a seismic volume) and optionally the sub-volume to process.</p>
+        <p>Tree types of <i>Steering algorithms</i> are supported:</p>
+        <ul>
+            <li value="1">PCA</li>
+            <li value="2">Phase-gradient (former BG)</li>
+            <li value="3">FFT</li>
+        </ul>
+        <p><i>PCA (Principal Component Analysis)</i> is an alternative method to estimate smoothed reflection dips. It produces relatively smoother dip/azimuth estimates of a seismic reflection. The PCA technique has an advantage that it is faster with a built-in structural oriented smoothing. One may not require additional median filtering, which consumes time on larger size datasets.</p>
+        <p><i>Phase- gradient Steering</i> is a quick algorithm developed by BG. It is based on analysis of the gradient of the amplitude data, both vertically and horizontally. The BG fast algorithm is prone to noise, this can be overcome by adding a median or average filter.</p>
+        <img src="../resources/images/dip-steering/create_steering_seismics.png" class="image" />
+        <p><i>FFT Steering</i> computes dip in a small sub-volume defined by the step-outs by searching for the highest energy in the 3D Fourier transformed domain.</p>
+        <p>More background information, including a benchmark of the different algorithms and visual examples are presented in the <a href="benchmark_steeringcube_creation.htm" target="_self" style="font-weight: normal;">benchmark section</a>.</p>
+        <p>The optional <i>Specify maximum dip</i> limits dip values derived from the input data. Another option to avoid extreme dip values is to filter the steering data with a <i>Median filter</i>. This removes the outliers from the steering data. The stepouts are defined in samples, regardless sampling rate.</p>
+        <p>The processing specifications as defined in the window can be saved (optional). Provide a file name in the textbox to store the processing specification. If this space is left empty, the processing specification is not saved. If, for any reason, the processing is aborted, the process can be re-started with this parameter file using the <i>Re-start</i> option under the <i>Processing</i> menu.</p>
+        <p>The <i>Proceed</i> button starts the single machine or multi-machine processing mode. For more information on single and multi-machine processing, open the help menu from the Batch Processing window.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

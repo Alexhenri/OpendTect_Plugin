@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.11 Import Seismic|4.3.10.1 SEG-Y">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.10.1.4 Manipulate SEG-Y File</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#survey/import/import_seismic/seg-y/manipulate_seg-y_file.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h5><a name="kanchor679"></a>4.3.10.1.4 Manipulate SEG-Y File<a name="kanchor680"></a></h5>
+        <p>This powerful utility (available via <a href="seg-y_wizard.htm" data-mc-conditions="Default.ScreenOnly">SEG-Y wizard</a> or <a href="classic_seg-y_import_tool.htm" data-mc-conditions="Default.ScreenOnly">classic&#160;SEG-Y import tool</a>) allows to edit text, binary and trace headers of a SEG-Y file. All changes made to SEG-Y headers can only be saved to a new <i>Output file</i>.</p>
+        <img src="../../../../resources/images/survey/import_manipulate.png" class="General_Image" />
+        <ul>
+            <li value="1"><i>Text Header</i>: can be directly edited.</li>
+            <li value="2"><i>Binary header</i>: click on <i>Change...</i> button and in <i>SEG-Y Binary Header</i> window correct <i>Value</i> fields for <i>Bytes</i> as required.</li>
+        </ul>
+        <img src="../../../../resources/images/survey/import_manipulate_change.png" class="General_Image" />
+        <ul>
+            <li value="1"><i><a name="kanchor681"></a>Trace headers</i>: follow the steps below to trace headers:<ul><li value="1">Select a trace header to edit in the left list and press on <img src="../../../../resources/images/icons/rightarrow.png" class="Icons" /> icon;</li><li value="2">In <i>Header Calculation</i> window type in a <i>Formula</i> and press <i>Ok</i>.<ul><li value="1">For information about the supported operators, functions and constants please refer to the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="../../../../appendix_a-attributes_and_filters/mathematics.htm">Mathematics</a></MadCap:conditionalText> attribute.</li><li value="2">Other trace headers can be inserted in the formula by selecting them in the <i>Available</i> list and pressing <img src="../../../../resources/images/icons/rightarrow.png" class="Icons" />.</li></ul></li></ul></li>
+        </ul>
+        <img src="../../../../resources/images/survey/import_manipulate_header_calculation.png" class="General_Image" />
+        <blockquote>
+            <ul data-mc-continue="false">
+                <li value="1">Trace header definitions appear in the right list and may be edited <img src="../../../../resources/images/icons/edit.png" class="Icons" /> or deleted <img src="../../../../resources/images/icons/trashcan.png" class="Icons" />. The set of definitions can be also saved <img src="../../../../resources/images/icons/save.png" class="Icons" /> for later use and restored <img src="../../../../resources/images/icons/open.png" class="Icons" /> when needed. Note, that the table on the right already reflects these changes for QC (see below).</li>
+            </ul>
+        </blockquote>
+        <img src="../../../../resources/images/survey/import_manipulate_header_calculation_save_edit.png" class="General_Image" />
+        <p><b style="font-style: italic;">QC&#160;Trace Headers</b>
+        </p>
+        <img src="../../../../resources/images/survey/import_manipulate_trace_header_selection.png" class="General_Image" />
+        <ul>
+            <li value="1"><b><a name="kanchor682"></a>Table</b>: displays trace headers of an individual trace number <i>Trc</i>.</li>
+        </ul>
+        <ul>
+            <li value="1"><b>Plot</b>: <ul><li value="1">Highlight trace header(s) in the table to plot against trace number.</li><li value="2">Press on <img src="../../../../resources/images/icons/distmap.png" class="Icons" /> to create a plot.</li><li value="3">If <i>All</i> is unchecked, specify the required range of traces:</li></ul></li>
+        </ul>
+        <img src="../../../../resources/images/survey/import_manipulate_plot_traces_not_all.png" class="General_Image" style="vertical-align: top;" />
+        <img src="../../../../resources/images/survey/import_manipulate_header_value_plot.png" class="General_Image" />
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../Default.htm#survey/import/import_seismic/seg-y/manipulate_seg-y_file.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

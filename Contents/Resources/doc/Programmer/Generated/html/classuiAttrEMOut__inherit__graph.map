@@ -1,0 +1,8 @@
+<map id="uiAttrEMOut" name="uiAttrEMOut">
+<area shape="rect" id="node13" href="$classuiAttrSurfaceOut.html" title="Surface Output Batch dialog. Used for calculating attributes on surfaces. " alt="" coords="5,469,123,499"/>
+<area shape="rect" id="node15" href="$classuiAttrTrcSelOut.html" title="Trace Selection Output Batch dialog. Used for calculating attributes between surfaces or withing a us..." alt="" coords="147,469,259,499"/>
+<area shape="rect" id="node2" href="$classuiBatchProcDlg.html" title="uiBatchProcDlg" alt="" coords="77,315,189,344"/>
+<area shape="rect" id="node4" href="$classuiDialog.html" title="uiDialog" alt="" coords="99,237,168,267"/>
+<area shape="rect" id="node6" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="92,160,175,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="99,83,168,112"/>
+</map>

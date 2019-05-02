@@ -1,0 +1,5 @@
+<map id="MenuItemHandler" name="MenuItemHandler">
+<area shape="rect" id="node5" href="$classuiPickSetPolygonMenuItemHandler.html" title="uiPickSetPolygonMenuItem\lHandler" alt="" coords="5,161,187,207"/>
+<area shape="rect" id="node7" href="$classuiVisMenuItemHandler.html" title="uiVisMenuItemHandler" alt="" coords="211,169,365,199"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="149,5,235,35"/>
+</map>

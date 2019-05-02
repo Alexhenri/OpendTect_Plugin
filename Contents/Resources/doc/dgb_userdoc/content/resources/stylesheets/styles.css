@@ -1,0 +1,507 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	color: #404040;
+	font-family: Arial;
+	font-size: 0.8em;
+	line-height: 1.7em;
+	margin-bottom: 17px;
+	margin-left: 17px;
+	margin-top: 0px;
+	max-width: 100%;
+}
+
+a:link
+{
+	color: #4ba123;
+	font-weight: normal;
+}
+
+a:visited
+{
+	color: #4ba123;
+}
+
+a:focus
+{
+	color: #4ba123;
+	font-weight: normal;
+}
+
+a:hover
+{
+	color: #4ba123;
+	font-weight: normal;
+}
+
+a:active
+{
+	color: #4ba123;
+	font-weight: normal;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 1em;
+	color: #4ba123;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #4ba123;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #4ba123;
+}
+
+h1
+{
+	border-top: 0;
+	font-weight: normal;
+	font-size: 32pt;
+	margin-bottom: 20px;
+	border-bottom-width: 0px;
+	font-style: italic;
+	text-align: center;
+	page-break-before: always;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+}
+
+h2
+{
+	border-bottom: none;
+	border-top: none;
+	color: #404040;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 22pt;
+	margin-bottom: 20px;
+	page-break-before: always;
+	margin-top: 20px;
+}
+
+h3
+{
+	font-size: 20pt;
+	margin-bottom: 20px;
+	page-break-before: always;
+	margin-top: 20px;
+}
+
+h4
+{
+	font-size: 18pt;
+	margin-bottom: 20px;
+	page-break-before: always;
+	margin-top: 20px;
+}
+
+li
+{
+	font-size: 12pt;
+	text-align: justify;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	border-top: none;
+	font-style: italic;
+	margin-bottom: 0px;
+	margin-left: -17px;
+	margin-right: -17px;
+	mc-breadcrumbs-prefix: 'You are here: ';
+	padding-bottom: 0px;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 10px;
+	font: Arial;
+	font-family: Arial;
+	color: #000000;
+	background-color: #ffffff;
+	mc-breadcrumbs-count: 6;
+	font-size: 1em;
+}
+
+MadCap|conceptLink
+{
+	color: #404040;
+	font-size: 0.8em;
+	mc-label: 'SEE ALSO';
+	padding-top: 8px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 10pt;
+}
+
+p
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+p.toptable
+{
+	margin-top: 0pt;
+	font-size: 9pt;
+	margin-bottom: 0pt;
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+	border: solid 0px #000000;
+}
+
+img
+{
+	
+}
+
+p.img	/*width: auto; height: auto;*/
+{
+	font-family: Arial;
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img.image
+{
+	height: auto;
+	max-width: 100%;
+	width: auto;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-radius: 0px;
+	margin-right: 20px;
+}
+
+img.icon
+{
+	height: auto;
+	width: auto;
+}
+
+p.Concept
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+p.ConceptContext
+{
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.Index1
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.Index2
+{
+	margin-left: 0;
+}
+
+p.Index3
+{
+	margin-left: 0;
+}
+
+p.Index4
+{
+	margin-left: 0;
+}
+
+p.Index5
+{
+	margin-left: 0;
+}
+
+p.Index6
+{
+	margin-left: 1in;
+}
+
+p.Index7
+{
+	margin-left: 1.2in;
+}
+
+p.Index8
+{
+	margin-left: 1.4in;
+}
+
+p.Index9
+{
+	margin-left: 1.6in;
+}
+
+MadCap|glossaryProxy
+{
+	text-align: justify;
+}
+
+@media non-print
+{
+	MadCap|breadcrumbsProxy
+	{
+		
+	}
+}
+
+@media print
+{
+	h1
+	{
+		page-break-after: avoid;
+		page-break-before: always;
+	}
+
+	p
+	{
+		text-align: justify;
+	}
+}
+
+p.copyright
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-top: 0pt;
+	font-family: Arial;
+	font-size: inherit;
+}
+
+p.MiniTOC1
+{
+	font-size: inherit;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	text-decoration: underline;
+	color: #4ba123;
+}
+
+MadCap|miniTocProxy
+{
+	font-family: Arial;
+	font-size: inherit;
+	font-style: italic;
+	font-variant: normal;
+	color: #4ba123;
+}
+
+h6
+{
+	font-size: 14pt;
+	margin-bottom: 20px;
+	page-break-before: always;
+	margin-top: 20px;
+}
+
+h5
+{
+	font-size: 16pt;
+	margin-bottom: 20px;
+	page-break-before: always;
+	margin-top: 20px;
+}
+
+ul
+{
+	
+}
+
+a
+{
+	color: #4ba123;
+	font-style: normal;
+	font-weight: normal;
+}
+
+img.popup
+{
+	
+}
+
+MadCap|slideshowBullet:hover
+{
+	
+}
+
+MadCap|slideThumbnail:hover
+{
+	
+}
+
+MadCap|keywordLink:hover
+{
+	
+}
+
+MadCap|relatedTopics:hover
+{
+	
+}
+
+MadCap|glossaryTerm:hover
+{
+	font-weight: normal;
+}
+
+MadCap|xref:hover
+{
+	
+}
+
+MadCap|dropDownHotspot:hover
+{
+	
+}
+
+MadCap|expandingHead:hover
+{
+	
+}
+
+MadCap|toggler:hover
+{
+	
+}
+
+MadCap|popup:hover
+{
+	
+}
+
+MadCap|helpControlListItemLink:hover
+{
+	
+}
+
+MadCap|relatedTopicsControlListItemLink:hover
+{
+	
+}
+
+MadCap|conceptLinkControlListItemLink:hover
+{
+	
+}
+
+MadCap|keywordLinkControlListItemLink:hover
+{
+	
+}
+
+MadCap|conceptLink:hover
+{
+	
+}
+
+MadCap|conceptLink:focus
+{
+	font-size: 18em;
+	font-weight: normal;
+}
+
+MadCap|concept
+{
+	
+}
+
+p.note
+{
+	font-weight: normal;
+	font-style: italic;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-position-x: left;
+	margin-right: 0px;
+	margin: 20px;
+	margin-left: 20px;
+	background-image: url('../images/icons/note.png');
+	padding-left: 40px;
+}
+
+MadCap|dropDownHead
+{
+	font-size: 12pt;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+MadCap|dropDownBody
+{
+	
+}
+
+MadCap|dropDownHotspot
+{
+	
+}
+
+a.Popup
+{
+	color: #4ba123;
+}
+
+a.GlossaryPageTerm
+{
+	color: #4ba123;
+}
+
+MadCap|keywordLink
+{
+	color: #4ba123;
+}
+
+MadCap|relatedTopics
+{
+	color: #4ba123;
+}
+
+MadCap|xref
+{
+	color: #4ba123;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: solid 0px;
+}
+

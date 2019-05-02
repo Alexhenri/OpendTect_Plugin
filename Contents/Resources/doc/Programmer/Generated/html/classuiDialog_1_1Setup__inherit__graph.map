@@ -1,0 +1,5 @@
+<map id="uiDialog::Setup" name="uiDialog::Setup">
+<area shape="rect" id="node3" href="$classuiGetObjectName_1_1Setup.html" title="uiGetObjectName::Setup" alt="" coords="5,83,173,112"/>
+<area shape="rect" id="node5" href="$classuiSelectFromList_1_1Setup.html" title="uiSelectFromList::Setup" alt="" coords="197,83,360,112"/>
+<area shape="rect" id="node7" href="$classuiTextFileDlg_1_1Setup.html" title="uiTextFileDlg::Setup" alt="" coords="384,83,525,112"/>
+</map>

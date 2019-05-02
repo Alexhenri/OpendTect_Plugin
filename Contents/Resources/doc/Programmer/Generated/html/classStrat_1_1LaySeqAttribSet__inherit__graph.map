@@ -1,0 +1,9 @@
+<map id="Strat::LaySeqAttribSet" name="Strat::LaySeqAttribSet">
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="5,287,107,316"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="13,181,99,211"/>
+<area shape="rect" id="node6" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; LaySeq\lAttrib \&gt;" alt="" coords="131,278,320,325"/>
+<area shape="rect" id="node8" href="$classObjectSet.html" title="ObjectSet\&lt; LaySeqAttrib \&gt;" alt="" coords="129,181,308,211"/>
+<area shape="rect" id="node10" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="215,5,284,35"/>
+<area shape="rect" id="node12" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="256,85,368,115"/>
+<area shape="rect" id="node15" href="$classManagedObjectSet.html" title="ObjectSet where the objects contained are owned by this set. " alt="" coords="332,181,497,211"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="dgbPickSetTranslator" name="dgbPickSetTranslator">
+<area shape="rect" id="node2" href="$classPickSetTranslator.html" title="PickSetTranslator" alt="" coords="16,160,141,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="39,83,119,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="36,5,121,35"/>
+</map>

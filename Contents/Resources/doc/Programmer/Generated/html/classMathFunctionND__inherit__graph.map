@@ -1,0 +1,45 @@
+<map id="MathFunctionND&lt; RT, PT &gt;" name="MathFunctionND&lt; RT, PT &gt;">
+<area shape="rect" id="node3" href="$classMathFunction.html" title="Mathematical function. " alt="" coords="297,491,465,520"/>
+<area shape="rect" id="node58" href="$classMathXYFunction.html" title="A Math Function as in F(x,y). " alt="" coords="305,1051,457,1098"/>
+<area shape="rect" id="node78" href="$classMathXYZFunction.html" title="A Math Function as in F(x,y,z). " alt="" coords="301,1233,461,1279"/>
+<area shape="rect" id="node82" href="$classMathFunctionND.html" title="MathFunctionND\&lt; float,\l float \&gt;" alt="" coords="300,975,463,1022"/>
+<area shape="rect" id="node85" href="$classMathFunctionND.html" title="MathFunctionND\&lt; RT,\l RT \&gt;" alt="" coords="304,213,459,259"/>
+<area shape="rect" id="node88" href="$classMathFunctionND.html" title="MathFunctionND\&lt; TT,\l float \&gt;" alt="" coords="305,1135,457,1182"/>
+<area shape="rect" id="node91" href="$classMathFunctionND.html" title="MathFunctionND\&lt; yT,\l xT \&gt;" alt="" coords="305,906,457,953"/>
+<area shape="rect" id="node94" href="$classMathFunctionND.html" title="MathFunctionND\&lt; T, T \&gt;" alt="" coords="297,853,465,883"/>
+<area shape="rect" id="node5" href="$classAlongVectorFunction.html" title="A MathFunction that cuts through another mathfunction with higher number of dimensions. " alt="" coords="617,482,759,529"/>
+<area shape="rect" id="node7" href="$classAttrib_1_1Frequency_1_1FreqFunc.html" title="Attrib::Frequency::\lFreqFunc\&lt; float, float \&gt;" alt="" coords="609,551,767,598"/>
+<area shape="rect" id="node9" href="$classAttrib_1_1Similarity_1_1SimiFunc.html" title="Attrib::Similarity\l::SimiFunc\&lt; float, float \&gt;" alt="" coords="605,621,771,667"/>
+<area shape="rect" id="node11" href="$classLineParameters.html" title="LineParameters\&lt; float \&gt;" alt="" coords="1220,716,1383,745"/>
+<area shape="rect" id="node13" href="$classSecondOrderPoly.html" title="A class for 2nd order polynomials of the form: a x^2 + b x + c. " alt="" coords="605,741,771,787"/>
+<area shape="rect" id="node15" href="$classSeisTrcFunction.html" title="SeisTrcFunction\&lt; float,\l float \&gt;" alt="" coords="609,66,767,113"/>
+<area shape="rect" id="node17" href="$classSincInterpolator1D.html" title="SincInterpolator1D\l\&lt; RT, PT \&gt;" alt="" coords="623,135,753,182"/>
+<area shape="rect" id="node19" href="$classThirdOrderPoly.html" title="A class for 3rd order polynomials on the form: a x^3 + b x^2 + c x + d. " alt="" coords="613,205,763,251"/>
+<area shape="rect" id="node21" href="$classValSeriesMathFunc.html" title="ValSeriesMathFunc\&lt;\l float, float \&gt;" alt="" coords="616,274,760,321"/>
+<area shape="rect" id="node23" href="$classWaveletFunction.html" title="WaveletFunction\&lt; float,\l float \&gt;" alt="" coords="608,343,768,390"/>
+<area shape="rect" id="node25" href="$classWindowFunction.html" title="Base class for window functions. The inheriting classes will give a value between 0 and 1 in the inte..." alt="" coords="608,413,768,459"/>
+<area shape="rect" id="node43" href="$classMathFunction.html" title="MathFunction\&lt; RT, RT \&gt;" alt="" coords="604,13,772,43"/>
+<area shape="rect" id="node49" href="$classMathFunction.html" title="MathFunction\&lt; yT, xT \&gt;" alt="" coords="607,865,769,895"/>
+<area shape="rect" id="node53" href="$classMathFunction.html" title="MathFunction\&lt; T, T \&gt;" alt="" coords="613,811,763,840"/>
+<area shape="rect" id="node27" href="$classBartlettWindow.html" title="BartlettWindow" alt="" coords="960,235,1069,264"/>
+<area shape="rect" id="node29" href="$classBlackmanWindow.html" title="BlackmanWindow" alt="" coords="952,288,1077,317"/>
+<area shape="rect" id="node31" href="$classBoxWindow.html" title="BoxWindow" alt="" coords="969,341,1060,371"/>
+<area shape="rect" id="node33" href="$classCosTaperWindow.html" title="Tapered Cosine Window Function. " alt="" coords="952,395,1077,424"/>
+<area shape="rect" id="node35" href="$classFlatTopWindow.html" title="FlatTopWindow" alt="" coords="959,448,1071,477"/>
+<area shape="rect" id="node37" href="$classHammingWindow.html" title="HammingWindow" alt="" coords="952,501,1077,531"/>
+<area shape="rect" id="node39" href="$classHanningWindow.html" title="HanningWindow" alt="" coords="956,555,1073,584"/>
+<area shape="rect" id="node41" href="$classKaiserWindow.html" title="Kaiser Window Function. " alt="" coords="961,608,1068,637"/>
+<area shape="rect" id="node45" href="$classSampledFunction.html" title="Make any sampled series comply with MathFunction. " alt="" coords="924,13,1105,43"/>
+<area shape="rect" id="node47" href="$classSampledFunctionImpl.html" title="Implementation for array&#45;type of SampledFunction. " alt="" coords="1228,5,1375,51"/>
+<area shape="rect" id="node51" href="$classBendPointBasedMathFunction.html" title="MathFunction based on bend points. " alt="" coords="916,857,1113,903"/>
+<area shape="rect" id="node55" href="$classLineParameters.html" title="Steepness and intercept. " alt="" coords="943,759,1087,788"/>
+<area shape="rect" id="node60" href="$classArray2DFunc.html" title="Adaptor to make an Array2D behave like a MathXYFunction. Will do linear interpolation at the edges..." alt="" coords="605,1049,771,1079"/>
+<area shape="rect" id="node64" href="$classSincInterpolator2D.html" title="SincInterpolator2D\l\&lt; RT, PT \&gt;" alt="" coords="623,1102,753,1149"/>
+<area shape="rect" id="node66" href="$classMathXYFunction.html" title="MathXYFunction\&lt; float,\l float \&gt;" alt="" coords="608,977,768,1023"/>
+<area shape="rect" id="node70" href="$classMathXYFunction.html" title="MathXYFunction\&lt; TT,\l float \&gt;" alt="" coords="613,1171,763,1218"/>
+<area shape="rect" id="node73" href="$classMathXYFunction.html" title="MathXYFunction\&lt; T, T \&gt;" alt="" coords="605,924,771,953"/>
+<area shape="rect" id="node62" href="$classArray2DFunc.html" title="Array2DFunc\&lt; TT, float, T \&gt;" alt="" coords="921,1124,1108,1153"/>
+<area shape="rect" id="node68" href="$classPlaneParameters.html" title="PlaneParameters\&lt; float \&gt;" alt="" coords="1216,957,1387,987"/>
+<area shape="rect" id="node75" href="$classPlaneParameters.html" title="Steepnesses and intercept. " alt="" coords="937,929,1092,959"/>
+<area shape="rect" id="node80" href="$classSincInterpolator3D.html" title="SincInterpolator3D\l\&lt; RT, PT \&gt;" alt="" coords="623,1241,753,1287"/>
+</map>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.1 Background</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#dip-steering/background.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>3.1 Background<a name="kanchor44"></a></h2>
+        <p>Dip-Steering is defined as the process of following seismic reflectors by auto-tracking the pre-calculated dip-field from a given starting position. The pre-calculated dip-field in OpendTect is stored in a Steering-Cube, which contains two values at each seismic sample position: the dip in the inline direction and the dip in the cross-line direction.</p>
+        <p>Dip-Steering is a key concept in OpendTect that is used to:</p>
+        <ul>
+            <li value="1">Compute dip-steered multi-trace attributes. Examples are: Similarity, Texture, Volume Statistics, … Also Neural Network-based ‘probability’ volumes such as ChimneyCubes and FaultCubes include many dip-steered attributes.</li>
+            <li value="2">Compute attributes directly from the Steering-Cube. Examples are: the set of Volume Curvature attributes and (geologic) dip and azimuth.</li>
+            <li value="3">Apply dip-steered filters. Examples are: dip-steered median filter and dip-steered fault-enhancement filter.</li>
+            <li value="4"><a name="kanchor45"></a>Auto-track horizons. Examples are the HorizonCube auto-tracker which tracks thousands of horizons directly from the dip-field and OpendTect’s conventional amplitude and similarity tracker that can optionally include dip to constrain the tracker.</li>
+            <li value="5">	Grid loosely mapped horizons. The dip-steered gridding algorithm fills in holes and unmapped parts to generate a horizon that exists at every seismic location.</li>
+        </ul>
+        <p>Depending on the process it is often useful to work with more than one Steering-Cube. Typically, we use two Steering Cubes. The ‘Detailed SteeringCube’ contains dips as calculated by the dip-computation algorithm (OpendTect supports multiple algorithms, see …). The Detailed SteeringCube is used if we need to preserve details in the data, e.g. when computing Volume Curvature attributes in fracture detection studies. The ‘Background SteeringCube’ is a smoothed (usually median-filtered) version of the Detailed SteeringCube. The Background SteeringCube contains less noise and the dips follow larger structural trends. It is typically favoured for dip-steered filtering operations.</p>
+        <p>The Dip-Steering plugin for OpendTect supports two different modes of data-driven steering: Central Steering and Full Steering. In Central steering the dip / azimuth at the evaluation point is followed to find all trace segments needed to compute the attribute response / filter / track the event. In Full steering the dip/azimuth is updated at every trace position. The difference between 'no steering', 'central steering' and 'full steering' is shown in the following figures. Note that these figures show the 2D equivalent of steering, which in actual fact is a 3D operation.</p>
+        <img src="../resources/images/dip-steering/ds_bkgrd_no.png" class="image" /> <img src="../resources/images/dip-steering/ds_bkgrd_cntrl.png" class="image" /><img src="../resources/images/dip-steering/ds_bkgrd_full.png" class="image" /><p>SteeringCube information can be displayed in a 3D scene directly from the OpendTect tree, in two ways, as shown in the pictures below. This option displays the cross-line dip along an inline, or the inline dip along a cross-line.</p><img src="../resources/images/dip-steering/ds_bkgrd_disp.png" class="image" /><p><img src="../resources/images/dip-steering/ds_bkgrd_disp_alt.png" class="image" /></p><p>Detailed SteeringCube of inline 425 in F3-Demo. For display purposes the (cross-line) dip image was made (50%) transparent:</p><img src="../resources/images/dip-steering/dip_steer_xline_dip_transp.png" class="image" /><p>Dip-Steering options are launched from the Processing -&gt; Dip Steering Menu. Dip-Steering is available for 2D seismic and 3D seismic. A SteeringCube for a 2D line stores at every sample position the dip in the line direction. A SteeringCube for a 3D volume stores two values per sample position: the dip in the inline direction and the dip in the cross-line direction.</p><img src="../resources/images/dip-steering/ds_bkgrd_proc_popout.png" class="image" /><p class="note"> The windows pictured and described in this manual are the ones pertaining to 3D processing. 2D processing windows are similar and the same description can therefore be used for 2D dip-steering.</p><p><b>References</b></p><p>The following references are available from the dGB website. Although slightly out of date, the concepts are still valid:</p><ul><li value="1"><a href="http://dgbes.com/images/PDF/od_steering_benchmark.pdf" target="_blank" style="font-weight: normal;">Benchmark of HorizonCube algorithms</a></li><li value="2"><a href="http://dgbes.com/images/PDF/Introduction_to_SteeringCube.pdf" target="_blank" style="font-weight: normal;">Introduction to SteeringCubes</a></li><li value="3"><a href="http://dgbes.com/images/PDF/effectivedipsteeringworkflowusingbgsteering_primerodata.pdf" target="_blank" style="font-weight: normal;">SteeringCube workflows</a></li></ul><p class="copyright">© dGB Beheer B.V. 2002 - 2019</p></body>
+</html>

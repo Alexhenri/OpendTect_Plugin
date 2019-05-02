@@ -1,0 +1,6 @@
+<map id="uiSurfacePosProvGroup" name="uiSurfacePosProvGroup">
+<area shape="rect" id="node2" href="$classuiPosProvGroup.html" title="group for providing positions, usually for 2D or 3D seismics " alt="" coords="28,315,145,344"/>
+<area shape="rect" id="node4" href="$classuiPosFiltGroup.html" title="group for providing positions, usually for 2D or 3D seismics " alt="" coords="33,237,140,267"/>
+<area shape="rect" id="node6" href="$classuiGroup.html" title="uiGroup" alt="" coords="53,160,120,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="52,83,121,112"/>
+</map>

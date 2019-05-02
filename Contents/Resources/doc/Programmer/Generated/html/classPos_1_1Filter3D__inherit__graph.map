@@ -1,0 +1,16 @@
+<map id="Pos::Filter3D" name="Pos::Filter3D">
+<area shape="rect" id="node5" href="$classPos_1_1FilterSet3D.html" title="3D FilterSet " alt="" coords="301,165,419,195"/>
+<area shape="rect" id="node7" href="$classPos_1_1Provider3D.html" title="Provides a subselection for 3D surveys. " alt="" coords="301,219,419,248"/>
+<area shape="rect" id="node27" href="$classPos_1_1RandomFilter3D.html" title="Passes a percentage of the positions (3D). " alt="" coords="287,272,433,301"/>
+<area shape="rect" id="node29" href="$classPos_1_1SubsampFilter3D.html" title="Passes each nth position (3D). " alt="" coords="283,325,437,355"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="5,245,88,275"/>
+<area shape="rect" id="node9" href="$classPos_1_1EMImplicitBodyProvider.html" title="EM implicit body provider for 3D positioning. " alt="" coords="489,5,681,35"/>
+<area shape="rect" id="node11" href="$classPos_1_1EMRegion3DProvider.html" title="EM Region provider for 3D positioning. " alt="" coords="496,59,675,88"/>
+<area shape="rect" id="node13" href="$classPos_1_1EMSurface2DProvider3D.html" title="EMSurfaceProvider for 3D positions with 2D Horizon. " alt="" coords="485,112,685,141"/>
+<area shape="rect" id="node15" href="$classPos_1_1EMSurfaceProvider3D.html" title="EMSurfaceProvider for 3D positioning. " alt="" coords="495,165,676,195"/>
+<area shape="rect" id="node17" href="$classPos_1_1PolyProvider3D.html" title="Volume/Area provider based on Polygon. " alt="" coords="513,219,657,248"/>
+<area shape="rect" id="node19" href="$classPos_1_1RangeProvider3D.html" title="3D provider based on TrcKeyZSampling " alt="" coords="508,272,663,301"/>
+<area shape="rect" id="node21" href="$classPos_1_1SeisProvider3D.html" title="3D provider based on cube of PS data store " alt="" coords="513,325,657,355"/>
+<area shape="rect" id="node23" href="$classPos_1_1TableProvider3D.html" title="Provider based on BinIDValueSet table. " alt="" coords="511,379,660,408"/>
+<area shape="rect" id="node25" href="$classPos_1_1WellProvider3D.html" title="Volume/Area provider based on Wells. " alt="" coords="513,432,657,461"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="basiccompinfo.h" name="basiccompinfo.h">
+<area shape="rect" id="node3" href="$cbvsinfo_8h.html" title="cbvsinfo.h" alt="" coords="332,83,415,112"/>
+<area shape="rect" id="node15" href="$seistrctr_8h.html" title="seistrctr.h" alt="" coords="752,83,832,112"/>
+<area shape="rect" id="node5" href="$cbvsreader_8h.html" title="cbvsreader.h" alt="" coords="5,160,101,189"/>
+<area shape="rect" id="node7" href="$cbvsreadmgr_8h.html" title="cbvsreadmgr.h" alt="" coords="125,160,232,189"/>
+<area shape="rect" id="node9" href="$cbvswritemgr_8h.html" title="cbvswritemgr.h" alt="" coords="256,160,365,189"/>
+<area shape="rect" id="node11" href="$cbvswriter_8h.html" title="cbvswriter.h" alt="" coords="389,160,483,189"/>
+<area shape="rect" id="node13" href="$seiscbvs_8h.html" title="seiscbvs.h" alt="" coords="507,160,592,189"/>
+<area shape="rect" id="node17" href="$seis2dlineio_8h.html" title="seis2dlineio.h" alt="" coords="616,160,717,189"/>
+<area shape="rect" id="node23" href="$segydirecttr_8h.html" title="segydirecttr.h" alt="" coords="741,160,843,189"/>
+<area shape="rect" id="node27" href="$segytr_8h.html" title="segytr.h" alt="" coords="867,160,936,189"/>
+<area shape="rect" id="node29" href="$seisblockstr_8h.html" title="seisblockstr.h" alt="" coords="960,160,1061,189"/>
+<area shape="rect" id="node32" href="$seispscubetr_8h.html" title="seispscubetr.h" alt="" coords="1085,160,1192,189"/>
+<area shape="rect" id="node19" href="$segydirect2d_8h.html" title="segydirect2d.h" alt="" coords="489,237,596,267"/>
+<area shape="rect" id="node21" href="$seiscbvs2d_8h.html" title="seiscbvs2d.h" alt="" coords="620,237,719,267"/>
+<area shape="rect" id="node25" href="$seispsfact_8h.html" title="seispsfact.h" alt="" coords="745,237,839,267"/>
+</map>

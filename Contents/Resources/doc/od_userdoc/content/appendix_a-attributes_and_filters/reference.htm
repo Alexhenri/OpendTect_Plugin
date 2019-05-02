@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.20 Reference</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/reference.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.20 Reference<a name="kanchor19"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p><a name="kanchor20"></a>Reference -- Attribute that returns the definitions of the extraction position</p>
+        <p><b>Description</b>
+        </p>
+        <p>The X, Y, Z, Inline number, Crossline number, Sample number, Inline index, Crossline index and Z index position of the reference (extraction) point is returned.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_positions_reference.png" class="General_Image" />
+        <p><b>Output</b>
+        </p>
+        <ul>
+            <li value="1">X: outputs the X-coordinate</li>
+            <li value="2">Y: outputs the Y-coordinate</li>
+            <li value="3">Z: outputs the depth according to the survey setup (e.g. miliseconds, meters or feet)</li>
+            <li value="4">Inline nr: outputs the inline number</li>
+            <li value="5">Crossline nr: outputs the crossline number</li>
+            <li value="6">Sample nr: outputs the sample number starting from 0 ms or the top of the survey when the survey has a negative start time. The first sample has sample number 1. If the survey has 4 ms sampling and starts at 0 ms, at 400 ms the sample number is 101. If the survey has 4 ms sampling and starts at 2500 ms, the first sample has sample number 626. If the survey has 2 ms sampling and starts at -200, the sample number at 0 ms is 101</li>
+            <li value="7">Inline index: outputs the number of inlines from the edge of the survey starting at 1 (e.g. If you have an inline range of 2000 to 3000, the inline index will range from 1 to 1001)</li>
+            <li value="8">Crossline index: outputs the number of crosslines from the edge of the survey starting at 1 (e.g. If you have a crossline range of 2000 to 3000, the crossline index will range from 1 to 1001)</li>
+            <li value="9">Z index: outputs the sample number from the top of the survey starting at 1. (Note: this attribute is identical to sample number if the survey has a negative starting time or starts at 0.)</li>
+        </ul>
+        <p class="tip">The Reference attribute replaces the old Reference time attribute. Attribute sets containing the old Reference time attribute will be automatically updated to the Reference attribute, with Z as output, which gives an identical output.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/reference.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

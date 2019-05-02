@@ -1,0 +1,20 @@
+<map id="oscommand.h" name="oscommand.h">
+<area shape="rect" id="node5" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="93,392,176,421"/>
+<area shape="rect" id="node50" href="$uistring_8h.html" title="uistring.h" alt="" coords="401,83,476,112"/>
+<area shape="rect" id="node8" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="263,469,356,499"/>
+<area shape="rect" id="node41" href="$string2_8h.html" title="string2.h" alt="" coords="239,701,311,731"/>
+<area shape="rect" id="node11" href="$odstring_8h.html" title="odstring.h" alt="" coords="329,547,407,576"/>
+<area shape="rect" id="node14" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="595,624,672,653"/>
+<area shape="rect" id="node16" href="$undefval_8h.html" title="undefval.h" alt="" coords="716,701,799,731"/>
+<area shape="rect" id="node33" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="577,701,692,731"/>
+<area shape="rect" id="node36" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="481,701,553,731"/>
+<area shape="rect" id="node19" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="624,779,731,808"/>
+<area shape="rect" id="node28" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="805,779,883,808"/>
+<area shape="rect" id="node22" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="720,856,792,885"/>
+<area shape="rect" id="node53" href="$keystrs_8h.html" title="keystrs.h" alt="" coords="273,392,348,421"/>
+<area shape="rect" id="node57" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="823,701,916,731"/>
+<area shape="rect" id="node63" href="$typeset_8h.html" title="typeset.h" alt="" coords="529,160,604,189"/>
+<area shape="rect" id="node65" href="$odset_8h.html" title="odset.h" alt="" coords="671,469,735,499"/>
+<area shape="rect" id="node68" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="512,237,621,267"/>
+<area shape="rect" id="node70" href="$debug_8h.html" title="debug.h" alt="" coords="348,315,415,344"/>
+</map>

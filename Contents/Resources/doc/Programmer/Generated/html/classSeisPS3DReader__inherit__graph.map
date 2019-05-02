@@ -1,0 +1,6 @@
+<map id="SeisPS3DReader" name="SeisPS3DReader">
+<area shape="rect" id="node5" href="$classMultiCubeSeisPSReader.html" title="PS data store reader based on multiple 3D CBVS cubes. " alt="" coords="5,160,171,189"/>
+<area shape="rect" id="node7" href="$classSEGYDirect3DPSReader.html" title="reads from 3D PS data store reader based on SEG&#45;Y files " alt="" coords="195,160,365,189"/>
+<area shape="rect" id="node9" href="$classSeisCBVSPS3DReader.html" title="reads from a CBVS prestack seismic data store. " alt="" coords="389,160,552,189"/>
+<area shape="rect" id="node2" href="$classSeisPSReader.html" title="reads from a prestack seismic data store. " alt="" coords="227,5,333,35"/>
+</map>

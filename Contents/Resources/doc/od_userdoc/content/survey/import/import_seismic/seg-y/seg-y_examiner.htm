@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.3 Import|4.3.11 Import Seismic|4.3.10.1 SEG-Y">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.3.10.1.3 SEG-Y Examiner</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#survey/import/import_seismic/seg-y/seg-y_examiner.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h5><a name="kanchor233"></a>4.3.10.1.3 SEG-Y Examiner<a name="kanchor234"></a></h5>
+        <p><i>SEG-Y Examiner</i> can be launched by pressing on <img src="../../../../resources/images/icons/examine_20x20.png" class="Icons" style="width: 20;height: 20;" /> icon in <i><a href="classic_seg-y_import_tool/seg-y_import_preparation.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor235">Import SEG-Y Data window</a></i>. <i>SEG-Y Examiner</i> allows to check essential information about the data by inspecting text, binary and trace headers  as well as plotting seismic traces for QC. It is recommended to use this tool to check your SEG-Y import set-up and adjust it if needed.</p>
+        <p class="note">SEG-Y Examiner can stay open during import.</p>
+        <img src="../../../../resources/images/survey/import_segy_examiner.png" class="General_Image" />
+        <p><b>File header information</b>:</p>
+        <ul>
+            <li value="1"><i>Text (<i>EBCDIC</i>) header</i> (3200 bytes: 40 lines, 80 symbols each): free-format text commonly containing processing history, data ranges,  and non-standard trace header byte locations.</li>
+            <li value="2"><i>Binary header</i> (400 bytes): scroll down to see a summary of non-zero values in the binary header which commonly includes info about data format, SEG-Y revision and Z-range (sampling rate and number of samples).</li>
+        </ul>
+        <p>
+            <img src="../../../../resources/images/icons/save.png" class="Icons" /> <b>Save textual header to a file</b>.</p>
+        <p><b><a name="kanchor236"></a>Trace header information</b>:</p>
+        <ul>
+            <li value="1"><i><a name="kanchor237"></a>Table</i>:<ul style="list-style-type: circle;"><li value="1">trace header byte numbers and shortened field names are shown in the first column;</li><li value="2">trace header values of examined traces are shown in the following columns.</li></ul></li>
+            <li value="2"><i>Graph</i>: plot between any individual trace header and the number of random traces examined is a very good tool to visualize its range and inspect for any discrepancy:<ul style="list-style-type: circle;"><li value="1">highlight any trace header (a row) in the table to see its graph versus consecutive trace number;</li><li value="2">extended explanation of a highlighted trace header is given above the graph (please see <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="http://www.seg.org/resources/publications/misc/technical-standards" target="_blank">SEG standards</a></MadCap:conditionalText> for more details);</li><li value="3"><i>Range: [...,...]</i>: values of a highlighted trace header in the examined traces.</li></ul></li>
+        </ul>
+        <p class="note">Use the lateral scroll bar at the bottom to locate the headers with changing values. Those might be trace numbers, crossline numbers, offsets, coordinates etc. Inline numbers are often written to the bytes preceding crosslines. Most 3D&#160;data is inline sorted, therefore choose sufficient number of traces  to examine (several times more than the number of crosslines per inline) in order to see the increasing inline numbering.</p>
+        <p>
+            <img src="../../../../resources/images/icons/vd.png" class="Icons" /> <b><a name="kanchor238"></a>Display traces</b>: It is strongly recommended to always view examined traces in the 2D viewer.</p>
+        <p>
+            <img src="../../../../resources/images/icons/histogram_20x20.png" class="Icons" style="width: 20;height: 20;" /> <b>Show histogram of sample values</b>.</p>
+        <table data-mc-conditions="Default.ScreenOnly">
+            <tbody>
+                <tr>
+                    <td style="border: 0px">
+                        <p>
+                            <img src="../../../../resources/images/icons/rubbandzoom.png" class="Icons" /> <b>Rubberband zoom</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/zoomforward.png" class="Icons" /> <b>Zoom in</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/zoombackward.png" class="Icons" /> <b>Zoom out</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/cancelzoom.png" class="Icons" /> <b>Cancel zoom</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/flip_lr.png" class="Icons" /> <b>Flip left/right</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/snapshot.png" class="Icons" /> <b>Save image</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/printer.png" class="Icons" /> <b>Print image</b></p>
+                        <p>
+                            <img src="../../../../resources/images/icons/disppars.png" class="Icons" /> <b>Set display parameters</b></p>
+                    </td>
+                    <td style="border: 0px">
+                        <img src="../../../../resources/images/survey/import_segy_examiner_2d_viewer.png" class="General_Image" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../../Default.htm#survey/import/import_seismic/seg-y/seg-y_examiner.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

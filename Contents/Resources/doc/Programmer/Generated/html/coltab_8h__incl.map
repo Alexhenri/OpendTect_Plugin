@@ -1,0 +1,21 @@
+<map id="coltab.h" name="coltab.h">
+<area shape="rect" id="node5" href="$color_8h.html" title="color.h" alt="" coords="101,469,163,499"/>
+<area shape="rect" id="node36" href="$ranges_8h.html" title="ranges.h" alt="" coords="487,83,559,112"/>
+<area shape="rect" id="node9" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="544,547,621,576"/>
+<area shape="rect" id="node11" href="$undefval_8h.html" title="undefval.h" alt="" coords="541,624,624,653"/>
+<area shape="rect" id="node28" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="648,624,763,653"/>
+<area shape="rect" id="node31" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="787,624,859,653"/>
+<area shape="rect" id="node14" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="728,701,835,731"/>
+<area shape="rect" id="node23" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="627,701,704,731"/>
+<area shape="rect" id="node17" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="663,779,735,808"/>
+<area shape="rect" id="node39" href="$math2_8h.html" title="math2.h" alt="" coords="375,160,444,189"/>
+<area shape="rect" id="node66" href="$ptrman_8h.html" title="ptrman.h" alt="" coords="668,469,740,499"/>
+<area shape="rect" id="node78" href="$varlenarray_8h.html" title="varlenarray.h" alt="" coords="703,237,799,267"/>
+<area shape="rect" id="node81" href="$samplingdata_8h.html" title="samplingdata.h" alt="" coords="468,160,577,189"/>
+<area shape="rect" id="node43" href="$odcomplex_8h.html" title="odcomplex.h" alt="" coords="361,237,457,267"/>
+<area shape="rect" id="node47" href="$convert_8h.html" title="convert.h" alt="" coords="308,315,383,344"/>
+<area shape="rect" id="node49" href="$string2_8h.html" title="string2.h" alt="" coords="433,624,505,653"/>
+<area shape="rect" id="node59" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="281,392,375,421"/>
+<area shape="rect" id="node62" href="$odstring_8h.html" title="odstring.h" alt="" coords="289,469,367,499"/>
+<area shape="rect" id="node69" href="$atomic_8h.html" title="atomic.h" alt="" coords="883,624,955,653"/>
+</map>

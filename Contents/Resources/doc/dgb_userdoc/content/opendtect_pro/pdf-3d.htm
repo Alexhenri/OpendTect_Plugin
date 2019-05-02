@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="1 OpendTect Pro">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>1.3 PDF3D</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#opendtect_pro/pdf-3d.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>1.3 PDF3D<a name="kanchor89"></a></h2>
+        <img src="../resources/images/opendtect_pro/pdf.png" class="image" />
+        <p>The plugin allows you to grab a 3D scene in OpendTect and store this in pdf format. The file can be opened it in the free Acrobat Reader, or embedded into a Powerpoint presentation. In Acrobat Reader (v8 and higher) you can view, rotate, zoom, toggle elements on and off, and otherwise manipulate 3D graphics.</p>
+        <p>Currently supported objects include:</p>
+        <ul>
+            <li value="1">In-line/cross-line/z-slice</li>
+            <li value="2">3D horizon</li>
+            <li value="3">2D line</li>
+            <li value="4">Well data</li>
+            <li value="5">Body</li>
+            <li value="6">Random lines</li>
+            <li value="7"><a name="kanchor90"></a><a name="kanchor91"></a>HorizonCube and SSIS model*</li>
+        </ul>
+        <p style="font-style: italic;">* requires HorizonCube and SSIS commercial plugins</p>
+        <p>To create the file click on PDF3D icon <img src="../resources/images/icons/savepdf3d.png" class="icon" /> . This will open a pdf file containing all the elements displayed in the active scene and will automatically save it to the Misc folder of the project.</p>
+        <img src="../resources/images/opendtect_pro/pdf3d_menu.png" class="image" />
+        <p style="color: #000000;"><i>Save scene as</i> option will first bring a window where you can choose the desired path for the pdf file and the name, select horizon resolution and set a password if necessary. </p>
+        <img src="../resources/images/opendtect_pro/save_scene.png" class="image" />
+        <p style="color: #000000;">3D toolbar contains several icons to manipulate the scene. You will find more information on the <a href="https://helpx.adobe.com/acrobat/using/displaying-3d-models-pdfs.html#3d_toolbar_overview" target="_blank">Adobe website</a>. </p>
+        <p class="note">Toggle on Model Tree icon <img src="../resources/images/icons/tree-model.png" class="icon" /> to display show a list where you can see the names of the scene elements and toggle them on and off. Decreasing of the Framerate Threshold to 4FPS will help to avoid blinking of the elements while repositioning. Right-click on the scene &gt; 3D Preferences &gt; 3D and Multimedia Category.</p>
+        <img src="../resources/images/opendtect_pro/pdf3d.png" class="image" />
+        <p>For optimal viewing in Adobe Reader (v8 and higher) we recommend the following:</p>
+        <ul>
+            <li value="1">Run Adobe Reader (not embedded within a browser such as Internet Explorer)</li>
+            <li value="2">Click menu "Edit-&gt;Preferences..." to pop up Preferences dialog</li>
+            <li value="3">Select under Categories: (box on left) "3D and Multimedia"</li>
+            <li value="4">Turn on "Enable double-sided rendering" in "Renderer Options" box</li>
+            <li value="5">If the scene is not too large then you might wish to change "Optimization Scheme for Low Framerate:" from "Bounding Box" to "None" in "Auto-Degrade Options box". Alternatively you might wish to continue using "Bounding Box" but reduce the "Framerate Threshold from 15FPS to 1FPS.</li>
+        </ul>
+        <p>Furthermore, we recommend viewing directly in Adobe Reader and not as a plugin to a browser. Toggling elements on and off is easiest if you use the tree.</p>
+        <p style="font-weight: bold;">System requirement (Mac OS X)</p>
+        <p>Mac OS X 10.7 and higher needs to have the XQuartz application installed for PDF3D to load. XQuartz can be downloaded for free from their <a href="http://www.xquartz.org/" target="_blank">web page</a>. XQuartz is a 3rd party application, and dGB Earth Sciences should not be held responsible for the performance of XQuartz.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<map id="uiCalcHorVol" name="uiCalcHorVol">
+<area shape="rect" id="node11" href="$classuiCalcHorPolyVol.html" title="using horizon to calculate from different levels by polygon " alt="" coords="5,392,131,421"/>
+<area shape="rect" id="node13" href="$classuiCalcPolyHorVol.html" title="using polygon to calculate to different horizons " alt="" coords="155,392,280,421"/>
+<area shape="rect" id="node2" href="$classuiDialog.html" title="uiDialog" alt="" coords="108,237,177,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="101,160,184,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="108,83,177,112"/>
+</map>

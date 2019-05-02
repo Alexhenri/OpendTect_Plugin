@@ -1,0 +1,4 @@
+<map id="Batch::SingleJobDispatcherRemote" name="Batch::SingleJobDispatcherRemote">
+<area shape="rect" id="node2" href="$classBatch_1_1SingleJobDispatcher.html" title="kicks off OD batch jobs in a single process. " alt="" coords="5,83,189,112"/>
+<area shape="rect" id="node4" href="$classBatch_1_1JobDispatcher.html" title="Base class (with factory) for methods to kick&#45;off an OD batch job. " alt="" coords="24,5,171,35"/>
+</map>

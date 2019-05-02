@@ -1,0 +1,8 @@
+<map id="ElasticModel" name="ElasticModel">
+<area shape="rect" id="node2" href="$classTypeSet.html" title="TypeSet\&lt; ElasticLayer \&gt;" alt="" coords="107,376,272,405"/>
+<area shape="rect" id="node4" href="$classTypeSetBase.html" title="TypeSetBase\&lt; ElasticLayer,\l int \&gt;" alt="" coords="5,182,195,229"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="180,5,249,35"/>
+<area shape="rect" id="node8" href="$classTypeSetBase.html" title="Base class for TypeSet, usually not used as such. " alt="" coords="143,85,287,115"/>
+<area shape="rect" id="node13" href="$classTypeSetBase.html" title="TypeSetBase\&lt; T, int \&gt;" alt="" coords="219,191,373,220"/>
+<area shape="rect" id="node11" href="$classTypeSet.html" title="Set of (small) copyable elements. " alt="" coords="204,280,305,309"/>
+</map>

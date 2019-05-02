@@ -1,0 +1,7 @@
+<map id="uiBasicLayerSequenceGenDesc" name="uiBasicLayerSequenceGenDesc">
+<area shape="rect" id="node2" href="$classuiExtLayerSequenceGenDesc.html" title="Base class for external LayerSequenceGenDesc editors, i.e. editors that are not also Layer Model disp..." alt="" coords="61,315,259,344"/>
+<area shape="rect" id="node4" href="$classuiGraphicsView.html" title="uiGraphicsView" alt="" coords="20,237,132,267"/>
+<area shape="rect" id="node6" href="$classuiGraphicsViewBase.html" title="uiGraphicsViewBase" alt="" coords="5,160,147,189"/>
+<area shape="rect" id="node8" href="$classuiObject.html" title="The base class for most UI elements. " alt="" coords="41,83,111,112"/>
+<area shape="rect" id="node12" href="$classuiLayerSequenceGenDesc.html" title="Base class for LayerSequenceGenDesc editors &#45; with factory. " alt="" coords="156,237,332,267"/>
+</map>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="423" MadCap:lastWidth="1038">
+=======
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="495" MadCap:lastWidth="1616">
+>>>>>>> e1941c59c73ff0c7a85fffb04663406e96b81246
+    <head>
+    </head>
+    <body>
+        <h4>4.2.1.1 Create A SteeringCube<MadCap:keyword term="Create A SteeringCube" /></h4>
+        <p>&#160;</p>
+        <p>SteeringCube is a necessary input for a HorizonCube. For the full article refer to <a href="../../../Dip-Steering/Create_Steering_Data/Create_SteeringCube.htm" MadCap:conditions="Default.ScreenOnly">this article</a><MadCap:conditionalText MadCap:conditions="Default.PrintOnly">this article</MadCap:conditionalText>. </p>
+        <img src="../../../Resources/Images/create_steering_cube.png" class="image" />
+    </body>
+</html>

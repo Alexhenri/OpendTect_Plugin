@@ -1,0 +1,5 @@
+<map id="Property" name="Property">
+<area shape="rect" id="node3" href="$classMathProperty.html" title="Calculated property. " alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node5" href="$classRangeProperty.html" title="Range of values. pos_ is usually in [0,1]. " alt="" coords="128,83,237,112"/>
+<area shape="rect" id="node7" href="$classValueProperty.html" title="Simple, single&#45;value property. " alt="" coords="261,83,365,112"/>
+</map>

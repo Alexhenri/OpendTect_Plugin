@@ -1,0 +1,45 @@
+<map id="uiObject" name="uiObject">
+<area shape="rect" id="node5" href="$classui3DViewer.html" title="ui3DViewer" alt="" coords="303,32,391,61"/>
+<area shape="rect" id="node7" href="$classuiCalendar.html" title="uiCalendar" alt="" coords="305,85,388,115"/>
+<area shape="rect" id="node9" href="$classuiComboBox.html" title="Combo box. " alt="" coords="299,139,395,168"/>
+<area shape="rect" id="node13" href="$classuiDial.html" title="uiDial" alt="" coords="320,192,373,221"/>
+<area shape="rect" id="node15" href="$classuiGraphicsViewBase.html" title="uiGraphicsViewBase" alt="" coords="276,245,417,275"/>
+<area shape="rect" id="node57" href="$classuiLabel.html" title="uiLabel" alt="" coords="316,299,377,328"/>
+<area shape="rect" id="node59" href="$classuiLineEdit.html" title="uiLineEdit" alt="" coords="308,352,385,381"/>
+<area shape="rect" id="node61" href="$classuiMdiArea.html" title="uiMdiArea" alt="" coords="307,405,387,435"/>
+<area shape="rect" id="node63" href="$classuiObjectStack.html" title="uiObjectStack" alt="" coords="295,459,399,488"/>
+<area shape="rect" id="node65" href="$classuiProgressBar.html" title="uiProgressBar" alt="" coords="295,512,399,541"/>
+<area shape="rect" id="node67" href="$classuiSeparator.html" title="uiSeparator" alt="" coords="303,565,391,595"/>
+<area shape="rect" id="node69" href="$classuiSliderObj.html" title="uiSliderObj" alt="" coords="304,619,389,648"/>
+<area shape="rect" id="node71" href="$classuiSpinBox.html" title="uiSpinBox" alt="" coords="307,672,387,701"/>
+<area shape="rect" id="node75" href="$classuiSplitter.html" title="Provides a splitter object. " alt="" coords="311,725,383,755"/>
+<area shape="rect" id="node77" href="$classuiTabBar.html" title="TabBar widget only. Normally you&#39;d want to use the uiTabStack class. " alt="" coords="309,779,384,808"/>
+<area shape="rect" id="node79" href="$classuiTable.html" title="uiTable" alt="" coords="315,832,379,861"/>
+<area shape="rect" id="node83" href="$classuiTextEditBase.html" title="uiTextEditBase" alt="" coords="292,885,401,915"/>
+<area shape="rect" id="node89" href="$classuiTreeView.html" title="uiTreeView" alt="" coords="304,939,389,968"/>
+<area shape="rect" id="node11" href="$classuiColorTableSel.html" title="uiColorTableSel" alt="" coords="480,139,595,168"/>
+<area shape="rect" id="node17" href="$classuiGraphicsView.html" title="uiGraphicsView" alt="" coords="481,245,593,275"/>
+<area shape="rect" id="node19" href="$classuiColTabMarkerCanvas.html" title="uiColTabMarkerCanvas" alt="" coords="676,5,833,35"/>
+<area shape="rect" id="node21" href="$classuiDirectionalPlot.html" title="creates a directional plot: Rose diagrams and more. " alt="" coords="696,59,813,88"/>
+<area shape="rect" id="node23" href="$classuiExtLayerSequenceGenDesc.html" title="Base class for external LayerSequenceGenDesc editors, i.e. editors that are not also Layer Model disp..." alt="" coords="656,112,853,141"/>
+<area shape="rect" id="node27" href="$classuiFunctionDisplay.html" title="displays a function of (X,Y) pairs on a canvas &#45; optionally a Y2. " alt="" coords="692,165,817,195"/>
+<area shape="rect" id="node33" href="$classuiFunctionDrawer.html" title="uiFunctionDrawer" alt="" coords="693,219,816,248"/>
+<area shape="rect" id="node35" href="$classuiObjectItemView.html" title="Embeds some uiObjects in a uiGraphicsView following a horizontal layout. Objects can be dynamically r..." alt="" coords="692,272,817,301"/>
+<area shape="rect" id="node41" href="$classuiPolarDiagram.html" title="Displays a polar diagram which can be used to set the azimuth and the dip by gyrating the pointer..." alt="" coords="700,325,809,355"/>
+<area shape="rect" id="node43" href="$classuiRGBArrayCanvas.html" title="Provides a canvas where a uiRGBArray is pre&#45;drawn. " alt="" coords="687,379,823,408"/>
+<area shape="rect" id="node49" href="$classuiStratDisplay.html" title="uiStratDisplay" alt="" coords="703,432,807,461"/>
+<area shape="rect" id="node51" href="$classuiWellDahDisplay.html" title="Well depth/distance along hole display. " alt="" coords="692,485,817,515"/>
+<area shape="rect" id="node25" href="$classuiBasicLayerSequenceGenDesc.html" title="uiBasicLayerSequenceGenDesc" alt="" coords="901,112,1112,141"/>
+<area shape="rect" id="node29" href="$classuiFuncTaperDisp.html" title="uiFuncTaperDisp" alt="" coords="947,165,1067,195"/>
+<area shape="rect" id="node31" href="$classuiHistogramDisplay.html" title="uiHistogramDisplay" alt="" coords="939,219,1075,248"/>
+<area shape="rect" id="node37" href="$classPreStackView_1_1uiViewer2D.html" title="PreStackView::uiViewer2D" alt="" coords="917,272,1096,301"/>
+<area shape="rect" id="node39" href="$classuiObjectItemViewInfoBar.html" title="uiObjectItemViewInfoBar" alt="" coords="924,325,1089,355"/>
+<area shape="rect" id="node45" href="$classuiColorTableCanvas.html" title="uiColorTableCanvas" alt="" coords="937,379,1076,408"/>
+<area shape="rect" id="node47" href="$classuiDataPointSetCrossPlotter.html" title="DataPointSet crossplotter. " alt="" coords="916,432,1097,461"/>
+<area shape="rect" id="node53" href="$classuiWellLogDisplay.html" title="Displays maximum two Well logs. " alt="" coords="945,485,1068,515"/>
+<area shape="rect" id="node55" href="$classuiWellStratDisplay.html" title="uiWellStratDisplay" alt="" coords="941,539,1072,568"/>
+<area shape="rect" id="node73" href="$classuiGenInputIntFld.html" title="uiGenInputIntFld" alt="" coords="479,672,596,701"/>
+<area shape="rect" id="node81" href="$classuiStratUnitDivideDlg_1_1uiDivideTable.html" title="uiStratUnitDivideDlg\l::uiDivideTable" alt="" coords="467,815,608,862"/>
+<area shape="rect" id="node85" href="$classuiTextBrowser.html" title="uiTextBrowser" alt="" coords="484,885,591,915"/>
+<area shape="rect" id="node87" href="$classuiTextEdit.html" title="uiTextEdit" alt="" coords="497,939,577,968"/>
+</map>

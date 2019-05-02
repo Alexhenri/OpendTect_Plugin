@@ -1,0 +1,6 @@
+<map id="MemCopier&lt; T &gt;" name="MemCopier&lt; T &gt;">
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="19,237,112,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="40,160,91,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="15,83,116,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="23,5,108,35"/>
+</map>

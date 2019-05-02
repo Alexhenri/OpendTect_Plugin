@@ -1,0 +1,8 @@
+<map id="Well::DahObj" name="Well::DahObj">
+<area shape="rect" id="node7" href="$classWell_1_1D2TModel.html" title="Depth to time model. " alt="" coords="5,247,120,276"/>
+<area shape="rect" id="node9" href="$classWell_1_1Log.html" title="Well log. " alt="" coords="144,247,221,276"/>
+<area shape="rect" id="node11" href="$classWell_1_1Track.html" title="Well track. " alt="" coords="245,247,333,276"/>
+<area shape="rect" id="node13" href="$classWellTie_1_1uiCheckShotEdit_1_1DriftCurve.html" title="WellTie::uiCheckShotEdit\l::DriftCurve" alt="" coords="357,238,528,285"/>
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="185,83,287,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="193,5,279,35"/>
+</map>

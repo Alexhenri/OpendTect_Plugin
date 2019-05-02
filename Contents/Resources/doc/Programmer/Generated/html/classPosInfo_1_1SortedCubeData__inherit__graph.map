@@ -1,0 +1,8 @@
+<map id="PosInfo::SortedCubeData" name="PosInfo::SortedCubeData">
+<area shape="rect" id="node2" href="$classPosInfo_1_1CubeData.html" title="Position info for an entire 3D cube. The LineData&#39;s are not sorted. " alt="" coords="72,357,205,387"/>
+<area shape="rect" id="node4" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; LineData \&gt;" alt="" coords="35,277,243,307"/>
+<area shape="rect" id="node6" href="$classObjectSet.html" title="ObjectSet\&lt; LineData \&gt;" alt="" coords="5,181,160,211"/>
+<area shape="rect" id="node8" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="79,5,148,35"/>
+<area shape="rect" id="node10" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="120,85,232,115"/>
+<area shape="rect" id="node13" href="$classManagedObjectSet.html" title="ObjectSet where the objects contained are owned by this set. " alt="" coords="184,181,349,211"/>
+</map>

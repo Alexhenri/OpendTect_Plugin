@@ -1,0 +1,22 @@
+<map id="strmprov.h" name="strmprov.h">
+<area shape="rect" id="node5" href="$strmdata_8h.html" title="strmdata.h" alt="" coords="69,392,152,421"/>
+<area shape="rect" id="node8" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="249,469,332,499"/>
+<area shape="rect" id="node56" href="$oscommand_8h.html" title="oscommand.h" alt="" coords="225,83,329,112"/>
+<area shape="rect" id="node11" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="431,547,524,576"/>
+<area shape="rect" id="node44" href="$string2_8h.html" title="string2.h" alt="" coords="423,779,495,808"/>
+<area shape="rect" id="node14" href="$odstring_8h.html" title="odstring.h" alt="" coords="464,624,541,653"/>
+<area shape="rect" id="node17" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="692,701,769,731"/>
+<area shape="rect" id="node19" href="$undefval_8h.html" title="undefval.h" alt="" coords="901,779,984,808"/>
+<area shape="rect" id="node36" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="763,779,877,808"/>
+<area shape="rect" id="node39" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="667,779,739,808"/>
+<area shape="rect" id="node22" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="808,856,915,885"/>
+<area shape="rect" id="node31" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="989,856,1067,885"/>
+<area shape="rect" id="node25" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="904,933,976,963"/>
+<area shape="rect" id="node60" href="$uistring_8h.html" title="uistring.h" alt="" coords="567,160,641,189"/>
+<area shape="rect" id="node63" href="$keystrs_8h.html" title="keystrs.h" alt="" coords="517,469,592,499"/>
+<area shape="rect" id="node67" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="1008,779,1101,808"/>
+<area shape="rect" id="node73" href="$typeset_8h.html" title="typeset.h" alt="" coords="816,237,891,267"/>
+<area shape="rect" id="node75" href="$odset_8h.html" title="odset.h" alt="" coords="1048,547,1112,576"/>
+<area shape="rect" id="node78" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="799,315,908,344"/>
+<area shape="rect" id="node80" href="$debug_8h.html" title="debug.h" alt="" coords="672,392,739,421"/>
+</map>

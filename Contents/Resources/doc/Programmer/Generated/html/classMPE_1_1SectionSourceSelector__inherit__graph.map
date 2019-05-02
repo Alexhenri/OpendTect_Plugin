@@ -1,0 +1,9 @@
+<map id="MPE::SectionSourceSelector" name="MPE::SectionSourceSelector">
+<area shape="rect" id="node11" href="$classMPE_1_1BinIDSurfaceSourceSelector.html" title="BinID SectionSourceSelector. " alt="" coords="5,392,232,421"/>
+<area shape="rect" id="node13" href="$classMPE_1_1Horizon2DSelector.html" title="SectionSourceSelector to select EM::Horizon2D. " alt="" coords="256,392,424,421"/>
+<area shape="rect" id="node15" href="$classMPE_1_1SurfaceSourceSelector.html" title="Surface SectionSourceSelector. " alt="" coords="448,392,640,421"/>
+<area shape="rect" id="node2" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="284,237,396,267"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="315,160,365,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="289,83,391,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="297,5,383,35"/>
+</map>

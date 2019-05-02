@@ -1,0 +1,7 @@
+<map id="MPE::BinIDSurfaceSourceSelector" name="MPE::BinIDSurfaceSourceSelector">
+<area shape="rect" id="node2" href="$classMPE_1_1SectionSourceSelector.html" title="SequentialTask to select source of an EM section with ID EM::SectionID. " alt="" coords="23,315,215,344"/>
+<area shape="rect" id="node4" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="63,237,175,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="93,160,144,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="68,83,169,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="76,5,161,35"/>
+</map>

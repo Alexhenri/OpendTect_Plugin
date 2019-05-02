@@ -1,0 +1,6 @@
+<map id="WellTie::uiTieWin" name="WellTie::uiTieWin">
+<area shape="rect" id="node2" href="$classuiFlatViewMainWin.html" title="(Non&#45;modal) main window containing one or more uiFlatViewer(s). " alt="" coords="47,237,180,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="13,160,96,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="20,83,89,112"/>
+<area shape="rect" id="node10" href="$classuiFlatViewWin.html" title="Base class for windows containing one or more uiFlatViewer(s). " alt="" coords="120,160,227,189"/>
+</map>

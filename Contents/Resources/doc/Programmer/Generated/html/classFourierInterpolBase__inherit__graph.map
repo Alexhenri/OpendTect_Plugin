@@ -1,0 +1,5 @@
+<map id="FourierInterpolBase" name="FourierInterpolBase">
+<area shape="rect" id="node3" href="$classFourierInterpol1D.html" title="Fourier interpolation for 1D datasets. " alt="" coords="5,83,128,112"/>
+<area shape="rect" id="node5" href="$classFourierInterpol2D.html" title="Fourier interpolation for 2D datasets. " alt="" coords="152,83,275,112"/>
+<area shape="rect" id="node7" href="$classFourierInterpol3D.html" title="Fourier interpolation for 3D datasets. " alt="" coords="299,83,421,112"/>
+</map>

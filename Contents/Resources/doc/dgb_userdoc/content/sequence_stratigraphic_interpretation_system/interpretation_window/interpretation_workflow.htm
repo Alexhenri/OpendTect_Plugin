@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Sequence Stratigraphic Interpretation System|5.2 Interpretation Window">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.2.3 Interpretation Workflow</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#sequence_stratigraphic_interpretation_system/interpretation_window/interpretation_workflow.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>5.2.3 Interpretation Workflow<a name="kanchor135"></a></h3>
+        <p>After defining/selecting the right <a href="select_define_a_depositional_model.htm" target="_self" style="font-weight: normal;">depositional model</a><a name="kanchor136"></a>, you are ready to start interpreting sequence stratigraphic surfaces and the systems tracts. First, create an overlay of the HorizonCube on an inline/crossline/2D line, and position the scene in a way that you will notice main depositional changes (see below).</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/seismic_data.png" class="image" />
+        <p class="note">The displayed seismic data is on an inline and the displayed HorizonCube is created for the entire survey range. The interpretation window is placed to the left so that the identified sequence stratigraphic surfaces can be inserted easily.</p>
+        <p>Check the <i>Link to ColorTable</i> option to optimize (stretch/squeeze) the colors for the HorizonCube relative to the slider position. Now, move the <i>Top</i> slider slowly down/up to observe the depositional changes. Start your interpretation from the bottom events of the HorizonCube. Move the <i>Top</i> slider up from the lowest position and position it where you observe a depositional shift or a sequence stratigraphic surface. At this point, you can add a surface to the current interpretation. Press <i>Insert</i> button to add a sequence stratigraphic surface in the display panel. This will add an surface in the Systems Tracts (grey) column (as shown below).</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/newly_added_surface.png" class="image" />
+        <p><i>The top slider position is adjusted to view at where the depositional chagnes are observed (e.g. in this case from transgression to normal regression).</i>
+        </p>
+        <p>Now, the next step is to assign a name to the sequence stratigraphic surface. Right-click within the gray area i.e. just below the newly inserted stratigraphic surface. In the pop-up tree, you will see four options. From the 'Assign Systems Tract' option, select a sequence systems tract. Once you have selected this, the package will be filled with the corresponding color. Note also, that the relative change in base level is automatically plotted according to the depositional sequence model. Now you can continue interpreting the entire section by positioning the slider to next position(s) and following the same steps.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/stratigraphic_surfaces.png" class="image" />
+        <p>The pop-up menu is briefly explained below:</p>
+        <ul>
+            <li value="1"><i>Assign Systems Tract:</i> Note that each depositional model has its own systems tracts-definition. Thus, if you have selected depositional model IV the corresponding systems tract that you can assign will be listed as above.</li>
+            <li value="2"><i>Edit Boundaries:</i> If you are not satisfied with the inserted stratigraphic surface for the systems tract, select the 'edit boundaries' option from the tree. On the right panel you can move the HorizonCube-slider to a new position. When done, press Set button or Cancel edit.</li>
+            <li style="font-weight: normal;" value="3"><i>Show Thickness Map:</i> This will show the time-thickness variations.</li>
+        </ul>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/thickness_map.png" class="image" />
+        <ul>
+            <li value="1"><i>Set Absolute Age:</i> Set the geological absolute age (My) to any stratigraphic boundary. In the next pop-up window, give absolute age for top and bottom of the system tract.</li>
+        </ul>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/input_data.png" class="image" />
+        <p><b>Save Interpretation</b>
+        </p>
+        <p>Once you complete your interpretation on the entire section, you are ready to save the interpretation. This can be done by pressing the save button<img src="../../resources/images/icons/save.png" class="icon" />  . By default, the interpretation is saved with a default name (Interpretation 1). Any HorizonCube can have more than one Interpretations. Therefore, you can also save the interpretation with another name by pressing the Save As button<img src="../../resources/images/icons/save_as.png" class="icon" />  .</p>
+        <p><b>Safe Surfaces</b>
+        </p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/save_surfaces.png" class="image" />
+        <p>A <i>stratigraphic surface</i> can be saved as an output surface. Either right click on the stratigraphic surface name, dots of base level curve or at numeric values of absolute age (if defined).</p>
+        <p>Once you are satisfied with the interpretation, press <i>save</i> or <i>save as</i> button to save the interpretation.</p>
+        <p>Select the area and write the name of output surface. This output surface can be displayed later from the Horizon tree.</p>
+        <img src="../../resources/images/sequence_stratigraphic_interpretation_system/save_all_srfcs_main.png" class="image" />
+        <p>You can also save all surfaces by pressing <i>Save all</i> surfaces button.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

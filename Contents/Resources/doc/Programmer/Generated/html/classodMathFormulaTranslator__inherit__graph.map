@@ -1,0 +1,5 @@
+<map id="odMathFormulaTranslator" name="odMathFormulaTranslator">
+<area shape="rect" id="node2" href="$classMathFormulaTranslator.html" title="MathFormulaTranslator" alt="" coords="13,160,168,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="51,83,131,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="48,5,133,35"/>
+</map>

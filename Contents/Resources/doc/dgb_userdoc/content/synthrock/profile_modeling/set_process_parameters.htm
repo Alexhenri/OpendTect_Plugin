@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.7 Set Process Parameters</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/set_process_parameters.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.7 Set Process Parameters<a name="kanchor266"></a></h3>
+        <p>The layer modeling settings and various annotations in the profile module can be edited by setting the process parameters. The Set process parameters window can be accessed by clicking on<img src="../../resources/images/icons/tools.png" class="icon" />  , from the vertical list of icons on the right hand side of the layer modeling window. Also, clicking in the bottom part of the main layer modeling window to add the very first well, pops-up this modeling process parameter selection window.</p>
+        <img src="../../resources/images/synthrock/set_process_parameters2.png" class="image" />
+        <p>In the first tab (above) of the parameter selection window, a <i>Vertical blocking size</i> for various logs can be specified. Optionally, the model can be limited <i>down</i> to a particular well marker with some additional depth below it. Further, it is also possible to set a user defined surface velocity (i.e. velocity at Z=0). This options particularly comes in handy, when the input (real) Vp/Sonic logs do not start from the surface. Using this option, a reasonable overburden velocity model can be created, as the program will interpolate the velocity information between the surface (i.e. Z=0) and the first velocity sample in the well logs. If this option is not used, the top most velocity value from the well logs will be assigned to all the layers above, up to the surface.</p>
+        <p>The second tab (below) parametrizes how the horizontal interpolation is done between the wells (and/or control profiles) of various log data. At a certain point in time, the program needs to generate a new profile between two 'fixed' profiles - Two wells, or a well and a control profile, or two control profiles. In general the thickness, at the new profile location, will not be the same as any of the two controlling profiles. If a full stretch/squeeze ratio is used, then all layers from both 'fixed' profiles will be present. If no stretch/squeeze ratio is used, then two things are possible - Either cut the extra layers from top (<i>Fill starting at Bottom</i>) or cut layers from the bottom (<i>Fill starting at Top</i>). However, the using full stretch/squeeze may be rather non-geological and no stretch/squeeze is somewhat non-flexible. Therefore, the default option is a combination of the two and is the use of 50% stretch/squeeze ratio, for the horizontal interpolation.</p>
+        <p style="page-break-before: always">For example, consider a scenario, where there are 10 layers on the left and 5 layers on the right (both sides blocked at 1m), and the program has to draw a profile in the middle which obviously is going to have a layer thickness of 7.5 meters. Now, the use of full stretch/squeeze ratio option is going to fill this 7.5m thickness with all the layers, by squeezing them in. If no squeezing/stretching is used, either the top 7.5 layers or bottom 7.5 layers can be outputted. If the default 50% stretch/squeeze ratio option is used, either the top 8.5 layers or bottom 8.5 can be squeezed in the total thickness of 7.5 meters, at the new profile location.</p>
+        <p>It may also be noted that geologically speaking, cutting the top layers out or <i>Fill starting at Bottom</i> is a more sensible option.</p>
+        <img src="../../resources/images/synthrock/horizontal_interpolation.png" class="image" />
+        <p style="page-break-before: always">Finally, the third tab of the parameter selection window, controls the display options for the layer model. Here, it is possible to <i>Not</i> display the layer model down to a user defined depth, starting from the surface (i.e. Z=0). Also, it is possible to <i>display</i> the layer model in a blocky manner, by stacking a number of vertical blocks (block size defined in the first tab), using the <i>Display Z stacking</i> option. For example, if vertical blocking size of the well log data is defined as '2' meters and the default Z stacking of '3' is used, three adjacent vertical blocks (of 2 m thickness each) will be stacked together, only for display. Next, it can be chosen, whether to draw or not, the annotations for various elements of the layer model - Wells, Control Profiles, Markers, Marker connections and Well names.</p>
+        <img src="../../resources/images/synthrock/view.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

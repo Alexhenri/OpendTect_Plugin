@@ -1,0 +1,4 @@
+<map id="DipPCA" name="DipPCA">
+<area shape="rect" id="node3" href="$classDip2D.html" title="To calculate Dip/Azimuth for 2D datasets using the method of PCA. " alt="" coords="5,83,64,112"/>
+<area shape="rect" id="node5" href="$classDip3D.html" title="To calculate Dip/Azimuth for 3D datasets using the method of PCA. " alt="" coords="88,83,147,112"/>
+</map>

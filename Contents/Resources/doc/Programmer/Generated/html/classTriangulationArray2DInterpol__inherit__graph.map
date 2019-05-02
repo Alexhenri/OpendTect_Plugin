@@ -1,0 +1,8 @@
+<map id="TriangulationArray2DInterpol" name="TriangulationArray2DInterpol">
+<area shape="rect" id="node13" href="$classTriangulationHor3DGridder.html" title="TriangulationHor3DGridder" alt="" coords="11,469,187,499"/>
+<area shape="rect" id="node2" href="$classArray2DInterpol.html" title="Base class for two dimensional array interpolators. " alt="" coords="43,315,155,344"/>
+<area shape="rect" id="node4" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="52,237,145,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="73,160,124,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="48,83,149,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="56,5,141,35"/>
+</map>

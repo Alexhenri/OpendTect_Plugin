@@ -1,0 +1,4 @@
+<map id="Vel::PickSetEvent" name="Vel::PickSetEvent">
+<area shape="rect" id="node2" href="$classBinIDUndoEvent.html" title="BinID UndoEvent. " alt="" coords="9,83,129,112"/>
+<area shape="rect" id="node4" href="$classUndoEvent.html" title="Holds the information on how to undo/redo something. " alt="" coords="27,5,112,35"/>
+</map>

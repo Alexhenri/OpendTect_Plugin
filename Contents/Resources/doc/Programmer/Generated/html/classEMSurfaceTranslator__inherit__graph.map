@@ -1,0 +1,10 @@
+<map id="EMSurfaceTranslator" name="EMSurfaceTranslator">
+<area shape="rect" id="node7" href="$classdgbEMSurfaceTranslator.html" title="dgb EMSurfaceTranslator " alt="" coords="465,85,631,115"/>
+<area shape="rect" id="node17" href="$classlmkEMFault3DTranslator.html" title="Landmark EM::Fault3D EMSurfaceTranslator. " alt="" coords="465,139,631,168"/>
+<area shape="rect" id="node2" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="141,112,221,141"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,112,92,141"/>
+<area shape="rect" id="node9" href="$classdgbEMFault3DTranslator.html" title="dgbEMSurfaceTranslator for EM::Fault3D. " alt="" coords="697,5,863,35"/>
+<area shape="rect" id="node11" href="$classdgbEMFaultStickSetTranslator.html" title="dgbEMSurfaceTranslator for EM::FaultStickSet. " alt="" coords="680,59,880,88"/>
+<area shape="rect" id="node13" href="$classdgbEMHorizon2DTranslator.html" title="dgbEMSurfaceTranslator for EM::Horizon2D. " alt="" coords="689,112,871,141"/>
+<area shape="rect" id="node15" href="$classdgbEMHorizon3DTranslator.html" title="dgbEMSurfaceTranslator for EM::Horizon3D. " alt="" coords="689,165,871,195"/>
+</map>

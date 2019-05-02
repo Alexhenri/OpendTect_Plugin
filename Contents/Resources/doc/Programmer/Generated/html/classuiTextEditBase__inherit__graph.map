@@ -1,0 +1,5 @@
+<map id="uiTextEditBase" name="uiTextEditBase">
+<area shape="rect" id="node7" href="$classuiTextBrowser.html" title="uiTextBrowser" alt="" coords="5,237,112,267"/>
+<area shape="rect" id="node9" href="$classuiTextEdit.html" title="uiTextEdit" alt="" coords="136,237,216,267"/>
+<area shape="rect" id="node2" href="$classuiObject.html" title="The base class for most UI elements. " alt="" coords="83,83,152,112"/>
+</map>

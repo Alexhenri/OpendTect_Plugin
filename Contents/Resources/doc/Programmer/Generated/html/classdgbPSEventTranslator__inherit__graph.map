@@ -1,0 +1,5 @@
+<map id="dgbPSEventTranslator" name="dgbPSEventTranslator">
+<area shape="rect" id="node2" href="$classPSEventTranslator.html" title="Translator for PreStack Event. " alt="" coords="16,160,147,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="41,83,121,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="39,5,124,35"/>
+</map>

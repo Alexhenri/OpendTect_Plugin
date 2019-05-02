@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="8 Neural Networks|8.5 Training and Application">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>8.5.2 Supervised Training from Picksets</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#neural_networks/training_and_application/supervised_training_from_picksets.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>8.5.2 Supervised Training from Picksets<a name="kanchor20"></a></h3>
+        <p>In <i>Supervised mode</i>, the network's performance is tracked during training in two graphs: <i>Normalized RMS</i> and <i>% Misclassification</i>:</p>
+        <p>The <i>Normalized RMS</i> error curves (see network training picture below) indicate the overall error on the train and test sets, in red and blue respectively on a scale from 0 (no error) to 1 (maximum error). Both curves should go down during training. When the test curve goes up again the network is over fitting. Training should be stopped when (preferably before) this happens. Typically a RMS value in the 0.8 range is considered reasonable, between 0.8 and 0.6 is good, between 0.6 and 0.4 is excellent and below 0.4 is perfect. The normalized error is calculated as follows:</p>
+        <img src="../../resources/images/neural_networks/supervised_training_from_pickset.png" class="image" />
+        <p>The <i>percentage misclassification</i> shown in the lower left corner is a much easier quality control parameter to interpret. It simply shows how the percentage of the training and test set that is classified in the wrong class.</p>
+        <p>On the right-hand side of the window a graphical representation of the input attributes is shown. The circle in front of the attribute name changes color during training. The colors reflect the weights attached to each input node and are therefore indicative for the relevant importance of each attribute for the classification task at hand. Colors range from red (high weight means high importance) via yellow to red (relative small weights, less important). This feature is very useful when you wish to design small networks to increase processing speed.</p>
+        <p>Optionally, the neural network can be stored immediately by pressing the OK button. First, enter a neural network name in the appropriate field at the bottom of the NN training window.</p>
+        <p style="page-break-before: always">The <i>Save misclassified</i> toggle allows saving the misclassified picks in a new Pickset. This Pickset is automatically loaded in OpendTect again. The Pickset can be indicative of picking errors. It is not recommended to bluntly remove the misclassified picks from a Pickset, since good picks, although misclassified during training, still help neural network training.</p>
+        <img src="../../resources/images/neural_networks/neural_network_training.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

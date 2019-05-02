@@ -1,0 +1,45 @@
+Basic:		S.Basic
+Algo:		S.Algo D.Basic
+General:		S.General D.Algo
+Strat:		S.Strat D.General
+Network:		S.Network D.General
+Batch:		S.Batch D.Network
+Geometry:		S.Geometry D.General
+EarthModel:		S.EarthModel D.Geometry
+Well:		S.Well D.General
+MMProc:		S.MMProc D.Network
+Seis:		S.Seis D.Geometry D.MMProc
+NLA:		S.NLA D.General
+AttributeEngine:		S.AttributeEngine D.NLA D.Seis
+Velocity:		S.Velocity D.AttributeEngine D.EarthModel
+VolumeProcessing:		S.VolumeProcessing D.Velocity D.Well
+PreStackProcessing:		S.PreStackProcessing D.Velocity
+Attributes:		S.Attributes D.AttributeEngine D.PreStackProcessing
+EMAttrib:		S.EMAttrib D.EarthModel D.AttributeEngine
+MPEEngine:		S.MPEEngine D.EarthModel D.AttributeEngine
+WellAttrib:		S.WellAttrib D.Well D.Attributes D.Strat
+uiBase:		S.uiBase D.Network
+uiTools:		S.uiTools D.uiBase D.MMProc
+uiCmdDriver:		S.uiCmdDriver D.uiTools
+uiFlatView:		S.uiFlatView D.uiTools
+uiIo:		S.uiIo D.uiTools D.uiFlatView D.Geometry
+uiSysAdm:		S.uiSysAdm D.uiIo
+uiNLA:		S.uiNLA D.uiIo D.NLA D.Well D.Seis
+uiSeis:		S.uiSeis D.uiIo D.Seis D.Velocity
+uiStrat:		S.uiStrat D.uiIo D.Strat
+uiEarthModel:		S.uiEarthModel D.uiStrat D.EarthModel
+uiWell:		S.uiWell D.uiStrat D.Well
+uiVelocity:		S.uiVelocity D.uiSeis D.Velocity
+uiPreStackProcessing:		S.uiPreStackProcessing D.uiSeis D.PreStackProcessing
+uiAttributes:		S.uiAttributes D.uiPreStackProcessing D.Attributes
+uiVolumeProcessing:		S.uiVolumeProcessing D.uiVelocity D.uiWell D.uiAttributes D.uiEarthModel D.VolumeProcessing
+uiEMAttrib:		S.uiEMAttrib D.uiAttributes D.uiEarthModel D.EMAttrib
+uiMPE:		S.uiMPE D.uiAttributes D.uiFlatView D.MPEEngine
+uiViewer2D:		S.uiViewer2D D.uiMPE
+uiWellAttrib:		S.uiWellAttrib D.uiWell D.uiAttributes D.WellAttrib
+visBase:		S.visBase D.Geometry
+visSurvey:		S.visSurvey D.visBase D.EarthModel D.MPEEngine D.Well D.PreStackProcessing
+uiOSG:		S.uiOSG D.visSurvey D.uiTools
+uiVis:		S.uiVis D.uiOSG D.uiMPE
+uiODMain:		S.uiODMain D.uiVis D.uiVolumeProcessing D.uiNLA D.uiWellAttrib D.uiEMAttrib D.uiViewer2D
+AllNonUi:		S.AllNonUi D.MPEEngine D.WellAttrib D.VolumeProcessing

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="9 Utilities|9.1 Settings|9.1.4 Advanced Settings">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>9.1.4.1 Personal Settings</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#utilities/settings/advanced_settings/personal_settings.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor1330"></a>9.1.4.1 Personal Settings<a name="kanchor1331"></a></h4>
+        <p>A user can update the <i>Personal Settings</i> by specifying a keyward (a variable name) and its value. The value column becomes editable if left mouse button is double clicked in a cell. A brief description on the available variables (and their values) is given below:</p>
+        <img src="../../../resources/images/utilities/utilities_settings_personal_settings.png" class="General_Image" />
+        <p class="tip">Most of the changes are updated after restarting the OpendTect, other are active directly.</p>
+        <p style="page-break-before: always"><b>Pre-defined Keywords:</b>
+        </p>
+        <p>Press Select existing button to pop-up the pre-defined keywords. After selection of any variable, the values should be updated. The values are updated by pressing 'OK' button.</p>
+        <ul>
+            <li value="1"><b>Company:</b> Write the company name. Keyword - Company, Value: Text (e.g. dGB Earth Sciences).</li>
+            <li value="2"><b>Default DATA directory:</b> It enables a user to setup a default OpendTect data directory. The value is a path pointing to a data directory e.g. /disk/ODData/.</li>
+            <li value="3"><b>Fonts:</b> The fonts for the OpendTect controls and graphics are set by selecting the Font.* or Graphic.* keywords. The wild card character (*) refers to the text followed by the Font/Graphic word. All of these key words refer to a font dialog that may have a specific value. For instance, a value is written as Times New Roman`12`Normal`No [Font, Size, Style, Others]. The following keywords can have the similar values:</li>
+        </ul>
+        <p><i><a name="kanchor1332"></a><a name="kanchor1333"></a>Font.def.Fixed width, Font.def.Graphics large, Font.def.Graphics medium, Font.def.Large control, Font.def.Small control, Font.for.Annotations, Font.for.Title, Graphics large font size, Graphics small font size.</i>
+        </p>
+        <ul>
+            <li value="1"><b>Icons.size:</b> It is a size of OpendTect icons. Its value can be a numeric number e.g. 20, 24, 32 etc.</li>
+            <li value="2"><b>In-line byte:</b> This will enable the user to setup the inline byte location</li>
+            <li value="3"><b>Prestack Viewer Settings (3D PS Viewer.*)</b> With value=1,the Prestack viewer will change in autowidth mode</li>
+            <li value="4"><b>Bold font:</b> With Value set to 'Yes', the font is set to bold</li>
+            <li value="5"><b>Cross-line byte:</b> This will set up the default croosline byte location</li>
+            <li value="6"><b><a name="kanchor1334"></a>Display UnitID:</b> This will enable the user to display the help window ID</li>
+            <li value="7"><b>MultiMachine.Nr inline per job:</b> A user may overrule the number of jobs (i.e. number of inlines) for each machine while running multi machine batch processing. By default the value is 3</li>
+            <li value="8"><b>Nr Processors:</b> It is a numeric number to specify the number of processors to be used for a processing. For instance, '0' means to use all processors</li>
+            <li value="9"><b>dTect.Measure LineStyle:</b> This is a standard settings for the <a href="../../../getting_started/mouse_controls.htm" target="_blank" data-mc-conditions="Default.ScreenOnly">distance measurement tool</a> available in the Graphics Toolbar</li>
+            <li value="10"><b>Seg-Y headers:</b><a name="kanchor1335"></a> Default file location to dump a SEG-Y headers. The value is the output path together with a file name (e.g. /disk/SGY_dump.txt).</li>
+            <li value="11"><b>SEG-Y.Examine.Number of traces:</b> Set a minimum numeric value (e.g. 100) as a default setting to examine any seg-y file</li>
+            <li value="12"><b>Ui.ToolTips.enable:</b> Refers to enable a tool tip guide. Set Yes/No in the value</li>
+            <li value="13"><b>dTect.Ask.*:</b><a name="kanchor1336"></a><a name="kanchor1337"></a> Set to prompt a warning message settings (Value: Yes/No) for several windows. This include a prompt while closing OpendTect, closing Attribute Set window, storing pointsets, store session</li>
+            <li value="14"><b>dTect.Auto Attribute set:</b> Set an attribute name that will be auto loaded if the OpendTect is launched</li>
+            <li value="15"><b>dTect.Average even median:</b>
+            </li>
+            <li value="16"><b>dTect.Color table.Name:</b> A default color table for the user. The default is Red-White-Blue. The value is a color table name</li>
+            <li value="17"><b>dTect.ColorBar.show on top:</b> Set a value to Yes/No to set the color table on top of OpendTect or not</li>
+            <li value="18"><b>dTect.ColorBar.show vertical:</b> Set a value to Yes/No to set the default orientation of the color table (vertical - Yes)</li>
+            <li value="19"><b><a name="kanchor1338"></a>2D Viewer Settings (SeisView.*):</b> 2D Viewer Display Properties of Wiggle Variable Area</li>
+        </ul>
+        <p>The following keywords can have the similar values:</p>
+        <p><i><a name="kanchor1339"></a><a name="kanchor1340"></a>SeisView.Display.WVA.Clipping, SeisView.Display.WVA.Display Null traces, SeisView.Display.WVA.Draw wiggles, SeisView.Display.WVA.Interpolate, SeisView.Display.WVA.Left color, SeisView.Display.WVA.Min Pix/Trace, SeisView.Display.WVA.Overlap, SeisView.Display.WVA.Reftime color, SeisView.Display.WVA.Reverse order, SeisView.Display.WVA.Reverse polarity, SeisView.Display.WVA.Right color, SeisView.Display.WVA.Show reftime, SeisView.Display.WVA.Var Area.</i>
+        </p>
+        <ul>
+            <li value="1"><b>dTect.DTECT_SHOW_HELP:</b> This will allow the user to show ID on the help window icon</li>
+            <li value="2"><b>dTect.Disp.Default clip perc:</b> Set a default clipping value (1-100 %) to clip the seismic data</li>
+            <li value="3"><b>dTect.Default symmetry zero:</b>This will set the colorbar symmetry around zero</li>
+            <li value="4"><b>dTect.Dont load plugins:</b> This enables the User to load or not the plugins</li>
+            <li value="5"><b><a name="kanchor1341"></a>dTect.Dump OI Menu:</b> This is a special setting to <a href="../../../opendtect_trees_and_elements/scene.htm" target="_self" data-mc-conditions="Default.ScreenOnly">export a OpendTect scene</a>. Set the value Yes/No to make this option available</li>
+            <li value="6"><b>dTect.Icons.size:</b> Set a default numeric value for OpendTect icon's size</li>
+            <li value="7"><b>dTect.ProcessVolumeBuilderOnOK:</b> This setting deals with <a href="../../../analysis/volume_builder_setup.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1342">Volume Builder setup</a>. By default the value is Yes i.e the setup process the volume based on the available volume builder setup</li>
+            <li value="8"><b>dTect.Show inl progress:</b> Set Yes/No to show or hide the inline progress bar while displaying the data</li>
+            <li value="9"><b>dTect.Use VolRen shading:</b> Set Yes/No for volume rendering shading</li>
+            <li value="10"><b>dTect.Use shading:</b> Set Yes/No for shading</li>
+            <li value="11"><b>dTect.Zoom factor:</b> Set a value for wheel zooming factor. Default value is 1</li>
+            <li value="12"><b>dTect.KeyBindings.Default:</b>
+            </li>
+            <li value="13"><b><a name="kanchor1343"></a>dTect.Select Plugins:</b> This feature allows the user to select or not the plugins</li>
+            <li value="14"><b>dTect.VolRen shading:</b> Set Yes/No for shading</li>
+            <li value="15"><b>dTect.Use startup session:</b> This option enables the user to directly start a session when opening a specific survey in OpendTect</li>
+            <li value="16"><b>dTect.Maximum Visualization Texture Size:</b> Set the maximum size for the individual visualization data 'chunks'. Default is 4096 (though this may be decreased to 2048, 1024, 512...)</li>
+        </ul>
+        <p>The following files are used to store the Personal settings:</p>
+        <ul>
+            <li value="1"><b>settings.DTECT_USER:</b> This file is used to setup Personal settings</li>
+            <li value="2"><b>settings_coltabs.DTECT_USER:</b> This file is used to edit <a href="../../../getting_started/color_tables.htm" target="_self" data-mc-conditions="Default.ScreenOnly">colorbar</a> display properties</li>
+            <li value="3"><b>settings_snapshot.DTECT_USER:</b> This file allows the user to edit the <a href="../../../getting_started/toolbars/graphics_toolbar/take_snapshots.htm" target="_self" data-mc-conditions="Default.ScreenOnly">snapshot</a> properties like resolution, height, width etc ..</li>
+            <li value="4"><b>settings_flatview.DTECT_USER:</b> This file enables the user to edit the <a href="../../../getting_started/viewer_2d.htm" target="_self" data-mc-conditions="Default.ScreenOnly">2D viewer</a> properties like Variable Density, Wiggle Variable Area.</li>
+            <li value="5"><b>settings_welldisp.DTECT_USER:</b> This file enables the user to edit the <a href="../../../opendtect_trees_and_elements/well.htm" target="_self" data-mc-conditions="Default.ScreenOnly">well display properties</a></li>
+            <li value="6"><b>settings_welltie.DTECT_USER:</b> This file is used to edit the <a href="../../../analysis/wells/tie_well_to_seismic.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1344">Well to Seismic tie</a><a name="kanchor1345"></a><a name="kanchor1346"></a> properties like Velocity/Density names, Wavelet ID etc..</li>
+            <li value="7"><b>qtsettings.DTECT_USER:</b> This file will allow the user to edit the QT properties</li>
+            <li value="8"><b>settings_3DPSViewer.DTECT_USER:</b> This file will allow the user to edit the <a href="../../../opendtect_trees_and_elements/pre-stack_3d_viewer.htm" target="_self" data-mc-conditions="Default.ScreenOnly">3D PreStack viewer</a> properties</li>
+            <li value="9"><b><a name="kanchor1347"></a>settings_GMT.DTECT_USER:</b> This file will allow the user to edit the <a href="../../../processing/gmt.htm" target="_self" data-mc-conditions="Default.ScreenOnly">GMT</a> properties</li>
+            <li value="10"><b>survey.DTECT_USER:</b><a name="kanchor1348"></a> This file is used to edit the Default Survey. Typing cds from a linux console will bring the user back to his/her default survey</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#utilities/settings/advanced_settings/personal_settings.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

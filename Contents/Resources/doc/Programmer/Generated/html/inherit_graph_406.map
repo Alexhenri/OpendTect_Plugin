@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classProgressMeter.html" title="is an interface where processes can report their progress. " alt="" coords="5,32,112,61"/>
+<area shape="rect" id="node3" href="$classProgressRecorder.html" title="ProgressMeter that helps unifying different tasks. " alt="" coords="185,5,311,35"/>
+<area shape="rect" id="node5" href="$classTextStreamProgressMeter.html" title="Textual progress indicator for batch programs. " alt="" coords="161,59,335,88"/>
+</map>

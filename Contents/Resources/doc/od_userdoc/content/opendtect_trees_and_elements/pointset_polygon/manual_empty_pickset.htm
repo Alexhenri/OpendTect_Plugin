@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.6 Pointset &amp; Polygon">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.6.1 Manual &amp; Empty Pointsets</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/manual_empty_pickset.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3>3.6.1 Manual &amp; Empty Pointsets<a name="kanchor1392"></a></h3>
+        <p>When an empty pointset is added to the scene, the locations (of object) can be picked manually. This type of pointset is generally used for supervised neural network training (see the dGB plugins help documentation). </p>
+        <p>
+To create an empty pointset :
+</p>
+        <ol>
+            <li value="1">Click on the <i>pointset</i> element
+</li>
+            <li value="2">Select <i>New &gt; Empty</i> from the drop down menu. 
+</li>
+            <li value="3">In the pointset Creation window, give a name and press OK to insert an empty pointset in the tree.</li>
+        </ol>
+        <img src="../../resources/images/opendtect_trees_and_elements/pickset_manual_create.png" class="General_Image" />
+        <ol data-mc-continue="true">
+            <li value="4">Start picking locations in the 3D scene on data displayed in the 3D scene (inline, crossline, z-slice or horizon).<ul><li value="1">To start picking, please make the pointset active by clicking on it in the scene or in the tree (If active, it will be highlighted).</li><li value="2">Each click will add a point. If the point is wrong, it can be removed by using <b>Ctrl</b> key and left mouse-button click.</li></ul></li>
+            <li value="5">In the tree, right-click on the name of the pointset you are interpreting and select Save as… to save your pointset. The pointset will be saved as a <i>*.pck</i> file - the default OpendTect format for pointsets and polygons, which consists of position information (X/Y coordinates) and Z (in sec, meters or feet). In some cases the <i>.pck</i> file may also contain directions, inline/crossline dips, inline/crossline numbers and text information.</li>
+        </ol>
+        <img src="../../resources/images/opendtect_trees_and_elements/pickset_manual_example.png" class="General_Image" />
+        <p><i><a name="kanchor1393"></a>Example of manual picking. These points will be used in Neural Network training.</i>
+        </p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#opendtect_trees_and_elements/pointset_polygon/manual_empty_pickset.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

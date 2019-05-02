@@ -1,0 +1,5 @@
+<map id="odWellTranslator" name="odWellTranslator">
+<area shape="rect" id="node2" href="$classWellTranslator.html" title="Well Translator base class. " alt="" coords="12,160,119,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="25,83,105,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="23,5,108,35"/>
+</map>

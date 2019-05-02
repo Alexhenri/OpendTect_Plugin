@@ -1,0 +1,8 @@
+<map id="Math::SpecVarSet" name="Math::SpecVarSet">
+<area shape="rect" id="node2" href="$classTypeSet.html" title="TypeSet\&lt; SpecVar \&gt;" alt="" coords="100,376,244,405"/>
+<area shape="rect" id="node4" href="$classTypeSetBase.html" title="TypeSetBase\&lt; SpecVar,\l int \&gt;" alt="" coords="5,182,171,229"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="159,5,228,35"/>
+<area shape="rect" id="node8" href="$classTypeSetBase.html" title="Base class for TypeSet, usually not used as such. " alt="" coords="121,85,265,115"/>
+<area shape="rect" id="node13" href="$classTypeSetBase.html" title="TypeSetBase\&lt; T, int \&gt;" alt="" coords="195,191,349,220"/>
+<area shape="rect" id="node11" href="$classTypeSet.html" title="Set of (small) copyable elements. " alt="" coords="185,280,287,309"/>
+</map>

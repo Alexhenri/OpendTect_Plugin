@@ -1,0 +1,24 @@
+<map id="stattype.h" name="stattype.h">
+<area shape="rect" id="node3" href="$statruncalc_8h.html" title="statruncalc.h" alt="" coords="347,83,443,112"/>
+<area shape="rect" id="node27" href="$stratlayseqattribcalc_8h.html" title="stratlayseqattribcalc.h" alt="" coords="613,83,763,112"/>
+<area shape="rect" id="node29" href="$wellextractdata_8h.html" title="wellextractdata.h" alt="" coords="787,83,907,112"/>
+<area shape="rect" id="node39" href="$prestackprop_8h.html" title="prestackprop.h" alt="" coords="931,83,1037,112"/>
+<area shape="rect" id="node43" href="$welllogattrib_8h.html" title="welllogattrib.h" alt="" coords="1061,83,1163,112"/>
+<area shape="rect" id="node45" href="$uiprestackattrib_8h.html" title="uiprestackattrib.h" alt="" coords="1187,83,1309,112"/>
+<area shape="rect" id="node5" href="$statparallelcalc_8h.html" title="statparallelcalc.h" alt="" coords="80,160,200,189"/>
+<area shape="rect" id="node7" href="$array2dfilter_8h.html" title="array2dfilter.h" alt="" coords="224,160,325,189"/>
+<area shape="rect" id="node15" href="$uiaxisdata_8h.html" title="uiaxisdata.h" alt="" coords="349,160,440,189"/>
+<area shape="rect" id="node25" href="$uifingerprintcalcobj_8h.html" title="uifingerprintcalcobj.h" alt="" coords="464,160,605,189"/>
+<area shape="rect" id="node9" href="$volproclateralsmoother_8h.html" title="volproclateralsmoother.h" alt="" coords="19,237,181,267"/>
+<area shape="rect" id="node13" href="$uiarray2dchg_8h.html" title="uiarray2dchg.h" alt="" coords="221,237,328,267"/>
+<area shape="rect" id="node11" href="$uivolproclateralsmoother_8h.html" title="uivolproclateralsmoother.h" alt="" coords="5,315,179,344"/>
+<area shape="rect" id="node17" href="$uidatapointsetcrossplot_8h.html" title="uidatapointsetcrossplot.h" alt="" coords="360,237,525,267"/>
+<area shape="rect" id="node19" href="$uidatapointsetcrossplotwin_8h.html" title="uidatapointsetcrossplotwin.h" alt="" coords="203,315,389,344"/>
+<area shape="rect" id="node21" href="$uiimpexpselgrp_8h.html" title="uiimpexpselgrp.h" alt="" coords="413,315,533,344"/>
+<area shape="rect" id="node23" href="$densitycalc_8h.html" title="densitycalc.h" alt="" coords="557,315,656,344"/>
+<area shape="rect" id="node31" href="$wellloginterpolator_8h.html" title="wellloginterpolator.h" alt="" coords="629,160,765,189"/>
+<area shape="rect" id="node35" href="$createlogcube_8h.html" title="createlogcube.h" alt="" coords="789,160,904,189"/>
+<area shape="rect" id="node37" href="$uimultiwelllogsel_8h.html" title="uimultiwelllogsel.h" alt="" coords="928,160,1056,189"/>
+<area shape="rect" id="node33" href="$uiwellloginterpolator_8h.html" title="uiwellloginterpolator.h" alt="" coords="624,237,771,267"/>
+<area shape="rect" id="node41" href="$prestackattrib_8h.html" title="prestackattrib.h" alt="" coords="1080,160,1192,189"/>
+</map>

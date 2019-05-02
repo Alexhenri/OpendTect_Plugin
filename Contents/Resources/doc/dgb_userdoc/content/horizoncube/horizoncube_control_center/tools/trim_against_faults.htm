@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 HorizonCube|4.2 HorizonCube Control Center|4.2.3 Tools">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.2.3.3 Trim Against Faults</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#horizoncube/horizoncube_control_center/tools/trim_against_faults.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h4>4.2.3.3 Trim Against Faults<a name="kanchor157"></a></h4>
+        <p>The trimming feature in OpendTect improves the fault/horizon relation.</p>
+        <img src="../../../resources/images/horizoncube/trim_horizon_around_faults.png" class="image" />
+        <p>There are different modes to trim a horizon at given faults location.</p>
+        <p><b>Trim and Track</b>
+        </p>
+        <p>It is an option to remove an area defined by the trace threshold away from a fault plane. The removed part is then tracked back to the fault plane using a selected SteeringCube. Please note that on an average seismic data close to a fault plane, seismic data could be very noisy. Thus you can expect that a computed SteeringCube could also be very noisy. Therefore, it is suggested to use a background (heavily filtered) SteeringCube for this purpose.</p>
+        <p><b>Trim only</b>
+        </p>
+        <p>This will only remove the parts of a given horizon within a defined trace radius close to a fault plane.</p>
+        <p><b>Re-track only</b>
+        </p>
+        <p>This option will track a horizon close to a fault.</p>
+        <p>The threshold should be chosen according to 'neatness' of the horizon around the fault. If a unnecessarily large threshold is chosen, a large part of the horizon will be deleted and re-tracked, thus making it prone to errors. Ideally, a threshold of 10 is sufficient (default value), whereas for an 'indisciplined' horizon a threshold of 30 or above may be needed. The same horizon may behave differently around different faults. Different thresholds for the same horizon but different faults or fault-sets may be chosen.</p>
+        <p>In this case the trimming should be done in steps:</p>
+        <ul>
+            <li value="1">Original horizons ----&gt; using 1st set of faults and a small threshold --&gt; Horizon 1</li>
+            <li value="2">Horizon 1 ----&gt; using 2nd set of faults and slightly larger threshold --&gt; Horizon 2</li>
+            <li value="3">Horizon 2 ----&gt; using 3rd set of faults and a large threshold --&gt; Final output Horizon</li>
+        </ul>
+        <p>An example of before- and after trimming is shown below:</p>
+        <img src="../../../resources/images/horizoncube/trim_horizons.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../../resources/images/horizoncube/trim_horizons2.png" class="image" />
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

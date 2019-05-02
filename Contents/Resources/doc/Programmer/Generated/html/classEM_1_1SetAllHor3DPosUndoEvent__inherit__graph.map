@@ -1,0 +1,4 @@
+<map id="EM::SetAllHor3DPosUndoEvent" name="EM::SetAllHor3DPosUndoEvent">
+<area shape="rect" id="node2" href="$classEM_1_1EMUndoEvent.html" title="EM::EMUndoEvent" alt="" coords="44,83,177,112"/>
+<area shape="rect" id="node4" href="$classUndoEvent.html" title="Holds the information on how to undo/redo something. " alt="" coords="68,5,153,35"/>
+</map>

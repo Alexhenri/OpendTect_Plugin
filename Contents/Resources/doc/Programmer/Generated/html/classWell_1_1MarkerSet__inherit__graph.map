@@ -1,0 +1,7 @@
+<map id="Well::MarkerSet" name="Well::MarkerSet">
+<area shape="rect" id="node2" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Marker \&gt;" alt="" coords="33,277,231,307"/>
+<area shape="rect" id="node4" href="$classObjectSet.html" title="ObjectSet\&lt; Marker \&gt;" alt="" coords="5,181,149,211"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="73,5,143,35"/>
+<area shape="rect" id="node8" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="115,85,227,115"/>
+<area shape="rect" id="node11" href="$classManagedObjectSet.html" title="ObjectSet where the objects contained are owned by this set. " alt="" coords="173,181,339,211"/>
+</map>

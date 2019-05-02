@@ -1,0 +1,4 @@
+<map id="Well::Marker" name="Well::Marker">
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="5,83,107,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="13,5,99,35"/>
+</map>

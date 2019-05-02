@@ -1,0 +1,7 @@
+<map id="visBase::FlatViewer" name="visBase::FlatViewer">
+<area shape="rect" id="node2" href="$classFlatView_1_1Viewer.html" title="Flat Viewer using FlatView::Data and FlatView::Appearance. " alt="" coords="5,237,125,267"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1VisualObjectImpl.html" title="visBase::VisualObjectImpl" alt="" coords="149,237,325,267"/>
+<area shape="rect" id="node6" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="163,160,312,189"/>
+<area shape="rect" id="node8" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="167,83,308,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="195,5,280,35"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Well::odIO" name="Well::odIO">
+<area shape="rect" id="node3" href="$classWell_1_1odReader.html" title="Reads Well::Data from OpendTect file store. " alt="" coords="5,83,117,112"/>
+<area shape="rect" id="node5" href="$classWell_1_1odWriter.html" title="Writes Well::Data to OpendTect file storage. " alt="" coords="141,83,245,112"/>
+<area shape="rect" id="node7" href="$classWellTie_1_1IO.html" title="WellTie::IO" alt="" coords="269,83,357,112"/>
+<area shape="rect" id="node9" href="$classWellTie_1_1Reader.html" title="WellTie::Reader" alt="" coords="188,160,303,189"/>
+<area shape="rect" id="node11" href="$classWellTie_1_1Writer.html" title="WellTie::Writer" alt="" coords="327,160,436,189"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="MathXYFunction&lt; RT, PT &gt;" name="MathXYFunction&lt; RT, PT &gt;">
+<area shape="rect" id="node5" href="$classArray2DFunc.html" title="Adaptor to make an Array2D behave like a MathXYFunction. Will do linear interpolation at the edges..." alt="" coords="503,165,668,195"/>
+<area shape="rect" id="node9" href="$classSincInterpolator2D.html" title="SincInterpolator2D\l\&lt; RT, PT \&gt;" alt="" coords="520,26,651,73"/>
+<area shape="rect" id="node11" href="$classMathXYFunction.html" title="MathXYFunction\&lt; float,\l float \&gt;" alt="" coords="693,10,853,57"/>
+<area shape="rect" id="node15" href="$classMathXYFunction.html" title="MathXYFunction\&lt; TT,\l float \&gt;" alt="" coords="511,95,660,142"/>
+<area shape="rect" id="node18" href="$classMathXYFunction.html" title="MathXYFunction\&lt; T, T \&gt;" alt="" coords="503,219,668,248"/>
+<area shape="rect" id="node2" href="$classMathFunctionND.html" title="Multidimensional Mathematical function. " alt="" coords="5,95,160,142"/>
+<area shape="rect" id="node7" href="$classArray2DFunc.html" title="Array2DFunc\&lt; TT, float, T \&gt;" alt="" coords="879,123,1065,152"/>
+<area shape="rect" id="node13" href="$classPlaneParameters.html" title="PlaneParameters\&lt; float \&gt;" alt="" coords="1168,91,1339,120"/>
+<area shape="rect" id="node20" href="$classPlaneParameters.html" title="Steepnesses and intercept. " alt="" coords="895,187,1049,216"/>
+</map>

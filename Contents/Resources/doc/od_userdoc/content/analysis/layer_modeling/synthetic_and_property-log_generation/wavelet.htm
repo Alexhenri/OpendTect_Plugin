@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.5 Layer Modeling|5.5.1 Basic|5.5.1.2 Synthetic- and Property-Log Generation">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.5.1.2.2 Wavelet</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#analysis/layer_modeling/synthetic_and_property-log_generation/wavelet.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h5>5.5.1.2.2 Wavelet<a name="kanchor489"></a></h5>
+        <p>The wavelet can be selected from the one already available in the project and listed or a new one can be created in the <a href="../../../survey/manage/manage_wavelets.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Wavelet manager</a> accessible from the  icon <img src="../../../resources/images/icons/man_wvlt.png" class="Icons" />.</p>
+        <p>Some workflows need to have the synthetic with the same amplitude that the real seismic. The purpose to the scaler is to scale the wavelet by comparison between the synthetic seismic computed at a given horizon and the real seismic extracted in a defined time window regarding this same horizon. To do so click on <i>Scale</i>.</p>
+        <img src="../../../resources/images/analysis/analysis_layer_modelling_scale_synthetics.png" class="General_Image" />
+        <p>First of all you need to select your reference seismic as <i>Input Cube</i>, then the reference horizon for the extraction of the real seismic data. The reference for the extraction in the synthetics is the reference <a href="display.htm" target="_self" data-mc-conditions="Default.ScreenOnly">stratigraphic level</a> selected in the main window. The extraction must be done at a level interpreted in the pseudo-wells and in the real seismic. It is possible to restrict the extraction to an area defined by a polygon. Also the reference level in the pseudo-wells does not necessary correspond to a specific event in all the wells, on the contrary horizons are most often interpreted following a same event. Thus it is possible to snap the synthetics to a specific event. Finally the extraction window around this reference level has to be specified. It will depends on the thickness of the interval of interest of your data. Once all these parameters have been given, you can <i>extract values</i>.</p>
+        <p>The histograms for the synthetics and the the real seismic are displayed side by side to be easily compared. A same point is identified in the two cases and the difference between the two amplitude values is used to determine the <i>scaling factor</i>. The scaled wavelet can then be saved and used afterwards.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#analysis/layer_modeling/synthetic_and_property-log_generation/wavelet.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

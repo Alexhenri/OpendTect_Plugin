@@ -1,0 +1,6 @@
+<map id="visBase::PolygonSelection" name="visBase::PolygonSelection">
+<area shape="rect" id="node2" href="$classvisBase_1_1VisualObjectImpl.html" title="visBase::VisualObjectImpl" alt="" coords="7,237,183,267"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="20,160,169,189"/>
+<area shape="rect" id="node6" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="24,83,165,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="52,5,137,35"/>
+</map>

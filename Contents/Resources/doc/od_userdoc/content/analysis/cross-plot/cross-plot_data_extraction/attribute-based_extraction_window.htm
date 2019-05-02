@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.3 Cross-Plot|5.3.1 Cross-Plot Data Extraction">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.3.1.2 Attribute-based Extraction Window</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#analysis/cross-plot/cross-plot_data_extraction/attribute-based_extraction_window.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor172"></a>5.3.1.2 Attribute-based Extraction Window<a name="kanchor173"></a></h4>
+        <p>Attributes based data extraction window is used to extract an attribute data (stored volumes or a defined attribute) within a volume defined by a range, polygon, surfaces, body or a well path with lateral extension. The same window (shown below) could also be used to extract an attribute data along a time slice or along a surface.</p>
+        <p>Note that at least one attribute must be selected prior to data extraction. "Attributes" list shows all attribute currently loaded in the window, and the stored volume under brackets. For multiple attributes selection, use the left mouse button by holding and dragging it up/down-ward. For 2D data extraction one or more attributes along-with their corresponding "Line names" (at least one) should be selected.</p>
+        <img src="../../../resources/images/analysis/analysis_crossplot_attribute_attribute_3d_main.png" class="General_Image" />
+        <p><i><a name="kanchor174"></a>3D data extraction for Attributes vs. Attributes Cross-plot</i>
+        </p>
+        <img src="../../../resources/images/analysis/analysis_crossplot_attribute_attribute_2d_main.png" class="General_Image" />
+        <p><i>2D data extraction for Attributes vs. Attributes Cross-plot</i>
+        </p>
+        <p>The volume/horizon based extraction is performed by selecting locations according to one of the following criteria:</p>
+        <ul>
+            <li value="1"><b>Range:</b> It is selected to extract the data on a regular 3D volume or a grid (if it is a time slice). The steps are the increments in the corresponding range. To extract dense data points for a crossplot, smaller steps should be used. Note that the larger steps will decrease the amount of extracted data. Cubes coarser than the requested grid will not be interpolated, undefined values will be posted to the cross-plot table instead. <i>For 2D data extraction this is the only possible option and only the time range can be specified</i>.</li>
+            <li value="2"><b><a name="kanchor175"></a>Polygon:</b> The lateral extent for a crossplot data could also be defined by a polygon. Once the <i>Polygon</i> option is chosen, the desired polygon is chosen by pressing the <i>Select</i> button. The inline/crossline steps are the increments in the inlines/crosslines range within the polygon. The time range is also an additional constrain in data extraction that defines a vertical restriction window for a polygonal type of volumetric crossplot.</li>
+            <li value="3"><b><a name="kanchor176"></a>Table:</b> Only positions listed in a table will be used for the extraction. The table might be an OpendTect pointset, or a column-sorted ASCII file with inline, crossline and Z values in the first three columns respectively.</li>
+            <li value="4"><b>Surface:</b> Used for data extraction along a 2D/3D horizon, or between horizons. Please note that the attributes will be interpolated if extracted along an horizon. If the extraction is done between two horizons (volume based extraction using a user-defined Z step), it will not interpolate the attributes. The "Extra Z" values increase or decrease the extraction window size, and work similar as the attribute set time gates (relatively). The left value applies to the top horizon and the right value applies to the base horizon.</li>
+            <li value="5"><b><a name="kanchor177"></a>Body:</b> It is used to restrict the data extraction within a selected 3D body. The radio boxes inside/outside are used to extract the data either inside or outside the selected body. If it is outside, the further ranges are sub-selected in the <i>Within bounding box</i> field.</li>
+            <li value="6"><b><a name="kanchor178"></a>Well:</b> It is used to extract attribute data along the selected well paths. The data would be extracted vertically and according to the (TWT/depth dependent) survey setup. The time gate is defined by providing a time range with time steps (vertical sampling rate).</li>
+            <li value="7"><a href="location_filters.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Location filters</a> can be added in order to add one or several restrictions to the area of extraction.</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#analysis/cross-plot/cross-plot_data_extraction/attribute-based_extraction_window.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

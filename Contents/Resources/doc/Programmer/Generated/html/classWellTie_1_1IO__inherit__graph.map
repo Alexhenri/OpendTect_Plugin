@@ -1,0 +1,5 @@
+<map id="WellTie::IO" name="WellTie::IO">
+<area shape="rect" id="node5" href="$classWellTie_1_1Reader.html" title="WellTie::Reader" alt="" coords="5,160,120,189"/>
+<area shape="rect" id="node7" href="$classWellTie_1_1Writer.html" title="WellTie::Writer" alt="" coords="144,160,253,189"/>
+<area shape="rect" id="node2" href="$classWell_1_1odIO.html" title="base class for Reader and Writer. " alt="" coords="89,5,172,35"/>
+</map>

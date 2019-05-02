@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.1 Attributes">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.1.1 Attribute Set Window</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#analysis/attributes/attribute_set_window.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor1178"></a><a name="kanchor1179"></a>5.1.1 Attribute Set Window<a name="kanchor1180"></a></h3>
+        <p>The attribute set window contains a set of seismic attributes definitions to be evaluated/calculated. While defining the attributes it is possible to work in the active scene. Attributes can also be calculated after saving the attribute set. In broad sense following workflows are applicable in OpendTect attribute calculation process (on sections and horizons):</p>
+        <ul>
+            <li value="1">Evaluate attribute</li>
+            <li value="2">On-the-fly attribute calculation</li>
+            <li value="3">Creating an attribute output (2D/3D)</li>
+        </ul>
+        <p>In following figure, different attributes are defined as an attribute set. It is considered as a routine practice in OpendTect environment (especially to define a meta-attribute). These attributes can be: evaluated on sections and horizons, applied on-the-fly and created as an output attribute. Importantly, some attributes show <i>steering selection</i> in the input parameter settings : the dip-steering plugin created by <a href="http://www.dgbes.com/index.php/dip-steering.html" target="_blank" data-mc-conditions="Default.ScreenOnly">dGB</a> provides various advanced steered attributes.</p>
+        <img src="../../resources/images/analysis/analysis_attribute_set_3d_main_window.png" class="General_Image" />
+        <p>OpendTect works with the concept of an "active" attribute set. At start-up, there is no active attribute set. To create a new one (<i>New set...</i>), or to select an existing set (<i>Open set</i> ...) , select the corresponding option from the <i>File</i> menu (See below). OpendTect is also delivered with a collection of <a href="default_attribute_sets.htm" target="_self" data-mc-conditions="Default.ScreenOnly">default attribute sets</a><a name="kanchor1181"></a> for some general testing (Fault, Chimney,Salt default attribute sets). This set can be selected from the Default set option under the <i>File</i> menu. To use a default set, the input seismic data and a SteeringCube (if steered attributes are available in the default set) have to be selected.</p>
+        <img src="../../resources/images/analysis/analysis_attribute_set_3d_file_options.png" class="General_Image" />
+        <p>Clicking any attribute in the list will show its parameter settings. Notice that OpendTect uses SI units. For details on each of the attributes see <a href="../../appendix_a-attributes_and_filters.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Appendix A</a>. Note that some of the parameter options depend on whether you are using 2D or 3D data as input. For example, the inline and crossline stepout field will be replaced by a single trace stepout field. Generally, an attribute set can only contain 2D attributes or only 3D attributes. Mixed attribute sets are not possible.</p>
+        <p>When parameters of an attribute are updated, the modified attribute can be added to the attribute set with a new <i>Attribute name</i> by clicking <i>Add as new</i>. Clicking on any other attribute in the list means that the updated parameters are accepted, while keeping the original attribute name. The <i>Revert changes</i> button only reverts changes to the original state before clicking on another attribute in the set. When <i>Ok</i> is pressed, the (updated) attribute set becomes the "active" attribute set. The attribute set is saved to disk when <i>Save on Ok</i> is ticked. To save an attribute set under a different name, use the corresponding option under the <u style="font-style: italic;">F</u><i>ile</i> menu.</p>
+        <p>
+            <img src="../../resources/images/icons/new.png" class="Icons" /> Allows for the creation of a new attribute set</p>
+        <p>
+            <img src="../../resources/images/icons/open.png" class="Icons" /> Open an existing attribute set</p>
+        <p>
+            <img src="../../resources/images/icons/defset.png" class="Icons" /> Open one of the <a href="default_attribute_sets.htm" target="_self" data-mc-conditions="Default.ScreenOnly">default attribute sets</a> (provided within the OpendTect package)</p>
+        <p>
+            <img src="../../resources/images/icons/impset.png" class="Icons" /> <a href="import_an_attribute_set_from.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Import an attribute set from another survey</a></p>
+        <p>
+            <img src="../../resources/images/icons/job2set.png" class="Icons" /> <a href="import_an_attribute_set_from.htm#Reconstruct_set_from_job_file" data-mc-conditions="Default.ScreenOnly">Reconstruct an attribute set from file</a></p>
+        <p>
+            <img src="../../resources/images/icons/save.png" class="Icons" /> Save the attribute set</p>
+        <p>
+            <img src="../../resources/images/icons/save_as.png" class="Icons" /> Save as...</p>
+        <p>
+            <img src="../../resources/images/icons/showattrnow.png" class="Icons" /> Re-display the element with the current attribute</p>
+        <p>
+            <img src="../../resources/images/icons/evalattr.png" class="Icons" /> <a href="attribute_set_toolbar.htm#Evaluate_Attribute" target="_self" data-mc-conditions="Default.ScreenOnly">Evaluate the attribute</a> (parameters)</p>
+        <p>
+            <img src="../../resources/images/icons/evalcrossattr.png" class="Icons" /> Cross-evaluate attribute (parameters)</p>
+        <p>
+            <img src="../../resources/images/icons/xplot.png" class="Icons" /> <a href="attribute_set_toolbar.htm#Crossplot_attributes" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1182">Cross-plot the attribute</a>.</p>
+        <p><i>File - Change input...</i> can be used to change the input data of all attributes in the "active" set simultaneously, which is useful in case, for example, a new seismic volume has become available.</p>
+        <p><b>File - Auto Load Attribute Set ...</b>
+        </p>
+        <p>It is now possible to have an attribute set already open at start up using the " <i>Auto load Attribute Set</i> " option in the <i>File</i> menu. This enables to choose the attribute set which will be active the next time the survey is opened.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#analysis/attributes/attribute_set_window.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

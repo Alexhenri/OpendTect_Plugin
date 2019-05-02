@@ -1,0 +1,4 @@
+<map id="PreStack::AngleComputer" name="PreStack::AngleComputer">
+<area shape="rect" id="node3" href="$classPreStack_1_1ModelBasedAngleComputer.html" title="Computes angles for PreStack::Gather from ElasticModel. " alt="" coords="5,83,195,130"/>
+<area shape="rect" id="node5" href="$classPreStack_1_1VelocityBasedAngleComputer.html" title="Computes angles for PreStack::Gather from velocity model. " alt="" coords="219,83,419,130"/>
+</map>

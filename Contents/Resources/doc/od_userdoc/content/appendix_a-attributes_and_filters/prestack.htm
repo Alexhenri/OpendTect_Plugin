@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.18 Prestack</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/prestack.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.18 Prestack<a name="kanchor1129"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p>Prestack -- The prestack attribute can be used either to extract statistics on the gathers and their amplitudes, or to extract AVO attributes.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_prestack.png" class="General_Image" />
+        <p>This attribute requires prestack data as input, but will output poststack data. The following workflow is used in the above example:</p>
+        <ul>
+            <li value="1">Pre-processing is applied to the gathers, like mute and AGC</li>
+            <li value="2">The data is extracted in the offset range [500, 3000] m and sorted per CDP and depth sample</li>
+            <li value="3">For each CDP and depth a crossplot of amplitude vs. square root of the offset is made</li>
+            <li value="4">A least square regression is computed</li>
+            <li value="5">The intercept value is returned</li>
+        </ul>
+        <p>The <a href="../processing/create_seismic_output/pre-stack_processing.htm" target="_self" data-mc-conditions="Default.ScreenOnly">pre-processing</a> of the gathers is optional. When used it must be setup in a separate window either by selecting an existing setup or creating a new one.</p>
+        <p><a name="kanchor1130"></a>The offset range is used to define the extraction window. It requires absolute offset values, in meter or feet (depending on the survey unit definition). Optionally if angles were used instead of offsets while loading, then angle ranges can be used. Once again they have to be in the same unit as in the input trace (SEG-Y) headers.</p>
+        <p>After optional pre-processing and data extraction, a vector of amplitudes is available for each CMP/CIG, at each depth. From each vector either statistics or a least-square regression can be made.</p>
+        <p><b>Statistics:</b>
+        </p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_prestack_statistics.png" class="General_Image" />
+        <p>The above list of statistics can be returned. The highlighted output option provides the fold of each bin, while average or RMS may be used to generate full or partial stacks (partial stacking occurs if the offset range defined is not full). At the foot of this list are also: <i>Sum</i>, <i>SquareSum</i> and <i>MostFrequent</i></p>
+        <p><b>Least Square:</b>
+        </p>
+        <p>The Least-Square calculation type is cross-plotting the extracted amplitudes, computing a least-square regression and returning one of its property.</p>
+        <p>Before the crossplot the amplitudes can be transformed using the following axis transformation (left hand-side):</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_prestack_axis_trans.png" class="General_Image" /> <img src="../resources/images/appendix_a/analysis_attributes_3d_basic_prestack_amp_trans.png" class="General_Image" /><p>Similarly the offset values that are associated with those amplitudes can also be transformed (right-hand side). This is useful, e.g. to have <i>the sin</i><sup style="font-style: italic;">2</sup><i> of the angle</i> as x-axis.</p><p>AVO attributes will become AVA attributes if the X axis becomes Azimuth (i.e. angle). Please note that the azimuths (angles) must be provided in the trace headers when extracting AVA attributes.</p><p>The extractable AVO (Least-Square) attributes are Intercept, Gradient, their standard deviation and the Correlation Coefficient. It is also possible to have angle/offset constrained AVO attributes; by specifying the required angle/offset range instead of using the full range. Please note that further transformations can be achieved using the output as input to another attribute.</p><img src="../resources/images/appendix_a/analysis_attributes_3d_basic_prestack_avo_output.png" class="General_Image" /><p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p><p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/prestack.htm">Open topic with navigation</a></p></body>
+</html>

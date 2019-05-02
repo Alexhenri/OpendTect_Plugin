@@ -1,0 +1,34 @@
+<map id="ManagedObjectSet&lt; T &gt;" name="ManagedObjectSet&lt; T &gt;">
+<area shape="rect" id="node7" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; WellData\lIOProvider \&gt;" alt="" coords="711,14,908,61"/>
+<area shape="rect" id="node9" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; DataPack\lMgr \&gt;" alt="" coords="708,83,911,130"/>
+<area shape="rect" id="node11" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; visBase\l::Text \&gt;" alt="" coords="713,153,905,199"/>
+<area shape="rect" id="node13" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; visSurvey\l::HorizonDisplay::IntersectionData \&gt;" alt="" coords="692,222,927,269"/>
+<area shape="rect" id="node15" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; LineData \&gt;" alt="" coords="705,292,913,321"/>
+<area shape="rect" id="node21" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Seis\l::PreLoadDataEntry \&gt;" alt="" coords="724,345,895,391"/>
+<area shape="rect" id="node23" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; uiTool\lButtonSetup \&gt;" alt="" coords="720,414,899,461"/>
+<area shape="rect" id="node25" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; IOPar \&gt;" alt="" coords="715,484,904,513"/>
+<area shape="rect" id="node29" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; uiGraphics\lItem \&gt;" alt="" coords="707,537,912,583"/>
+<area shape="rect" id="node33" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; HostData \&gt;" alt="" coords="703,607,916,636"/>
+<area shape="rect" id="node37" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; SeisTrc\lReader \&gt;" alt="" coords="715,659,904,706"/>
+<area shape="rect" id="node41" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Strat\l::Lithology \&gt;" alt="" coords="723,729,896,775"/>
+<area shape="rect" id="node43" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; SeisPSIOProvider \&gt;" alt="" coords="679,799,940,828"/>
+<area shape="rect" id="node45" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; const\l UnitOfMeasure \&gt;" alt="" coords="721,851,897,898"/>
+<area shape="rect" id="node47" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; LaySeq\lAttrib \&gt;" alt="" coords="715,921,904,967"/>
+<area shape="rect" id="node51" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; OD\l::ModDep \&gt;" alt="" coords="727,990,892,1037"/>
+<area shape="rect" id="node53" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Marker \&gt;" alt="" coords="711,1060,908,1089"/>
+<area shape="rect" id="node57" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Sector\lData \&gt;" alt="" coords="719,1113,900,1159"/>
+<area shape="rect" id="node61" href="$classManagedObjectSet.html" title="ManagedObjectSet\&lt; Buffer\lString \&gt;" alt="" coords="720,1182,899,1229"/>
+<area shape="rect" id="node2" href="$classObjectSet.html" title="Set of pointers to objects. " alt="" coords="128,607,240,636"/>
+<area shape="rect" id="node4" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="7,607,76,636"/>
+<area shape="rect" id="node17" href="$classPosInfo_1_1CubeData.html" title="Position info for an entire 3D cube. The LineData&#39;s are not sorted. " alt="" coords="1003,292,1136,321"/>
+<area shape="rect" id="node19" href="$classPosInfo_1_1SortedCubeData.html" title="Position info for an entire 3D cube. The LineData&#39;s are sorted. " alt="" coords="1199,292,1369,321"/>
+<area shape="rect" id="node27" href="$classRepos_1_1IOParSet.html" title="Set of Repos::IOPar with each a unique name for user recognistion. " alt="" coords="1008,484,1131,513"/>
+<area shape="rect" id="node31" href="$classuiGraphicsItemSet.html" title="uiGraphicsItemSet" alt="" coords="1004,545,1135,575"/>
+<area shape="rect" id="node35" href="$classHostDataList.html" title="List of host names in the system. The first entry will be the local host. " alt="" coords="1020,607,1119,636"/>
+<area shape="rect" id="node39" href="$classSeisTrcReaderSet.html" title="advances and reads from multipe SeisTrcReader&#39;s " alt="" coords="1005,668,1133,697"/>
+<area shape="rect" id="node49" href="$classStrat_1_1LaySeqAttribSet.html" title="attribs to extract from layer sequences " alt="" coords="993,929,1145,959"/>
+<area shape="rect" id="node55" href="$classWell_1_1MarkerSet.html" title="Set of Markers. " alt="" coords="1012,1060,1127,1089"/>
+<area shape="rect" id="node59" href="$classStats_1_1DirectionalData.html" title="A circle of data. " alt="" coords="995,1121,1144,1151"/>
+<area shape="rect" id="node63" href="$classBufferStringSet.html" title="Set of BufferString objects. " alt="" coords="1015,1191,1124,1220"/>
+<area shape="rect" id="node65" href="$classDirList.html" title="Provides file and directory names in a certain directory. " alt="" coords="1255,1191,1313,1220"/>
+</map>

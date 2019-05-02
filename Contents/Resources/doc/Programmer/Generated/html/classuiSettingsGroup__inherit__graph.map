@@ -1,0 +1,11 @@
+<map id="uiSettingsGroup" name="uiSettingsGroup">
+<area shape="rect" id="node11" href="$classuiFontSettingsGroup.html" title="uiFontSettingsGroup" alt="" coords="708,5,849,35"/>
+<area shape="rect" id="node13" href="$classuiGeneralSettingsGroup.html" title="uiGeneralSettingsGroup" alt="" coords="699,59,859,88"/>
+<area shape="rect" id="node15" href="$classuiHorizonSettings.html" title="uiHorizonSettings" alt="" coords="716,112,841,141"/>
+<area shape="rect" id="node17" href="$classuiKeyBindingSettingsGroup.html" title="uiKeyBindingSettingsGroup" alt="" coords="688,165,869,195"/>
+<area shape="rect" id="node19" href="$classuiProcSettings.html" title="uiProcSettings" alt="" coords="725,219,832,248"/>
+<area shape="rect" id="node21" href="$classuiVisSettingsGroup.html" title="uiVisSettingsGroup" alt="" coords="712,272,845,301"/>
+<area shape="rect" id="node2" href="$classuiDlgGroup.html" title="uiDlgGroup" alt="" coords="391,139,476,168"/>
+<area shape="rect" id="node4" href="$classuiGroup.html" title="uiGroup" alt="" coords="275,139,341,168"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="156,139,225,168"/>
+</map>

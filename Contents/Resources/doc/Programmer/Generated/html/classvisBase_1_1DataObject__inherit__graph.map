@@ -1,0 +1,50 @@
+<map id="visBase::DataObject" name="visBase::DataObject">
+<area shape="rect" id="node5" href="$classvisBase_1_1Axes.html" title="visBase::Axes" alt="" coords="388,5,495,35"/>
+<area shape="rect" id="node7" href="$classvisBase_1_1Camera.html" title="keep osg camera status and render info " alt="" coords="380,59,503,88"/>
+<area shape="rect" id="node9" href="$classvisBase_1_1Coordinates.html" title="A set of coordinates. The coordinates will be transformed by the transformation before given to Coin..." alt="" coords="368,112,515,141"/>
+<area shape="rect" id="node11" href="$classvisBase_1_1DataObjectGroup.html" title="visBase::DataObjectGroup" alt="" coords="352,165,531,195"/>
+<area shape="rect" id="node19" href="$classvisBase_1_1DraggerBase.html" title="visBase::DraggerBase" alt="" coords="365,219,517,248"/>
+<area shape="rect" id="node23" href="$classvisBase_1_1EventCatcher.html" title="visBase::EventCatcher" alt="" coords="363,272,520,301"/>
+<area shape="rect" id="node25" href="$classvisBase_1_1Image.html" title="visBase::Image" alt="" coords="385,325,497,355"/>
+<area shape="rect" id="node27" href="$classvisBase_1_1MappedTextureDataSet.html" title="visBase::MappedTextureDataSet" alt="" coords="335,379,548,408"/>
+<area shape="rect" id="node29" href="$classvisBase_1_1Normals.html" title="visBase::Normals" alt="" coords="379,432,504,461"/>
+<area shape="rect" id="node31" href="$classvisBase_1_1TextureChannel2RGBA.html" title="visBase::TextureChannel2RGBA" alt="" coords="335,485,548,515"/>
+<area shape="rect" id="node39" href="$classvisBase_1_1TextureChannels.html" title="visBase::TextureChannels" alt="" coords="353,539,529,568"/>
+<area shape="rect" id="node41" href="$classvisBase_1_1TextureCoords.html" title="visBase::TextureCoords" alt="" coords="360,592,523,621"/>
+<area shape="rect" id="node43" href="$classvisBase_1_1ThumbWheel.html" title="visBase::ThumbWheel" alt="" coords="364,645,519,675"/>
+<area shape="rect" id="node45" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="367,699,516,728"/>
+<area shape="rect" id="node97" href="$classvisBase_1_1VolumeRenderScalarField.html" title="visBase::VolumeRenderScalar\lField" alt="" coords="341,751,541,798"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,379,92,408"/>
+<area shape="rect" id="node13" href="$classvisBase_1_1Scene.html" title="Scene manages all DataObjects and has some managing functions such as the selection management and va..." alt="" coords="668,112,783,141"/>
+<area shape="rect" id="node17" href="$classvisBase_1_1Transformation.html" title="The Transformation is an object that transforms everything following the node. " alt="" coords="644,165,807,195"/>
+<area shape="rect" id="node15" href="$classvisSurvey_1_1Scene.html" title="Database for 3D objects. " alt="" coords="945,112,1071,141"/>
+<area shape="rect" id="node21" href="$classvisBase_1_1Dragger.html" title="visBase::Dragger" alt="" coords="664,219,787,248"/>
+<area shape="rect" id="node33" href="$classvisBase_1_1ColTabTextureChannel2RGBA.html" title="visBase::ColTabTextureChannel2RGBA" alt="" coords="597,432,853,461"/>
+<area shape="rect" id="node35" href="$classvisBase_1_1RGBATextureChannel2RGBA.html" title="visBase::RGBATextureChannel2RGBA" alt="" coords="600,485,851,515"/>
+<area shape="rect" id="node37" href="$classvisBase_1_1TextureChannel2VolData.html" title="visBase::TextureChannel2\lVolData" alt="" coords="637,538,813,585"/>
+<area shape="rect" id="node47" href="$classvisBase_1_1Shape.html" title="visBase::Shape" alt="" coords="668,699,783,728"/>
+<area shape="rect" id="node51" href="$classvisBase_1_1VisualObjectImpl.html" title="visBase::VisualObjectImpl" alt="" coords="637,752,813,781"/>
+<area shape="rect" id="node49" href="$classvisBase_1_1VertexShape.html" title="visBase::VertexShape" alt="" coords="932,165,1084,195"/>
+<area shape="rect" id="node53" href="$classvisBase_1_1Annotation.html" title="Annotation is a simple wireframe box with text on its axis. " alt="" coords="939,219,1077,248"/>
+<area shape="rect" id="node55" href="$classvisBase_1_1BoxDragger.html" title="visBase::BoxDragger" alt="" coords="935,272,1081,301"/>
+<area shape="rect" id="node57" href="$classvisBase_1_1DepthTabPlaneDragger.html" title="visBase::DepthTabPlaneDragger" alt="" coords="901,325,1115,355"/>
+<area shape="rect" id="node59" href="$classvisBase_1_1FlatViewer.html" title="visBase::FlatViewer" alt="" coords="939,379,1077,408"/>
+<area shape="rect" id="node61" href="$classvisBase_1_1GeomIndexedShape.html" title="visBase::GeomIndexedShape" alt="" coords="911,432,1105,461"/>
+<area shape="rect" id="node63" href="$classvisBase_1_1GridLines.html" title="visBase::GridLines" alt="" coords="943,485,1073,515"/>
+<area shape="rect" id="node65" href="$classvisBase_1_1HorizonSection.html" title="visBase::HorizonSection" alt="" coords="925,539,1091,568"/>
+<area shape="rect" id="node67" href="$classvisBase_1_1ImageRect.html" title="visBase::ImageRect" alt="" coords="937,592,1079,621"/>
+<area shape="rect" id="node69" href="$classvisBase_1_1MarchingCubesSurface.html" title="visBase::MarchingCubesSurface" alt="" coords="901,645,1115,675"/>
+<area shape="rect" id="node71" href="$classvisBase_1_1MarkerSet.html" title="MarkerSet is a set of basic pickmarker with a constant size on screen. Size and shape are settable..." alt="" coords="940,699,1076,728"/>
+<area shape="rect" id="node73" href="$classvisBase_1_1OrthogonalSlice.html" title="Slice that cuts orthogonal through a VolumeData. " alt="" coords="924,752,1092,781"/>
+<area shape="rect" id="node75" href="$classvisBase_1_1PolygonSelection.html" title="visBase::PolygonSelection" alt="" coords="919,805,1097,835"/>
+<area shape="rect" id="node77" href="$classvisBase_1_1RandomPos2Body.html" title="visBase::RandomPos2Body" alt="" coords="915,859,1101,888"/>
+<area shape="rect" id="node79" href="$classvisBase_1_1RandomTrackDragger.html" title="visBase::RandomTrackDragger" alt="" coords="905,912,1111,941"/>
+<area shape="rect" id="node81" href="$classvisBase_1_1ScaleBar.html" title="ScaleBar base object. " alt="" coords="943,965,1073,995"/>
+<area shape="rect" id="node83" href="$classvisBase_1_1SceneColTab.html" title="visBase::SceneColTab" alt="" coords="931,1019,1085,1048"/>
+<area shape="rect" id="node85" href="$classvisBase_1_1Text2.html" title="visBase::Text2" alt="" coords="953,1072,1063,1101"/>
+<area shape="rect" id="node87" href="$classvisBase_1_1TexturePanelStrip.html" title="A TexturePanelStrip is geometrically invariant in the z&#45;direction. Its serially connected panels are ..." alt="" coords="917,1125,1099,1155"/>
+<area shape="rect" id="node89" href="$classvisBase_1_1TextureRectangle.html" title="A TextureRectangle is a Rectangle with a datatexture. The data is set via setData. " alt="" coords="919,1179,1097,1208"/>
+<area shape="rect" id="node91" href="$classvisBase_1_1TopBotImage.html" title="visBase::TopBotImage" alt="" coords="931,1232,1085,1261"/>
+<area shape="rect" id="node93" href="$classvisBase_1_1Well.html" title="Base class for well display. " alt="" coords="957,1285,1059,1315"/>
+<area shape="rect" id="node95" href="$classvisSurvey_1_1EMObjectDisplay.html" title="visSurvey::EMObjectDisplay" alt="" coords="913,1339,1103,1368"/>
+</map>

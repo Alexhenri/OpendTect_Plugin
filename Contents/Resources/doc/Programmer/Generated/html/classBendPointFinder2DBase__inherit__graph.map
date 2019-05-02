@@ -1,0 +1,10 @@
+<map id="BendPointFinder2DBase" name="BendPointFinder2DBase">
+<area shape="rect" id="node13" href="$classBendPointFinder2D.html" title="Used to find bendpoints in set of XY Coordinates. " alt="" coords="5,469,139,499"/>
+<area shape="rect" id="node15" href="$classBendPointFinder2DGeom.html" title="Used to find bendpoints in Line 2D Geometry. " alt="" coords="163,469,333,499"/>
+<area shape="rect" id="node17" href="$classBendPointFinderTrcKey.html" title="Used to find bendpoints in set of TrcKeys. " alt="" coords="357,469,517,499"/>
+<area shape="rect" id="node2" href="$classBendPointFinderBase.html" title="Base class that does the majority of the work finding bendpoints. Adaptions to different data&#45;types a..." alt="" coords="175,315,321,344"/>
+<area shape="rect" id="node4" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="201,237,295,267"/>
+<area shape="rect" id="node6" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="223,160,273,189"/>
+<area shape="rect" id="node8" href="$classNamedObject.html" title="Object with a name. " alt="" coords="197,83,299,112"/>
+<area shape="rect" id="node10" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="205,5,291,35"/>
+</map>

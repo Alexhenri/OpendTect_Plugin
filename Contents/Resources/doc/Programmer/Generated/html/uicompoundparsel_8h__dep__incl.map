@@ -1,0 +1,23 @@
+<map id="uicompoundparsel.h" name="uicompoundparsel.h">
+<area shape="rect" id="node3" href="$uicoordsystem_8h.html" title="uicoordsystem.h" alt="" coords="343,83,460,112"/>
+<area shape="rect" id="node17" href="$uiposfilterset_8h.html" title="uiposfilterset.h" alt="" coords="484,83,591,112"/>
+<area shape="rect" id="node19" href="$uiposprovider_8h.html" title="uiposprovider.h" alt="" coords="615,83,724,112"/>
+<area shape="rect" id="node21" href="$uimultcomputils_8h.html" title="uimultcomputils.h" alt="" coords="748,83,871,112"/>
+<area shape="rect" id="node23" href="$uiseislinesel_8h.html" title="uiseislinesel.h" alt="" coords="895,83,999,112"/>
+<area shape="rect" id="node25" href="$uiseissel_8h.html" title="uiseissel.h" alt="" coords="1023,83,1105,112"/>
+<area shape="rect" id="node35" href="$uiemauxdatasel_8h.html" title="uiemauxdatasel.h" alt="" coords="1129,83,1252,112"/>
+<area shape="rect" id="node37" href="$uiiosurface_8h.html" title="uiiosurface.h" alt="" coords="1276,83,1372,112"/>
+<area shape="rect" id="node43" href="$uiwellsel_8h.html" title="uiwellsel.h" alt="" coords="1396,83,1479,112"/>
+<area shape="rect" id="node5" href="$uiimppickset_8h.html" title="uiimppickset.h" alt="" coords="5,160,112,189"/>
+<area shape="rect" id="node7" href="$uilatlong2coord_8h.html" title="uilatlong2coord.h" alt="" coords="136,160,256,189"/>
+<area shape="rect" id="node9" href="$uiseisiosimple_8h.html" title="uiseisiosimple.h" alt="" coords="280,160,395,189"/>
+<area shape="rect" id="node11" href="$uiexpfault_8h.html" title="uiexpfault.h" alt="" coords="419,160,507,189"/>
+<area shape="rect" id="node13" href="$uiexphorizon_8h.html" title="uiexphorizon.h" alt="" coords="531,160,637,189"/>
+<area shape="rect" id="node15" href="$uiprestackexpmute_8h.html" title="uiprestackexpmute.h" alt="" coords="661,160,803,189"/>
+<area shape="rect" id="node27" href="$uistaticsdesc_8h.html" title="uistaticsdesc.h" alt="" coords="887,160,996,189"/>
+<area shape="rect" id="node29" href="$uiveldesc_8h.html" title="uiveldesc.h" alt="" coords="1020,160,1108,189"/>
+<area shape="rect" id="node31" href="$uisteeringsel_8h.html" title="uisteeringsel.h" alt="" coords="1132,160,1239,189"/>
+<area shape="rect" id="node33" href="$uisimilarityattrib_8h.html" title="uisimilarityattrib.h" alt="" coords="1124,237,1247,267"/>
+<area shape="rect" id="node39" href="$uiiosurfacedlg_8h.html" title="uiiosurfacedlg.h" alt="" coords="1265,160,1377,189"/>
+<area shape="rect" id="node41" href="$uimultisurfaceread_8h.html" title="uimultisurfaceread.h" alt="" coords="1401,160,1540,189"/>
+</map>

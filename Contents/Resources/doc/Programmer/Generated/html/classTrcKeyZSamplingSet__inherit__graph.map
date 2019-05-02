@@ -1,0 +1,8 @@
+<map id="TrcKeyZSamplingSet" name="TrcKeyZSamplingSet">
+<area shape="rect" id="node2" href="$classTypeSet.html" title="TypeSet\&lt; TrcKeyZSampling \&gt;" alt="" coords="115,392,312,421"/>
+<area shape="rect" id="node4" href="$classTypeSetBase.html" title="TypeSetBase\&lt; TrcKeyZSampling,\l int \&gt;" alt="" coords="5,198,227,245"/>
+<area shape="rect" id="node6" href="$classOD_1_1Set.html" title="Base class for all sets used in OpendTect. " alt="" coords="199,5,268,35"/>
+<area shape="rect" id="node8" href="$classTypeSetBase.html" title="Base class for TypeSet, usually not used as such. " alt="" coords="161,85,305,115"/>
+<area shape="rect" id="node13" href="$classTypeSetBase.html" title="TypeSetBase\&lt; T, int \&gt;" alt="" coords="251,207,405,236"/>
+<area shape="rect" id="node11" href="$classTypeSet.html" title="Set of (small) copyable elements. " alt="" coords="231,296,332,325"/>
+</map>

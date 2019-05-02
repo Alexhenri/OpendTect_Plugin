@@ -1,0 +1,9 @@
+<map id="uiFlatViewPropTab" name="uiFlatViewPropTab">
+<area shape="rect" id="node11" href="$classuiFlatViewDataDispPropTab.html" title="uiFlatViewer data display properties tabs. " alt="" coords="44,392,231,421"/>
+<area shape="rect" id="node17" href="$classuiFVAnnotPropTab.html" title="uiFlatViewer annotation properties tabs. " alt="" coords="255,392,385,421"/>
+<area shape="rect" id="node2" href="$classuiDlgGroup.html" title="uiDlgGroup" alt="" coords="185,237,271,267"/>
+<area shape="rect" id="node4" href="$classuiGroup.html" title="uiGroup" alt="" coords="195,160,261,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="193,83,263,112"/>
+<area shape="rect" id="node13" href="$classuiFVVDPropTab.html" title="uiFlatViewer VD display properties tabs. " alt="" coords="5,469,123,499"/>
+<area shape="rect" id="node15" href="$classuiFVWVAPropTab.html" title="uiFlatViewer WVA display properties tabs. " alt="" coords="147,469,275,499"/>
+</map>

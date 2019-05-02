@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="12 Default Attribute Sets">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>12.4 NN Fault Cube</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#default_attribute_sets/nn_fault_cube.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>12.4 NN Fault Cube<a name="kanchor74"></a></h2>
+        <p>This attribute set is meant for usage in a neural network. The attributes are tuned to pick up larger and smaller lateral discontinuities in the data. Depending on the character of faults on seismic, the parameters of the attributes can be modified. The defaults provide the best detection of steeply dipping faults of 1 to 3 traces wide. With wider faults or faulted zones longer windows and larger step-outs may improve the results. More flat lying faults are better detected using smaller (vertical) windows</p>
+        <p>Figure 4 shows seismic data with steeply dipping faults and Figure 5 shows the neural network generated fault cube result. Similarity is the most important attribute in fault detection, but the other attributes (energy, polar dip, dipvariance) enable the neural network to distinguish between faults and other low similarity features, e.g. chimneys or salt layers (provided enough counter-examples are picked for training). Also, they increase the fault continuity. For example, the more chaotic character of seismic data at a fault location is detected by the dipvariance attributes; at a fault location, local dip may vary much more from sample to sample even if the (steered) similarity remains high, and this is exactly what the dipvariance attributes detect. Sometimes the NN fault cube also tends to pick up the acquisition footprint of a survey. A good extension to the NN fault cube default set is adding one or two of the curvature attributes, see <a href="../dip-steering/attributes_with_steering/curvature_analysis/volumetric_curvature.htm" target="_self" style="font-weight: normal;">Curvature</a> for further explanation on curvature.</p>
+        <img src="../resources/images/default_attribute_sets/curvature.png" class="image" />
+        <p><i>"Fault Cube" default attribute-set</i>
+        </p>
+        <p style="page-break-before: always"><b>Figure 4. Faults in seismic data.</b>
+        </p>
+        <img src="../resources/images/default_attribute_sets/faults_in_seismic_data.png" class="image" data-mc-target-name="84" />
+        <p style="page-break-before: always"><b>Figure 5. Result after applying a neural network with the NN Fault Cube as input. The output probability is re-scaled from 0-1 to 0-10000 and then clipped between 5850 and 7200.</b>
+        </p>
+        <img src="../resources/images/default_attribute_sets/nn_fault_cube.png" class="image" data-mc-target-name="85" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.6 HitCube Stochastic Inversion</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#synthrock/hitcube_stochastic_inversion.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>7.6 HitCube Stochastic Inversion<a name="kanchor19"></a></h2>
+        <p>The HitCube is a stochastic inversion process. It assigns a spatial location to the simulated pseudo-wells such that rock properties can be computed from the tied models. The objective is indeed to predict reservoir properties with their relative uncertainties.</p>
+        <p>The HitCube workflow is divided in two steps:</p>
+        <ol>
+            <li value="1">The actual seismic traces in the volume are correlated with synthetic seismic from modeled wells.</li>
+            <li value="2">The property traces from corresponding models with a good correlation are stacked to build the output probability grids.</li>
+        </ol>
+        <p>The inversion can be proceed regarding a selected horizon or within the entire volume. The workflow is very similar in the two cases. The inputs are the reference seismic and, for <i>along horizon</i>, a target/reference horizon.</p>
+        <img src="../resources/images/synthrock/htcb_wflow.png" class="image" />
+        <p><b>Step 1 : Matching</b>
+        </p>
+        <p>The synthetic and real seismic are compared using a selected <i>matching method</i> (Similarity, Cross-correlation or Amplitude spectrum). The similarity is often preferred as it is scale sensitive and thus enables to distinguish between identical waveforms of different amplitude levels. The matching is achieved in a <i>matching gate</i> defined regarding the selected horizon if <i>along horizon</i> or if in <i>volume</i>, this time window is moved in a <i>Searching</i> time range that need to be specified. The matching window is determined in looking at the frequency spectrum of the data and QC in looking at the histogram of the output.  The output of this first phase is a similarity and time shift pair for each model and each trace of the data, that is stored (internally, not visible to user) in two volumes called <i>ScoreCube</i> and <i>DeltaCube</i>. In these volumes, each sample corresponds to a model. The best matching window is the one where most of the traces correlate, i.e the less undefined values in the final outputs. It has to be selected carefully as a too large matching window will result in similarity between two different events. The matching gate can be QCed in looking at the histograms : the mean of the maximum Score (<i>Use best 1 models</i>) and the number of values used in the Delta cube at maximum Score must be optimized and the Delta cube at maximum Score must have a symmetrical histogram.</p>
+        <img src="../resources/images/synthrock/ht_cb_mtch.png" class="image" />
+        <p><b>Step 2 : Stacking</b>
+        </p>
+        <p>The stacking step will generate the end products of the inversion, using the ScoreCube and DeltaCube as inputs, together with output features and/or logs from the pseudo-wells. For each model correspond a set of property logs that have been modeled. First the number of best models that sufficiently match the seismic data is selected. These models provide the dataset that will be stacked in order to compute the output target.The stacking can be done in taking the average or the median of the values. The final result is a predicted property volume based on probability. Additionally, various statistics (e.g. average) on score and delta values of the best matching pseudo-well models can be outputted.</p>
+        <p style="page-break-before: always"><b>Step 3: QC</b>
+        </p>
+        <p>The QC of HitCube inverted rock properties (e.g. AI, porosity) against available well log data can be done in OpendTect using cross-plots and visual comparisons.</p>
+        <p><b>Discrete property prediction</b>
+        </p>
+        <p>Usually property logs are continuous. But it exists logs like lithology logs which are discrete. In a litholog, the log will output a number for each lithology, for example : 1= sand, 2= shale, 3= limestone. To achieve a property prediction, each discrete value has to be considered on its own. In the case of the lithology prediction, a binary log will have to be computed for each lithology (1= one lithology, 0= the others). Then the HitCube process can be run for each of them. The result would be a probability of occurrence of the lithology at every location. The facies cube is computed in combining these probability volumes : the most likely lithology is output at each location. A confidence cube can also be created as the difference between the probability of the most likely lithology and the second most likely. The more this difference is important, the more trustable is the facies distinction at this location.</p>
+        <p>Discrete logs can be computed using any continuous log. For instance, using the Acoustic Impedance log, a new log can be computed that is equal to 1 when the AI value is higher than a given value and 0 otherwise. The HitCube will then give the probability that, at one location, AI is higher than this given value. The prediction of any log with more than two possible value follows the same workflow as the facies prediction.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

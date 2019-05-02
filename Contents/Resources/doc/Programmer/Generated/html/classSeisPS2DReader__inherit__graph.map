@@ -1,0 +1,5 @@
+<map id="SeisPS2DReader" name="SeisPS2DReader">
+<area shape="rect" id="node5" href="$classSEGYDirect2DPSReader.html" title="reads from 2D PS data store reader based on SEG&#45;Y files " alt="" coords="5,160,176,189"/>
+<area shape="rect" id="node7" href="$classSeisCBVSPS2DReader.html" title="reads from a CBVS prestack seismic data store. " alt="" coords="200,160,363,189"/>
+<area shape="rect" id="node2" href="$classSeisPSReader.html" title="reads from a prestack seismic data store. " alt="" coords="132,5,239,35"/>
+</map>

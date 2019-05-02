@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 Dip-Steering|3.5 Attributes with Steering">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.5.1 Curvature Analysis</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#dip-steering/attributes_with_steering/curvature_analysis.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>3.5.1 Curvature Analysis<a name="kanchor92"></a></h3>
+        <p><i>Curvature</i> can be used as input to other attributes. The <i>Volume Statistics</i> attribute, in particular, proves to give very useful outputs. Just select the <i>Curvature</i> attribute as input and select the output statistic. For Fault Detection, <i>'Variance'</i> is a suitable output statistic.</p>
+        <p>A local surface is constructed at the evaluation point by following the dip information from the SteeringCube. The <i>Curvature</i> attribute specified in <i>Output</i> is then calculated according to Roberts (2001). In his Feb. 2001 <i>First Break</i> article, Roberts defines Curvature as a two-dimensional property of a curve that describes how bent a curve is at a particular point in the curve, i.e. how much the curve deviates from a straight line. The same concept is used to describe the Curvature of a surface. Curvature is measured on the curve which is the intersection between a plane and the surface. Since this can be done in numerous ways, there is an infinite number of Curvature attributes that can be calculated for any plane. The subset implemented here relates to the most useful subset of Curvatures that are defined by planes that are orthogonal to the surface and which are called normal Curvatures. A positive Curvature corresponds to an anticline and a negative Curvature indicates a syncline. A flat plane has zero Curvature. The application suggestions are from Roberts (First Break, Feb 2001).</p>
+        <p><b>Outputs</b>
+        </p>
+        <p><u>Mean Curvature:</u> The average of any two orthogonal Normal Curvatures through a point on the surface is constant and is defined as the Mean Curvature. Minimum and Maximum Curvature (see below) are orthogonal surfaces, therefore the Mean Curvature is also the sum of Minimum and Maximum Curvature divided by two. The Mean Curvature is not considered a very important attribute for visualization purposes, but it is used to derive some of the other attributes.</p>
+        <p><u>Gaussian Curvature:</u> is defined as the product of the Minimum and Maximum Curvature. It is sometimes referred to as the Total Curvature. The Gaussian Curvature is not considered a very important attribute for visualization purposes, but it is used to derive some of the other attributes.</p>
+        <p><u>Maximum Curvature:</u> From the infinite number of Normal Curvatures there exists one curve, which defines the largest absolute Curvature. This is called the <i>Maximum Curvature</i>. The plane in which Maximum Curvature is calculated is orthogonal to the plane of the Minimum Curvature. This attribute is very effective at delimiting faults and fault geometries.</p>
+        <p><u>Minimum Curvature:</u> is the smallest absolute Curvature from the infinite number of Normal Curvatures that exist. The plane in which Minimum Curvature is calculated is orthogonal to the plane of the Maximum Curvature. The Minimum Curvature is often quite noisy, but it can sometimes be a good diagnostic in identifying fractured areas. Also, it is used to compute other Curvature attributes.</p>
+        <p><u>Most Positive Curvature:</u> returns the most positive curvature from the infinite number of Normal Curvatures that exist. The attribute reveals faulting and lineaments. The magnitude of the lineaments is preserved but the shape information is lost. This attribute can be compared to first derivative based attributes (dip, edge, and azimuth).</p>
+        <p><u>Most Negative Curvature:</u> returns the most negative curvature from the infinite number of Normal Curvatures that exist. The attribute reveals faulting and lineaments. The magnitude of the lineaments is preserved but the shape information is lost. This attribute can be compared to first derivative based attributes (dip, edge, and azimuth).</p>
+        <p><u>Shape Index  ( Si ):</u> is a combination of Maximum and Minimum Curvature that describes the local morphology of the surface independent of scale. The attribute may reflect e.g. whether the surface corresponds to a bowl( Si=-1 ), a valley (Si=-1/2 ), ridge ( Si=+1/2 ), a dome ( Si=1 ) or it is flat ( Si=0 ). Because the attribute is not affected by the absolute magnitude of Curvature, it is reported to be useful for picking up subtle fault and surface lineaments, as well as other patterns.</p>
+        <p><u>Dip Curvature:</u> returns the Curvature of the intersection with the plane that defines the dip direction of the surface. This plane is orthogonal to the plane for the Strike Curvature. This Curvature method tends to exaggerate local relief contained within the surface and can be used to enhance differential compacted features such as channeled sand bodies and debris flows.</p>
+        <p><u>Strike Curvature:</u> (also known as Tangential Curvature) returns the Curvature of the intersection with the plane that defines the strike direction of the surface. This plane is orthogonal to the plane for the Dip Curvature. The attribute describes the shape of the surface. It is extensively used in terrain analysis, e.g. to study soil erosion and drainage patterns. The attribute reveals how shapes are connected, e.g. how ridges are connected to the flanks of anticlines. It may be useful for fluid-flow studies.</p>
+        <p><u>Contour Curvature:</u> (also known as Plan Curvature) is not a Normal Curvature. It is very similar to the Strike Curvature and effectively represents the Curvature of the map contours associated with the surface. Contour Curvature values are not very well constrained, and large values can occur at the culmination of anticlines, synclines, ridges, and valleys.</p>
+        <p><i style="text-decoration: underline;">Curvedness:</i> describes the magnitude of Curvature of a surface independent of its shape. The attribute gives a general measure of the amount of Total Curvature within the surface.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

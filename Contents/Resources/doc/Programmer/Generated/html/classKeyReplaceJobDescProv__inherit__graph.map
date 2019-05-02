@@ -1,0 +1,5 @@
+<map id="KeyReplaceJobDescProv" name="KeyReplaceJobDescProv">
+<area shape="rect" id="node5" href="$classIDKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values taken from a range of IDs. " alt="" coords="5,160,192,189"/>
+<area shape="rect" id="node7" href="$classStringKeyReplaceJobDescProv.html" title="KeyReplaceJobDescProv where the values are in a string set. " alt="" coords="216,160,421,189"/>
+<area shape="rect" id="node2" href="$classJobDescProv.html" title="Interface for providing parameter files for jobs (job descriptions). Two implementations are pre&#45;cook..." alt="" coords="157,5,259,35"/>
+</map>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.2 Model an existing line through well(s)</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/model_an_existing_line_through_wells.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.2 Model an existing line through well(s)<a name="kanchor256"></a></h3>
+        <p><i>Model an existing line through well(s)</i><a name="kanchor257"></a> is the second pre-defined workflow in SynthRock profile modeling which allows to quickly build a model through the existing wells in the project database. It is launched by checking the corresponding box in <i>SynthRock</i> start window and clicking OK.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_chce.png" class="image" />
+        <p>A user is expected to go through the pre-defined sequence of windows. The workflow starts, as any profile modeling in SynthRock, with setting modeling parameters in Set process parameters window and selecting properties to be modeled in Layer Properties - Selection window. Once the workflow is completed, both sets of parameters can be modified by clicking on the <img src="../../resources/images/icons/tools.png" class="icon" /> and <img src="../../resources/images/icons/defprops.png" class="icon" />  icons of <i>Layer modeling</i> window respectively.</p>
+        <p>In the example below, few changes of the default parameters are made in the first window in order to limit the modeled interval to [300 m; MMU].</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_set_pars_wll_inp.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_set_pars_view.png" class="image" />
+        </div>
+        <p><i>Porosity</i> is added in addition to the default properties in the second window.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_add_por.png" class="image" />
+        <p>Once the modeling parameters and the property list are confirmed, <i>Create Initial Model</i> window appears. First, the <i>Line to model</i> option must be selected as either <i>2D line</i> or <i>3D Random line</i>.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_create_init_mod.png" class="image" />
+        <p><b>Create 3D Random Line</b>
+        </p>
+        <p>Geometry of a 3D random line through the existing wells can be created by clicking on <i>Create</i> button.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_create_rdm_ln.png" class="image" />
+        <p>Wells to be used must be first selected and then added/removed using the '<i>Select</i>' arrows. Order of the wells can be defined using the '<i>Change order</i>' arrows and this order defines the shape of a random line. If <i>Use only well’s top position</i> is set to <i>Yes</i>, the random line is drawn through the well tops. Alternatively, No gives an option to choose <i>Top</i> or <i>Bottom</i> of each well. A random line can be optionally extended beyond the locations of the first and the last wells by checking the box and specifying the distance. Finally, after giving a name click OK to create the random line and return to <i>Create Initial</i> Model window.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_create_rdm_ln2.png" class="image" />
+        <p><b>Existing 3D Random line</b>
+        </p>
+        <p>If a model is created along an existing 3D random line, click on <i>Select</i> button to choose from the list of existing random lines in the project database.</p>
+        <p>As an example, a model is created along a <i>Random Line through wells extended</i> which passes through all 4 wells, <i>F06-1</i>, <i>F02-1</i>, <i>F03-2</i> and <i>F03-4</i> and extends outwards on both sides.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_geom.png" class="image" />
+        <p>Once the line is selected, its name appears in the <i>Create Initial Model</i> window. <i>Look for wells within</i> allows to include wells that are not positioned exactly on the selected line.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_create_init_mod.png" class="image" />
+        <p>Click OK to proceed, and then go through a number of <i>Add well</i> windows. Such window is shown for every well located within the specified distance from the selected line. Automatically determined <i>Relative Position</i> and logs can be modified if needed. A user can also select not to use a particular well by clicking on <i>Don’t use this well</i> button.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_add_wll_1.png" class="image" />
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_add_wll_2.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_add_wll_3.png" class="image" />
+        </div>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_add_wll_4.png" class="image" />
+        <p>Next, the <i>Horizon selection</i> window allows to choose horizons and corresponding formation tops to steer the horizontal interpolation. Select any horizon in <i>Horizons</i> to use list and note that the <i>Corresponding well marker</i> is set to <i>&lt;don’t use&gt;</i> by default. This means that the selected horizon is not used in modeling.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_hor_slct.png" class="image" />
+        <p>Select the first horizon to be used in the modeling and set the corresponding marker as shown below for ‘<i>Demo 0 --&gt; FS4</i>’ horizon with a corresponding <i>FS4</i> well top. Similarly, well tops have to be selected for all the horizons to be used in the modeling. Finally, <i>Number of control profiles</i> can be specified. Clicking OK generates a model with default number of pseudowells.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_hor_slct_2.png" class="image" />
+        <p>At this point the pre-defined workflow is finished, and further modeling can be continued using the classic Profile mode  functionality in <i>Layer modeling</i> window.</p>
+        <p>An example below shows the final model along the <i>Random Line through wells extended</i>. Five horizons and corresponding well tops are set as following: ‘<i>Demo 0 --&gt; FS4’ - FS4; ‘Demo 1 --&gt; MFS4’ - MFS4; ‘Demo 4 --&gt; Truncation’ - Truncation; ‘Demo 5 --&gt; FS7’ - FS7; and ‘Demo 6 --&gt; FS8’ - FS</i>8. Note, that default number of pseudowells is changed to 1200, and some display parameters are modified to create this image. The green line overlying synthetic seismic corresponds to <i>FS8</i> well top.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_lyr_mod.png" class="image" />
+        <p>Below is the corresponding seismic section along the selected random line. The red box outlines the modeled interval, and the light green line corresponds to ‘<i>Demo 6 --&gt; FS8</i>’ horizon. The constructed model is a good start for further detailed modeling. The detailed modeling can be done to support existing interwell interpretation. For example, by modifying properties of the control profiles in the vicinity of the high-amplitude anomaly seen in the middle of the seismic section along the green horizon.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_rdm_ln_lyr_mod_seis.png" class="image" />
+        <p><b>Existing 2D line</b>
+        </p>
+        <p>Switch Line to model to 2D line option and click <i>Select</i>. In the <i>Line selection</i> window choose the existing 2D line in the project database along which modeling is to be done.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_2d_ln.png" class="image" />
+        <p>Once the 2D line is selected, specify the appropriate distance from the line to include all required wells for the modeling and click OK. Afterwards, follow the instructions described for Existing 3D Random line.</p>
+        <img src="../../resources/images/synthrock/sr_prfl_mod_exstg_2d_ln_2.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

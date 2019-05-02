@@ -1,0 +1,6 @@
+<map id="FactoryBase" name="FactoryBase">
+<area shape="rect" id="node3" href="$classFactory.html" title="Generalized static factory that can deliver instances of T, when no variable is needed in the creatio..." alt="" coords="180,5,279,35"/>
+<area shape="rect" id="node5" href="$classFactory1Param.html" title="Generalized static factory that can deliver instances of T, when a variable is needed in the creation..." alt="" coords="149,59,309,88"/>
+<area shape="rect" id="node7" href="$classFactory2Param.html" title="Subclass of FactoryBase. " alt="" coords="151,111,308,158"/>
+<area shape="rect" id="node9" href="$classFactory3Param.html" title="Subclass of FactoryBase. " alt="" coords="151,181,308,227"/>
+</map>

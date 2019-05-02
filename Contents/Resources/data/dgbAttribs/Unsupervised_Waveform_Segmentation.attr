@@ -1,0 +1,315 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 22:17:02 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x output=0
+0.UserRef: 4 Dip steered median filter
+0.Hidden: Yes
+1.Definition: Shift pos=0,0 time=-100 steering=no output=0
+1.UserRef: Sample -100
+1.Hidden: No
+1.Input.0: 0
+2.Definition: Shift pos=0,0 time=-96 steering=no output=0
+2.UserRef: Sample -96
+2.Hidden: No
+2.Input.0: 0
+3.Definition: Shift pos=0,0 time=-92 steering=no output=0
+3.UserRef: Sample -92
+3.Hidden: No
+3.Input.0: 0
+4.Definition: Shift pos=0,0 time=-88 steering=no output=0
+4.UserRef: Sample -88
+4.Hidden: No
+4.Input.0: 0
+5.Definition: Shift pos=0,0 time=-84 steering=no output=0
+5.UserRef: Sample -84
+5.Hidden: No
+5.Input.0: 0
+6.Definition: Shift pos=0,0 time=-80 steering=no output=0
+6.UserRef: Sample -80
+6.Hidden: No
+6.Input.0: 0
+7.Definition: Shift pos=0,0 time=-76 steering=no output=0
+7.UserRef: Sample -76
+7.Hidden: No
+7.Input.0: 0
+8.Definition: Shift pos=0,0 time=-72 steering=no output=0
+8.UserRef: Sample -72
+8.Hidden: No
+8.Input.0: 0
+9.Definition: Shift pos=0,0 time=-68 steering=no output=0
+9.UserRef: Sample -68
+9.Hidden: No
+9.Input.0: 0
+10.Definition: Shift pos=0,0 time=-64 steering=no output=0
+10.UserRef: Sample -64
+10.Hidden: No
+10.Input.0: 0
+11.Definition: Shift pos=0,0 time=-60 steering=no output=0
+11.UserRef: Sample -60
+11.Hidden: No
+11.Input.0: 0
+12.Definition: Shift pos=0,0 time=-56 steering=no output=0
+12.UserRef: Sample -56
+12.Hidden: No
+12.Input.0: 0
+13.Definition: Shift pos=0,0 time=-52 steering=no output=0
+13.UserRef: Sample -52
+13.Hidden: No
+13.Input.0: 0
+14.Definition: Shift pos=0,0 time=-48 steering=no output=0
+14.UserRef: Sample -48
+14.Hidden: No
+14.Input.0: 0
+15.Definition: Shift pos=0,0 time=-44 steering=no output=0
+15.UserRef: Sample -44
+15.Hidden: No
+15.Input.0: 0
+16.Definition: Shift pos=0,0 time=-40 steering=no output=0
+16.UserRef: Sample -40
+16.Hidden: No
+16.Input.0: 0
+17.Definition: Shift pos=0,0 time=-36 steering=no output=0
+17.UserRef: Sample -36
+17.Hidden: No
+17.Input.0: 0
+18.Definition: Shift pos=0,0 time=-32 steering=no output=0
+18.UserRef: Sample -32
+18.Hidden: No
+18.Input.0: 0
+19.Definition: Shift pos=0,0 time=-28 steering=no output=0
+19.UserRef: Sample -28
+19.Hidden: No
+19.Input.0: 0
+20.Definition: Shift pos=0,0 time=-24 steering=no output=0
+20.UserRef: Sample -24
+20.Hidden: No
+20.Input.0: 0
+21.Definition: Shift pos=0,0 time=-20 steering=no output=0
+21.UserRef: Sample -20
+21.Hidden: No
+21.Input.0: 0
+22.Definition: Shift pos=0,0 time=-16 steering=no output=0
+22.UserRef: Sample -16
+22.Hidden: No
+22.Input.0: 0
+23.Definition: Shift pos=0,0 time=-12 steering=no output=0
+23.UserRef: Sample -12
+23.Hidden: No
+23.Input.0: 0
+24.Definition: Shift pos=0,0 time=-8 steering=no output=0
+24.UserRef: Sample -8
+24.Hidden: No
+24.Input.0: 0
+25.Definition: Shift pos=0,0 time=-4 steering=no output=0
+25.UserRef: Sample -4
+25.Hidden: No
+25.Input.0: 0
+26.Definition: Shift pos=0,0 time=0 steering=no output=0
+26.UserRef: Sample 0
+26.Hidden: No
+26.Input.0: 0
+27.Definition: Shift pos=0,0 time=4 steering=no output=0
+27.UserRef: Sample 4
+27.Hidden: No
+27.Input.0: 0
+28.Definition: Shift pos=0,0 time=8 steering=no output=0
+28.UserRef: Sample 8
+28.Hidden: No
+28.Input.0: 0
+29.Definition: Shift pos=0,0 time=12 steering=no output=0
+29.UserRef: Sample 12
+29.Hidden: No
+29.Input.0: 0
+30.Definition: Shift pos=0,0 time=16 steering=no output=0
+30.UserRef: Sample 16
+30.Hidden: No
+30.Input.0: 0
+31.Definition: Shift pos=0,0 time=20 steering=no output=0
+31.UserRef: Sample 20
+31.Hidden: No
+31.Input.0: 0
+32.Definition: Shift pos=0,0 time=24 steering=no output=0
+32.UserRef: Sample 24
+32.Hidden: No
+32.Input.0: 0
+33.Definition: Shift pos=0,0 time=28 steering=no output=0
+33.UserRef: Sample 28
+33.Hidden: No
+33.Input.0: 0
+34.Definition: Shift pos=0,0 time=32 steering=no output=0
+34.UserRef: Sample 32
+34.Hidden: No
+34.Input.0: 0
+35.Definition: Shift pos=0,0 time=36 steering=no output=0
+35.UserRef: Sample 36
+35.Hidden: No
+35.Input.0: 0
+36.Definition: Shift pos=0,0 time=40 steering=no output=0
+36.UserRef: Sample 40
+36.Hidden: No
+36.Input.0: 0
+37.Definition: Shift pos=0,0 time=44 steering=no output=0
+37.UserRef: Sample 44
+37.Hidden: No
+37.Input.0: 0
+38.Definition: Shift pos=0,0 time=48 steering=no output=0
+38.UserRef: Sample 48
+38.Hidden: No
+38.Input.0: 0
+39.Definition: Shift pos=0,0 time=52 steering=no output=0
+39.UserRef: Sample 52
+39.Hidden: No
+39.Input.0: 0
+40.Definition: Shift pos=0,0 time=56 steering=no output=0
+40.UserRef: Sample 56
+40.Hidden: No
+40.Input.0: 0
+41.Definition: Shift pos=0,0 time=60 steering=no output=0
+41.UserRef: Sample 60
+41.Hidden: No
+41.Input.0: 0
+42.Definition: Shift pos=0,0 time=64 steering=no output=0
+42.UserRef: Sample 64
+42.Hidden: No
+42.Input.0: 0
+43.Definition: Shift pos=0,0 time=68 steering=no output=0
+43.UserRef: Sample 68
+43.Hidden: No
+43.Input.0: 0
+44.Definition: Shift pos=0,0 time=72 steering=no output=0
+44.UserRef: Sample 72
+44.Hidden: No
+44.Input.0: 0
+45.Definition: Shift pos=0,0 time=76 steering=no output=0
+45.UserRef: Sample 76
+45.Hidden: No
+45.Input.0: 0
+46.Definition: Shift pos=0,0 time=80 steering=no output=0
+46.UserRef: Sample 80
+46.Hidden: No
+46.Input.0: 0
+47.Definition: Shift pos=0,0 time=84 steering=no output=0
+47.UserRef: Sample 84
+47.Hidden: No
+47.Input.0: 0
+48.Definition: Shift pos=0,0 time=88 steering=no output=0
+48.UserRef: Sample 88
+48.Hidden: No
+48.Input.0: 0
+49.Definition: Shift pos=0,0 time=92 steering=no output=0
+49.UserRef: Sample 92
+49.Hidden: No
+49.Input.0: 0
+50.Definition: Shift pos=0,0 time=96 steering=no output=0
+50.UserRef: Sample 96
+50.Hidden: No
+50.Input.0: 0
+51.Definition: Shift pos=0,0 time=100 steering=no output=0
+51.UserRef: Sample 100
+51.Hidden: No
+51.Input.0: 0
+52.Definition: Shift pos=0,0 time=104 steering=no output=0
+52.UserRef: Sample 104
+52.Hidden: No
+52.Input.0: 0
+53.Definition: Shift pos=0,0 time=108 steering=no output=0
+53.UserRef: Sample 108
+53.Hidden: No
+53.Input.0: 0
+54.Definition: Shift pos=0,0 time=112 steering=no output=0
+54.UserRef: Sample 112
+54.Hidden: No
+54.Input.0: 0
+55.Definition: Shift pos=0,0 time=116 steering=no output=0
+55.UserRef: Sample 116
+55.Hidden: No
+55.Input.0: 0
+56.Definition: Shift pos=0,0 time=120 steering=no output=0
+56.UserRef: Sample 120
+56.Hidden: No
+56.Input.0: 0
+57.Definition: Shift pos=0,0 time=124 steering=no output=0
+57.UserRef: Sample 124
+57.Hidden: No
+57.Input.0: 0
+58.Definition: Shift pos=0,0 time=128 steering=no output=0
+58.UserRef: Sample 128
+58.Hidden: No
+58.Input.0: 0
+59.Definition: Shift pos=0,0 time=132 steering=no output=0
+59.UserRef: Sample 132
+59.Hidden: No
+59.Input.0: 0
+60.Definition: Shift pos=0,0 time=136 steering=no output=0
+60.UserRef: Sample 136
+60.Hidden: No
+60.Input.0: 0
+61.Definition: Shift pos=0,0 time=140 steering=no output=0
+61.UserRef: Sample 140
+61.Hidden: No
+61.Input.0: 0
+62.Definition: Shift pos=0,0 time=144 steering=no output=0
+62.UserRef: Sample 144
+62.Hidden: No
+62.Input.0: 0
+63.Definition: Shift pos=0,0 time=148 steering=no output=0
+63.UserRef: Sample 148
+63.Hidden: No
+63.Input.0: 0
+64.Definition: Shift pos=0,0 time=152 steering=no output=0
+64.UserRef: Sample 152
+64.Hidden: No
+64.Input.0: 0
+65.Definition: Shift pos=0,0 time=156 steering=no output=0
+65.UserRef: Sample 156
+65.Hidden: No
+65.Input.0: 0
+66.Definition: Shift pos=0,0 time=160 steering=no output=0
+66.UserRef: Sample 160
+66.Hidden: No
+66.Input.0: 0
+67.Definition: Shift pos=0,0 time=164 steering=no output=0
+67.UserRef: Sample 164
+67.Hidden: No
+67.Input.0: 0
+68.Definition: Shift pos=0,0 time=168 steering=no output=0
+68.UserRef: Sample 168
+68.Hidden: No
+68.Input.0: 0
+69.Definition: Shift pos=0,0 time=172 steering=no output=0
+69.UserRef: Sample 172
+69.Hidden: No
+69.Input.0: 0
+70.Definition: Shift pos=0,0 time=176 steering=no output=0
+70.UserRef: Sample 176
+70.Hidden: No
+70.Input.0: 0
+71.Definition: Shift pos=0,0 time=180 steering=no output=0
+71.UserRef: Sample 180
+71.Hidden: No
+71.Input.0: 0
+72.Definition: Shift pos=0,0 time=184 steering=no output=0
+72.UserRef: Sample 184
+72.Hidden: No
+72.Input.0: 0
+73.Definition: Shift pos=0,0 time=188 steering=no output=0
+73.UserRef: Sample 188
+73.Hidden: No
+73.Input.0: 0
+74.Definition: Shift pos=0,0 time=192 steering=no output=0
+74.UserRef: Sample 192
+74.Hidden: No
+74.Input.0: 0
+75.Definition: Shift pos=0,0 time=196 steering=no output=0
+75.UserRef: Sample 196
+75.Hidden: No
+75.Input.0: 0
+76.Definition: Shift pos=0,0 time=200 steering=no output=0
+76.UserRef: Sample 200
+76.Hidden: No
+76.Input.0: 0
+MaxNrKeys: 76
+Type: 3D
+!

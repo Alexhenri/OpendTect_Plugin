@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.4 Wells|5.4.2 Tie Well to Seismic">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.4.2.2 Well-Tie Checkshot Editor</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#analysis/wells/tie_well_to_seismic/well-tie_checkshot_editor.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor524"></a><a name="kanchor525"></a><a name="kanchor526"></a>5.4.2.2 Well-Tie Checkshot Editor<a name="kanchor527"></a></h4>
+        <p>In OpendTect, CheckShot corrections are applied before launching the Well to Seismic Tie window. If you have no depth/time model or have not selected any existing one, you will be proposed to correct the sonic integrated depth/time model, provided you imported a CheckShot model for your well.</p>
+        <p>The choices given are "None", "Automatic" or "Use editor". In the first case, the time depth curve will be computed directly from the sonic log without any correction (note, this is also the default mode if you do not have any CheckShot). In the automatic mode, the time/depth curve will be calibrated to the CheckShot without any user interaction. In the last case, you will be allowed to edit the calibration yourself using an editor window.</p>
+        <img src="../../../resources/images/analysis/analysis_tie_well_to_seismic_use_checkshot_editor.png" class="General_Image" />
+        <p>When clicking on 'Run', the '<i>Apply Checkshots correction</i>' window pops up.</p>
+        <img src="../../../resources/images/analysis/analysis_tie_well_to_seismic_apply_checkshot_correction.png" class="General_Image" />
+        <p>The above window is divided in two panels. On the left one, the sonic 'Integrated Depth/Time Model' (red) and the 'Checkshot Curve' (blue) are plotted. The right panel displays the drift curves. The original 'Drift Curve' (red) shows the variations between the CheckShot and the sonic integrated model.</p>
+        <p>By adding points to the right display you can additionally generate a new 'User defined Drift Curve' (green). This is done by clicking the <img src="../../../resources/images/icons/editsticks.png" class="Icons" /> icon. Once this is done, select the correction to apply, either from the Original or from the User Drift Curve and push the Apply button. The newly computed depth/time model will appear in green on the left panel. You can modify the drift curve and re-apply the corrections until you are satisfied with the depth/time model. Push the OK button and the main well tie window will appear using the new calibrated depth/time model.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#analysis/wells/tie_well_to_seismic/well-tie_checkshot_editor.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

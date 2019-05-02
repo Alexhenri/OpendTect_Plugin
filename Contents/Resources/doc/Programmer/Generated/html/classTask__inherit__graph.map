@@ -1,0 +1,50 @@
+<map id="Task" name="Task">
+<area shape="rect" id="node7" href="$classBitMapGenTask.html" title="Bitmap generation Task. " alt="" coords="428,1055,543,1084"/>
+<area shape="rect" id="node9" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="439,1108,532,1137"/>
+<area shape="rect" id="node88" href="$classSequentialTask.html" title="The generalization of something (e.g. a computation) where the steps must be done in sequence..." alt="" coords="429,1940,541,1969"/>
+<area shape="rect" id="node90" href="$classSmoother2D.html" title="Smoothes a 2d signal with an operator. " alt="" coords="423,1993,548,2023"/>
+<area shape="rect" id="node92" href="$classSmoother3D.html" title="Smoothes a 3d signal with an operator. " alt="" coords="423,2047,548,2076"/>
+<area shape="rect" id="node94" href="$classSmoother3D.html" title="Smoother3D\&lt; float \&gt;" alt="" coords="713,2095,857,2124"/>
+<area shape="rect" id="node97" href="$classTaskGroup.html" title="A collection of tasks, that behave as a single task. " alt="" coords="443,2151,528,2180"/>
+<area shape="rect" id="node99" href="$classuiGraphicsSceneChanger.html" title="uiGraphicsSceneChanger" alt="" coords="400,2204,571,2233"/>
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="145,2011,247,2040"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,2011,92,2040"/>
+<area shape="rect" id="node11" href="$classAGC.html" title="Computes an AGC over a ValueSeries. " alt="" coords="744,5,827,35"/>
+<area shape="rect" id="node13" href="$classArray1DStacker.html" title="Gently stacks ArrayND by summation along the secondary axis Currently implemented only 1D..." alt="" coords="715,58,856,105"/>
+<area shape="rect" id="node15" href="$classArray2DCopier.html" title="Transfers the common samples from one 2D array to another. " alt="" coords="716,128,855,157"/>
+<area shape="rect" id="node17" href="$classArray2DInterpol.html" title="Base class for two dimensional array interpolators. " alt="" coords="729,181,841,211"/>
+<area shape="rect" id="node19" href="$classArray2DReSampler.html" title="Fills an Array2D from another Array2D of another size. Usage: " alt="" coords="707,234,864,281"/>
+<area shape="rect" id="node21" href="$classArray3DCopier.html" title="Transfers the common samples from one 3D array to another. " alt="" coords="716,304,855,333"/>
+<area shape="rect" id="node23" href="$classArray3DFloodfill.html" title="Given an input array and a threshold, we use flood fill to find all the locations with values less (o..." alt="" coords="712,357,859,387"/>
+<area shape="rect" id="node25" href="$classArray3DUdfTrcRestorer.html" title="Array3DUdfTrcRestorer\&lt; T \&gt;" alt="" coords="689,411,881,440"/>
+<area shape="rect" id="node27" href="$classArrayMath_1_1ArrOperExec.html" title="Parallel task for computing the element wise operations of one array and optionally a second input ar..." alt="" coords="703,463,868,510"/>
+<area shape="rect" id="node29" href="$classArrayMath_1_1CumArrOperExec.html" title="Parallel task for computing the sum of element wise operations of one array and optionally a second i..." alt="" coords="689,533,881,579"/>
+<area shape="rect" id="node31" href="$classArrayMath_1_1CumSumExec.html" title="ArrayMath::CumSumExec\&lt; T \&gt;" alt="" coords="683,603,888,632"/>
+<area shape="rect" id="node33" href="$classArrayNDDataExtracter.html" title="Gets a one dimensional array from an ArrayND. " alt="" coords="692,656,879,685"/>
+<area shape="rect" id="node35" href="$classArrayUdfValReplacer.html" title="ArrayUdfValReplacer\&lt; T \&gt;" alt="" coords="697,709,873,739"/>
+<area shape="rect" id="node37" href="$classArrayUdfValRestorer.html" title="ArrayUdfValRestorer\&lt; T \&gt;" alt="" coords="699,763,872,792"/>
+<area shape="rect" id="node39" href="$classBendPointFinderBase.html" title="Base class that does the majority of the work finding bendpoints. Adaptions to different data&#45;types a..." alt="" coords="712,816,859,845"/>
+<area shape="rect" id="node41" href="$classBodyVolumeCalculator.html" title="Volume estimation for implicit bodies. getVolume returns the volume in cubic meters. " alt="" coords="708,869,863,899"/>
+<area shape="rect" id="node43" href="$classColTab_1_1MapperTask.html" title="Takes a Mapper, unmapped data and maps it. " alt="" coords="697,923,873,952"/>
+<area shape="rect" id="node45" href="$classConvolver2D.html" title="Convolves (or correlates) two 2D signals. " alt="" coords="720,976,851,1005"/>
+<area shape="rect" id="node47" href="$classConvolver3D.html" title="Convolves (or correlates) two 3D signals. " alt="" coords="720,1029,851,1059"/>
+<area shape="rect" id="node49" href="$classConvolver3D.html" title="Convolver3D\&lt; float \&gt;" alt="" coords="1000,1057,1147,1087"/>
+<area shape="rect" id="node52" href="$classDelaunayTriangulator.html" title="The parallel triangulation works for only one processor now. " alt="" coords="713,1133,857,1163"/>
+<area shape="rect" id="node54" href="$classDensityCalc.html" title="calculates densities for teh density display of a crossplot " alt="" coords="739,1187,832,1216"/>
+<area shape="rect" id="node56" href="$classDPSDensityCalcND.html" title="DPSDensityCalcND" alt="" coords="715,1240,856,1269"/>
+<area shape="rect" id="node58" href="$classDPSFromVolumeFiller.html" title="Fills DataPointSet with data from a VolumeDataPack. " alt="" coords="709,1293,861,1323"/>
+<area shape="rect" id="node60" href="$classEM_1_1EMObjectPosSelector.html" title="EMObject position selector. " alt="" coords="696,1347,875,1376"/>
+<area shape="rect" id="node62" href="$classEM_1_1EMObjectRowColSelRemoval.html" title="EMObject RowCol selection removal. " alt="" coords="672,1400,899,1429"/>
+<area shape="rect" id="node64" href="$classEM_1_1Expl2ImplBodyExtracter.html" title="EM::Expl2ImplBodyExtracter" alt="" coords="691,1453,880,1483"/>
+<area shape="rect" id="node66" href="$classEM_1_1HorizonMerger.html" title="A subclass of ParallelTask that merges horizons. " alt="" coords="719,1507,852,1536"/>
+<area shape="rect" id="node68" href="$classFaultTraceExtractor.html" title="FaultTrace extractor. " alt="" coords="717,1560,853,1589"/>
+<area shape="rect" id="node70" href="$classFourier_1_1CC_1_1CC1D.html" title="Fourier::CC::CC1D" alt="" coords="719,1613,852,1643"/>
+<area shape="rect" id="node72" href="$classFourierInterpol1D.html" title="Fourier interpolation for 1D datasets. " alt="" coords="724,1667,847,1696"/>
+<area shape="rect" id="node74" href="$classFourierInterpol2D.html" title="Fourier interpolation for 2D datasets. " alt="" coords="724,1720,847,1749"/>
+<area shape="rect" id="node76" href="$classFourierInterpol3D.html" title="Fourier interpolation for 3D datasets. " alt="" coords="724,1773,847,1803"/>
+<area shape="rect" id="node78" href="$classGeometry_1_1ArrayTesselator.html" title="Geometry::ArrayTesselator" alt="" coords="696,1827,875,1856"/>
+<area shape="rect" id="node80" href="$classImageResizer.html" title="Resizes Image. " alt="" coords="735,1880,836,1909"/>
+<area shape="rect" id="node82" href="$classImplicit2MarchingCubes.html" title="Implicit2MarchingCubes" alt="" coords="704,1933,867,1963"/>
+<area shape="rect" id="node84" href="$classLine2DInterSectionFinder.html" title="Line2DInterSectionFinder" alt="" coords="701,1987,869,2016"/>
+<area shape="rect" id="node86" href="$classLogCubeCreator.html" title="LogCubeCreator" alt="" coords="727,2040,844,2069"/>
+</map>

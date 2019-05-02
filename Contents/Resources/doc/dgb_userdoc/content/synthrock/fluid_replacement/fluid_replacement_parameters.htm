@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.5 Fluid Replacement">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.5.2 Fluid Replacement Parameters</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/fluid_replacement/fluid_replacement_parameters.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor34"></a>7.5.2 Fluid Replacement Parameters<a name="kanchor35"></a></h3>
+        <p>Once a fluid column has been defined in the pseudo-wells, the fluid replacement can be carried out by specifying the parameters for the Gassmann's equation.</p>
+        <p><b><a name="Define_Fluid_Replacement_Parameters"></a>Define Fluid Replacement Parameters</b>
+        </p>
+        <p>Click on  <img src="../../resources/images/icons/fluidreplpars.png" class="icon" />from the vertical list of icons on the right side pane, in the layer modeling window, to specify the fluid replacement parameters for various layers with fluid content.</p>
+        <img src="../../resources/images/synthrock/fluid_replacement_parameters.png" class="image" />
+        <p>Here, the user can specify, for various layers, the fluid Content A (initial) and the fluid Content B (after replacement). The parameters for individual fluids before/after replacement are specified by clicking on the<img src="../../resources/images/icons/tools.png" class="icon" />  icon. Now, in the above example, the initial fluid content in the two intervals (below the two well markers) is brine and is denoted by a '-' sign, by default. As the initial fluid content A is brine, the parameter specification icon has grayed out. The final fluid content, B, is gas and therefore clicking on the above mentioned icon, pops-up the following window. It should be noted that the direction of fluid replacement is from brine to gas, the direction can be changed by clicking on the<img src="../../resources/images/icons/rightarrow.png" class="icon" />  : this will also change the direction of the arrow.</p>
+        <p style="page-break-before: always"><i>Fluid Replacement Parameters per unit</i>
+        </p>
+        <img src="../../resources/images/synthrock/fluid_replacement_parameters_specific_per_unit.png" class="image" />
+        <p>The top five parameters have to be filled in. If the Poisson's Ratio, Porosity and Water Saturation information is available in the layer model, they can be left blank. In absence of this information, a constant values can be filled in for these three parameters. Finally, these parameters can be defined for the layer in consideration, similar layers or all the layers having fluid content defined.</p>
+        <p><b>Apply Fluid Replacement</b>
+        </p>
+        <p>Now, once the fluid replacement parameters have been defined, the <img src="../../resources/images/icons/fluidrepl.png" class="icon" /> icon can be pressed to apply the fluid replacement. This will update the elastic properties (e.g. Vp, Vs, Density etc.) of the pseudo-well layers with fluid content, which will in turn impact the synthetic seismic response.</p>
+        <p>When the aforementioned icon is pressed the first time, the user has to specify various rock properties defined in the pseudo-wells, as required by the Gassmann’s fluid replacement algorithm. They are Vp, Vs, Density, initial Water Saturation, final Water Saturation and Porosity.</p>
+        <img src="../../resources/images/synthrock/fld_rplcmt_props.png" class="image" />
+        <p>If only fluid type is changed, while keeping a constant water saturation, e.g. oil to gas (at constant Sw = x) or from oil/gas (at Sw = x) to brine (i.e. Sw = 1) same water saturation property should be specified as reference for initial and final saturations. If the final saturation is kept empty, the software automatically uses the initial saturation as final saturation as well. It is also possible to specify constant values of initial and final water saturations as well as porosity, in the Fluid Replacement Parameters  dialogue. If that is done, any references defined for saturations and porosity in the above window will not be honoured.</p>
+        <p>However, if the target is to compute elastic properties at different water saturations with/without changing the fluid type, e.g. oil (at Sw = x) to oil (at Sw = y) or oil (at Sw = x) to gas (at Sw = y), one needs to specify separate initial and final saturations. Note that in order to do so, two layer properties of the same type (i.e. Volumetrics → Water Saturation) need to be predefined in the <a href="../stochastic_pseudowell_modeling/manage_layer_properties.htm" target="_self" style="font-weight: normal;">Manage Layer Properties</a> and selected in the simulation in question.</p>
+        <p class="note"> For shaly sands, use effective porosity and effective saturations, in the fluid replacement.</p>
+        <p>Below is an example of water saturation modeling, based on F03-4 well of F3 Demo data-set, wherein a gas column of thickness 30m is attached below the FS8 marker. Here modeling is done to decrease the logged water saturation from 100% to 90%, from left to right to replace with gas (i.e. gas saturation increases from 0% to 10%). Afterward, fluid replacement is applied to compute the change in seismic response corresponding to the change in fluid fill.</p>
+        <img src="../../resources/images/synthrock/water_saturation.png" class="image" />
+        <p><i>Example profile of water saturation variation from 90% to 100%, from left to right</i>
+        </p>
+        <img src="../../resources/images/synthrock/synthetic_seismic.png" class="image" />
+        <p style="font-style: italic;">Original synthetic seismic, corresponding to fully brine case (i.e. water saturation of 100%)</p>
+        <img src="../../resources/images/synthrock/synthetic_seismic_gas.png" class="image" />
+        <p><i>Synthetic seismic after replacing brine with gas, corresponding to varying water saturation from 90% to 100%, left to right</i>
+        </p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

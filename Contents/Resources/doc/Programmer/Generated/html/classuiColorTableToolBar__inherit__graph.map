@@ -1,0 +1,7 @@
+<map id="uiColorTableToolBar" name="uiColorTableToolBar">
+<area shape="rect" id="node2" href="$classuiToolBar.html" title="uiToolBar" alt="" coords="147,160,224,189"/>
+<area shape="rect" id="node4" href="$classuiActionContainer.html" title="uiActionContainer" alt="" coords="5,83,131,112"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="155,83,224,112"/>
+<area shape="rect" id="node10" href="$classuiColorTable.html" title="uiColorTable" alt="" coords="248,160,341,189"/>
+<area shape="rect" id="node12" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="252,83,337,112"/>
+</map>

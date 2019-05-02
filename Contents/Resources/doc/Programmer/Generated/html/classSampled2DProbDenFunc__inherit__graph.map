@@ -1,0 +1,7 @@
+<map id="Sampled2DProbDenFunc" name="Sampled2DProbDenFunc">
+<area shape="rect" id="node2" href="$classProbDenFunc2D.html" title="Probability Density Function for two dimensional datasets. " alt="" coords="5,237,123,267"/>
+<area shape="rect" id="node4" href="$classProbDenFunc.html" title="Base class for Probability Density Functions. " alt="" coords="13,160,115,189"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="13,83,115,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="21,5,107,35"/>
+<area shape="rect" id="node10" href="$classArrayNDProbDenFunc.html" title="PDF based on ArrayND implementation. " alt="" coords="147,237,299,267"/>
+</map>

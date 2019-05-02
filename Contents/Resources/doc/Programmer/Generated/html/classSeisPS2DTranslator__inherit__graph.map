@@ -1,0 +1,6 @@
+<map id="SeisPS2DTranslator" name="SeisPS2DTranslator">
+<area shape="rect" id="node7" href="$classCBVSSeisPS2DTranslator.html" title="CBVSSeisPS2DTranslator" alt="" coords="5,237,184,267"/>
+<area shape="rect" id="node9" href="$classSEGYDirectSeisPS2DTranslator.html" title="SEGYDirectSeisPS2DTranslator" alt="" coords="208,237,421,267"/>
+<area shape="rect" id="node2" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="164,83,244,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="161,5,247,35"/>
+</map>

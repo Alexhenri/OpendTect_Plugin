@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements|3.7 Horizon|3.7.3 Tools">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.7.3.1 Grid</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#opendtect_trees_and_elements/horizon/tools/grid.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4>3.7.3.1 Grid<a name="kanchor1032"></a></h4>
+        <p>This utility is used to grid/interpolate a horizon having gaps/holes or to filter (average/median) a horizon grid. There are several gridding algorithms supported in OpendTect.</p>
+        <img src="../../../resources/images/opendtect_trees_and_elements/horizon_grid_setup.png" class="General_Image" />
+        <p style="page-break-before: always">Gridding Parameters:</p>
+        <ul>
+            <li value="1"><b><a name="kanchor1033"></a>Geometry:</b><a name="kanchor1034"></a> There are different types of geometries that are used to do interpolation. The Full survey is used to interpolate (in-/out-wards) the Horizon-Z values within the entire survey box. The Bounding Box defines the rectangle fitting the horizon geometry, which is generally smaller than the survey box. The Convex hull type of area fitting also restricts the gridding geometry within the horizon boundaries. To grid the gaps or holes in a horizons, the Only holes type of gridding geometry is used.</li>
+            <li value="2"><b>Inl/Crl step:</b> The default steps correspond to the sampling rate of the input horizon. The step can be decreased up to the survey sampling rate to get a higher resolution horizon.</li>
+            <li value="3"><b>Algorithm(s):</b> Inverse distance algorithm uses an inverse distance method of interpolation. Inverse distance requires the search radius with optional parameters (step-size and number of steps). The step size of '1' means that one bin would be used in all directions to interpolate the horizon Z-values. Whereas the number of steps define the number of concentric circles for inverse distance computation. For these steps, the grid computation can be set to the corner points for the defined radius or not (default option).</li>
+        </ul>
+        <img src="../../../resources/images/opendtect_trees_and_elements/horizon_algorithms_tools_inverse_dist_parameters.png" class="General_Image" />
+        <ul>
+            <li value="1"><i>Triangulation</i> is a fast gridding algorithm, which uses triangulation method of interpolation. The interpolation can also be defined by providing an optional maximum distance (radius) by setting interpolate option checked.</li>
+            <li value="2"><i>Extension</i>  uses a simple linear interpolation algorithm to extend the horizon Z-values outward using the number of steps (bins), which need to be defined in the following parameter field (Number of steps).</li>
+            <li value="3"><i><a name="kanchor1035"></a>Continuous Curvature (GMT)</i> is a continuous curvature algorithm of interpolation, which is a part of the GMT Plugin of OpendTect. Please check the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="http://www.soest.hawaii.edu/gmt/" target="_blank">GMT website</a></MadCap:conditionalText> for further details. This algorithm only requires the tension parameter (ranges from 0-1), which controls the smoothing. The tension 0 gives minimum curvature type of surface interpolation, while the tension of 1 gives a harmonic surface.</li>
+            <li value="4"><i>Nearest Neighbour (GMT)</i> is also another interpolation algorithm coming from the GMT Plugin of OpendTect. This algorithm requires the search radius to be defined. It is mostly useful for a regularly spaced grid data. Please check the <MadCap:conditionalText data-mc-conditions="Default.ScreenOnly"><a href="http://www.soest.hawaii.edu/gmt/" target="_blank">GMT website</a></MadCap:conditionalText> for further details.</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#opendtect_trees_and_elements/horizon/tools/grid.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

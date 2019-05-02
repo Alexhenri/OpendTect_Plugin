@@ -1,0 +1,21 @@
+<map id="linerectangleclipper.h" name="linerectangleclipper.h">
+<area shape="rect" id="node3" href="$geometry_8h.html" title="geometry.h" alt="" coords="408,83,493,112"/>
+<area shape="rect" id="node5" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="497,624,575,653"/>
+<area shape="rect" id="node33" href="$ranges_8h.html" title="ranges.h" alt="" coords="507,160,579,189"/>
+<area shape="rect" id="node36" href="$math2_8h.html" title="math2.h" alt="" coords="344,237,413,267"/>
+<area shape="rect" id="node7" href="$undefval_8h.html" title="undefval.h" alt="" coords="372,701,455,731"/>
+<area shape="rect" id="node25" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="479,701,593,731"/>
+<area shape="rect" id="node28" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="617,701,689,731"/>
+<area shape="rect" id="node11" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="533,779,640,808"/>
+<area shape="rect" id="node20" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="432,779,509,808"/>
+<area shape="rect" id="node14" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="484,856,556,885"/>
+<area shape="rect" id="node63" href="$ptrman_8h.html" title="ptrman.h" alt="" coords="711,547,783,576"/>
+<area shape="rect" id="node75" href="$varlenarray_8h.html" title="varlenarray.h" alt="" coords="672,315,768,344"/>
+<area shape="rect" id="node78" href="$samplingdata_8h.html" title="samplingdata.h" alt="" coords="488,237,597,267"/>
+<area shape="rect" id="node40" href="$odcomplex_8h.html" title="odcomplex.h" alt="" coords="267,315,363,344"/>
+<area shape="rect" id="node44" href="$convert_8h.html" title="convert.h" alt="" coords="195,392,269,421"/>
+<area shape="rect" id="node46" href="$string2_8h.html" title="string2.h" alt="" coords="267,701,339,731"/>
+<area shape="rect" id="node56" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="119,469,212,499"/>
+<area shape="rect" id="node59" href="$odstring_8h.html" title="odstring.h" alt="" coords="127,547,204,576"/>
+<area shape="rect" id="node66" href="$atomic_8h.html" title="atomic.h" alt="" coords="713,701,785,731"/>
+</map>

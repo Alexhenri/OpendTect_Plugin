@@ -1,0 +1,4 @@
+<map id="Strat::LayerValue" name="Strat::LayerValue">
+<area shape="rect" id="node3" href="$classStrat_1_1FormulaLayerValue.html" title="returns a layer value based on Math::Formula. It does not copy the Formula, so keep the formula alive..." alt="" coords="5,83,176,112"/>
+<area shape="rect" id="node5" href="$classStrat_1_1SimpleLayerValue.html" title="Strat::SimpleLayerValue" alt="" coords="200,83,363,112"/>
+</map>

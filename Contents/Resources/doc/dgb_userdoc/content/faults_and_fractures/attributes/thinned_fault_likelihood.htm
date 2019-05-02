@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="2 Faults and Fractures|2.1 Attributes">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>2.1.14 Thinned Fault Likelihood</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#faults_and_fractures/attributes/thinned_fault_likelihood.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>2.1.14 Thinned Fault Likelihood</h3>
+        <p>Thinned Fault likelihood or TFL is a new revolutionary attribute that produces accurate and sharp faults. The thinned Fault likelihood attribute which is defined as a power of semblance, has a range of value between 0 and 1.This attribute is developed aiming to capture and delineate faults and fractures in area of interest, such that the algorithm scans the range of fault dips to identify maximum likelihood.  The Thinned fault likelihood attribute provides razor-sharp fault images on horizontal slices as well as on vertical sections (<i>Figure 1</i>).  Fault likelihood attribute is used as input to directly compute density of fractures in a given area and the proximity of fractures with each other (<i>Figure 2</i>). This new plugin also comes with a new, edge-preserving smoothing filter. This smoothing algorithm uses Thinned Fault Likelihood attribute as input. It generates seismic volumes with razor-sharp edges that are very well suited for structural interpretation (<i>Figure 3</i>). For further quantitative work milder filters such as the dip-steered median filter are needed.</p>
+        <img src="../../resources/images/faults_fractures/figure_1.png" class="image" />
+        <p><b>Figure 1</b>. Smoothed seismic with Thinned Fault Likelihood attribute overlay.</p>
+        <img src="../../resources/images/faults_fractures/figure_2.png" class="image" />
+        <p><b>Figure 2</b>. Fracture Density (right) and Fracture Proximity (left) attributes computed from Thinned Fault Likelihood attribute.</p>
+        <img src="../../resources/images/faults_fractures/figure_3_left.png" class="image" />
+        <img src="../../resources/images/faults_fractures/figure_3_right.png" class="image" />
+        <p><b>Figure 3</b>. Result of the new smoothing filter (first grey image above) on seismic data (second grey image above). North Sea example</p>
+        <p><b>Workflow</b>
+        </p>
+        <p>To access the fault likelihood plugin, click on this icon <img src="../../resources/images/icons/dgbflt.png" class="icon" /> .</p>
+        <img src="../../resources/images/faults_fractures/ff_control_center.png" class="image" />
+        <br />
+        <img src="../../resources/images/faults_fractures/create_thinned_fault_likelihood.png" class="image" />
+        <br />
+        <p><b>Input Fault Likelihood Cube:</b> Select or Create a <a href="fault_likelihood.htm">Fault Likelihood Volume</a>.</p>
+        <p><b>Volume subselection:</b> this is useful if you the user want to speed the process, a subselection area can be set.</p>
+        <p>Final results can look like the image below.</p>
+        <img src="../../resources/images/faults_fractures/fault_likelihood.png" class="image" />
+        <p style="font-style: italic;">Fault likelihood results on IL 250, F3 dataset, North Sea.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+<map id="ImageParentItem" name="ImageParentItem">
+<area shape="rect" id="node2" href="$classuiODAnnotTreeItem.html" title="uiODAnnotTreeItem" alt="" coords="5,237,144,267"/>
+<area shape="rect" id="node4" href="$classuiODTreeItem.html" title="uiODTreeItem" alt="" coords="23,160,127,189"/>
+<area shape="rect" id="node6" href="$classuiTreeItem.html" title="uiTreeItem" alt="" coords="33,83,116,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="32,5,117,35"/>
+</map>

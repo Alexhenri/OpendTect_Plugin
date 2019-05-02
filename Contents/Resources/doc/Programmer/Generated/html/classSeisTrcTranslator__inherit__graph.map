@@ -1,0 +1,14 @@
+<map id="SeisTrcTranslator" name="SeisTrcTranslator">
+<area shape="rect" id="node7" href="$classBlocksSeisTrcTranslator.html" title="BlocksSeisTrcTranslator" alt="" coords="460,5,625,35"/>
+<area shape="rect" id="node9" href="$classCBVSSeisTrcTranslator.html" title="CBVSSeisTrcTranslator" alt="" coords="461,59,624,88"/>
+<area shape="rect" id="node11" href="$classSEGYDirectSeisTrcTranslator.html" title="SEGYDirectSeisTrcTranslator" alt="" coords="444,112,641,141"/>
+<area shape="rect" id="node13" href="$classSEGYSeisTrcTranslator.html" title="SEGYSeisTrcTranslator" alt="" coords="461,165,624,195"/>
+<area shape="rect" id="node15" href="$classSeisPSCubeSeisTrcTranslator.html" title="SeisPSCubeSeisTrcTranslator" alt="" coords="443,219,643,248"/>
+<area shape="rect" id="node17" href="$classSeisTrc2DTranslator.html" title="Base translator for 2D Seismics. " alt="" coords="472,272,613,301"/>
+<area shape="rect" id="node23" href="$classTwoDDataSeisTrcTranslator.html" title="Dummy old translator used during conversion only. " alt="" coords="449,325,636,355"/>
+<area shape="rect" id="node25" href="$classTwoDSeisTrcTranslator.html" title="Translator mechanism is only used for selection etc. " alt="" coords="463,379,623,408"/>
+<area shape="rect" id="node2" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="141,192,221,221"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="7,192,92,221"/>
+<area shape="rect" id="node19" href="$classCBVSSeisTrc2DTranslator.html" title="CBVS translator for 2D Seismics. " alt="" coords="709,245,888,275"/>
+<area shape="rect" id="node21" href="$classSEGYDirectSeisTrc2DTranslator.html" title="SEGYDirect translator for 2D Seismics. " alt="" coords="692,299,905,328"/>
+</map>

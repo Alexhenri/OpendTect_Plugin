@@ -1,0 +1,6 @@
+<map id="Geometry::ElementEditorImpl" name="Geometry::ElementEditorImpl">
+<area shape="rect" id="node7" href="$classGeometry_1_1BinIDElementEditor.html" title="Geometry::BinIDElementEditor" alt="" coords="5,237,208,267"/>
+<area shape="rect" id="node9" href="$classGeometry_1_1PlaneElementEditor.html" title="Geometry::PlaneElementEditor" alt="" coords="232,237,435,267"/>
+<area shape="rect" id="node2" href="$classGeometry_1_1ElementEditor.html" title="Geometry::ElementEditor" alt="" coords="136,83,304,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="177,5,263,35"/>
+</map>

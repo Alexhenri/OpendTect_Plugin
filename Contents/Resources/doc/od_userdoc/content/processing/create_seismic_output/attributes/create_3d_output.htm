@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="6 Processing|6.1 Create Seismic Output|6.1.1 Attributes">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>6.1.1.2 3D - Create  Output</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#processing/create_seismic_output/attributes/create_3d_output.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4>6.1.1.2 3D - Create  Output<a name="kanchor193"></a></h4>
+        <p>To create a 3D seismic output from an attribute, follow the path <i><a name="kanchor194"></a><a name="kanchor195"></a><a name="kanchor196"></a>Processing &gt; Create Seismic Output &gt; Attribute &gt; 3D</i>.</p>
+        <img src="../../../resources/images/processing/processing_create_seismic_output_3d_seismic_output.png" class="General_Image" />
+        <p>First, <i>Select</i> the output quantity. Optionally, a <i>sub-volume</i> can be specified.</p>
+        <p>Note that only attributes from the current attribute set can be selected in the '<i>Select output quantity</i>' window. To output an attribute from another attribute set, you must select this attribute set in the attribute module.</p>
+        <p>Null traces can be discarded.</p>
+        <p>It is also possible to choose between <a href="../../batch_processing/single_machine_batch_processing_window.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Single Process</a> and <a href="../../batch_processing/multi-machine_batch_processing_window.htm" target="_self" data-mc-conditions="Default.ScreenOnly">Multi-Job/Machine</a> processing:</p>
+        <img src="../../../resources/images/processing/processing_create_seismic_output_2d_lineset_output_select_process.png" class="General_Image" />
+        <p>And to set the job priority (if deemed necessary). This is equivalent to the '<i>Nice level</i>' on Linux, determining how much priority the process will take on the remote machine:</p>
+        <img src="../../../resources/images/processing/processing_create_seismic_output_2d_lineset_output_set_priority.png" class="General_Image" />
+        <p>Optionally, the output can be scaled with a Shift and a Factor:</p>
+        <p><span style="font-family: 'Miriam Fixed';">Output = Factor * Input + Shift</span>
+        </p>
+        <p><b>Storage:</b> OpendTect can store data internally in 8-, 16-, 32-, and 64-bit seismic data formats. 8-bit signed has a data range between -127 and +127. 8-bit unsigned ranges between 0 and 255. Similarly, 16-bit signed ranges between -32767 and +32767 (unsigned 0 - 65535). The data is stored in the same byte-format as the input by default (Storage is set to 0 - auto). This is chosen when specifying the <i>Format/Scaling.</i></p>
+        <img src="../../../resources/images/processing/processing_create_seismic_output_3d_seismic_output_storage.png" class="General_Image" />
+        <p><b>Adjust Z range to survey range:</b> this option adjusts the new scaled seismic to the survey range.</p>
+        <p><b>Optimize horizontal slice access:</b> For better performance when loading time slices, set this option to 'Yes'. This compromises some speed in loading crosslines, but it loads time slices significantly faster.</p>
+        <p><b>Processing:</b> OpendTect batch jobs for 3D volumes can be processed on a <i>single-</i>, <i>multiple machines</i>, or <a href="../../batch_processing/cluster_processing.htm" target="_blank" data-mc-conditions="Default.ScreenOnly">Clustering</a>. For more information look at <a href="../../batch_processing.htm" target="_blank" data-mc-conditions="Default.ScreenOnly">batch processing</a>.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#processing/create_seismic_output/attributes/create_3d_output.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

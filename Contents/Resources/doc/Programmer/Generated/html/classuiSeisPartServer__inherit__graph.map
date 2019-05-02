@@ -1,0 +1,4 @@
+<map id="uiSeisPartServer" name="uiSeisPartServer">
+<area shape="rect" id="node2" href="$classuiApplPartServer.html" title="Makes available certain services that are needed on a higher level. " alt="" coords="5,83,125,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="23,5,108,35"/>
+</map>

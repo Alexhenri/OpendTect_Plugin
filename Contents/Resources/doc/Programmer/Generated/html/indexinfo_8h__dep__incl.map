@@ -1,0 +1,30 @@
+<map id="indexinfo.h" name="indexinfo.h">
+<area shape="rect" id="node3" href="$posinfo_8h.html" title="posinfo.h" alt="" coords="476,83,551,112"/>
+<area shape="rect" id="node61" href="$flatposdata_8h.html" title="flatposdata.h" alt="" coords="967,83,1063,112"/>
+<area shape="rect" id="node5" href="$arrayndalgo_8h.html" title="arrayndalgo.h" alt="" coords="1079,160,1177,189"/>
+<area shape="rect" id="node36" href="$cbvsinfo_8h.html" title="cbvsinfo.h" alt="" coords="472,160,555,189"/>
+<area shape="rect" id="node44" href="$cbvswriter_8h.html" title="cbvswriter.h" alt="" coords="173,237,267,267"/>
+<area shape="rect" id="node48" href="$cbvsio_8h.html" title="cbvsio.h" alt="" coords="379,160,448,189"/>
+<area shape="rect" id="node55" href="$posinfodetector_8h.html" title="posinfodetector.h" alt="" coords="1201,160,1324,189"/>
+<area shape="rect" id="node57" href="$seisposprovider_8h.html" title="seisposprovider.h" alt="" coords="95,160,217,189"/>
+<area shape="rect" id="node7" href="$array2dinterpol_8h.html" title="array2dinterpol.h" alt="" coords="1728,237,1845,267"/>
+<area shape="rect" id="node16" href="$fftfilter_8h.html" title="fftfilter.h" alt="" coords="1881,237,1951,267"/>
+<area shape="rect" id="node20" href="$gridder2d_8h.html" title="gridder2d.h" alt="" coords="784,237,869,267"/>
+<area shape="rect" id="node22" href="$polynd_8h.html" title="polynd.h" alt="" coords="893,237,963,267"/>
+<area shape="rect" id="node24" href="$wellloginterpolator_8h.html" title="wellloginterpolator.h" alt="" coords="987,237,1123,267"/>
+<area shape="rect" id="node28" href="$freqfilterattrib_8h.html" title="freqfilterattrib.h" alt="" coords="1147,237,1256,267"/>
+<area shape="rect" id="node30" href="$specdecompattrib_8h.html" title="specdecompattrib.h" alt="" coords="1280,237,1416,267"/>
+<area shape="rect" id="node32" href="$uiwindowfuncseldlg_8h.html" title="uiwindowfuncseldlg.h" alt="" coords="1440,237,1587,267"/>
+<area shape="rect" id="node34" href="$uifreqtaper_8h.html" title="uifreqtaper.h" alt="" coords="1611,237,1704,267"/>
+<area shape="rect" id="node9" href="$array2dinterpolimpl_8h.html" title="array2dinterpolimpl.h" alt="" coords="1716,315,1857,344"/>
+<area shape="rect" id="node13" href="$contcurvinterpol_8h.html" title="contcurvinterpol.h" alt="" coords="1567,315,1692,344"/>
+<area shape="rect" id="node11" href="$horizongridder_8h.html" title="horizongridder.h" alt="" coords="1651,392,1765,421"/>
+<area shape="rect" id="node18" href="$uifreqfilter_8h.html" title="uifreqfilter.h" alt="" coords="1881,315,1972,344"/>
+<area shape="rect" id="node26" href="$uiwellloginterpolator_8h.html" title="uiwellloginterpolator.h" alt="" coords="981,315,1128,344"/>
+<area shape="rect" id="node38" href="$cbvsreader_8h.html" title="cbvsreader.h" alt="" coords="291,237,387,267"/>
+<area shape="rect" id="node40" href="$cbvsreadmgr_8h.html" title="cbvsreadmgr.h" alt="" coords="411,237,517,267"/>
+<area shape="rect" id="node42" href="$cbvswritemgr_8h.html" title="cbvswritemgr.h" alt="" coords="541,237,651,267"/>
+<area shape="rect" id="node46" href="$seiscbvs_8h.html" title="seiscbvs.h" alt="" coords="675,237,760,267"/>
+<area shape="rect" id="node59" href="$uiseisposprovgroup_8h.html" title="uiseisposprovgroup.h" alt="" coords="5,237,149,267"/>
+<area shape="rect" id="node63" href="$prestackanglecomputer_8h.html" title="prestackanglecomputer.h" alt="" coords="1348,160,1516,189"/>
+</map>

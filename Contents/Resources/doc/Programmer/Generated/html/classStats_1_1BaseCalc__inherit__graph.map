@@ -1,0 +1,8 @@
+<map id="Stats::BaseCalc&lt; T &gt;" name="Stats::BaseCalc&lt; T &gt;">
+<area shape="rect" id="node3" href="$classStats_1_1ParallelCalc.html" title="ParallelCalc\&lt; float \&gt;" alt="" coords="5,85,147,115"/>
+<area shape="rect" id="node5" href="$classStats_1_1RunCalc.html" title="RunCalc\&lt; float \&gt;" alt="" coords="171,85,293,115"/>
+<area shape="rect" id="node7" href="$classStats_1_1ParallelCalc.html" title="Stats computation running in parallel. " alt="" coords="317,85,480,115"/>
+<area shape="rect" id="node11" href="$classStats_1_1RunCalc.html" title="Calculates mean, min, max etc., as running values. " alt="" coords="504,85,648,115"/>
+<area shape="rect" id="node9" href="$classStats_1_1ParallelCalc.html" title="Stats::ParallelCalc\l\&lt; float \&gt;" alt="" coords="333,182,464,229"/>
+<area shape="rect" id="node13" href="$classStats_1_1RunCalc.html" title="Stats::RunCalc\&lt; float \&gt;" alt="" coords="496,191,656,220"/>
+</map>

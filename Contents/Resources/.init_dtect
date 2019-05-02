@@ -1,0 +1,88 @@
+#!/bin/csh -f
+#_______________________________________________________________________________
+#
+# (C) dGB Beheer B.V.
+# OpenTect environment initialisation script
+# $Id: .init_dtect,v 1.7 2012/07/27 09:10:29 relman Exp $
+#_______________________________________________________________________________
+
+#-----------------------------------------------------
+# Filled by 'install'
+
+if ( ! $?DTECT_APPL ) then
+    setenv DTECT_APPL "__INST_DIR__"
+endif
+
+if ( ! $?DTECT_DATA ) then
+    if ( $?dGB_DATA ) then
+	setenv DTECT_DATA "$dGB_DATA"
+    else
+	setenv DTECT_DATA "__DATA_DIR__"
+    endif
+endif
+
+if ( "$DTECT_DATA" == "__none__" ) then
+    unsetenv DTECT_DATA
+endif
+
+#-----------------------------------------------------
+# General initialisation
+
+eval `"$DTECT_APPL/bin/mksethdir"`
+
+setenv LANG C
+
+#-----------------------------------------------------
+# PATH variables
+
+if ( -d ${DTECT_APPL}/bin/${binsubdir}/Release ) then
+    set bindir="${DTECT_APPL}/bin/${binsubdir}/Release"
+else if ( -d ${DTECT_APPL}/bin/${binsubdir}/Debug ) then
+    set bindir="${DTECT_APPL}/bin/${binsubdir}/Debug"
+else
+    exit 1
+endif
+set binpath="${bindir}:${DTECT_APPL}/bin"
+
+setenv PATH "${binpath}:${PATH}"
+
+if ( $HDIR == mac ) then
+
+    if ( $?DYLD_LIBRARY_PATH ) then
+	setenv OD_SYSTEM_LIBRARY_PATH "${DYLD_LIBRARY_PATH}"
+	setenv DYLD_LIBRARY_PATH "${bindir}:${DYLD_LIBRARY_PATH}"
+    else
+	setenv DYLD_LIBRARY_PATH "${bindir}:/lib:/usr/lib"
+    endif
+
+else
+
+    if ( $?LD_LIBRARY_PATH ) then
+	setenv OD_SYSTEM_LIBRARY_PATH "${LD_LIBRARY_PATH}"
+        setenv LD_LIBRARY_PATH "${bindir}:${OD_SYSTEM_LIBRARY_PATH}"
+    else
+	setenv LD_LIBRARY_PATH "${bindir}"
+    endif
+
+    # kludge for Fedora 8
+    setenv LIBXCB_ALLOW_SLOPPY_LOCK 1
+
+endif
+
+
+#-----------------------------------------------------
+# Extra initialisations
+
+set nonomatch=yes
+
+cd "$DTECT_APPL"
+
+foreach fil ( odinit.* )
+    if ( -r "$fil" ) source "$fil"
+end
+
+# Put back the user environment
+source ${DTECT_APPL}/bin/init_dtect_GL
+if ( $?OD_SYSTEM_LIBRARY_PATH ) then
+    setenv LD_LIBRARY_PATH "${LD_LIBRARY_PATH}:${OD_SYSTEM_LIBRARY_PATH}"
+endif

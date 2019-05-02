@@ -1,0 +1,5 @@
+<map id="dgbPreLoadsTranslator" name="dgbPreLoadsTranslator">
+<area shape="rect" id="node2" href="$classPreLoadsTranslator.html" title="PreLoadsTranslator" alt="" coords="16,160,149,189"/>
+<area shape="rect" id="node4" href="$classTranslator.html" title="I/O Interpreter class for a certain object type. " alt="" coords="43,83,123,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="40,5,125,35"/>
+</map>

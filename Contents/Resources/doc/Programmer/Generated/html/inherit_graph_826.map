@@ -1,0 +1,20 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classArrayImplBase.html" title="ArrayImplBase\&lt; float \&gt;" alt="" coords="216,217,373,247"/>
+<area shape="rect" id="node3" href="$classArray1DImpl.html" title="Array1DImpl\&lt; float \&gt;" alt="" coords="451,325,595,355"/>
+<area shape="rect" id="node5" href="$classArray2DImpl.html" title="Array2DImpl\&lt; float \&gt;" alt="" coords="451,112,595,141"/>
+<area shape="rect" id="node9" href="$classArray3DImpl.html" title="Array3DImpl\&lt; float \&gt;" alt="" coords="451,219,595,248"/>
+<area shape="rect" id="node11" href="$classArrayNDImpl.html" title="ArrayNDImpl\&lt; float \&gt;" alt="" coords="449,165,596,195"/>
+<area shape="rect" id="node7" href="$classAttrib_1_1Slice.html" title="Slice containing attribute values. " alt="" coords="651,112,741,141"/>
+<area shape="rect" id="node12" href="$classArrayND.html" title="ArrayND\&lt; float \&gt;" alt="" coords="15,219,137,248"/>
+<area shape="rect" id="node14" href="$classArray1D.html" title="Array1D\&lt; float \&gt;" alt="" coords="236,324,353,353"/>
+<area shape="rect" id="node17" href="$classArray2D.html" title="Array2D\&lt; float \&gt;" alt="" coords="236,85,353,115"/>
+<area shape="rect" id="node24" href="$classArray3D.html" title="Array3D\&lt; float \&gt;" alt="" coords="236,271,353,300"/>
+<area shape="rect" id="node20" href="$classBIDValSetArrAdapter.html" title="an adapter between Array2D and a BinIDValueSet " alt="" coords="449,59,596,88"/>
+<area shape="rect" id="node22" href="$classSeisTrcBufArray2D.html" title="Array2D based on SeisTrcBuf. " alt="" coords="456,5,589,35"/>
+<area shape="rect" id="node27" href="$classAttrib_1_1DataHolderArray.html" title="An array of attribute data holders. " alt="" coords="444,272,601,301"/>
+<area shape="rect" id="node29" href="$classValueSeries.html" title="ValueSeries\&lt; float \&gt;" alt="" coords="5,447,147,476"/>
+<area shape="rect" id="node32" href="$classArrayValueSeries.html" title="ArrayValueSeries\&lt; float,\l float \&gt;" alt="" coords="213,553,376,599"/>
+<area shape="rect" id="node34" href="$classSeis_1_1RawTrcsSequenceValueSeries.html" title="Seis::RawTrcsSequenceValue\lSeries" alt="" coords="195,377,395,423"/>
+<area shape="rect" id="node36" href="$classSeisTrcValueSeries.html" title="SeisTrcValueSeries" alt="" coords="227,447,363,476"/>
+<area shape="rect" id="node38" href="$classWaveletValueSeries.html" title="WaveletValueSeries" alt="" coords="225,500,364,529"/>
+</map>

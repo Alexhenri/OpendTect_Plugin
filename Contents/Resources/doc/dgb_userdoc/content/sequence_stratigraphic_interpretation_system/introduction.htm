@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Sequence Stratigraphic Interpretation System">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.1 Introduction</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#sequence_stratigraphic_interpretation_system/introduction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>5.1 Introduction<a name="kanchor100"></a></h2>
+        <p><a name="kanchor101"></a>Automated horizon-tracking, Wheeler transforms, and systems tracts interpretations are unique 3D seismic interpretation capabilities that are supported in OpendTect SSIS; dGB's new Sequence Stratigraphic Interpretation System (SSIS for short).</p>
+        <p>In SSIS, seismic interpreters are offered new ways of visualizing and analyzing seismic data, which leads to better insights of sediment deposition, erosion, and timing. In combination with OpendTect's neural networks plugin, users can follow up with seismic facies clustering and study the resulting patterns and bodies, and their spatial distribution, in relation to geologic timing and systems tracts.</p>
+        <p>The OpendTect SSIS workflow is an <i>iterative process</i> that consists of four basic steps:</p>
+        <p>First, major sequence boundaries are interactively mapped with OpendTect's horizon trackers (or these are imported from other interpretation systems). Next, all possible intermediate horizons are auto-tracked with sub-sample accuracy. Each intermediate horizon corresponds to a geologic time line, i.e. a chrono-stratigraphic event, and can be identified by a unique index indirectly to relative geologic age of the event. The index is automatically assigned to each horizon in stratigraphic order according to its relative thickness. Horizons that form the base of one sequence and the top of the sequence below it, are assigned the same index. This index can be manually overruled for both indexes separately. In this way the duration of deposition and duration of hiatuses can be changed. When a horizon is diachronous (time transgressive), the index is the youngest index for the top of a sequence and the oldest index for the base of a sequence.</p>
+        <p>Two auto-track modes are supported: <i>model driven</i> and <i>data driven</i><a name="kanchor102"></a>. In the model driven approach the HorizonCube is calculated by interpolation or by adding horizons parallel to upper or lower bounding surfaces. In the data-driven mode, seismic horizons are auto-tracked by following the local dip and azimuth of the seismic events. This mode requires OpendTect's dip-steering plugin to pre-calculate the SteeringCube containing the dip and azimuth information.</p>
+        <img src="../resources/images/sequence_stratigraphic_interpretation_system/ssis_workflow.png" class="image" />
+        <p><i style="font-weight: bold; font-style: normal;">SSIS Workflow</i>
+        </p>
+        <p>The third step in the process is the actual <i>Wheeler Transform</i>. Basically, this flattens the seismic data (or derived attributes) along the auto-tracked horizons and honors truncations and erosional/depositional hiatuses. Studying the data in the Wheeler transformed domain increases our understanding of the <i>spatial distribution and timing of sediment deposition</i>. To quote sequence stratigrapher Peter Vail: <i>"You never fully appreciate the implications of a sequence stratigraphic interpretation until you've transformed it to a Wheeler diagram"</i>.</p>
+        <p>The fourth step in the SSIS workflow is <i>systems tract interpretation</i>. Inspecting the spatial distribution of the sequences and lap-out patterns of seismic events, in both the normal domain and the Wheeler transformed domain, enables the user to segment the seismic sequences into systems tract. Systems tracts are specified per HorizoncCube range. To accommodate different naming conventions, the software allows the default systems tract names (<i>High Stand, Falling Stage, Low Stand, Transgressive</i>) to be replaced by user-defined names.</p>
+        <p>With the HorizonCube calculated and optionally systems tracts interpreted, the user can continue the sequence stratigraphic analysis with seismic facies interpretation. Visualizing systems tract-interpretations together with the HorizonCube and overlaying the normal- and Wheeler transformed domains helps in identifying depositional features of interest. More advanced seismic facies analysis is possible with OpendTect's neural network plugin. Waveform segmentation along any HorizonCube event is a simple and straightforward approach for visualizing seismic patterns per stratigraphic event. Similarly, seismic attributes can be clustered by a neural network to reveal 3D bodies. Further, the user can train a neural network to recognize seismic bodies in 3D from user-defined examples (supervised mode). These approaches have already been supported in OpendTect's neural network plugin. The new version of SSIS allows the results to be visualized and analyzed in the stratigraphic domain, i.e. without distortion by the structure. To appreciate this, you could load (a subset of) a Wheeler-transformed seismic volume (e.g. an attribute, neural network clustered result, or AI cube) in the volume viewer of the Wheeler scene and use the time-slice display to scroll the data. Time slicing in the Wheeler domain corresponds to horizon-slicing in the normal (structural) domain, hence all patterns observed in each slice belong to the same geological event.</p>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

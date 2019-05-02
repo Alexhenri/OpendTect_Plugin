@@ -1,0 +1,6 @@
+<map id="MPE::Wizard" name="MPE::Wizard">
+<area shape="rect" id="node2" href="$classuiWizard.html" title="uiWizard" alt="" coords="19,315,91,344"/>
+<area shape="rect" id="node4" href="$classuiDialog.html" title="uiDialog" alt="" coords="20,237,89,267"/>
+<area shape="rect" id="node6" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="13,160,96,189"/>
+<area shape="rect" id="node8" href="$classuiParent.html" title="uiParent" alt="" coords="20,83,89,112"/>
+</map>

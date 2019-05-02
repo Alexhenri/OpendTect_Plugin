@@ -1,0 +1,5 @@
+<map id="GaussianNDProbDenFunc" name="GaussianNDProbDenFunc">
+<area shape="rect" id="node2" href="$classProbDenFunc.html" title="Base class for Probability Density Functions. " alt="" coords="43,160,144,189"/>
+<area shape="rect" id="node4" href="$classNamedObject.html" title="Object with a name. " alt="" coords="43,83,144,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="51,5,136,35"/>
+</map>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="3 OpendTect Trees and Elements">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>3.5 2D Seismic</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#opendtect_trees_and_elements/seismic_2d.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>3.5 2D Seismic<a name="kanchor1414"></a></h2>
+        <p><a name="kanchor1415"></a>By clicking on the 2D Line entry in the tree, it is possible to either add 2D seismic lines, create a 2D Grid form 3D data, create new lines from 3D data or generate 3D cube from 2D data set (see picture below).</p>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_popout_menu.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Add:</b> select one or more 2D lines</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_setup.png" class="General_Image" />
+        <p>Chose how you would like the 2D line(s) to appear in the scene from the three options shown below when clicking Ok:</p>
+        <ul>
+            <li value="1"><b><a name="kanchor1416"></a>Display projection lines only:</b> shows only the position of the 2D line(s) at the top of the survey.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_setup_diplay_projection_lines_only.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Load default data:</b><a name="kanchor1417"></a><a name="kanchor1418"></a> the 2D line(s) are loaded into the 3D scene and displayed with the data selected as default in the 'Manage 2D Seismics' window.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_setup_load_default_data.png" class="General_Image" />
+        <ul>
+            <li value="1"><b><a name="kanchor1419"></a>Select Attribute:</b> loads the projection lines into the scene and brings up the <i>'Select Dataset'</i> window to choose what to display: stored, steering (if present) or attributes from the active attribute set (if present).</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_setup_select_dataset.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Create 2D Grid from 3D...:</b> This option can be used to create a 2D grid with a fixed grid spacing. When selected, the Create 2D Grid window is launched. Here, specify the input 3D seismic volume and the output data set name. The output grid is generated according to the dip (parallel) and strike (perpendicular) direction of the selected volume. For more detail, go to <a href="../processing/create_seismic_output/conversions_2d_to_3d/create_2d_grid.htm" data-mc-conditions="Default.ScreenOnly">6.1.2.1 Create 2D Grid</a>.</li>
+            <li value="2"><b>Extract from 3D...:</b> Extract 3D data onto selected 2D lines. Input data is required in the form of a stored 3D volume. One or more 2D lines can be selected for the 3D data to be extracted onto. (Note: If just one line is selected, you may also sub-select a trace range.) The output data set needs to be given a name.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_extract_from_3d.png" class="General_Image" />
+        <p>Once several lines displaying data are loaded, additional actions are available (see picture below). Selections can be made for all displayed lines.</p>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_multiple_lines.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Add attribute:</b> Select an (additional) attribute to be added to the lines. (See above for details).</li>
+            <li value="2"><b>Replace attribute:</b> Select an attribute from those displayed on the line(s). Once selected, this will launch the 'Select Dataset' window and a replacement can be chosen.</li>
+            <li value="3"><b>Display attribute:</b> Choose which of the available attributes to display.</li>
+            <li value="4"><b>Remove attribute:</b> Remove one of the loaded attributes (Only available if lines in the tree have more than one attribute loaded in the tree).</li>
+            <li value="5"><b>Display Attribute:</b> Checks on the selected attributes to display them on the lines showing in the scene.</li>
+            <li value="6"><b>Hide attribute:</b> Checks off the selected attributes to stop them displaying on the lines showing in the scene.</li>
+            <li value="7"><b><a name="kanchor1420"></a><a name="kanchor1421"></a>Edit Color Settings:</b> Select an attribute and set the color bar and ranges:</li>
+            <li value="8"><b>Display all/Hide All:</b> Display or hide the line names, 2D planes and line geometry (projection lines).</li>
+            <li value="9"><b>Show/Hide all items:</b> Shows or hides all lines in the scene and checks/unchecks the line names in the tree.</li>
+            <li value="10"><b>Remove all items:</b> Removes all lines from the scene and the tree.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_color_settings.png" class="General_Image" />
+        <p>For each individual 2D line loaded in the tree, the right-clicking menu gives the following options:</p>
+        <ul>
+            <li value="1"><b>Add:</b><a name="kanchor1422"></a> Add either an attribute from the selection pop up window, a HorizonCube display (if plugin available) or a System tracks display (if plugin available).</li>
+            <li value="2"><b>Display:</b> Allows the following:</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_single_line_display.png" class="General_Image" />
+        <ul>
+            <li value="1"><b><a name="kanchor1423"></a>Histogram:</b> The histograms of all attributes in the tree can be displayed using the right-click option of the parent element (inline number, surface name...). It is a useful tool to clip the ranges of an attribute. The vertical green lines show the current amplitude range and can be moved left or right using the left mouse-click and drag. The display is updated when the mouse click is released. Please note that this will toggle off the automatic clipping. Histograms can also be displayed for each attribute independently.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_single_line_display_histogram.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Properties:</b> Use this option to set the <b>Material</b>, <b>Texture</b> and <b>Line Style</b> properties.<ul style="list-style-type: circle;"><li value="1"><b>­Material:</b> Set the base color for the projection line (2D geometry) and set the reflectivity and transparency properties for the displayed attribute.</li><li value="2"><b>­Texture:</b> Set the texture type.</li><li value="3"><b>­Line Style:</b> Set line thickness.</li></ul></li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/2d_seismic_rightclick_single_line_display_properties_material.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Resolution:</b> Set the resolution of the displayed data.</li>
+            <li value="2"><b>Show linename/2D plane/line geometry:</b> Toggle on or off each of the 2D line components per line.</li>
+            <li value="3"><b>Position:</b> Set the number of traces and Z-range of the displayed line.</li>
+        </ul>
+        <img src="../resources/images/opendtect_trees_and_elements/positioning.png" class="General_Image" />
+        <ul>
+            <li value="1"><b>Duplicate:</b> Duplicates the 2D line as displayed in the scene, including its displayed attributes. Can be a useful option to compare colorbar settings, or be used to 'extend' the eight-per-line attribute limit by replacing existing attributes with others on the duplicate.</li>
+            <li value="2"><b>Lock/Unlock Treeitem:</b> Lock the selected object. It prevents accidental removing, moving or displaying data on the object. Clicking "Unlock" enables editing again.</li>
+            <li value="3"><b>Remove from Tree:</b> remove that 2D line from the tree and thus from the 3D scene.</li>
+        </ul>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#opendtect_trees_and_elements/seismic_2d.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

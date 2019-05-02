@@ -1,0 +1,4 @@
+<map id="MPE::Horizon2DEditor" name="MPE::Horizon2DEditor">
+<area shape="rect" id="node2" href="$classMPE_1_1ObjectEditor.html" title="Abstraction of EM Object editing. It gives lists of which nodes that may be moved, and in what manner. " alt="" coords="17,83,148,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="40,5,125,35"/>
+</map>

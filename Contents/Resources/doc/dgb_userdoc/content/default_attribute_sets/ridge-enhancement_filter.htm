@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="12 Default Attribute Sets">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>12.9 Ridge-enhancement Filter</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#default_attribute_sets/ridge-enhancement_filter.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>12.9 Ridge-enhancement Filter<a name="kanchor346"></a></h2>
+        <p>This filter sharpen ridges in a similarity cube.</p>
+        <p>The filter compares, in the time-slice domain, neighboring similarity values in four different directions,(inline direction, crossline, 45 degrees and 135 degrees), then outputs the largest ridge value. The ridge in each direction is the: sum (values on either side) / 2 - center value. In most evaluation points, there are no ridges and the values, thus, tend to be small; but when you cross a fault, there will be a large ridge perpendicular to the fault direction. The filter outputs the largest value, i.e. the ridge corresponding to the perpendicular direction.</p>
+        <img src="../resources/images/default_attribute_sets/ridge_enhancement_filter.png" class="image" />
+        <p><i><a name="kanchor347"></a>"Ridge Enhancement Filter" Attribute-set</i>
+        </p>
+        <p>The output of this attribute set is the meta attribute <i>Ridge-enhancement attribute</i> at the bottom of the attribute set. All other attributes are intermediate attributes, used in the calculation of the final attribute. The construction of the attribute detects lateral lineaments in time slices of steered similarity, yet ignores bodies of low similarity. The idea behind the ridge-enhancement attribute is explained in figure below.</p>
+        <img src="../resources/images/default_attribute_sets/similarity_time_slice.png" class="image" />
+        <p>When we slice through a similarity cube and we cross a fault we observe a large difference in attribute response between the value at the fault position and the values on either side. In the ridge enhancement set we calculate 9 similarity attributes surrounding the evaluation point. We then scan in different directions to find the largest difference, which is the desired output. In following figures the output of the similarity attribute is compared with the output of the ridge-enhancement cube. The bodies of high similarity have disappeared and the faults are also sharper. The users can optimize this attribute by fine tuning the parameters of the similarity attribute such that faults are optimally detected. For example parameters can be adjusted to the width and orientation of the faults, according to: wider faults or faulted zones must have longer windows and larger step-outs. More flat lying faults are better detected using smaller (vertical) windows.</p>
+        <p class="note">You can decrease the processing time by almost a factor 9 if you store a similarity cube first and use this as input. Instead of calculating the similarity attribute 9 times on the fly, you calculate and store the similarity once and retrieve it. After you have stored your similarity cube can either trick the system by changing the first attribute (for instance by making it a Mathematics, Formula: x0 and as input your similarirty cube) or by removing the first attribute and changing the attribute input of the following attributes from the removed attribute to your stored similarity cube.</p>
+        <img src="../resources/images/default_attribute_sets/ref_example.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../resources/images/default_attribute_sets/ref_example2.png" class="image" />
+        </div>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

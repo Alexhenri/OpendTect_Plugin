@@ -1,0 +1,7 @@
+<map id="Pos::EMSurfaceProvider2D" name="Pos::EMSurfaceProvider2D">
+<area shape="rect" id="node2" href="$classPos_1_1Provider2D.html" title="Provides a subselection for 2D surveys &#45; requires the line name(s). " alt="" coords="43,160,160,189"/>
+<area shape="rect" id="node4" href="$classPos_1_1Filter2D.html" title="Provides a filter related to 2D seismic data. " alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node6" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="137,5,220,35"/>
+<area shape="rect" id="node8" href="$classPos_1_1Provider.html" title="Provides a series of positions; can also be used for subselection. " alt="" coords="128,83,229,112"/>
+<area shape="rect" id="node11" href="$classPos_1_1EMSurfaceProvider.html" title="Provider based on surface(s) " alt="" coords="184,160,349,189"/>
+</map>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3668" MadCap:lastWidth="986">
+    <head>
+    </head>
+    <body>
+<<<<<<< HEAD
+        <h4>4.2.1.8 Create Horizons From A SteeringCube<MadCap:keyword term="4.2.1.8 Create Horizons From A SteeringCube" /></h4>
+        <p>This  seismic horizon tracker generates one or more horizons from a Steering Cube (dip volume). The tracker uses a constrained, inversion-based algorithm that globally minimizes the error between horizon dips and seismic dips (Wu and Hale, 2015).</p>
+        <p>A confidence weight volume is recommended for faulted intervals. A good confidence weight volume is given by the “Planarity” attribute. Planarity is computed in the “Faults &amp; Fractures” plugin, It is a measure of “local flatness” of a seismic event. When used as a confidence weight volume in the unconformity tracker it assigns low weights at fault positions and high weights at good reflectors. A flipped discontinuity attribute like similarity, semblance, or Thinned Fault Likelihood can be considered as alternatives to planarity.</p>
+        <p>The unconformity tracker is a general-purpose horizon tracker that can be used among others to:</p>
+        <ul>
+            <li>Map unconformities (events that change laterally and are therefore difficult to map using conventional amplitude / similarity trackers)..</li>
+            <li>Map horizons at intra-reservoir scale levels that tie exactly at given well markers.</li>
+            <li>Fast-track mapping of seismic events, e.g. for constructing a structural framework, to constrain a HorizonCube, or to build low-frequency models for seismic inversion.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Dip-Steering/unconformity_tracker.png" class="image">
+            </img>
+=======
+        <h4>4.2.1.8 Create Horizons From A SteeringCube<MadCap:keyword term="Create Horizons From A SteeringCube" /></h4>
+        <p>dGB provides utility features to create and to manipulate seismic horizons using SteeringCube. The utilities use an ultrafast algorithm to track horizons within a seismic volume. It requires a SteeringCube to produce full 3D horizons within a few seconds or minutes, without the need for griding or interpolation. These horizons can be used as an input to a HorizonCube. The utility to create a new horizon from a SteeringCube is launched from the HorizonCube sub-menu "<i>Create horizons from SteeringCube</i>".</p>
+        <img src="../../../Resources/Images/HorizonCube/Create Horizons from SteeringCube.png" class="image" />
+        <p><b>Create horizons from SteeringCube</b>
+>>>>>>> e1941c59c73ff0c7a85fffb04663406e96b81246
+        </p>
+        <p style="font-style: italic;">Main window for the Unconformity Tracker</p>
+        <p>The workflow can be started in three ways:</p>
+        <ul>
+            <li>Insert a new horizon in the table for picking <img src="../../../Resources/Images/Icons/addnew.png" class="icon"></img>.</li>
+            <li>Click on the “Pick Seeds” icon <img src="../../../Resources/Images/Icons/seedpickmode.png" class="icon"></img> and manually pick a set of locations.</li>
+            <li>Click on the “Load existing Pick Set” icon <img src="../../../Resources/Images/Icons/Open.png" class="icon"></img> to open an existing pick set.</li>
+            <li>Click on the “From Wells” icon <img src="../../../Resources/Images/Icons/newvertwell.png" class="icon"></img> and select one or several marker sets and the wells.</li>
+        </ul>
+        <p>Seeds can be added or removed thereafter regardless of the origin of the pickset, either interactively or using the table editor under the Edit options. At least one seed is required for each horizon to be tracked using this tracker.</p>
+        <p style="font-weight: bold;">Inputs</p>
+        <ul>
+            <li>A pre-processed SteeringCube is mandatory. This SteeringCube must be filtered to have less noise. A typical Detailed SteeringCube should be a good starting point.</li>
+            <li>Set of locations (from well makers and/or manually picked positions.</li>
+            <li>Optional: confidence weight volume (planarity, flipped Thinned Fault Likelihood, …).</li>
+        </ul>
+        <p style="font-weight: bold;">Adding Well Markers</p>
+        <p>Multiple markers from multiple wells can be selected in the Select well markers window <img src="../../../Resources/Images/Icons/newvertwell.png" class="icon"></img>. Each selected marker adds a row to the table in the main window.  The set of (manually-picked / markers)  locations can be QC-ed and edited by pressing the Edit button. To add more picks, select the relevant row, press the Pick Seed button and manually pick positions to add.</p>
+        <p>
+            <img src="../../../Resources/Images/Dip-Steering/select_well_markers.png" class="image">
+            </img>
+        </p>
+        <p style="font-style: italic;">Selection of well markers is done here. Multiple markers can be selected. Each marker will create  a horizon.</p>
+        <p>
+            <img src="../../../Resources/Images/Dip-Steering/edit_seeds.png" class="image">
+            </img>
+        </p>
+        <p style="font-style: italic;">Edit Seeds window will show the origin (user defined or wells) of the picks. By default the seeds are displayed on sections (e.g. inlines/crosslines only). To view in 3D, you may want to toggle this feature off.</p>
+        <p style="font-weight: bold;">Processing Parameters</p>
+        <p>
+            <img src="../../../Resources/Images/Dip-Steering/processing_parameters.png" class="image">
+            </img>
+        </p>
+        <ul>
+            <li>A confidence weight volume is optional. It is only required if the interval is faulted. If the given volume has higher weights (e.g. near to 1) at the fault weights, you may flip the weights (1 – input) to minimize the effect of erroneous dips at fault locations.</li>
+            <li>A power function is applied to the weights. A higher value increases the contrast between faults and continuous reflectors.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Dip-Steering/tu_output.png" class="image">
+            </img>
+        </p>
+        <p style="font-style: italic;">This result is produced with a confidence weight volume. With a power of 8 (yellow horizon) the event is correctly located when compared with the power of 2 (orange horizon).</p>
+        <ul>
+            <li>The <i>Number of Horizon updates</i> field (max. 100) is the number of times the horizon is changed and horizon dips are re-calculated. The quality of the results increase logarithmically with increasing number of horizon updates. After a certain number of updates, typically 10, the horizon will effectively not change further. If such a situation occurs, we consider that the results are fully converged and the best possible solution is achieved.</li>
+            <li>The core of the algorithm is a preconditioned Conjugate Gradient ‘CG’ solver, which attempts to solve a system of linear equations.  This algorithm is controlled with the following parameters:<ul><li><b>Iterations:</b> The maximum number of iterations the GC solver is run to solve the inverse problem.</li><li><b>Residual error:</b> The threshold value below which the GC solver stops.</li><li><b>Preconditioning filter stepout:</b> Is a recursive filter to smooth the horizon and minimizes abrupt jumps (max. 10).</li><li><b>Inversion Operator Weight:</b> This parameter is trivial and helps in overriding the dips in bad data quality areas. If it is larger than 0 (max. 1), the weighted dip derivatives are subtracted from the dips obtained from horizons to minimize the erroneous dip effects. By default, we do not recommend adding such weights. The Confidence Weight volume mostly controls such effects.</li></ul></li>
+        </ul>
+        <p style="font-weight: bold;">Larger Surveys</p>
+        <p>For larger datasets (e.g. volume size &gt; 5GB) with limited RAM, we recommend decimation of the results. This can be done in the volume sub-selection. One may upscale the lateral stepouts (Inline/Crossline) to produce a horizon.</p>
+        <p style="font-weight: bold;">Reference</p>
+        <p>Wu, X., and Hale, D. (2015) Horizon Volume with Interpreted Constraints, Geophysics, v80, Issue 2, IM21-IM33.</p>
+    </body>
+</html>

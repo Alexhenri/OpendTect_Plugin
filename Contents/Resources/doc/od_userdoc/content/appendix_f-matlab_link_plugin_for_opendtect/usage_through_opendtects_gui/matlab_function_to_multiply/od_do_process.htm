@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="16 Appendix F - MATLAB Link Plugin for OpendTect v6.4|16.3 Option 1: Usage Through OpendTect's GUI|16.3.2 Example 1: MATLAB Function to Multiply">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>16.3.2.2 OD Do Process</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#appendix_f-matlab_link_plugin_for_opendtect/usage_through_opendtects_gui/matlab_function_to_multiply/od_do_process.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4>16.3.2.2 OD Do Process<a name="kanchor294"></a></h4>
+        <p><code>function out = od_doprocess(pars,in)</code>
+        </p>
+        <p><code>f = pars.factor;</code>
+        </p>
+        <p><code>in1 = cell2mat( in(1) );</code>
+        </p>
+        <p><code>out = multiply( in1, f );</code>
+        </p>
+        <p><code>end</code>
+        </p>
+        <p>This function has two input arguments, <code>pars</code> and <code>in</code>.  The array <code>in</code> is essentially a 1 dimensional Cell Array which contains one or more data volumes. They can individually be retrieved by using the <code>cell2mat</code> function.</p>
+        <p class="note">The input arrays are 3D arrays.</p>
+        <p>The matrix <code>pars</code> is the structure array as defined in <code>od_getparameters()</code>. The value of the parameters can be retrieved using the given fieldname. This function returns one array <code>out</code>, which is a 3D array with the same dimensions as the arrays in <code>in</code>. In this example, <code>out</code> is the result of the function <code>multiply</code>, which is the third and last function to be defined.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#appendix_f-matlab_link_plugin_for_opendtect/usage_through_opendtects_gui/matlab_function_to_multiply/od_do_process.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

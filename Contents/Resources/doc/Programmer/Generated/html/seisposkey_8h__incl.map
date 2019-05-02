@@ -1,0 +1,24 @@
+<map id="seisposkey.h" name="seisposkey.h">
+<area shape="rect" id="node5" href="$seistype_8h.html" title="seistype.h" alt="" coords="97,83,180,112"/>
+<area shape="rect" id="node85" href="$binid_8h.html" title="binid.h" alt="" coords="921,469,980,499"/>
+<area shape="rect" id="node8" href="$gendefs_8h.html" title="gendefs.h" alt="" coords="483,701,560,731"/>
+<area shape="rect" id="node36" href="$uistring_8h.html" title="uistring.h" alt="" coords="228,160,303,189"/>
+<area shape="rect" id="node10" href="$undefval_8h.html" title="undefval.h" alt="" coords="480,779,563,808"/>
+<area shape="rect" id="node28" href="$commontypes_8h.html" title="commontypes.h" alt="" coords="341,779,456,808"/>
+<area shape="rect" id="node31" href="$errmsg_8h.html" title="errmsg.h" alt="" coords="587,779,659,808"/>
+<area shape="rect" id="node14" href="$commondefs_8h.html" title="commondefs.h" alt="" coords="360,856,467,885"/>
+<area shape="rect" id="node23" href="$plftypes_8h.html" title="plftypes.h" alt="" coords="259,856,336,885"/>
+<area shape="rect" id="node17" href="$plfdefs_8h.html" title="plfdefs.h" alt="" coords="324,933,396,963"/>
+<area shape="rect" id="node39" href="$keystrs_8h.html" title="keystrs.h" alt="" coords="711,469,785,499"/>
+<area shape="rect" id="node49" href="$threadlock_8h.html" title="threadlock.h" alt="" coords="224,779,317,808"/>
+<area shape="rect" id="node54" href="$string2_8h.html" title="string2.h" alt="" coords="128,779,200,808"/>
+<area shape="rect" id="node63" href="$typeset_8h.html" title="typeset.h" alt="" coords="355,237,429,267"/>
+<area shape="rect" id="node42" href="$fixedstring_8h.html" title="fixedstring.h" alt="" coords="692,547,785,576"/>
+<area shape="rect" id="node45" href="$odstring_8h.html" title="odstring.h" alt="" coords="683,624,760,653"/>
+<area shape="rect" id="node65" href="$odset_8h.html" title="odset.h" alt="" coords="360,315,424,344"/>
+<area shape="rect" id="node68" href="$vectoraccess_8h.html" title="vectoraccess.h" alt="" coords="456,315,565,344"/>
+<area shape="rect" id="node70" href="$debug_8h.html" title="debug.h" alt="" coords="661,392,728,421"/>
+<area shape="rect" id="node74" href="$bufstring_8h.html" title="bufstring.h" alt="" coords="604,469,687,499"/>
+<area shape="rect" id="node88" href="$posidxpair_8h.html" title="posidxpair.h" alt="" coords="905,547,996,576"/>
+<area shape="rect" id="node91" href="$idxpair_8h.html" title="idxpair.h" alt="" coords="936,624,1005,653"/>
+</map>

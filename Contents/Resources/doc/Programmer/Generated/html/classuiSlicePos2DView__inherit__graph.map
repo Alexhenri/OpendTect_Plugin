@@ -1,0 +1,4 @@
+<map id="uiSlicePos2DView" name="uiSlicePos2DView">
+<area shape="rect" id="node2" href="$classuiSlicePos.html" title="Toolbar for setting slice position _ base class. " alt="" coords="29,83,112,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="28,5,113,35"/>
+</map>

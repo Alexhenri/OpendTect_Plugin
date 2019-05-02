@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classValSeriesTracker.html" title="Base class for a tracker that tracks something (e.g. min, max, a certain value)++ from one ValueSerie..." alt="" coords="5,5,128,35"/>
+<area shape="rect" id="node3" href="$classEventTracker.html" title="Tracker that tracks Min/Max &amp; Zero crossings between valueseries. " alt="" coords="177,5,276,35"/>
+</map>

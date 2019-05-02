@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="5 Analysis|5.4 Wells">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>5.4.2 Tie Well to Seismic</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#analysis/wells/tie_well_to_seismic.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="kanchor576"></a>5.4.2 Tie Well to Seismic<a name="kanchor577"></a></h3>
+        <p>Launch the Well-Seismic Tie window from the main menu or, optionally, the Well-Seismic Tie window can be launched from the tree.</p>
+        <img src="../../resources/images/analysis/analysis_tie_well_to_seismic_from_tree.png" class="General_Image" />
+        <p>Well to the seismic tie is a major task for interpretation projects. It is used to correlate the well information (logs) to the 3D seismic volume or 2D seismic lines. This enables the comparison (crossplots, ...) of well-based and the 2D/3D seismic data.</p>
+        <p><b>Well-to-Seismic tie workflow:</b>
+        </p>
+        <ol>
+            <li value="1"><b>Data preparation</b>
+                <ul>
+                    <li value="1"><a name="kanchor578"></a>Import the <a href="../../survey/import/import_seismic.htm" target="_self" data-mc-conditions="Default.ScreenOnly">seismic</a> volume or 2D line.</li>
+                    <li value="2">Extract a <a href="../../survey/manage/manage_wavelets/statitistical_wavelet_extraction.htm" target="_self" data-mc-conditions="Default.ScreenOnly">wavelet</a>.</li>
+                    <li value="3">Import the wells: Each well requires a <a href="../../survey/manage/manage_wells/well_track_editor.htm" target="_self" data-mc-conditions="Default.ScreenOnly">track</a>, <a href="../../survey/manage/manage_wells/checkshot_and_time-depth_models.htm" target="_self" data-mc-conditions="Default.ScreenOnly">checkshot</a> or time-depth curve and sonic <a href="../../survey/manage/manage_wells/logs_import.htm" target="_self" data-mc-conditions="Default.ScreenOnly">log</a>.</li>
+                    <li value="4">Import the additional data: 3D/2D Horizons, well markers, additional time-depth curve if a checkshot was loaded.</li>
+                    <li value="5"><a name="kanchor579"></a>Edit the log database: Fill the missing sonic parts, <a href="../../appendix_a-attributes_and_filters/mathematics.htm" target="_self" data-mc-conditions="Default.ScreenOnly">create a density log</a> from the sonic (constant value or Gardner's equation) if not available.</li>
+                </ul>
+            </li>
+            <li value="2"><b><a name="kanchor580"></a>Synthetic-to-seismic tie</b>
+                <ul>
+                    <li value="1"><a name="kanchor581"></a>The module is launched from the Analysis menu or via the right-click menu of each well.</li>
+                    <li value="2">The input fields must be selected.</li>
+                    <li value="3">Based on the available data the density and sonic logs will be combined into impedance and reflectivity, depth-time converted (includes an upscaling) and convolved with the wavelet. The result is a synthetic seismic traces for the well. This trace will be compared with a composite seismic trace extracted in the volume along the (deviated) well path, on the nearest trace. Both synthetic and composite seismic traces are cross-correlated, and the output value is an indication of the alignment and matching quality.</li>
+                    <li value="4">The alignment will be carried out either by shifting the synthetic trace up or down, or by selecting several locations in both seismic traces, specifying and applying a shift function that varies with the travel time.The applied changes must be validated, before being converted into a new time-depth function that replaces the previous one. No changes are being applied to the well logs.</li>
+                    <li value="5">At each step of the tie a deterministic wavelet can be estimated using the time-converted reflectivity log and the composite seismic trace. This deterministic wavelet should vary per well, and is known to link the well data to the seismic data more reliably.</li>
+                </ul>
+            </li>
+        </ol>
+        <div class="MCMiniTocBox_0 miniToc nocontent" data-mc-depth="1" data-mc-toc="True">
+        </div>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#analysis/wells/tie_well_to_seismic.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

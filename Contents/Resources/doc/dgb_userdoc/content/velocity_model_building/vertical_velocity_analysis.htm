@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="9 Velocity Model Building">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>9.2 Vertical Velocity Analysis</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#velocity_model_building/vertical_velocity_analysis.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>9.2 Vertical Velocity Analysis<a name="kanchor62"></a></h2>
+        <p><a name="kanchor63"></a>From the VMB toolbar, launch the vertical velocity update window by pressing the corresponding icon  <img src="../resources/images/icons/semblancegather64.png" class="icon" />.</p>
+        <p>The window is composed by a Common Image Gather from a single trace on the left, and the corresponding semblance plot on the right:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_main.png" class="image" />
+        <p>The display is annotated by separate display settings for both 2D viewers. The 2D viewer settings are similar to the standard 2D viewer, except that the semblance cannot be displayed using wiggles. Furthermore the semblance panel features one or two additional curves: The <i>migration velocity</i> (always shown) and the <i>picked velocity</i>, based on the velocity picks and migration velocity. Thus this second curve is shown once a velocity pick is made. If horizons are loaded in the main scene they will be shown as well in this vertical analysis window as horizontal coloured segments.</p>
+        <p>The velocity picks, mute definitions and tomography events are editable objects. As such they can be edited using the same tools as for the picksets and polygons: <i>left click to add a new, hold left click to drag and drop an existing pick, ctrl+left click to remove</i>. In all cases you must be in edit mode<img src="../resources/images/icons/seedpickmode.png" class="icon" />  and make sure that the object you would like to edit is highlighted/selected in the list of editable objects to apply those actions. Selection and removal tools are available to quickly remove a large number of pick on either the CIG (for mute and prestack events) or the semblance gather (for RMOs). You will first need to make a square<img src="../resources/images/icons/rectangleselect.png" class="icon" />  or polygonal<img src="../resources/images/icons/polygonselect.png" class="icon" />  selection before to press the trash icon<img src="../resources/images/icons/trashcan.png" class="icon" />  , that will remove the selected picks. Before removing a large number of picks you might want to use the undo<img src="../resources/images/icons/undo.png" class="icon" />  and/or redo<img src="../resources/images/icons/redo.png" class="icon" />  buttons.</p>
+        <p>Back in the view mode<img src="../resources/images/icons/view.png" class="icon" />  you are able to zoom in<img src="../resources/images/icons/zoomforward.png" class="icon" />  and out<img src="../resources/images/icons/zoombackward.png" class="icon" />  on the panels, that always remain synchronized.</p>
+        <p>When moving the cursor over the semblance panel you will see an overview of the RMO correction that is linked to your cursor position.</p>
+        <p>In the two viewer you can jump to any position using this toolbar icon<img src="../resources/images/icons/orientation64.png" class="icon" /> , that launches a CDP selection window:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_input_data_select_position.png" class="image" />
+        <p>It is highly recommended to browse at start-up through the settings before picking a mute, RMO or tomography events. Those settings will be presented here below:</p>
+        <p><b>Settings:</b> (available via <i>File--&gt; Settings...</i>)</p>
+        <ul>
+            <li value="1"><b>Input data:</b> You are requested to provide the prestack seismic data at the first launch, and specify the corresponding velocity model. The association will be stored and remembered for the next time.The prestack data, velocity, and poststack seismic data can be in time or depth. As mentioned in the base documentation the velocity type must be set between Interval velocities (time or depth) and RMS velocity (time only). In the time domain the migrated gather can be NMO corrected or not. This velocity correction can be applied using the corresponding pre-processing step. The CIG display settings are directly available using the icon  <img src="../resources/images/icons/gatherdisplaysettings64.png" class="icon" />.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_input_data.png" class="image" />
+        <ul>
+            <li value="1"><b>Cruise control:</b> Shortcuts are available during picking to go from one position to another. The cruise control settings define the positions that will be used for the quick browsing to the next<img src="../resources/images/icons/rightarrow.png" class="icon" />  or previous<img src="../resources/images/icons/leftarrow.png" class="icon" />  CIG. Nevertheless the other positions remain accessible for the analysis via the pick<img src="../resources/images/icons/pickshotgatherlocation.png" class="icon" />  icon in the main 3D scene and set position icons<img src="../resources/images/icons/orientation64.png" class="icon" />  . When picking your location in the main OpendTect scene you need to be in edit mode in main scene and to pick on an inline or crossline.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_cruise_control.png" class="image" />
+        <ul>
+            <li value="1"><b>Visualization:</b> The visualization options enable you to display or hide the current analysis positions, all the positions defined from the cruise control settings, and the positions where RMO correction are picked. Those positions will be shown as vertical lines in the main OpendTect 3D scene. Optionally the cruise control positions and velocity picks may only be displayed at section, i.e. on the selected inlines and/or crosslines loaded in the scene. The current position will always remain visible. The last option allows the 3D visualization of the picked prestack events in the 3D scene</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_visualization.png" class="image" />
+        <ul>
+            <li value="1"><b>Gather Display:</b> Those settings will affect the CIG display. Two toggles are available: The gather may be displayed as existing on disk (<i>original</i>) or after the semblance pre-processing (<i>semblance</i> input, see semblance settings tab). The gather may be <i>uncorrected</i><img src="../resources/images/icons/uncorrected.png" class="icon" />  (no application of RMO picks) or <i>RMO corrected</i><img src="../resources/images/icons/nmocorr64.png" class="icon" />  if at least one pick is available in the survey. The mute and horizon annotations may be switched on/off. Please note that the mute display is toggled off if the RMO correction is applied, and that the horizons will only be shown in the nearest offsets.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_gather_display.png" class="image" />
+        <ul>
+            <li value="1"><b><a name="Semblance:"></a>Semblance:</b> This setting tab is used to set the reference offset, RMO and velocity ranges, toggle on/off the horizon display, but more important it is meant to set and list the pre-processing methods applied to the gathers on disk before the semblance calculation: Mute, Automatic Gain Control and Vertical Stack are available. Please refer to the base documentation for a description of these pre-processing methods. Empty mutes might also be created from this tab by adding a mute step without name. When one or more pre-processing methods are used you can switch the seismic display between the prestack data as existing on disk <img src="../resources/images/icons/man_ps.png" class="icon" /> or after pre-processing<img src="../resources/images/icons/semblancegather64.png" class="icon" />  , i.e. the input to the semblance computation. The other semblance display settings are directly available using the icon<img src="../resources/images/icons/semblancedisplaysettings64.png" class="icon" />  .</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_semblance.png" class="image" />
+        <p>The following settings define the length of the time/depth gate used for the computation of the semblance:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_semblance_settings.png" class="image" />
+        <p>Additional VMB-specific pre-processing method are available, like Velocity correction:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_semblance_velocity_correction.png" class="image" />
+        <p>This pre-processing method will apply the velocity correction defined by the gridded velocity picks to the prestack data.</p>
+        <p><b>Semblance annotations</b> Annotations for the semblance display can be set and saved as user default settings in the following window:</p>
+        <img src="../resources/images/velocity_model_building/semblance_annotation.png" class="image" />
+        <ul>
+            <li value="1"><b>Velocity picks:</b> In this tab you can specify the tapering level and saving mechanism for the velocity picks. The main option is to set the tapering function and parameters used when deriving the new velocity curve from the velocity picks and migration velocity. The view option enables you to visualize the tapering functions.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_velocity_picks.png" class="image" />
+        <p>Those settings can be retrieved from the <i>Velocity picks</i> menu with the option <i>Properties</i>:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_velocity_picks_properties.png" class="image" />
+        <ul>
+            <li value="1"><b>Prestack Event Tracker:</b> The prestack event tracker presents similar options to the poststack horizon tracker. The tracking is based on the absolute or relative amplitude changes from trace to trace given a search window, optionally using the trace-to-trace similarity. Nevertheless given a single prestack event tracking you will be able to track both peaks and troughs on the CIG. This decision will be made based on the position of the first pick of each prestack event.</li>
+        </ul>
+        <p>The seeds appear larger than the tracked positions, although both types are editable (movable or removable).</p>
+        <p>Futhermore there is always one active prestack event displayed using a thicker bold line, except if the cursor is outside of the search window of all existing seeds of the CIG. Any new pick will be append to the active prestack event if the cursor is within the search window of an existing pick, except if the keys control+shift are pressed when picking. In that case a new prestack event will be created.</p>
+        <p>On a new prestack gather the prestack may be picked and tracked<img src="../resources/images/icons/singlegathertrack64.png" class="icon" />  or autotracked <img src="../resources/images/icons/singlegathertrackfromsemblance64.png" class="icon" /> . The autotracking is to be used at a new locations as it will become unavailable if one or more prestack events are picked. On the contrary at least one seed must exist before pressing the track option.</p>
+        <p>The autotracking option is meant to use either the calculated semblance or the poststack horizons to create seeds for the autotracking of the prestack events. This option must be set in the <a name="tracking_settings"></a>tracking settings<img src="../resources/images/icons/singlegathertracksettings64.png" class="icon" />  before using the corresponding icons in the velocity analysis windows. All autotracked events can be edited afterwards.</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_prestack_event_tracker.png" class="image" />
+        <p>Those settings can be retrieved from the <i><a name="Prestack_event"></a>Prestack event</i> menu with the option <i>Properties</i>:</p>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_prestack_event_tracker_properties.png" class="image" />
+        <ul>
+            <li value="1"><b>Semblance Tracker:</b> The Velocity picks can be tracked by following the picked RMOs between the previous location and the current position using the semblances panels at both locations, or optionally using all intermediate semblance panels. Most of the settings are once again very similar to the horizon tracker and prestack events tracker.</li>
+        </ul>
+        <img src="../resources/images/velocity_model_building/velocity_analysis_settings_semblance_tracker.png" class="image" />
+        <p style="page-break-before: always">Those settings can be retrieved from this icon<img src="../resources/images/icons/singlegathertracksettings64.png" class="icon" />  in the toolbar:</p>
+        <img src="../resources/images/velocity_model_building/prestack_gather_tracker.png" class="image" />
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

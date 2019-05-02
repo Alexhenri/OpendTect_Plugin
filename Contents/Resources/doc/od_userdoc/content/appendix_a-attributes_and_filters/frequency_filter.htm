@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.7 Frequency Filter</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/frequency_filter.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2><a name="kanchor697"></a>11.7 Frequency Filter<a name="kanchor698"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p><a name="kanchor699"></a>Frequency Filter -- Attribute that returns filtered data using FFT or Butterworth filter types</p>
+        <p><b>Description</b>
+        </p>
+        <p>The specified <b>Input Data</b> is bandpass filtered with the commonly used Fast Fourier Transform or Butterworth filter.</p>
+        <p><b>Input Parameters</b>
+        </p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_filters_frequency_filter.png" class="General_Image" />
+        <div style="page-break-before: always">
+            <img src="../resources/images/appendix_a/analysis_attributes_3d_filters_butterworth.png" class="General_Image" />
+        </div>
+        <p>The difference between using the FFT or Butterworth filtering method is that, for the FFT, one considers the complete trace while for the Butterworth filter, only a "small" segment, depending on the selected number of poles, is taken into account. The user should keep in mind that using the Butterworth Filter results in a small shift in the seismic data.</p>
+        <img src="../resources/images/appendix_a/filter_butterworth.png" class="General_Image" />
+        <p><i>The curves of the Butterworth filter for various numbers of poles</i>
+        </p>
+        <p>The <i>Filter type</i> is set to <i>LowPass, HighPass</i> or <i>BandPass</i> according as it is discriminating against frequencies above or below a certain limiting frequency or outside of a given band of frequencies. The top frequency tapering applied to the extracted data in the time domain.</p>
+        <p><b><a name="kanchor700"></a>Frequency Taper:</b>
+        </p>
+        <p>Additionally, a frequency taper can be applied by setting the min/max Hz tapering window. This could be done by toggling <i>Specify Frequency Taper</i><a name="kanchor701"></a> ON. Press the View button to specify an appropriate frequency taper.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_filters_frequency_taper.png" class="General_Image" />
+        <p><i>Frequency taper settings in the attribute definition (for filter type: 'BandPass').</i>
+        </p>
+        <p>Once the Frequency Taper is displayed (red line in a pop-up window), a spectrum on any inline/crossline can be viewed by pressing the <i>Preview Spectrum</i> button. It will prompt to select an inline/crossline ("Select line from Data"). In that dialog select either inline or crossline radio button and press <i>Next</i>. Sub select the part of inline/crossline and proceed. A blue coloured amplitude spectrum will be displayed (as shown below). Now adjust the parameters (Slope or Start/Stop Frequency) and finalize the frequency taper settings.</p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_filters_frequency_taper_spectrum.png" class="General_Image" />
+        <p><i>Interactive display of the frequency taper parameters (for filter type: 'BandPass').</i>
+        </p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/frequency_filter.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

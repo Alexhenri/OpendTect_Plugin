@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classuiBatchJobDispatcherLauncher.html" title="launches the UI of a Batch::JobDispatcher " alt="" coords="5,36,208,65"/>
+<area shape="rect" id="node3" href="$classuiClusterJobDispatcherLauncher.html" title="uiClusterJobDispatcherLauncher" alt="" coords="256,5,467,35"/>
+<area shape="rect" id="node5" href="$classuiSingleBatchJobDispatcherLauncher.html" title="launcher for a single&#45;process job dispatcher " alt="" coords="268,58,455,105"/>
+</map>

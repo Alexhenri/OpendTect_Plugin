@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="6 Processing|6.6 Batch Processing">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>6.6.3 Batch Log File</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#processing/batch_processing/batch_log_file.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h3><a name="top"></a><a name="kanchor148"></a><a name="kanchor149"></a><a name="kanchor150"></a>6.6.3 Batch Log File<a name="kanchor151"></a></h3>
+        <p>A batch log file is produced for every volume output run. The information is streamed to a file if the batch job is executed on a remote computer. If the processing is done locally the log file is either streamed to a new, dedicated window, or to the standard output window. Every N traces the program will output a symbol to reflect the progress. There are five symbols the program can use. Which symbol it uses depends on the speed in number of traces times N per sec (given towards the end of a line in brackets after the percentage of traces processed) and the estimated remaining time until completion. The symbols indicate the following:</p>
+        <ul>
+            <li value="1">a period (<b>.</b>) means 1 trace processed</li>
+            <li value="2">a colon (<b>:</b>) means 10 traces processed</li>
+            <li value="3">an equal sign (<b>=</b>) means 100 traces processed</li>
+            <li value="4">a pipe marker (<b>|</b>) means 1000 traces processed</li>
+            <li value="5">an asterisk (<b>*</b>) means 10000 traces processed</li>
+        </ul>
+        <img src="../../resources/images/processing/batch_processing_batch_log_file_begin.png" class="General_Image" />
+        <p style="page-break-before: always">The following options are available:</p>
+        <p>
+            <img src="../../resources/images/icons/stop.png" class="Icons" />  Stops the process.</p>
+        <p>
+            <img src="../../resources/images/icons/save.png" class="Icons" /> Saves the log file.</p>
+        <p>
+            <img src="../../resources/images/icons/help.png" class="Icons" /> Brings you to the help menu.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../Default.htm#processing/batch_processing/batch_log_file.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<map id="uiIOSelect" name="uiIOSelect">
+<area shape="rect" id="node9" href="$classuiAttrSel.html" title="User interface element for storing attribute desc selection. " alt="" coords="24,315,96,344"/>
+<area shape="rect" id="node13" href="$classuiIOFileSelect.html" title="uiIOFileSelect" alt="" coords="124,315,228,344"/>
+<area shape="rect" id="node15" href="$classuiIOObjSel.html" title="User Interface (UI) element for selection of IOObjs. " alt="" coords="252,315,337,344"/>
+<area shape="rect" id="node31" href="$classuiSurveySelect.html" title="uiSurveySelect" alt="" coords="361,315,471,344"/>
+<area shape="rect" id="node2" href="$classuiGroup.html" title="uiGroup" alt="" coords="201,160,268,189"/>
+<area shape="rect" id="node4" href="$classuiParent.html" title="uiParent" alt="" coords="200,83,269,112"/>
+<area shape="rect" id="node11" href="$classuiImagAttrSel.html" title="User interface element for getting attribute with both real and imaginary part. " alt="" coords="5,392,107,421"/>
+<area shape="rect" id="node17" href="$classuiGeom2DSel.html" title="uiGeom2DSel" alt="" coords="131,392,232,421"/>
+<area shape="rect" id="node19" href="$classuiSeisSel.html" title="uiSeisSel" alt="" coords="256,392,333,421"/>
+<area shape="rect" id="node27" href="$classuiWaveletSel.html" title="uiWaveletSel" alt="" coords="357,392,456,421"/>
+<area shape="rect" id="node29" href="$classuiWellSel.html" title="uiWellSel" alt="" coords="480,392,557,421"/>
+<area shape="rect" id="node21" href="$classuiSteerCubeSel.html" title="uiSteerCubeSel" alt="" coords="181,469,293,499"/>
+<area shape="rect" id="node25" href="$classuiVelSel.html" title="Field that selects a velocity volume, and edit it&#39;s properties/velocity tag. " alt="" coords="317,469,387,499"/>
+<area shape="rect" id="node23" href="$classuiSteerAttrSel.html" title="uiSteerAttrSel" alt="" coords="187,547,288,576"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="PreStack::SetPickUndo" name="PreStack::SetPickUndo">
+<area shape="rect" id="node2" href="$classBinIDUndoEvent.html" title="BinID UndoEvent. " alt="" coords="25,83,145,112"/>
+<area shape="rect" id="node4" href="$classUndoEvent.html" title="Holds the information on how to undo/redo something. " alt="" coords="43,5,128,35"/>
+</map>

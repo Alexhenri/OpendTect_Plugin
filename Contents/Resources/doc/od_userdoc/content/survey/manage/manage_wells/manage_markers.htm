@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="4 Survey|4.5 Manage|4.5.17 Manage Wells">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>4.5.17.4 Manage Markers</title>
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../Default.htm#survey/manage/manage_wells/manage_markers.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h4><a name="kanchor1011"></a>4.5.17.4 Manage Markers<a name="kanchor1012"></a></h4>
+        <p><a name="kanchor1013"></a>Well markers can be manually provided or imported. They can be exported.</p>
+        <img src="../../../resources/images/survey/manage_markers_main_window.png" class="General_Image" />
+        <p><b><a name="kanchor1014"></a>Edit markers:</b> Individual markers can to be added or deleted right-clicking the mouse on an existing well marker in the marker table and choosing the appropriate command. To edit the name or value, double click in the appropriate cell. Levels can be set according to the stratigraphic framework, but please note that marker names and color will be updated according to the framework when setting a level to a well marker. The <a href="../manage_stratigraphy.htm" target="_self" data-mc-conditions="Default.ScreenOnly" name="kanchor1015">Stratigraphy manager</a> can be access from the <img src="../../../resources/images/icons/man_strat.png" class="Icons" /> icon.</p>
+        <p><b>Add markers:</b> Markers can be loaded from a file by clicking the <i><a name="kanchor1016"></a>Import</i> button. The following window will then be displayed:</p>
+        <img src="../../../resources/images/survey/manage_markers_import_markers.png" class="General_Image" />
+        <p><a name="kanchor1017"></a>Select the input Ascii file. The main work is to specify the presence of a <i>file header</i> and the file <i>format definition</i>. The header, if present, can be of fixed length (number of lines), or delimited on its last line by a keyword.</p>
+        <p>Predefined and saved file formats are available by pressing the Open icon <img src="../../../resources/images/icons/open.png" class="Icons" />. Otherwise the format must be manually specified. The <i>Define</i> button gives access to the format definition window.</p>
+        <img src="../../../resources/images/survey/manage_markers_import_markers_format_definition.png" class="General_Image" />
+        <p>You must specify in the format definition window the column numbers of the marker name and depth. Please mind the spaces in the marker names that can break the fixed column format. For that reason it is recommended to have the depth in the first column, and to specify column 2 as the position of marker names. Then all strings found in column 2 and up will be used to form the marker names. Depths can be either measured depths or TVDSS depths. Data loading can be stopped at a specific line by providing the adequate keyword.</p>
+        <p>It is recommended to save the format definition for a later use and QC, by clicking on the Save icon <img src="../../../resources/images/icons/save.png" class="Icons" />. In pop-up window, write the name of the format and store it. The format can be stored at different levels (All surveys, Current survey, Current OpendTect user level) depending on the usage. Press <i>Ok</i> when done.</p>
+        <img src="../../../resources/images/survey/manage_markers_import_markers_format_definition_save_format.png" class="General_Image" />
+        <p><b>Update display:</b> After adding and/or editing the markers, they can be refreshed in the main display by clicking on the<i>Update display</i> button.</p>
+        <p><b><a name="kanchor1018"></a>Export markers:</b> Finally, the edited markers may be saved to a new file/location by clicking on the <i>Export</i> button.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../../../Default.htm#survey/manage/manage_wells/manage_markers.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

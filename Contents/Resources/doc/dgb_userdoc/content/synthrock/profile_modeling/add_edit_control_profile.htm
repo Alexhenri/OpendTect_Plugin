@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock|7.4 Profile Modeling">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.4.5 Add, Edit Control Profile</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#synthrock/profile_modeling/add_edit_control_profile.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h3>7.4.5 Add, Edit Control Profile<a name="kanchor2"></a></h3>
+        <p>The second type of available control points in the profile modeling, other than the (real) wells are called <i>Control Profiles</i>. They are basically used to introduce a structural element in the modeling; to essentially steer the log data interpolation along a well defined structure, which is in fact defined by changing depths of a number of well markers at various positions in the profile.</p>
+        <ul>
+            <li style="font-weight: bold;" value="1">Adding a new control profile: <span style="font-weight: normal;">Control profiles are added with a right-click where it says Add Control Profile.</span><span style="font-weight: normal;">Just like for the well based control points, the Relative Position element specifies where the new well will be added in the profile. Here, 0% corresponds to the left-most end of the profile and 100% corresponds to the right-most end. After specifying the position, the depth of various markers can be edited at this position.</span></li>
+        </ul>
+        <img src="../../resources/images/synthrock/control_profile.png" class="image" />
+        <p><i>Defining a control profile</i>
+        </p>
+        <p>If <i>Couple depths</i> option is kept unchecked, then editing any particular marker's depth is not going to change any other marker's depth; except when post-edition depth of that marker becomes lower than the depth of markers above. If this is indeed the case, all those markers will also be given the (post-edition depth) of the marker in consideration, for example below.</p>
+        <img src="../../resources/images/synthrock/control_profile.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/control_profile3.png" class="image" />
+        </div>
+        <p><i>Defining a control profile by editing depths of FS8 marker, without coupling depths of other markers</i>
+        </p>
+        <p>If <i>Couple depths</i> option is checked and only <i>Push</i> is selected - Editing any marker's depth is going to push all other markers in the direction of the change, starting from the point of change. For the given example, the direction of change is from deep (initial depth of FS8 marker 535m) to shallow (post-edition depth of FS8 marker 400m) and the point of change is FS8 marker. Thus, all the markers above FS8 have also been pushed upwards (i.e. from deep to shallow), by the same amount as the FS8 marker itself, i.e. 135 meters.</p>
+        <img src="../../resources/images/synthrock/control_profile4.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/control_profile5.png" class="image" />
+        </div>
+        <p><i>Defining a control profile by editing depths of FS8 marker and pushing markers above upwards</i>
+        </p>
+        <p>Now if <i>Couple depths</i> option is checked but only <i>Pull</i> is selected - Editing any marker's depth is going to pull all other markers in the direction of the change, starting from the point of change. For the given example, the direction of change is from deep (initial depth of FS8 marker 535m) to shallow (post-edition depth of FS8 marker 400m) and the point of change is FS8 marker. Thus, all the markers below FS8 have been pushed upwards (i.e. from deep to shallow), by the same amount as the FS8 marker itself, i.e. 135 meters. It should be noted here that the change in the depths of markers above FS8 is because of the aforementioned exception.</p>
+        <img src="../../resources/images/synthrock/control_profile6.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/control_profile7.png" class="image" />
+        </div>
+        <p><i>Defining a control profile by editing depths of FS8 marker and pulling markers below upwards</i>
+        </p>
+        <p>Finally, if <i>Couple depths</i> option is checked and both <i>Push</i> and <i>Pull</i> are selected - Editing any marker's depth is going to move (both push and pull) all other markers in the direction of the change. For our example, the direction of change is from deep to shallow. Thus, all the markers have been moved upwards by the same amount as the FS8 marker itself, i.e. 135 meters.</p>
+        <img src="../../resources/images/synthrock/control_profile8.png" class="image" />
+        <div style="page-break-before: always">
+            <img src="../../resources/images/synthrock/control_profile9.png" class="image" />
+        </div>
+        <p><i>Defining a control profile by editing depths of FS8 marker and moving all other markers upwards</i>
+        </p>
+        <p>The added control profiles are displayed as dashed vertical lines.</p>
+        <ul style="page-break-before: always">
+            <li value="1"><b>Editing an existing control profile:</b> The edition of an existing control profile is done by right-clicking close to the dashed vertical line (corresponding to the control profile) and then selecting Edit, to pop-up a dialogue window similar to the one explained in the section above. Just like adding a new control profile, both relative position and well marker depths can be edited, of an existing control profile.</li>
+        </ul>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

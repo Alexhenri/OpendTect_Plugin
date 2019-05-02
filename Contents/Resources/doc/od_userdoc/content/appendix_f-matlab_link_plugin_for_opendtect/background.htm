@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="16 Appendix F - MATLAB Link Plugin for OpendTect v6.4">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>16.1 Background</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_f-matlab_link_plugin_for_opendtect/background.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>16.1 Background<a name="kanchor260"></a></h2>
+        <p>The MATLAB Link plugin has been developed to make a connection between OpendTect and the MATLAB toolbox. Any MATLAB program can now be directly run on seismic attribute volumes available in an OpendTect project. There are two ways to use the link.</p>
+        <p>The first method uses OpendTect’s GUI (<i><a name="kanchor261"></a><a name="kanchor262"></a><a name="kanchor263"></a>OpendTect’s main menu &gt;  Analysis &gt; Volume Builder</i><a name="kanchor264"></a><a name="kanchor265"></a>) to access programs written in MATLAB. This facilitates on-the-fly testing of various parameters defined in the MATLAB program using different input seismic attribute volumes. The results are visualized in real-time in OpendTect along various sections. Once the parameterization is done, a full 3D volume can be generated. You can also augment your MATLAB functions with numerous other tools available in the volume builder, e.g. the Voxel Connectivity Filter.</p>
+        <p>This method requires you to first compile the MATLAB code into one C shared library  by using the MATLAB Compiler. In addition to your own function, 2 additional functions are needed, od_getparameters() and od_doprocess(). OpendTect will call these functions to get information about any input parameters and to start the execution of the function.</p>
+        <p>The advantage, however, is that these compiled libraries can be freely shared with anyone. It makes it possible to run the MATLAB code in OpendTect on a system that does not have the MATLAB software installed.</p>
+        <p>In case you do not want to use the OpendTect GUI for data exchange with MATLAB, there is an alternative option using the binary MEX files. They can be used to read and write OpendTect's native CBVS files from MATLAB itself. This option obviously requires both MATLAB and OpendTect to be installed on the same system.</p>
+        <p>The GUI based option to access MATLAB through the Volume Builder (<i>OpendTect’s main menu &gt; Analysis &gt; Volume Builder</i>) works on 3D data only.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_f-matlab_link_plugin_for_opendtect/background.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

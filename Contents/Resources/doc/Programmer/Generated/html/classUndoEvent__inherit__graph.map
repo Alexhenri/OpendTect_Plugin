@@ -1,0 +1,17 @@
+<map id="UndoEvent" name="UndoEvent">
+<area shape="rect" id="node3" href="$classBinIDUndoEvent.html" title="BinID UndoEvent. " alt="" coords="173,112,293,141"/>
+<area shape="rect" id="node13" href="$classEM_1_1EMUndoEvent.html" title="EM::EMUndoEvent" alt="" coords="167,299,300,328"/>
+<area shape="rect" id="node25" href="$classEM_1_1FaultKnotUndoEvent.html" title="Fault knot UndoEvent. " alt="" coords="148,352,319,381"/>
+<area shape="rect" id="node27" href="$classEM_1_1FaultStickUndoEvent.html" title="Fault stick UndoEvent. " alt="" coords="147,405,320,435"/>
+<area shape="rect" id="node29" href="$classPreStack_1_1SetEventUndo.html" title="UndoEvent for PreStack pick. " alt="" coords="149,459,317,488"/>
+<area shape="rect" id="node31" href="$classWellTie_1_1DahObjUndoEvent.html" title="WellTie::DahObjUndoEvent" alt="" coords="143,512,324,541"/>
+<area shape="rect" id="node5" href="$classPreStack_1_1SetPickUndo.html" title="BinIDUndoEvent for PreStack pick. " alt="" coords="399,5,559,35"/>
+<area shape="rect" id="node7" href="$classVel_1_1PickAddEvent.html" title="Undo event for added velocity pick. " alt="" coords="413,59,544,88"/>
+<area shape="rect" id="node9" href="$classVel_1_1PickRemoveEvent.html" title="Undo event for removed velocity pick. " alt="" coords="400,112,557,141"/>
+<area shape="rect" id="node11" href="$classVel_1_1PickSetEvent.html" title="Undo event for changed velocity pick. " alt="" coords="415,165,543,195"/>
+<area shape="rect" id="node15" href="$classEM_1_1PosIDChangeEvent.html" title="Saves information from a EMObject::changePosID call. " alt="" coords="396,219,561,248"/>
+<area shape="rect" id="node17" href="$classEM_1_1SetAllHor3DPosUndoEvent.html" title="UndoEvent for setting all positions on a EM::Horizon3D section. " alt="" coords="373,272,584,301"/>
+<area shape="rect" id="node19" href="$classEM_1_1SetPosAttribUndoEvent.html" title="UndoEvent for setting position attribute. " alt="" coords="384,325,573,355"/>
+<area shape="rect" id="node21" href="$classEM_1_1SetPosUndoEvent.html" title="EM::SetPosUndoEvent" alt="" coords="400,379,557,408"/>
+<area shape="rect" id="node23" href="$classEM_1_1SetPrefColorEvent.html" title="UndoEvent to set preferred Color. " alt="" coords="400,432,557,461"/>
+</map>

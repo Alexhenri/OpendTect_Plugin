@@ -1,0 +1,120 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 2015, 15:43:01
+!
+Attribute Descriptions
+1.Definition: Storage id=100010.x output=0
+1.UserRef: 1 Original Seismics
+1.Hidden: No
+2.Definition: Storage id=100010.y output=0
+2.UserRef: 3 Steering BG Background_inline_dip
+2.Hidden: Yes
+3.Definition: Storage id=100010.y output=1
+3.UserRef: 3 Steering BG Background_crline_dip
+3.Hidden: Yes
+4.Definition: FullSteering phlock=no output=0
+4.UserRef: FullSteering 100010.y
+4.Hidden: Yes
+4.Input.0: 2
+4.Input.1: 3
+5.Definition: Similarity gate=[-28,28] stepout=1,1 extension=Cross steering=yes normalize=no output=3
+5.UserRef: Similarity
+5.Hidden: No
+5.Input.0: 1
+5.Input.1: 4
+6.Definition: Math expression=Calculated_or_Stored_Similarity output=0
+6.UserRef: Calculated_or_Stored_Similarity
+6.Hidden: No
+6.Input.0: 5
+7.Definition: DipSteeredMedianFilter stepout=1,1 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+7.UserRef: Dip-steered median filter (DSMF)
+7.Hidden: No
+7.Input.0: 1
+7.Input.1: 4
+8.Definition: Position stepout=1,1 gate=[0,0] oper=Max steering=yes output=0
+8.UserRef: Dip-steered diffusion filter (DSDF)
+8.Hidden: No
+8.Input.0: 6
+8.Input.1: 7
+8.Input.2: 4
+9.Definition: Math expression="Similarity > c0 ? DSMF : DSDF" constant0=0.7  output=0
+9.UserRef: Fault enhancement filter (FEF)
+9.Hidden: No
+9.Input.0: 6
+9.Input.1: 7
+9.Input.2: 8
+10.Definition: Similarity gate=[-28,28] stepout=1,1 extension=Cross steering=yes normalize=no output=1
+10.UserRef: Similarity on FEF
+10.Hidden: No
+10.Input.0: 9
+10.Input.1: 4
+11.Definition: Shift pos=1,0 time=0 steering=no output=0
+11.UserRef: RS_+1_0
+11.Hidden: No
+11.Input.0: 10
+12.Definition: Shift pos=-1,0 time=0 steering=no output=0
+12.UserRef: RS_-1_0
+12.Hidden: No
+12.Input.0: 10
+13.Definition: Shift pos=0,1 time=0 steering=no output=0
+13.UserRef: RS_0_+1
+13.Hidden: No
+13.Input.0: 10
+14.Definition: Shift pos=0,-1 time=0 steering=no output=0
+14.UserRef: RS_0_-1
+14.Hidden: No
+14.Input.0: 10
+15.Definition: Shift pos=1,1 time=0 steering=no output=0
+15.UserRef: RS_1_1
+15.Hidden: No
+15.Input.0: 10
+16.Definition: Shift pos=-1,-1 time=0 steering=no output=0
+16.UserRef: RS_-1_-1
+16.Hidden: No
+16.Input.0: 10
+17.Definition: Shift pos=1,-1 time=0 steering=no output=0
+17.UserRef: RS_1_-1
+17.Hidden: No
+17.Input.0: 10
+18.Definition: Shift pos=-1,1 time=0 steering=no output=0
+18.UserRef: RS_-1_1
+18.Hidden: No
+18.Input.0: 10
+19.Definition: Math expression=left+right-2*centre output=0
+19.UserRef: SecondDerivative_Inline
+19.Hidden: No
+19.Input.0: 11
+19.Input.1: 12
+19.Input.2: 10
+20.Definition: Math expression=left+right-2*centre output=0
+20.UserRef: SecondDerivative_Crossline
+20.Hidden: No
+20.Input.0: 13
+20.Input.1: 14
+20.Input.2: 10
+21.Definition: Math expression=left+right-2*centre output=0
+21.UserRef: SecondDerivative_Diagonal1
+21.Hidden: No
+21.Input.0: 15
+21.Input.1: 16
+21.Input.2: 10
+22.Definition: Math expression=left+right-2*centre output=0
+22.UserRef: SecondDerivative_Diagonal2
+22.Hidden: No
+22.Input.0: 17
+22.Input.1: 18
+22.Input.2: 10
+23.Definition: Math expression=max(inlder,clder,diag_oneder,diag_twoder) output=0
+23.UserRef: RidgeEnhancementFilter
+23.Hidden: No
+23.Input.0: 19
+23.Input.1: 20
+23.Input.2: 21
+23.Input.3: 22
+24.Definition: Convolve kernel=Laplacian shape=Sphere size=3 output=0
+24.UserRef: Laplace on similarity
+24.Hidden: No
+24.Input.0: 10
+MaxNrKeys: 24
+Type: 3D
+!

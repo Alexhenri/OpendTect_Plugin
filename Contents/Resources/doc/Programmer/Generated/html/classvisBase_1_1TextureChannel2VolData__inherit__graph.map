@@ -1,0 +1,5 @@
+<map id="visBase::TextureChannel2VolData" name="visBase::TextureChannel2VolData">
+<area shape="rect" id="node2" href="$classvisBase_1_1TextureChannel2RGBA.html" title="visBase::TextureChannel2RGBA" alt="" coords="5,160,219,189"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="41,83,183,112"/>
+<area shape="rect" id="node6" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="69,5,155,35"/>
+</map>

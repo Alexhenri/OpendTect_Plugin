@@ -1,0 +1,161 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 16:55:59 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x|Seis output=0
+0.UserRef: Seismic Data
+0.Hidden: No
+1.Definition: Storage id=100010.y|Steering output=0
+1.UserRef: Steering Data_inline_dip
+1.Hidden: Yes
+1.Datatype: Dip
+2.Definition: Storage id=100010.y|Steering output=1
+2.UserRef: Steering Data_crline_dip
+2.Hidden: Yes
+2.Datatype: Dip
+4.Definition: Similarity gate=[-40,40] pos0=0,1 pos1=0,-1 extension=None steering=yes normalize=yes output=0
+4.UserRef: Similarity [-40,40]
+4.Hidden: No
+4.Input.0: 0
+4.Input.1: 5
+6.Definition: Shift pos=0,0 time=-100 steering=no output=0
+6.UserRef: Down 100ms {Similarity [-40,40]}
+6.Hidden: No
+6.Input.0: 4
+7.Definition: Shift pos=0,0 time=100 steering=no output=0
+7.UserRef: Up 100ms {Similarity [-40,40]}
+7.Hidden: No
+7.Input.0: 4
+13.Definition: Math expression=med(x0,x1,x2) output=0
+13.UserRef: Simple Chimney Attribute
+13.Hidden: No
+13.Input.0: 4
+13.Input.1: 6
+13.Input.2: 7
+14.Definition: PolarDip inlcrl2dipazi=yes output=3
+14.UserRef: NoNNInput PolarDip
+14.Hidden: No
+14.Input.0: 1
+14.Input.1: 2
+15.Definition: Energy gate=[-40,40] output=1
+15.UserRef: RMS [-40,40]
+15.Hidden: No
+15.Input.0: 0
+16.Definition: Shift pos=0,0 time=-100 steering=no output=0
+16.UserRef: Down 100ms {RMS [-40,40]}
+16.Hidden: No
+16.Input.0: 15
+17.Definition: Shift pos=0,0 time=100 steering=no output=0
+17.UserRef: Up 100ms {RMS [-40,40]}
+17.Hidden: No
+17.Input.0: 15
+18.Definition: Math expression=x0-x1 output=0
+18.UserRef: NoNNInput FilterResidual
+18.Hidden: No
+18.Input.0: 0
+18.Input.1: 19
+19.Definition: DipSteeredMedianFilter stepout=0,4 gate=[0,0] nrtrcs=1e30 shape=Rectangle output=1
+19.UserRef: NoNNInput Median Dip Filter Stepout=4
+19.Hidden: No
+19.Input.0: 0
+19.Input.1: 5
+20.Definition: Energy gate=[-40,40] output=1
+20.UserRef: Noise {RMS [-40,40] FilterResidual}
+20.Hidden: No
+20.Input.0: 18
+21.Definition: Shift pos=0,0 time=-100 steering=no output=0
+21.UserRef: Down 100ms {Noise}
+21.Hidden: No
+21.Input.0: 20
+22.Definition: Shift pos=0,0 time=100 steering=no output=0
+22.UserRef: Up 100ms {Noise}
+22.Hidden: No
+22.Input.0: 20
+23.Definition: Energy gate=[-40,40] output=1
+23.UserRef: NoNNInput Signal {RMS {-40,40] Median Dip Filter}
+23.Hidden: No
+23.Input.0: 19
+24.Definition: Math expression=x0/x1 output=0
+24.UserRef: Signal/Noise
+24.Hidden: No
+24.Input.0: 23
+24.Input.1: 20
+25.Definition: Shift pos=0,0 time=-100 steering=no output=0
+25.UserRef: Down 100ms {Signal/Noise}
+25.Hidden: No
+25.Input.0: 24
+26.Definition: Shift pos=0,0 time=100 steering=no output=0
+26.UserRef: Up 100ms {Signal/Noise}
+26.Hidden: No
+26.Input.0: 24
+27.Definition: Reference output=2
+27.UserRef: TWT
+27.Hidden: No
+27.Input.0: 0
+28.Definition: Hilbert halflen=30 output=0
+28.UserRef: _NoNNInput Median Dip Filter Stepout=3_imag
+28.Hidden: Yes
+28.Input.0: 19
+29.Definition: Frequency gate=[-140,140] normalize=no window=Hanning dumptofile=no output=1
+29.UserRef: Average Freq [-140,140]
+29.Hidden: No
+29.Input.0: 19
+29.Input.1: 28
+30.Definition: Math expression=(1+c0*x0)*x1 constant0=0.333  output=0
+30.UserRef: Av Freq [-140,140] with SimpleTimeCorrection
+30.Hidden: No
+30.Input.0: 27
+30.Input.1: 29
+31.Definition: VolumeStatistics stepout=0,2 shape=Rectangle gate=[-12,12] nrtrcs=1 steering=no output=1
+31.UserRef: MedianFilter PolarDip
+31.Hidden: No
+31.Input.0: 14
+32.Definition: FreqFilter type=LowPass maxfreq=12 nrpoles=4 isfftfilter=no window=CosTaper fwindow=CosTaper paramval=0.95 isfreqtaper=no highfreqparamval=10 lowfreqparamval=17 output=0
+32.UserRef: NoNNInput LowPass12Hz
+32.Hidden: No
+32.Input.0: 19
+32.Input.1: 28
+33.Definition: Energy gate=[-140,140] output=1
+33.UserRef: NoNNInput RMS [-140,140] {LowPass12Hz}
+33.Hidden: No
+33.Input.0: 32
+34.Definition: FreqFilter type=HighPass minfreq=36 nrpoles=4 isfftfilter=no window=CosTaper fwindow=CosTaper paramval=0.95 isfreqtaper=no highfreqparamval=31 lowfreqparamval=17 output=0
+34.UserRef: NoNNInput HighPass36Hz
+34.Hidden: No
+34.Input.0: 19
+34.Input.1: 28
+35.Definition: Energy gate=[-140,140] output=1
+35.UserRef: NoNNInput RMS [-140,140] {HighPass36Hz}
+35.Hidden: No
+35.Input.0: 34
+36.Definition: Math expression=x0/x1 output=0
+36.UserRef: Frequency Wash-out Ratio {RMSLowPass/RMSHighPass]
+36.Hidden: No
+36.Input.0: 33
+36.Input.1: 35
+37.Definition: VolumeStatistics stepout=0,1 shape=Rectangle gate=[-40,40] nrtrcs=2 steering=no output=2
+37.UserRef: Variance [-40,40] PolarDip
+37.Hidden: No
+37.Input.0: 14
+38.Definition: Math expression=x0/(1+c0*x1) constant0=1.333  output=0
+38.UserRef: Frequency Wash-out Ratio With SimpleTimeCorrection
+38.Hidden: No
+38.Input.0: 36
+38.Input.1: 27
+39.Definition: Shift pos=0,0 time=-100 steering=no output=0
+39.UserRef: Down 100ms {Variance [-40,40] PolarDip}
+39.Hidden: No
+39.Input.0: 37
+40.Definition: Shift pos=0,0 time=100 steering=no output=0
+40.UserRef: Up 100ms {Variance [-40,40] PolarDip}
+40.Hidden: No
+40.Input.0: 37
+5.Definition: FullSteering phlock=no output=0
+5.UserRef: FullSteering 100010.y
+5.Hidden: Yes
+5.Input.0: 1
+5.Input.1: 2
+MaxNrKeys: 40
+Type: 2D
+!

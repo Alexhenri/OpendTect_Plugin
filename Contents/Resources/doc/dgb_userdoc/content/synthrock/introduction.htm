@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="7 SynthRock">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="seismic interpretation, open source, opendtect, open, source, d-tect , dtect, survey, analyses, research, geo-sciences, geology, geophysics, petrophysics, seismic, stochastic, modeling, monte carlo, simulation, quantitative, interpretation, inversion, integration, framework, neural network, supervised, unsupervised, reservoir characterisation, reservoir characterization, object detection, software, seismic software, free software, open software, free, application, linux, windows, solaris, mac os, data, SSIS, GDI, rock, studies, plugins, tutorials, users, support, training, documentation, manual, faq, visualization, horizon, faults, madagascar, crossplotting" />
+        <meta name="description" content="OpendTect Plugins User Documentation - Version 6.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>7.1 Introduction</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#synthrock/introduction.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h2>7.1 Introduction<a name="kanchor239"></a></h2>
+        <p><a name="kanchor240"></a>The SynthRock plugin is a forward pseudo-well modeling and probabilistic inversion package to achieve qualitative and quantitative seismic interpretation. It supports wedge models, stochastic models, pre- and poststack synthetic seismograms generation and cross-matching (HitCube) inversion. This commercial plugin extends the capabilities of the <a href="http://doc.opendtect.org/6.0.0/doc/od_userdoc/Default.htm#analysis/layer_modeling/basic_modeling.htm" target="_blank">Basic Layer Modeling</a> module of OpendTect.</p>
+        <p>Forward modeling of synthetic seismic data plays a key role in understanding the seismic response of a target interval. A thorough understanding of the response enables interpreters to separate true hydrocarbon anomalies from false positives and to make more accurate reservoir predictions. In a forward model, geologic information and synthetic seismic data is integrated through a rock physics model.</p>
+        <p>Sophisticated workflows in which model parameters are varied stochastically can be run to create a data base of pseudo-wells, representative of the expected geologic and seismic variations at target level. Such models are then used to predict rock properties with uncertainties from pre- and poststack seismic volumes.</p>
+        <p>The new “Volume” module of SynthRock allows the generation of poststack and prestack synthetic seismic data from 3D rock property volumes (AI-SI, Vp-Vs-Rho), for comparing the synthetic seismic data with the recorded seismic data.</p>
+        <p>SynthRock can either be started in two ways:</p>
+        <ul>
+            <li value="1">From the corresponding icon in the main OpendTect toolbar <img src="../resources/images/icons/dgbstrat.png" class="icon" />.</li>
+            <li value="2">From within the stratigraphy manager with the icon <img src="../resources/images/icons/stratlayermodeling.png" class="icon" />.</li>
+        </ul>
+        <img src="../resources/images/synthrock/synthrock_init_menu.png" class="image" />
+        <p>SynthRock can be used to do the following tasks:</p>
+        <ol>
+            <li value="1"><a href="stochastic_pseudowell_modeling.htm" target="_self" style="font-weight: normal;">Perform a stochastic pseudowell modeling</a>.</li>
+            <li value="2"><a href="stochastic_pseudowell_modeling/well-log-based_generation.htm" target="_self" style="font-weight: normal;">Create pseudowells profiles by interpolating between/from existing wells</a>.</li>
+            <li value="3"><a href="fluid_replacement/fluid_replacement_parameters.htm" target="_self" style="font-weight: normal;">Applying Gassmann fluid substitution on the modeled pseudowells</a>.</li>
+            <li value="4"><a href="../appendix_a.htm" target="_self" style="font-weight: normal;">Generate synthetic prestack seismic using full zoeppritz from either the pseudowells or 3D rock property volumes</a>.</li>
+            <li value="5"><a href="stochastic_pseudowell_modeling/export_synthetic_dataset.htm" target="_self" style="font-weight: normal;">Extract synthetic seismic attributes and/or well layer attributes from the modeled pseudowells and optionally export them along a 2D line</a>.</li>
+            <li value="6"><a href="hitcube_stochastic_inversion.htm" target="_self" style="font-weight: normal;">Run the HitCube stochastic inversion from the modeled wells</a>.</li>
+        </ol>
+        <p class="note"> Once a layer modeling window is started, you cannot change its type between basic, stochastic and profile. To use another model type you need another window, to be launched similarly from either the analysis menu or from the main toolbar icon. Only one layer modeling window (thus SynthRock window) can be used at the time. That is because the stratigraphy object needs to be locked during the modeling. A full uncoupling will be implemented in later releases. For the time being you will need to launch additional OpendTect main windows if you want to work with several models simultaneously (at your own risk).</p>
+        <p>A stand-alone SynthRock application will be made available post 5.0.</p>
+        <p class="copyright">© dGB Beheer B.V. 2002 - 2019</p>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<map id="uiMainWin" name="uiMainWin">
+<area shape="rect" id="node7" href="$classuiAmplSpectrum.html" title="uiAmplSpectrum" alt="" coords="443,387,560,416"/>
+<area shape="rect" id="node11" href="$classuiDataPointSetCrossPlotWin.html" title="Data Point Set Cross Plotter Main window. " alt="" coords="407,821,596,851"/>
+<area shape="rect" id="node13" href="$classuiDialog.html" title="uiDialog" alt="" coords="467,875,536,904"/>
+<area shape="rect" id="node79" href="$classuiFlatViewMainWin.html" title="(Non&#45;modal) main window containing one or more uiFlatViewer(s). " alt="" coords="435,928,568,957"/>
+<area shape="rect" id="node81" href="$classuiObjectItemViewWin.html" title="A uiMainWin that holds embedded uiObjects and controls. " alt="" coords="428,981,575,1011"/>
+<area shape="rect" id="node83" href="$classuiODMain.html" title="OpendTect application top level object. " alt="" coords="461,1035,541,1064"/>
+<area shape="rect" id="node85" href="$classuiOfferInfoWin.html" title="Non&#45;modal window able to display local, handy info for the user. " alt="" coords="448,1088,555,1117"/>
+<area shape="rect" id="node87" href="$classuiStatsDisplayWin.html" title="Stats display main window. See uistatsdisplay.h for details. " alt="" coords="436,1141,567,1171"/>
+<area shape="rect" id="node89" href="$classuiStratLayerModel.html" title="uiStratLayerModel" alt="" coords="439,1195,564,1224"/>
+<area shape="rect" id="node91" href="$classuiStratTreeWin.html" title="Main window for Stratigraphy display: holds the reference tree and the units description view..." alt="" coords="447,1248,556,1277"/>
+<area shape="rect" id="node93" href="$classuiVirtualKeyboard.html" title="uiVirtualKeyboard" alt="" coords="440,1301,563,1331"/>
+<area shape="rect" id="node95" href="$classuiWellDisplayWin.html" title="Main window to display wells. " alt="" coords="439,1355,564,1384"/>
+<area shape="rect" id="node97" href="$classuiWellLogToolWin.html" title="uiWellLogToolWin" alt="" coords="439,1408,564,1437"/>
+<area shape="rect" id="node2" href="$classuiParent.html" title="uiParent" alt="" coords="156,1088,225,1117"/>
+<area shape="rect" id="node9" href="$classuiSeisAmplSpectrum.html" title="uiSeisAmplSpectrum" alt="" coords="685,5,829,35"/>
+<area shape="rect" id="node15" href="$classCmdDrive_1_1uiCmdDriverDlg.html" title="CmdDrive::uiCmdDriverDlg" alt="" coords="667,59,848,88"/>
+<area shape="rect" id="node17" href="$classCmdDrive_1_1uiCmdInteractDlg.html" title="CmdDrive::uiCmdInteractDlg" alt="" coords="663,112,852,141"/>
+<area shape="rect" id="node19" href="$classCoords_1_1uiCoordSystemDlg.html" title="Coords::uiCoordSystemDlg" alt="" coords="667,165,848,195"/>
+<area shape="rect" id="node21" href="$classPreStack_1_1uiAGC.html" title="PreStack::uiAGC" alt="" coords="696,219,819,248"/>
+<area shape="rect" id="node23" href="$classPreStack_1_1uiAngleCompAdvParsDlg.html" title="PreStack::uiAngleCompAdv\lParsDlg" alt="" coords="665,271,849,318"/>
+<area shape="rect" id="node25" href="$classPreStack_1_1uiAngleMute.html" title="PreStack::uiAngleMute" alt="" coords="680,341,835,371"/>
+<area shape="rect" id="node27" href="$classPreStack_1_1uiAngleMuteComputer.html" title="PreStack::uiAngleMuteComputer" alt="" coords="651,395,864,424"/>
+<area shape="rect" id="node29" href="$classPreStack_1_1uiEventExport.html" title="PreStack::uiEventExport" alt="" coords="675,448,840,477"/>
+<area shape="rect" id="node31" href="$classPreStack_1_1uiEventImport.html" title="PreStack::uiEventImport" alt="" coords="675,501,840,531"/>
+<area shape="rect" id="node33" href="$classPreStack_1_1uiExportMute.html" title="PreStack::uiExportMute" alt="" coords="677,555,837,584"/>
+<area shape="rect" id="node35" href="$classPreStack_1_1uiImportMute.html" title="PreStack::uiImportMute" alt="" coords="677,608,837,637"/>
+<area shape="rect" id="node37" href="$classPreStack_1_1uiLateralStack.html" title="PreStack::uiLateralStack" alt="" coords="675,661,840,691"/>
+<area shape="rect" id="node39" href="$classPreStack_1_1uiMute.html" title="PreStack::uiMute" alt="" coords="696,715,819,744"/>
+<area shape="rect" id="node41" href="$classPreStack_1_1uiSemblanceAlgorithm.html" title="PreStack::uiSemblanceAlgorithm" alt="" coords="651,768,864,797"/>
+<area shape="rect" id="node43" href="$classPreStack_1_1uiTrimStatics.html" title="PreStack::uiTrimStatics" alt="" coords="677,821,837,851"/>
+<area shape="rect" id="node45" href="$classPreStackView_1_1uiViewer2DPosDlg.html" title="PreStackView::uiViewer2DPosDlg" alt="" coords="647,875,868,904"/>
+<area shape="rect" id="node47" href="$classPreStackView_1_1uiViewer2DSelDataDlg.html" title="PreStackView::uiViewer2DSel\lDataDlg" alt="" coords="659,927,856,974"/>
+<area shape="rect" id="node49" href="$classuiAddEditMrkrDlg.html" title="uiAddEditMrkrDlg" alt="" coords="696,997,819,1027"/>
+<area shape="rect" id="node51" href="$classuiArr2DFilterParsDlg.html" title="uiArr2DFilterParsDlg" alt="" coords="687,1051,828,1080"/>
+<area shape="rect" id="node53" href="$classuiArrowDialog.html" title="uiArrowDialog" alt="" coords="707,1104,808,1133"/>
+<area shape="rect" id="node55" href="$classuiAttr2DSelDlg.html" title="Selection dialog for 2D attributes. " alt="" coords="703,1157,812,1187"/>
+<area shape="rect" id="node57" href="$classuiAttribCrossPlot.html" title="uiAttribCrossPlot" alt="" coords="697,1211,817,1240"/>
+<area shape="rect" id="node59" href="$classuiAttribDescSetEd.html" title="Editor for Attribute sets. " alt="" coords="692,1264,823,1293"/>
+<area shape="rect" id="node61" href="$classuiAttribTransDlg.html" title="uiAttribTransDlg" alt="" coords="700,1317,815,1347"/>
+<area shape="rect" id="node63" href="$classuiAttrInpDlg.html" title="uiAttrInpDlg" alt="" coords="712,1371,803,1400"/>
+<area shape="rect" id="node65" href="$classuiAttrSelDlg.html" title="User Interface (UI) element for selection of Attributes from an attribute set. " alt="" coords="712,1424,803,1453"/>
+<area shape="rect" id="node67" href="$classuiAutoAttrSelDlg.html" title="Class for selecting Auto&#45;load Attribute Set. " alt="" coords="699,1477,816,1507"/>
+<area shape="rect" id="node69" href="$classuiAutoAttrSetOpen.html" title="uiAutoAttrSetOpen" alt="" coords="692,1531,823,1560"/>
+<area shape="rect" id="node71" href="$classuiBatchHostsDlg.html" title="uiBatchHostsDlg" alt="" coords="697,1584,817,1613"/>
+<area shape="rect" id="node73" href="$classuiBatchProcDlg.html" title="uiBatchProcDlg" alt="" coords="701,1637,813,1667"/>
+<area shape="rect" id="node75" href="$classuiBatchProgLaunch.html" title="uiBatchProgLaunch" alt="" coords="691,1691,824,1720"/>
+<area shape="rect" id="node77" href="$classuiBatchTime2DepthSetup.html" title="uiBatchTime2DepthSetup" alt="" coords="672,1744,843,1773"/>
+</map>

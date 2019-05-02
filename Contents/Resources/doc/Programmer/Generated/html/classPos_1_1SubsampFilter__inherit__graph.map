@@ -1,0 +1,5 @@
+<map id="Pos::SubsampFilter" name="Pos::SubsampFilter">
+<area shape="rect" id="node5" href="$classPos_1_1SubsampFilter2D.html" title="Passes each nth position (2D). " alt="" coords="5,160,160,189"/>
+<area shape="rect" id="node7" href="$classPos_1_1SubsampFilter3D.html" title="Passes each nth position (3D). " alt="" coords="184,160,339,189"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="131,5,213,35"/>
+</map>

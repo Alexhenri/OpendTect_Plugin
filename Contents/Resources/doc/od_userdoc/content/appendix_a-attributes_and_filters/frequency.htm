@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="11 Appendix A - Attributes and Filters">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>11.8 Frequency</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/styles.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/tablet.css" rel="stylesheet" />
+        <link href="../../skins/default/stylesheets/components/mobile.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/styles.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#appendix_a-attributes_and_filters/frequency.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Styles.css_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="7" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Access this in OpendTect 6.4 via: </span>
+            </div>
+        </div>
+        <h2>11.8 Frequency<a name="kanchor1196"></a></h2>
+        <p><b>Name</b>
+        </p>
+        <p>Frequency -- Response attribute that returns frequency properties</p>
+        <p><b>Description</b>
+        </p>
+        <p><b>Input Parameters</b>
+        </p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency.png" class="General_Image" />
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_costaper.png" class="General_Image" />
+        <p>The specified <i>time-gate</i> is transformed to the Fourier domain and the requested <i>output</i> is calculated. The time-gate is tapered with the specified <i><a name="kanchor1197"></a>Window/Taper</i> prior to Fourier Transform. The shape of the various tapers is shown in the figure below.</p>
+        <img src="../resources/images/appendix_a/frequency_tapers.png" class="General_Image" />
+        <p>If <i>Normalize</i> is enabled, the frequency spectrum is normalized with regard to its area. This will make it possible to compare attributes from areas with high and low energy.</p>
+        <p style="page-break-before: always"><b>Output</b>
+        </p>
+        <img src="../resources/images/appendix_a/analysis_attributes_3d_frequency_dominant_frequency.png" class="General_Image" />
+        <img src="../resources/images/appendix_a/frequency_outputs.png" class="General_Image" />
+        <p><i>All possible Frequency outputs are in X-axis, Y-axis = Amplitude values</i>
+        </p>
+        <p><b>Dominant frequency</b>
+        </p>
+        <p>Returns the dominant frequency from the frequency spectrum--the frequency with the highest amplitude</p>
+        <p><b>Average frequency</b>
+        </p>
+        <p>Returns the arithmetic mean of the frequency spectrum.</p>
+        <p><b>Median frequency</b>
+        </p>
+        <p>Returns the weighted median value of the frequency spectrum, which is the frequency at half the spectral area on each side. The median frequency might be somewhat more robust than average frequency, at the cost of lower precision.</p>
+        <p><b>Average frequency squared</b>
+        </p>
+        <p>Returns the average of the squared frequencies.</p>
+        <p><b>Maximum spectral amplitude</b>
+        </p>
+        <p>Returns the maximum amplitude of the frequency spectrum, i.e. the amplitude of the dominant frequency.</p>
+        <p><b>Spectral area beyond dominant frequency</b>
+        </p>
+        <p>Returns the spectral area beyond the dominant frequency (see figure below).</p>
+        <p><b>Absorption quality factor</b>
+        </p>
+        <p>Returns the area beyond the dominant frequency weighted by frequency.</p>
+        <p><b>Frequency slope fall</b>
+        </p>
+        <p>Returns the peakedness of the spectrum. It is defined as: 1+(MSA-Spectral Area)/(MSA+Spectral Area). A value approaching zero indicates a flat distribution while a value approaching one indicates a peaked distribution.</p>
+        <p class="copyright">© dGB&#160;Beheer B.V. 2002 - 2019</p>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkBottom"><a href="../../Default.htm#appendix_a-attributes_and_filters/frequency.htm">Open topic with navigation</a>
+        </p>
+    </body>
+</html>

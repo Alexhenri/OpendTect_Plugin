@@ -1,0 +1,6 @@
+<map id="IOPar" name="IOPar">
+<area shape="rect" id="node7" href="$classRepos_1_1IOPar.html" title="IOPar with its Repos Source. " alt="" coords="5,237,107,267"/>
+<area shape="rect" id="node9" href="$classSettings.html" title="Settings class holds the user settings. It is an IOPar. " alt="" coords="131,237,200,267"/>
+<area shape="rect" id="node2" href="$classNamedObject.html" title="Object with a name. " alt="" coords="60,83,161,112"/>
+<area shape="rect" id="node4" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="68,5,153,35"/>
+</map>

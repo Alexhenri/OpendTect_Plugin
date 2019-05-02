@@ -1,0 +1,8 @@
+<map id="PreStackView::uiViewer2DMainWin" name="PreStackView::uiViewer2DMainWin">
+<area shape="rect" id="node13" href="$classPreStackView_1_1uiStoredViewer2DMainWin.html" title="PreStackView::uiStoredViewer2\lDMainWin" alt="" coords="5,393,213,439"/>
+<area shape="rect" id="node15" href="$classPreStackView_1_1uiSyntheticViewer2DMainWin.html" title="PreStackView::uiSynthetic\lViewer2DMainWin" alt="" coords="237,393,416,439"/>
+<area shape="rect" id="node2" href="$classuiObjectItemViewWin.html" title="A uiMainWin that holds embedded uiObjects and controls. " alt="" coords="69,237,216,267"/>
+<area shape="rect" id="node4" href="$classuiMainWin.html" title="User interface main window. " alt="" coords="101,160,184,189"/>
+<area shape="rect" id="node6" href="$classuiParent.html" title="uiParent" alt="" coords="108,83,177,112"/>
+<area shape="rect" id="node10" href="$classuiFlatViewWin.html" title="Base class for windows containing one or more uiFlatViewer(s). " alt="" coords="240,237,347,267"/>
+</map>

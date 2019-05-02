@@ -1,0 +1,24 @@
+<map id="ValueSeries&lt; T &gt;" name="ValueSeries&lt; T &gt;">
+<area shape="rect" id="node3" href="$classArray1D.html" title="Array1D ( Subclass of ArrayND ) is a one dimensional array. " alt="" coords="284,497,385,527"/>
+<area shape="rect" id="node21" href="$classArray1D.html" title="Array1D\&lt; char \&gt;" alt="" coords="580,424,697,453"/>
+<area shape="rect" id="node24" href="$classArrayNDValseriesAdapter.html" title="Adapter that makes any ArrayND to a (slow) value series. " alt="" coords="233,604,436,633"/>
+<area shape="rect" id="node26" href="$classConvMemValueSeries.html" title="ConvMemValueSeries\&lt; T \&gt;" alt="" coords="243,657,427,687"/>
+<area shape="rect" id="node28" href="$classOffsetValueSeries.html" title="ValueSeries of offsets. " alt="" coords="255,711,415,740"/>
+<area shape="rect" id="node30" href="$classValueSeries.html" title="ValueSeries\&lt; VT \&gt;" alt="" coords="268,764,401,793"/>
+<area shape="rect" id="node32" href="$classValueSeries.html" title="ValueSeries\&lt; TT \&gt;" alt="" coords="269,551,400,580"/>
+<area shape="rect" id="node35" href="$classValueSeries.html" title="ValueSeries\&lt; float \&gt;" alt="" coords="264,275,405,304"/>
+<area shape="rect" id="node46" href="$classValueSeries.html" title="ValueSeries\&lt; RT \&gt;" alt="" coords="268,83,401,112"/>
+<area shape="rect" id="node5" href="$classArray1DConv.html" title="Array1DConv\&lt; T \&gt;" alt="" coords="572,531,705,560"/>
+<area shape="rect" id="node7" href="$classArray1DImpl.html" title="Implementation of Array1D. " alt="" coords="576,584,701,613"/>
+<area shape="rect" id="node11" href="$classArray1DImpl.html" title="Array1DImpl\&lt; float\l_complex \&gt;" alt="" coords="913,605,1044,651"/>
+<area shape="rect" id="node14" href="$classArray1DSlice.html" title="Subclass of Array1D and ArrayNDSliceBase. " alt="" coords="573,477,704,507"/>
+<area shape="rect" id="node16" href="$classArray1D.html" title="Array1D\&lt; TT \&gt;" alt="" coords="584,703,693,732"/>
+<area shape="rect" id="node18" href="$classArray1D.html" title="Array1D\&lt; float \&gt;" alt="" coords="580,371,697,400"/>
+<area shape="rect" id="node9" href="$classArray1DImpl.html" title="Array1DImpl\&lt; float \&gt;" alt="" coords="907,456,1051,485"/>
+<area shape="rect" id="node38" href="$classArrayValueSeries.html" title="ArrayValueSeries\&lt; float,\l float \&gt;" alt="" coords="897,91,1060,138"/>
+<area shape="rect" id="node40" href="$classSeis_1_1RawTrcsSequenceValueSeries.html" title="Seis::RawTrcsSequenceValue\lSeries" alt="" coords="539,301,739,347"/>
+<area shape="rect" id="node42" href="$classSeisTrcValueSeries.html" title="SeisTrcValueSeries" alt="" coords="571,195,707,224"/>
+<area shape="rect" id="node44" href="$classWaveletValueSeries.html" title="WaveletValueSeries" alt="" coords="569,248,708,277"/>
+<area shape="rect" id="node48" href="$classArrayValueSeries.html" title="Series of values from a pointer to some kind of array. If a more advanced conversion between the retu..." alt="" coords="560,5,717,51"/>
+<area shape="rect" id="node51" href="$classMultiArrayValueSeries.html" title="Valueseries that allocates its data in smaller chunks. By doing this, it performs better in environme..." alt="" coords="564,74,713,121"/>
+</map>

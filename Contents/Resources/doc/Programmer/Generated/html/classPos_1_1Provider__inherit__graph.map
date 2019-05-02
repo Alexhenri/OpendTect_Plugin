@@ -1,0 +1,16 @@
+<map id="Pos::Provider" name="Pos::Provider">
+<area shape="rect" id="node5" href="$classPos_1_1Provider2D.html" title="Provides a subselection for 2D surveys &#45; requires the line name(s). " alt="" coords="287,59,404,88"/>
+<area shape="rect" id="node11" href="$classPos_1_1Provider3D.html" title="Provides a subselection for 3D surveys. " alt="" coords="287,299,404,328"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="5,165,88,195"/>
+<area shape="rect" id="node7" href="$classPos_1_1EMSurfaceProvider2D.html" title="EMSurfaceProvider for 2D positioning. " alt="" coords="463,5,644,35"/>
+<area shape="rect" id="node9" href="$classPos_1_1RangeProvider2D.html" title="2D provider based on StepInterval&lt;int&gt;. " alt="" coords="476,59,631,88"/>
+<area shape="rect" id="node13" href="$classPos_1_1EMImplicitBodyProvider.html" title="EM implicit body provider for 3D positioning. " alt="" coords="457,112,649,141"/>
+<area shape="rect" id="node15" href="$classPos_1_1EMRegion3DProvider.html" title="EM Region provider for 3D positioning. " alt="" coords="464,165,643,195"/>
+<area shape="rect" id="node17" href="$classPos_1_1EMSurface2DProvider3D.html" title="EMSurfaceProvider for 3D positions with 2D Horizon. " alt="" coords="453,219,653,248"/>
+<area shape="rect" id="node19" href="$classPos_1_1EMSurfaceProvider3D.html" title="EMSurfaceProvider for 3D positioning. " alt="" coords="463,272,644,301"/>
+<area shape="rect" id="node21" href="$classPos_1_1PolyProvider3D.html" title="Volume/Area provider based on Polygon. " alt="" coords="481,325,625,355"/>
+<area shape="rect" id="node23" href="$classPos_1_1RangeProvider3D.html" title="3D provider based on TrcKeyZSampling " alt="" coords="476,379,631,408"/>
+<area shape="rect" id="node25" href="$classPos_1_1SeisProvider3D.html" title="3D provider based on cube of PS data store " alt="" coords="481,432,625,461"/>
+<area shape="rect" id="node27" href="$classPos_1_1TableProvider3D.html" title="Provider based on BinIDValueSet table. " alt="" coords="479,485,628,515"/>
+<area shape="rect" id="node29" href="$classPos_1_1WellProvider3D.html" title="Volume/Area provider based on Wells. " alt="" coords="481,539,625,568"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Batch::JobDispatcher" name="Batch::JobDispatcher">
+<area shape="rect" id="node3" href="$classBatch_1_1ClusterJobDispatcher.html" title="kicks off Cluster job dispatcher. " alt="" coords="5,83,195,112"/>
+<area shape="rect" id="node5" href="$classBatch_1_1MMJobDispatcher.html" title="kicks off MM batch job dispatcher. " alt="" coords="219,83,389,112"/>
+<area shape="rect" id="node7" href="$classBatch_1_1SingleJobDispatcher.html" title="kicks off OD batch jobs in a single process. " alt="" coords="413,83,597,112"/>
+<area shape="rect" id="node9" href="$classBatch_1_1SingleJobDispatcherRemote.html" title="kicks off OD batch jobs in a single process. " alt="" coords="413,161,597,207"/>
+</map>

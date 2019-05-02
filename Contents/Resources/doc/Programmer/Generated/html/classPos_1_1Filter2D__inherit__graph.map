@@ -1,0 +1,9 @@
+<map id="Pos::Filter2D" name="Pos::Filter2D">
+<area shape="rect" id="node5" href="$classPos_1_1FilterSet2D.html" title="2D FilterSet " alt="" coords="5,160,123,189"/>
+<area shape="rect" id="node7" href="$classPos_1_1Provider2D.html" title="Provides a subselection for 2D surveys &#45; requires the line name(s). " alt="" coords="147,160,264,189"/>
+<area shape="rect" id="node13" href="$classPos_1_1RandomFilter2D.html" title="Passes a percentage of the positions (2D). " alt="" coords="288,160,435,189"/>
+<area shape="rect" id="node15" href="$classPos_1_1SubsampFilter2D.html" title="Passes each nth position (2D). " alt="" coords="459,160,613,189"/>
+<area shape="rect" id="node2" href="$classPos_1_1Filter.html" title="Decides whether a given position should be included. " alt="" coords="241,5,324,35"/>
+<area shape="rect" id="node9" href="$classPos_1_1EMSurfaceProvider2D.html" title="EMSurfaceProvider for 2D positioning. " alt="" coords="19,237,200,267"/>
+<area shape="rect" id="node11" href="$classPos_1_1RangeProvider2D.html" title="2D provider based on StepInterval&lt;int&gt;. " alt="" coords="224,237,379,267"/>
+</map>

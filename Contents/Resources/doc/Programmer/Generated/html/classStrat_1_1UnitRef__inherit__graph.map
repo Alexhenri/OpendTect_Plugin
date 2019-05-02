@@ -1,0 +1,8 @@
+<map id="Strat::UnitRef" name="Strat::UnitRef">
+<area shape="rect" id="node5" href="$classStrat_1_1LeafUnitRef.html" title="UnitRef for layers. " alt="" coords="5,160,133,189"/>
+<area shape="rect" id="node7" href="$classStrat_1_1NodeUnitRef.html" title="UnitRef for units containing other units only. " alt="" coords="157,160,291,189"/>
+<area shape="rect" id="node2" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="104,5,189,35"/>
+<area shape="rect" id="node9" href="$classStrat_1_1LeavedUnitRef.html" title="UnitRef for units containing Leaf units only. " alt="" coords="64,237,208,267"/>
+<area shape="rect" id="node11" href="$classStrat_1_1NodeOnlyUnitRef.html" title="UnitRef for units containing non&#45;Leaf units only. " alt="" coords="232,237,392,267"/>
+<area shape="rect" id="node13" href="$classStrat_1_1RefTree.html" title="Tree of UnitRef&#39;s. " alt="" coords="260,315,364,344"/>
+</map>

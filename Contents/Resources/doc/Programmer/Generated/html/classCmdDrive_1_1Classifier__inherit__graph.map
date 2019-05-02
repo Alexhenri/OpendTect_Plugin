@@ -1,0 +1,18 @@
+<map id="CmdDrive::Classifier" name="CmdDrive::Classifier">
+<area shape="rect" id="node3" href="$classCmdDrive_1_1ButtonCmdComposer_1_1uiButtonClassifier.html" title="CmdDrive::ButtonCmdComposer\l::uiButtonClassifier" alt="" coords="219,5,432,51"/>
+<area shape="rect" id="node5" href="$classCmdDrive_1_1CanvasMenuCmdComposer_1_1uiGraphicsViewBaseClassifier.html" title="CmdDrive::CanvasMenuCmdComposer\l::uiGraphicsViewBaseClassifier" alt="" coords="199,74,452,121"/>
+<area shape="rect" id="node7" href="$classCmdDrive_1_1CloseCmdComposer_1_1uiMainWinClassifier.html" title="CmdDrive::CloseCmdComposer\l::uiMainWinClassifier" alt="" coords="220,143,431,190"/>
+<area shape="rect" id="node9" href="$classCmdDrive_1_1ComboCmdComposer_1_1uiComboBoxClassifier.html" title="CmdDrive::ComboCmdComposer\l::uiComboBoxClassifier" alt="" coords="216,213,435,259"/>
+<area shape="rect" id="node11" href="$classCmdDrive_1_1InputCmdComposer_1_1uiLineEditClassifier.html" title="CmdDrive::InputCmdComposer\l::uiLineEditClassifier" alt="" coords="223,282,428,329"/>
+<area shape="rect" id="node13" href="$classCmdDrive_1_1ListCmdComposer_1_1uiListBoxObjClassifier.html" title="CmdDrive::ListCmdComposer\l::uiListBoxObjClassifier" alt="" coords="227,351,424,398"/>
+<area shape="rect" id="node15" href="$classCmdDrive_1_1MdiAreaCmdComposer_1_1uiMdiAreaClassifier.html" title="CmdDrive::MdiAreaCmdComposer\l::uiMdiAreaClassifier" alt="" coords="213,421,437,467"/>
+<area shape="rect" id="node17" href="$classCmdDrive_1_1MenuCmdComposer_1_1uiActionClassifier.html" title="CmdDrive::MenuCmdComposer\l::uiActionClassifier" alt="" coords="221,490,429,537"/>
+<area shape="rect" id="node19" href="$classCmdDrive_1_1QColorDlgCmdComposer_1_1uiMainWinClassifier.html" title="CmdDrive::QColorDlgCmdComposer\l::uiMainWinClassifier" alt="" coords="207,559,444,606"/>
+<area shape="rect" id="node21" href="$classCmdDrive_1_1QFileDlgCmdComposer_1_1uiMainWinClassifier.html" title="CmdDrive::QFileDlgCmdComposer\l::uiMainWinClassifier" alt="" coords="212,629,439,675"/>
+<area shape="rect" id="node23" href="$classCmdDrive_1_1QMsgBoxButCmdComposer_1_1uiMainWinClassifier.html" title="CmdDrive::QMsgBoxButCmdComposer\l::uiMainWinClassifier" alt="" coords="199,698,452,745"/>
+<area shape="rect" id="node25" href="$classCmdDrive_1_1SliderCmdComposer_1_1uiSliderObjClassifier.html" title="CmdDrive::SliderCmdComposer\l::uiSliderObjClassifier" alt="" coords="220,767,431,814"/>
+<area shape="rect" id="node27" href="$classCmdDrive_1_1SpinCmdComposer_1_1uiSpinBoxClassifier.html" title="CmdDrive::SpinCmdComposer\l::uiSpinBoxClassifier" alt="" coords="224,837,427,883"/>
+<area shape="rect" id="node29" href="$classCmdDrive_1_1TabCmdComposer_1_1uiTabBarClassifier.html" title="CmdDrive::TabCmdComposer\l::uiTabBarClassifier" alt="" coords="227,906,424,953"/>
+<area shape="rect" id="node31" href="$classCmdDrive_1_1TableCmdComposer_1_1uiTableClassifier.html" title="CmdDrive::TableCmdComposer\l::uiTableClassifier" alt="" coords="221,975,429,1022"/>
+<area shape="rect" id="node33" href="$classCmdDrive_1_1TreeCmdComposer_1_1uiTreeViewClassifier.html" title="CmdDrive::TreeCmdComposer\l::uiTreeViewClassifier" alt="" coords="224,1045,427,1091"/>
+</map>

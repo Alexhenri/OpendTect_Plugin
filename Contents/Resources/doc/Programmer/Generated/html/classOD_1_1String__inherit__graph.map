@@ -1,0 +1,5 @@
+<map id="OD::String" name="OD::String">
+<area shape="rect" id="node3" href="$classBufferString.html" title="OD::String with its own variable length buffer. The buffer has a guaranteed minimum size..." alt="" coords="5,83,96,112"/>
+<area shape="rect" id="node7" href="$classFixedString.html" title="OD::String that holds an existing text string. " alt="" coords="120,83,208,112"/>
+<area shape="rect" id="node5" href="$classLineKey.html" title="Key for a line in a line set. " alt="" coords="16,160,85,189"/>
+</map>

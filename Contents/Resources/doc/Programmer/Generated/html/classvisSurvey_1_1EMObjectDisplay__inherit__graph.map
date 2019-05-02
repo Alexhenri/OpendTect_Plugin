@@ -1,0 +1,9 @@
+<map id="visSurvey::EMObjectDisplay" name="visSurvey::EMObjectDisplay">
+<area shape="rect" id="node13" href="$classvisSurvey_1_1Horizon2DDisplay.html" title="visSurvey::Horizon2DDisplay" alt="" coords="5,392,200,421"/>
+<area shape="rect" id="node15" href="$classvisSurvey_1_1HorizonDisplay.html" title="visSurvey::HorizonDisplay" alt="" coords="224,392,400,421"/>
+<area shape="rect" id="node2" href="$classvisBase_1_1VisualObjectImpl.html" title="visBase::VisualObjectImpl" alt="" coords="21,237,197,267"/>
+<area shape="rect" id="node4" href="$classvisBase_1_1VisualObject.html" title="visBase::VisualObject" alt="" coords="35,160,184,189"/>
+<area shape="rect" id="node6" href="$classvisBase_1_1DataObject.html" title="DataObject is the base class off all objects that are used in Visualization and ought to be shared in..." alt="" coords="39,83,180,112"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="67,5,152,35"/>
+<area shape="rect" id="node10" href="$classvisSurvey_1_1SurveyObject.html" title="Base class for all &#39;Display&#39; objects. " alt="" coords="221,237,387,267"/>
+</map>

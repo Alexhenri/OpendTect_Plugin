@@ -1,0 +1,7 @@
+<map id="Smoother1D&lt; T &gt;" name="Smoother1D&lt; T &gt;">
+<area shape="rect" id="node11" href="$classSmoother1D.html" title="Smoother1D\&lt; float \&gt;" alt="" coords="5,421,149,451"/>
+<area shape="rect" id="node2" href="$classParallelTask.html" title="Generalization of a task that can be run in parallel. " alt="" coords="31,245,124,275"/>
+<area shape="rect" id="node4" href="$classTask.html" title="Generalization of something (e.g. a computation) that needs to be done in multiple steps..." alt="" coords="52,165,103,195"/>
+<area shape="rect" id="node6" href="$classNamedObject.html" title="Object with a name. " alt="" coords="27,85,128,115"/>
+<area shape="rect" id="node8" href="$classCallBacker.html" title="To be able to send and/or receive CallBacks, inherit from this class. " alt="" coords="35,5,120,35"/>
+</map>

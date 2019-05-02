@@ -1,0 +1,5 @@
+<map id="uiActionContainer" name="uiActionContainer">
+<area shape="rect" id="node3" href="$classuiMenu.html" title="uiMenu" alt="" coords="5,83,69,112"/>
+<area shape="rect" id="node5" href="$classuiToolBar.html" title="uiToolBar" alt="" coords="93,83,171,112"/>
+<area shape="rect" id="node7" href="$classuiColorTableToolBar.html" title="uiColorTableToolBar" alt="" coords="63,160,201,189"/>
+</map>

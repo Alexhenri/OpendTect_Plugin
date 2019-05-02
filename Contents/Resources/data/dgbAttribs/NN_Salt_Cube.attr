@@ -1,0 +1,90 @@
+dTect V6.0
+Attribute definitions
+Mon  June 8 22:16:31 2015
+!
+Attribute Descriptions
+0.Definition: Storage id=100010.x output=0
+0.UserRef: 4 Dip steered median filter
+0.Hidden: No
+1.Definition: Reference output=2
+1.UserRef: Reference time
+1.Hidden: No
+1.Input.0: 0
+2.Definition: Energy gate=[-52,52] dograd=no output=0
+2.UserRef: Energy [-52,52]
+2.Hidden: No
+2.Input.0: 0
+3.Definition: Energy gate=[-80,80] dograd=no output=0
+3.UserRef: Energy [-80,80]
+3.Hidden: No
+3.Input.0: 0
+4.Definition: Energy gate=[-40,40] dograd=no output=0
+4.UserRef: Energy [-40,40]
+4.Hidden: No
+4.Input.0: 0
+5.Definition: Storage id=100010.y output=0
+5.UserRef: 2 Steering BG Detailed_inline_dip
+5.Hidden: No
+6.Definition: Storage id=100010.y output=1
+6.UserRef: 2 Steering BG Detailed_crline_dip
+6.Hidden: Yes
+7.Definition: Curvature stepout=4 constantvel=yes velocity=4000 output=4
+7.UserRef: Curvature r=4 most-pos
+7.Hidden: No
+7.Input.0: 20
+8.Definition: VolumeStatistics stepout=4,4 shape=Ellipse gate=[-32,32] nrtrcs=1 steering=yes output=2
+8.UserRef: CurvatureVariance [-32,32] r=4 FS
+8.Hidden: No
+8.Input.0: 7
+8.Input.1: 20
+9.Definition: PolarDip inlcrl2dipazi=yes azidir=0 output=0
+9.UserRef: Polar dip
+9.Hidden: No
+9.Input.0: 5
+9.Input.1: 6
+10.Definition: VolumeStatistics stepout=5,5 shape=Rectangle gate=[-12,12] nrtrcs=1 steering=no output=2
+10.UserRef: DipVariance [-12,12] stepout=5
+10.Hidden: No
+10.Input.0: 9
+11.Definition: VolumeStatistics stepout=2,2 shape=Rectangle gate=[-24,24] nrtrcs=1 steering=no output=2
+11.UserRef: DipVariance [-24,24] stepout=2
+11.Hidden: No
+11.Input.0: 9
+12.Definition: VolumeStatistics stepout=5,5 shape=Rectangle gate=[-32,32] nrtrcs=1 steering=no output=2
+12.UserRef: DipVariance [-32,32] stepout=5
+12.Hidden: No
+12.Input.0: 9
+13.Definition: Similarity gate=[-32,32] stepout=1,1 extension=Cube steering=yes normalize=no output=0
+13.UserRef: CubeSimilarity [-32,32] stepout=1
+13.Hidden: No
+13.Input.0: 0
+13.Input.1: 20
+14.Definition: Similarity gate=[-32,32] pos0=-1,0 pos1=1,0 extension=90 steering=yes normalize=no output=3
+14.UserRef: Similarity [-32,32] (-1,0)x(1,0) FS Min
+14.Hidden: No
+14.Input.0: 0
+14.Input.1: 20
+16.Definition: Similarity gate=[-40,40] pos0=-1,-1 pos1=1,1 extension=90 steering=no normalize=no output=3
+16.UserRef: Similarity [-40,40] (-1,-1)x(1,1) NS Min
+16.Hidden: No
+16.Input.0: 0
+17.Definition: Similarity gate=[-40,40] pos0=-1,0 pos1=1,0 extension=90 steering=no normalize=no output=3
+17.UserRef: Similarity [-40,40] (-1,0)x(1,0) NS Min
+17.Hidden: No
+17.Input.0: 0
+18.Definition: Similarity gate=[-40,40] pos0=-1,2 pos1=1,-2 extension=90 steering=no normalize=no output=3
+18.UserRef: Similarity [-40,40] (-1,2)x(1,-2) NS Min
+18.Hidden: No
+18.Input.0: 0
+19.Definition: Similarity gate=[-32,32] pos0=-1,0 pos1=1,0 extension=90 steering=no normalize=no output=3
+19.UserRef: Similarity [-32,32] (-1,0)x(1,0) NS Min
+19.Hidden: No
+19.Input.0: 0
+20.Definition: FullSteering phlock=no output=0
+20.UserRef: steering input 0
+20.Hidden: Yes
+20.Input.0: 5
+20.Input.1: 6
+MaxNrKeys: 20
+Type: 3D
+!
